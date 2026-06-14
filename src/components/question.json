@@ -1,0 +1,212 @@
+[
+  {
+    "id": 1,
+    "question": "JavaScript me variable declare karne ke liye kaun sa keyword use hota hai?",
+    "options": ["var", "let", "const", "All of the above"],
+    "answer": "All of the above",
+    "level": "Easy"
+  },
+  {
+    "id": 2,
+    "question": "Strict equality operator kaun sa hai?",
+    "options": ["=", "==", "===", "!=="],
+    "answer": "===",
+    "level": "Easy"
+  },
+  {
+    "id": 3,
+    "question": "JavaScript me multi-line comment likhne ka sahi tareeqa kya hai?",
+    "options": ["// comment //", "/* comment */", "", "** comment **"],
+    "answer": "/* comment */",
+    "level": "Easy"
+  },
+  {
+    "id": 4,
+    "question": "typeof NaN ka output kya hota hai?",
+    "options": ["NaN", "number", "undefined", "object"],
+    "answer": "number",
+    "level": "Intermediate"
+  },
+  {
+    "id": 5,
+    "question": "Array ke aakhir me naya element add karne ke liye kaun sa method use hota hai?",
+    "options": ["pop()", "push()", "shift()", "unshift()"],
+    "answer": "push()",
+    "level": "Easy"
+  },
+  {
+    "id": 6,
+    "question": "Array ke start se element remove karne ke liye kaun sa method use hota hai?",
+    "options": ["shift()", "unshift()", "pop()", "push()"],
+    "answer": "shift()",
+    "level": "Intermediate"
+  },
+  {
+    "id": 7,
+    "question": "JavaScript me block-scope variable declare karne ke liye kya use kiya jata hai?",
+    "options": ["var", "let & const", "sirf let", "sirf var"],
+    "answer": "let & const",
+    "level": "Intermediate"
+  },
+  {
+    "id": 8,
+    "question": "typeof null ka return type kya hota hai?",
+    "options": ["null", "undefined", "object", "string"],
+    "answer": "object",
+    "level": "Intermediate"
+  },
+  {
+    "id": 9,
+    "question": "Arrow function ka sahi syntax kaun sa hai?",
+    "options": ["() => {}", "function() => {}", "const function = ()", "() -> {}"],
+    "answer": "() => {}",
+    "level": "Easy"
+  },
+  {
+    "id": 10,
+    "question": "Kiski madad se hum asynchronous code ko synchronous tarike se likh sakte hain?",
+    "options": ["Promises", "async/await", "Callbacks", "Spreads"],
+    "answer": "async/await",
+    "level": "Intermediate"
+  },
+  {
+    "id": 11,
+    "question": "JavaScript me string ko number me convert karne ke liye kya use hota hai?",
+    "options": ["parseInt()", "Number()", "Unary plus (+)", "All of the above"],
+    "answer": "All of the above",
+    "level": "Intermediate"
+  },
+  {
+    "id": 12,
+    "question": "Kaun sa method original array ko modify nahi karta?",
+    "options": ["push()", "splice()", "map()", "reverse()"],
+    "answer": "map()",
+    "level": "Intermediate"
+  },
+  {
+    "id": 13,
+    "question": "Window object ka alternative global object Node.js me kya hai?",
+    "options": ["document", "global", "process", "window"],
+    "answer": "global",
+    "level": "Hard"
+  },
+  {
+    "id": 14,
+    "question": "JavaScript ek ______ language hai.",
+    "options": ["Single-threaded", "Multi-threaded", "Low-level", "Compiled"],
+    "answer": "Single-threaded",
+    "level": "Intermediate"
+  },
+  {
+    "id": 15,
+    "question": "'1' + 1 ka output JavaScript me kya hoga?",
+    "options": ["2", "11", "NaN", "TypeError"],
+    "answer": "11",
+    "level": "Easy"
+  },
+  {
+    "id": 16,
+    "question": "'1' - 1 ka output JavaScript me kya hoga?",
+    "options": ["0", "11", "NaN", "-1"],
+    "answer": "0",
+    "level": "Intermediate"
+  },
+  {
+    "id": 17,
+    "question": "Kaun sa statement loop ko foran rokne (terminate) ke liye use hota hai?",
+    "options": ["continue", "break", "return", "stop"],
+    "answer": "break",
+    "level": "Easy"
+  },
+  {
+    "id": 18,
+    "question": "Object ke saare keys ko array me lane ke liye kaun sa method use hota hai?",
+    "options": ["Object.values()", "Object.keys()", "Object.entries()", "Object.get()"],
+    "answer": "Object.keys()",
+    "level": "Intermediate"
+  },
+  {
+    "id": 19,
+    "question": "JSON ka full form kya hai?",
+    "options": ["JavaScript Object Notation", "Java Standard Object Network", "JavaScript Open Numerical", "JavaScript Object Network"],
+    "answer": "JavaScript Object Notation",
+    "level": "Easy"
+  },
+  {
+    "id": 20,
+    "question": "Kaun sa concept child function ko parent function ke variables access karne deta hai, parent function khatam hone ke baad bhi?",
+    "options": ["Hoisting", "Prototype", "Closure", "Callback"],
+    "answer": "Closure",
+    "level": "Hard"
+  },
+  {
+    "id": 21,
+    "question": "Variables aur functions declarations ko execution se pehle top par move karne ko kya kehte hain?",
+    "options": ["Hoisting", "Climbing", "Lifting", "Scoping"],
+    "answer": "Hoisting",
+    "level": "Intermediate"
+  },
+  {
+    "id": 22,
+    "question": "JavaScript object ko JSON string me badalne ke liye kya use hota hai?",
+    "options": ["JSON.parse()", "JSON.stringify()", "JSON.object()", "JSON.to()"],
+    "answer": "JSON.stringify()",
+    "level": "Intermediate"
+  },
+  {
+    "id": 23,
+    "question": "JSON string ko wapas JavaScript object me convert karne ke liye kya use hota hai?",
+    "options": ["JSON.parse()", "JSON.stringify()", "JSON.convert()", "JSON.toObject()"],
+    "answer": "JSON.parse()",
+    "level": "Intermediate"
+  },
+  {
+    "id": 24,
+    "question": "Kaun sa data type JavaScript me primitive nahi hai?",
+    "options": ["String", "Boolean", "Object", "Number"],
+    "answer": "Object",
+    "level": "Easy"
+  },
+  {
+    "id": 25,
+    "question": "Template literals likhne ke liye kis symbol ka use hota hai?",
+    "options": ["Single quotes ('')", "Double quotes (\"\")", "Backticks (``)", "Slashes (//)"],
+    "answer": "Backticks (``)",
+    "level": "Easy"
+  },
+  {
+    "id": 26,
+    "question": "setInterval() method kya karta hai?",
+    "options": ["Code ko ek specific delay ke baad ek hi baar chalata hai", "Code ko har fixed interval par baar-baar chalata hai", "Loop ko break karta hai", "Time ko pause karta hai"],
+    "answer": "Code ko har fixed interval par baar-baar chalata hai",
+    "level": "Intermediate"
+  },
+  {
+    "id": 27,
+    "question": "DOM ka full form kya hai?",
+    "options": ["Data Object Model", "Document Object Model", "Document Oriented Module", "Digital Object Management"],
+    "answer": "Document Object Model",
+    "level": "Easy"
+  },
+  {
+    "id": 28,
+    "question": "Event bubbling ko rokne ke liye kaun sa method use kiya jata hai?",
+    "options": ["event.preventDefault()", "event.stopPropagation()", "event.stopEvent()", "return false"],
+    "answer": "event.stopPropagation()",
+    "level": "Hard"
+  },
+  {
+    "id": 29,
+    "question": "Kaun sa keyword use karke hum class level par inheritance implement karte hain?",
+    "options": ["extends", "inherits", "implements", "prototype"],
+    "answer": "extends",
+    "level": "Intermediate"
+  },
+  {
+    "id": 30,
+    "question": "Math.random() kis range me number generate karta hai?",
+    "options": ["1 se 10 tak", "0 se 1 tak (1 included)", "0 se 1 tak (1 excluded)", "Kisi bhi minus range me"],
+    "answer": "0 se 1 tak (1 excluded)",
+    "level": "Hard"
+  }
+]
