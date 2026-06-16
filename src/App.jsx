@@ -15,14 +15,14 @@ function App() {
     setIsOver(false);
   };
 
-  // Progress percentage calculate karne ke liye
+ 
   const progressPercentage = (currentIndex / 30) * 100;
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-indigo-950 to-slate-950 flex items-center justify-center p-4 antialiased selection:bg-indigo-500 selection:text-white">
       <div className="bg-slate-900/60 backdrop-blur-xl w-full max-w-2xl p-8 rounded-3xl shadow-2xl shadow-black/40 border border-slate-800/80 transition-all duration-300 relative overflow-hidden">
         
-        {/* Top Progress Bar Line */}
+        
         {!isOver && (
           <div className="absolute top-0 left-0 w-full h-1.5 bg-slate-800">
             <div 
