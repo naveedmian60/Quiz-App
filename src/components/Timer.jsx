@@ -6,7 +6,7 @@ const Timer = ({ setIsOver, currentIndex }) => {
 
   useEffect(() => {
     setLeftTime(1800);
-  }, [currentIndex]);
+  }, []);
 
   useEffect(() => {
     let intervalId = setInterval(() => {
