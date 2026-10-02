@@ -1,7 +1,12 @@
 import axios from 'axios';
 
+
+const baseURL = import.meta.env.PROD 
+  ? 'quiz-app-production-0be8.up.railway.app'
+  : '/api';
+
 const api = axios.create({
-  baseURL: '/api',
+  baseURL: baseURL,
   withCredentials: true,
 });
 
