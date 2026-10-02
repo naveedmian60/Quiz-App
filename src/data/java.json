@@ -1,0 +1,2602 @@
+[
+  {
+    "question": "Which method is the standard entry point of a Java application?",
+    "options": [
+      "public static void main(String[] args)",
+      "start(String[] args)",
+      "run()",
+      "init()"
+    ],
+    "correctAnswer": "public static void main(String[] args)",
+    "explanation": "The Java launcher looks for a public static main method with a String array parameter.",
+    "difficulty": "easy",
+    "id": "java-1"
+  },
+  {
+    "question": "Which component executes Java bytecode?",
+    "options": [
+      "JVM",
+      "Javadoc",
+      "JAR",
+      "JDBC"
+    ],
+    "correctAnswer": "JVM",
+    "explanation": "The Java Virtual Machine loads and executes compiled Java bytecode.",
+    "difficulty": "easy",
+    "id": "java-2"
+  },
+  {
+    "question": "Which primitive type stores a 32-bit signed integer?",
+    "options": [
+      "short",
+      "int",
+      "long",
+      "byte"
+    ],
+    "correctAnswer": "int",
+    "explanation": "Java int is a 32-bit signed integer type.",
+    "difficulty": "easy",
+    "id": "java-3"
+  },
+  {
+    "question": "Which collection provides a resizable array implementation?",
+    "options": [
+      "ArrayList",
+      "TreeMap",
+      "HashSet",
+      "ArrayDeque"
+    ],
+    "correctAnswer": "ArrayList",
+    "explanation": "ArrayList grows as elements are added and supports indexed access.",
+    "difficulty": "easy",
+    "id": "java-4"
+  },
+  {
+    "question": "What is true about Java String objects?",
+    "options": [
+      "They are immutable",
+      "They can only contain digits",
+      "They are primitive types",
+      "They are always null terminated"
+    ],
+    "correctAnswer": "They are immutable",
+    "explanation": "Operations that appear to change a String create a new String value.",
+    "difficulty": "easy",
+    "id": "java-5"
+  },
+  {
+    "question": "Which keyword declares that a class inherits from another class?",
+    "options": [
+      "implements",
+      "extends",
+      "inherits",
+      "super"
+    ],
+    "correctAnswer": "extends",
+    "explanation": "A Java class uses extends to inherit from a superclass.",
+    "difficulty": "easy",
+    "id": "java-6"
+  },
+  {
+    "question": "Which keyword connects a class to an interface?",
+    "options": [
+      "extends",
+      "implements",
+      "interface",
+      "instanceof"
+    ],
+    "correctAnswer": "implements",
+    "explanation": "A class declares the interfaces it implements with implements.",
+    "difficulty": "easy",
+    "id": "java-7"
+  },
+  {
+    "question": "Which exception category generally must be caught or declared?",
+    "options": [
+      "Checked exceptions",
+      "All RuntimeExceptions",
+      "Errors only",
+      "Unchecked exceptions"
+    ],
+    "correctAnswer": "Checked exceptions",
+    "explanation": "The compiler requires checked exceptions to be caught or listed with throws.",
+    "difficulty": "intermediate",
+    "id": "java-8"
+  },
+  {
+    "question": "What does method overloading mean in Java?",
+    "options": [
+      "Same method name with different parameter lists",
+      "Replacing a superclass method",
+      "Calling a method repeatedly",
+      "Making a method private"
+    ],
+    "correctAnswer": "Same method name with different parameter lists",
+    "explanation": "Overloaded methods share a name but differ in their parameter lists.",
+    "difficulty": "intermediate",
+    "id": "java-9"
+  },
+  {
+    "question": "Which keyword prevents a class from being subclassed?",
+    "options": [
+      "static",
+      "final",
+      "private",
+      "sealed"
+    ],
+    "correctAnswer": "final",
+    "explanation": "A final class cannot be extended.",
+    "difficulty": "intermediate",
+    "id": "java-10"
+  },
+  {
+    "question": "Quick check: Which method is the standard entry point of a Java application?",
+    "options": [
+      "public static void main(String[] args)",
+      "start(String[] args)",
+      "run()",
+      "init()"
+    ],
+    "correctAnswer": "public static void main(String[] args)",
+    "explanation": "The Java launcher looks for a public static main method with a String array parameter.",
+    "difficulty": "easy",
+    "id": "java-11"
+  },
+  {
+    "question": "Quick check: Which component executes Java bytecode?",
+    "options": [
+      "JVM",
+      "Javadoc",
+      "JAR",
+      "JDBC"
+    ],
+    "correctAnswer": "JVM",
+    "explanation": "The Java Virtual Machine loads and executes compiled Java bytecode.",
+    "difficulty": "easy",
+    "id": "java-12"
+  },
+  {
+    "question": "Quick check: Which primitive type stores a 32-bit signed integer?",
+    "options": [
+      "short",
+      "int",
+      "long",
+      "byte"
+    ],
+    "correctAnswer": "int",
+    "explanation": "Java int is a 32-bit signed integer type.",
+    "difficulty": "easy",
+    "id": "java-13"
+  },
+  {
+    "question": "Quick check: Which collection provides a resizable array implementation?",
+    "options": [
+      "ArrayList",
+      "TreeMap",
+      "HashSet",
+      "ArrayDeque"
+    ],
+    "correctAnswer": "ArrayList",
+    "explanation": "ArrayList grows as elements are added and supports indexed access.",
+    "difficulty": "easy",
+    "id": "java-14"
+  },
+  {
+    "question": "Quick check: What is true about Java String objects?",
+    "options": [
+      "They are immutable",
+      "They can only contain digits",
+      "They are primitive types",
+      "They are always null terminated"
+    ],
+    "correctAnswer": "They are immutable",
+    "explanation": "Operations that appear to change a String create a new String value.",
+    "difficulty": "easy",
+    "id": "java-15"
+  },
+  {
+    "question": "Quick check: Which keyword declares that a class inherits from another class?",
+    "options": [
+      "implements",
+      "extends",
+      "inherits",
+      "super"
+    ],
+    "correctAnswer": "extends",
+    "explanation": "A Java class uses extends to inherit from a superclass.",
+    "difficulty": "easy",
+    "id": "java-16"
+  },
+  {
+    "question": "Quick check: Which keyword connects a class to an interface?",
+    "options": [
+      "extends",
+      "implements",
+      "interface",
+      "instanceof"
+    ],
+    "correctAnswer": "implements",
+    "explanation": "A class declares the interfaces it implements with implements.",
+    "difficulty": "easy",
+    "id": "java-17"
+  },
+  {
+    "question": "Quick check: Which exception category generally must be caught or declared?",
+    "options": [
+      "Checked exceptions",
+      "All RuntimeExceptions",
+      "Errors only",
+      "Unchecked exceptions"
+    ],
+    "correctAnswer": "Checked exceptions",
+    "explanation": "The compiler requires checked exceptions to be caught or listed with throws.",
+    "difficulty": "intermediate",
+    "id": "java-18"
+  },
+  {
+    "question": "Quick check: What does method overloading mean in Java?",
+    "options": [
+      "Same method name with different parameter lists",
+      "Replacing a superclass method",
+      "Calling a method repeatedly",
+      "Making a method private"
+    ],
+    "correctAnswer": "Same method name with different parameter lists",
+    "explanation": "Overloaded methods share a name but differ in their parameter lists.",
+    "difficulty": "intermediate",
+    "id": "java-19"
+  },
+  {
+    "question": "Quick check: Which keyword prevents a class from being subclassed?",
+    "options": [
+      "static",
+      "final",
+      "private",
+      "sealed"
+    ],
+    "correctAnswer": "final",
+    "explanation": "A final class cannot be extended.",
+    "difficulty": "intermediate",
+    "id": "java-20"
+  },
+  {
+    "question": "Choose the best answer. Which method is the standard entry point of a Java application?",
+    "options": [
+      "public static void main(String[] args)",
+      "start(String[] args)",
+      "run()",
+      "init()"
+    ],
+    "correctAnswer": "public static void main(String[] args)",
+    "explanation": "The Java launcher looks for a public static main method with a String array parameter.",
+    "difficulty": "easy",
+    "id": "java-21"
+  },
+  {
+    "question": "Choose the best answer. Which component executes Java bytecode?",
+    "options": [
+      "JVM",
+      "Javadoc",
+      "JAR",
+      "JDBC"
+    ],
+    "correctAnswer": "JVM",
+    "explanation": "The Java Virtual Machine loads and executes compiled Java bytecode.",
+    "difficulty": "easy",
+    "id": "java-22"
+  },
+  {
+    "question": "Choose the best answer. Which primitive type stores a 32-bit signed integer?",
+    "options": [
+      "short",
+      "int",
+      "long",
+      "byte"
+    ],
+    "correctAnswer": "int",
+    "explanation": "Java int is a 32-bit signed integer type.",
+    "difficulty": "easy",
+    "id": "java-23"
+  },
+  {
+    "question": "Choose the best answer. Which collection provides a resizable array implementation?",
+    "options": [
+      "ArrayList",
+      "TreeMap",
+      "HashSet",
+      "ArrayDeque"
+    ],
+    "correctAnswer": "ArrayList",
+    "explanation": "ArrayList grows as elements are added and supports indexed access.",
+    "difficulty": "easy",
+    "id": "java-24"
+  },
+  {
+    "question": "Choose the best answer. What is true about Java String objects?",
+    "options": [
+      "They are immutable",
+      "They can only contain digits",
+      "They are primitive types",
+      "They are always null terminated"
+    ],
+    "correctAnswer": "They are immutable",
+    "explanation": "Operations that appear to change a String create a new String value.",
+    "difficulty": "easy",
+    "id": "java-25"
+  },
+  {
+    "question": "Choose the best answer. Which keyword declares that a class inherits from another class?",
+    "options": [
+      "implements",
+      "extends",
+      "inherits",
+      "super"
+    ],
+    "correctAnswer": "extends",
+    "explanation": "A Java class uses extends to inherit from a superclass.",
+    "difficulty": "easy",
+    "id": "java-26"
+  },
+  {
+    "question": "Choose the best answer. Which keyword connects a class to an interface?",
+    "options": [
+      "extends",
+      "implements",
+      "interface",
+      "instanceof"
+    ],
+    "correctAnswer": "implements",
+    "explanation": "A class declares the interfaces it implements with implements.",
+    "difficulty": "easy",
+    "id": "java-27"
+  },
+  {
+    "question": "Choose the best answer. Which exception category generally must be caught or declared?",
+    "options": [
+      "Checked exceptions",
+      "All RuntimeExceptions",
+      "Errors only",
+      "Unchecked exceptions"
+    ],
+    "correctAnswer": "Checked exceptions",
+    "explanation": "The compiler requires checked exceptions to be caught or listed with throws.",
+    "difficulty": "intermediate",
+    "id": "java-28"
+  },
+  {
+    "question": "Choose the best answer. What does method overloading mean in Java?",
+    "options": [
+      "Same method name with different parameter lists",
+      "Replacing a superclass method",
+      "Calling a method repeatedly",
+      "Making a method private"
+    ],
+    "correctAnswer": "Same method name with different parameter lists",
+    "explanation": "Overloaded methods share a name but differ in their parameter lists.",
+    "difficulty": "intermediate",
+    "id": "java-29"
+  },
+  {
+    "question": "Choose the best answer. Which keyword prevents a class from being subclassed?",
+    "options": [
+      "static",
+      "final",
+      "private",
+      "sealed"
+    ],
+    "correctAnswer": "final",
+    "explanation": "A final class cannot be extended.",
+    "difficulty": "intermediate",
+    "id": "java-30"
+  },
+  {
+    "question": "Programming fundamentals: Which method is the standard entry point of a Java application?",
+    "options": [
+      "public static void main(String[] args)",
+      "start(String[] args)",
+      "run()",
+      "init()"
+    ],
+    "correctAnswer": "public static void main(String[] args)",
+    "explanation": "The Java launcher looks for a public static main method with a String array parameter.",
+    "difficulty": "easy",
+    "id": "java-31"
+  },
+  {
+    "question": "Programming fundamentals: Which component executes Java bytecode?",
+    "options": [
+      "JVM",
+      "Javadoc",
+      "JAR",
+      "JDBC"
+    ],
+    "correctAnswer": "JVM",
+    "explanation": "The Java Virtual Machine loads and executes compiled Java bytecode.",
+    "difficulty": "easy",
+    "id": "java-32"
+  },
+  {
+    "question": "Programming fundamentals: Which primitive type stores a 32-bit signed integer?",
+    "options": [
+      "short",
+      "int",
+      "long",
+      "byte"
+    ],
+    "correctAnswer": "int",
+    "explanation": "Java int is a 32-bit signed integer type.",
+    "difficulty": "easy",
+    "id": "java-33"
+  },
+  {
+    "question": "Programming fundamentals: Which collection provides a resizable array implementation?",
+    "options": [
+      "ArrayList",
+      "TreeMap",
+      "HashSet",
+      "ArrayDeque"
+    ],
+    "correctAnswer": "ArrayList",
+    "explanation": "ArrayList grows as elements are added and supports indexed access.",
+    "difficulty": "easy",
+    "id": "java-34"
+  },
+  {
+    "question": "Programming fundamentals: What is true about Java String objects?",
+    "options": [
+      "They are immutable",
+      "They can only contain digits",
+      "They are primitive types",
+      "They are always null terminated"
+    ],
+    "correctAnswer": "They are immutable",
+    "explanation": "Operations that appear to change a String create a new String value.",
+    "difficulty": "easy",
+    "id": "java-35"
+  },
+  {
+    "question": "Programming fundamentals: Which keyword declares that a class inherits from another class?",
+    "options": [
+      "implements",
+      "extends",
+      "inherits",
+      "super"
+    ],
+    "correctAnswer": "extends",
+    "explanation": "A Java class uses extends to inherit from a superclass.",
+    "difficulty": "easy",
+    "id": "java-36"
+  },
+  {
+    "question": "Programming fundamentals: Which keyword connects a class to an interface?",
+    "options": [
+      "extends",
+      "implements",
+      "interface",
+      "instanceof"
+    ],
+    "correctAnswer": "implements",
+    "explanation": "A class declares the interfaces it implements with implements.",
+    "difficulty": "easy",
+    "id": "java-37"
+  },
+  {
+    "question": "Programming fundamentals: Which exception category generally must be caught or declared?",
+    "options": [
+      "Checked exceptions",
+      "All RuntimeExceptions",
+      "Errors only",
+      "Unchecked exceptions"
+    ],
+    "correctAnswer": "Checked exceptions",
+    "explanation": "The compiler requires checked exceptions to be caught or listed with throws.",
+    "difficulty": "intermediate",
+    "id": "java-38"
+  },
+  {
+    "question": "Programming fundamentals: What does method overloading mean in Java?",
+    "options": [
+      "Same method name with different parameter lists",
+      "Replacing a superclass method",
+      "Calling a method repeatedly",
+      "Making a method private"
+    ],
+    "correctAnswer": "Same method name with different parameter lists",
+    "explanation": "Overloaded methods share a name but differ in their parameter lists.",
+    "difficulty": "intermediate",
+    "id": "java-39"
+  },
+  {
+    "question": "Programming fundamentals: Which keyword prevents a class from being subclassed?",
+    "options": [
+      "static",
+      "final",
+      "private",
+      "sealed"
+    ],
+    "correctAnswer": "final",
+    "explanation": "A final class cannot be extended.",
+    "difficulty": "intermediate",
+    "id": "java-40"
+  },
+  {
+    "question": "Knowledge check: Which method is the standard entry point of a Java application?",
+    "options": [
+      "public static void main(String[] args)",
+      "start(String[] args)",
+      "run()",
+      "init()"
+    ],
+    "correctAnswer": "public static void main(String[] args)",
+    "explanation": "The Java launcher looks for a public static main method with a String array parameter.",
+    "difficulty": "easy",
+    "id": "java-41"
+  },
+  {
+    "question": "Knowledge check: Which component executes Java bytecode?",
+    "options": [
+      "JVM",
+      "Javadoc",
+      "JAR",
+      "JDBC"
+    ],
+    "correctAnswer": "JVM",
+    "explanation": "The Java Virtual Machine loads and executes compiled Java bytecode.",
+    "difficulty": "easy",
+    "id": "java-42"
+  },
+  {
+    "question": "Knowledge check: Which primitive type stores a 32-bit signed integer?",
+    "options": [
+      "short",
+      "int",
+      "long",
+      "byte"
+    ],
+    "correctAnswer": "int",
+    "explanation": "Java int is a 32-bit signed integer type.",
+    "difficulty": "easy",
+    "id": "java-43"
+  },
+  {
+    "question": "Knowledge check: Which collection provides a resizable array implementation?",
+    "options": [
+      "ArrayList",
+      "TreeMap",
+      "HashSet",
+      "ArrayDeque"
+    ],
+    "correctAnswer": "ArrayList",
+    "explanation": "ArrayList grows as elements are added and supports indexed access.",
+    "difficulty": "easy",
+    "id": "java-44"
+  },
+  {
+    "question": "Knowledge check: What is true about Java String objects?",
+    "options": [
+      "They are immutable",
+      "They can only contain digits",
+      "They are primitive types",
+      "They are always null terminated"
+    ],
+    "correctAnswer": "They are immutable",
+    "explanation": "Operations that appear to change a String create a new String value.",
+    "difficulty": "easy",
+    "id": "java-45"
+  },
+  {
+    "question": "Knowledge check: Which keyword declares that a class inherits from another class?",
+    "options": [
+      "implements",
+      "extends",
+      "inherits",
+      "super"
+    ],
+    "correctAnswer": "extends",
+    "explanation": "A Java class uses extends to inherit from a superclass.",
+    "difficulty": "easy",
+    "id": "java-46"
+  },
+  {
+    "question": "Knowledge check: Which keyword connects a class to an interface?",
+    "options": [
+      "extends",
+      "implements",
+      "interface",
+      "instanceof"
+    ],
+    "correctAnswer": "implements",
+    "explanation": "A class declares the interfaces it implements with implements.",
+    "difficulty": "easy",
+    "id": "java-47"
+  },
+  {
+    "question": "Knowledge check: Which exception category generally must be caught or declared?",
+    "options": [
+      "Checked exceptions",
+      "All RuntimeExceptions",
+      "Errors only",
+      "Unchecked exceptions"
+    ],
+    "correctAnswer": "Checked exceptions",
+    "explanation": "The compiler requires checked exceptions to be caught or listed with throws.",
+    "difficulty": "intermediate",
+    "id": "java-48"
+  },
+  {
+    "question": "Knowledge check: What does method overloading mean in Java?",
+    "options": [
+      "Same method name with different parameter lists",
+      "Replacing a superclass method",
+      "Calling a method repeatedly",
+      "Making a method private"
+    ],
+    "correctAnswer": "Same method name with different parameter lists",
+    "explanation": "Overloaded methods share a name but differ in their parameter lists.",
+    "difficulty": "intermediate",
+    "id": "java-49"
+  },
+  {
+    "question": "Knowledge check: Which keyword prevents a class from being subclassed?",
+    "options": [
+      "static",
+      "final",
+      "private",
+      "sealed"
+    ],
+    "correctAnswer": "final",
+    "explanation": "A final class cannot be extended.",
+    "difficulty": "intermediate",
+    "id": "java-50"
+  },
+  {
+    "question": "When reviewing code, which method is the standard entry point of a Java application?",
+    "options": [
+      "public static void main(String[] args)",
+      "start(String[] args)",
+      "run()",
+      "init()"
+    ],
+    "correctAnswer": "public static void main(String[] args)",
+    "explanation": "The Java launcher looks for a public static main method with a String array parameter.",
+    "difficulty": "easy",
+    "id": "java-51"
+  },
+  {
+    "question": "When reviewing code, which component executes Java bytecode?",
+    "options": [
+      "JVM",
+      "Javadoc",
+      "JAR",
+      "JDBC"
+    ],
+    "correctAnswer": "JVM",
+    "explanation": "The Java Virtual Machine loads and executes compiled Java bytecode.",
+    "difficulty": "easy",
+    "id": "java-52"
+  },
+  {
+    "question": "When reviewing code, which primitive type stores a 32-bit signed integer?",
+    "options": [
+      "short",
+      "int",
+      "long",
+      "byte"
+    ],
+    "correctAnswer": "int",
+    "explanation": "Java int is a 32-bit signed integer type.",
+    "difficulty": "easy",
+    "id": "java-53"
+  },
+  {
+    "question": "When reviewing code, which collection provides a resizable array implementation?",
+    "options": [
+      "ArrayList",
+      "TreeMap",
+      "HashSet",
+      "ArrayDeque"
+    ],
+    "correctAnswer": "ArrayList",
+    "explanation": "ArrayList grows as elements are added and supports indexed access.",
+    "difficulty": "easy",
+    "id": "java-54"
+  },
+  {
+    "question": "When reviewing code, what is true about Java String objects?",
+    "options": [
+      "They are immutable",
+      "They can only contain digits",
+      "They are primitive types",
+      "They are always null terminated"
+    ],
+    "correctAnswer": "They are immutable",
+    "explanation": "Operations that appear to change a String create a new String value.",
+    "difficulty": "easy",
+    "id": "java-55"
+  },
+  {
+    "question": "When reviewing code, which keyword declares that a class inherits from another class?",
+    "options": [
+      "implements",
+      "extends",
+      "inherits",
+      "super"
+    ],
+    "correctAnswer": "extends",
+    "explanation": "A Java class uses extends to inherit from a superclass.",
+    "difficulty": "easy",
+    "id": "java-56"
+  },
+  {
+    "question": "When reviewing code, which keyword connects a class to an interface?",
+    "options": [
+      "extends",
+      "implements",
+      "interface",
+      "instanceof"
+    ],
+    "correctAnswer": "implements",
+    "explanation": "A class declares the interfaces it implements with implements.",
+    "difficulty": "easy",
+    "id": "java-57"
+  },
+  {
+    "question": "When reviewing code, which exception category generally must be caught or declared?",
+    "options": [
+      "Checked exceptions",
+      "All RuntimeExceptions",
+      "Errors only",
+      "Unchecked exceptions"
+    ],
+    "correctAnswer": "Checked exceptions",
+    "explanation": "The compiler requires checked exceptions to be caught or listed with throws.",
+    "difficulty": "intermediate",
+    "id": "java-58"
+  },
+  {
+    "question": "When reviewing code, what does method overloading mean in Java?",
+    "options": [
+      "Same method name with different parameter lists",
+      "Replacing a superclass method",
+      "Calling a method repeatedly",
+      "Making a method private"
+    ],
+    "correctAnswer": "Same method name with different parameter lists",
+    "explanation": "Overloaded methods share a name but differ in their parameter lists.",
+    "difficulty": "intermediate",
+    "id": "java-59"
+  },
+  {
+    "question": "When reviewing code, which keyword prevents a class from being subclassed?",
+    "options": [
+      "static",
+      "final",
+      "private",
+      "sealed"
+    ],
+    "correctAnswer": "final",
+    "explanation": "A final class cannot be extended.",
+    "difficulty": "intermediate",
+    "id": "java-60"
+  },
+  {
+    "question": "For a beginner, which method is the standard entry point of a Java application?",
+    "options": [
+      "public static void main(String[] args)",
+      "start(String[] args)",
+      "run()",
+      "init()"
+    ],
+    "correctAnswer": "public static void main(String[] args)",
+    "explanation": "The Java launcher looks for a public static main method with a String array parameter.",
+    "difficulty": "easy",
+    "id": "java-61"
+  },
+  {
+    "question": "For a beginner, which component executes Java bytecode?",
+    "options": [
+      "JVM",
+      "Javadoc",
+      "JAR",
+      "JDBC"
+    ],
+    "correctAnswer": "JVM",
+    "explanation": "The Java Virtual Machine loads and executes compiled Java bytecode.",
+    "difficulty": "easy",
+    "id": "java-62"
+  },
+  {
+    "question": "For a beginner, which primitive type stores a 32-bit signed integer?",
+    "options": [
+      "short",
+      "int",
+      "long",
+      "byte"
+    ],
+    "correctAnswer": "int",
+    "explanation": "Java int is a 32-bit signed integer type.",
+    "difficulty": "easy",
+    "id": "java-63"
+  },
+  {
+    "question": "For a beginner, which collection provides a resizable array implementation?",
+    "options": [
+      "ArrayList",
+      "TreeMap",
+      "HashSet",
+      "ArrayDeque"
+    ],
+    "correctAnswer": "ArrayList",
+    "explanation": "ArrayList grows as elements are added and supports indexed access.",
+    "difficulty": "easy",
+    "id": "java-64"
+  },
+  {
+    "question": "For a beginner, what is true about Java String objects?",
+    "options": [
+      "They are immutable",
+      "They can only contain digits",
+      "They are primitive types",
+      "They are always null terminated"
+    ],
+    "correctAnswer": "They are immutable",
+    "explanation": "Operations that appear to change a String create a new String value.",
+    "difficulty": "easy",
+    "id": "java-65"
+  },
+  {
+    "question": "For a beginner, which keyword declares that a class inherits from another class?",
+    "options": [
+      "implements",
+      "extends",
+      "inherits",
+      "super"
+    ],
+    "correctAnswer": "extends",
+    "explanation": "A Java class uses extends to inherit from a superclass.",
+    "difficulty": "easy",
+    "id": "java-66"
+  },
+  {
+    "question": "For a beginner, which keyword connects a class to an interface?",
+    "options": [
+      "extends",
+      "implements",
+      "interface",
+      "instanceof"
+    ],
+    "correctAnswer": "implements",
+    "explanation": "A class declares the interfaces it implements with implements.",
+    "difficulty": "easy",
+    "id": "java-67"
+  },
+  {
+    "question": "For a beginner, which exception category generally must be caught or declared?",
+    "options": [
+      "Checked exceptions",
+      "All RuntimeExceptions",
+      "Errors only",
+      "Unchecked exceptions"
+    ],
+    "correctAnswer": "Checked exceptions",
+    "explanation": "The compiler requires checked exceptions to be caught or listed with throws.",
+    "difficulty": "intermediate",
+    "id": "java-68"
+  },
+  {
+    "question": "For a beginner, what does method overloading mean in Java?",
+    "options": [
+      "Same method name with different parameter lists",
+      "Replacing a superclass method",
+      "Calling a method repeatedly",
+      "Making a method private"
+    ],
+    "correctAnswer": "Same method name with different parameter lists",
+    "explanation": "Overloaded methods share a name but differ in their parameter lists.",
+    "difficulty": "intermediate",
+    "id": "java-69"
+  },
+  {
+    "question": "For a beginner, which keyword prevents a class from being subclassed?",
+    "options": [
+      "static",
+      "final",
+      "private",
+      "sealed"
+    ],
+    "correctAnswer": "final",
+    "explanation": "A final class cannot be extended.",
+    "difficulty": "intermediate",
+    "id": "java-70"
+  },
+  {
+    "question": "Concept review: Which method is the standard entry point of a Java application?",
+    "options": [
+      "public static void main(String[] args)",
+      "start(String[] args)",
+      "run()",
+      "init()"
+    ],
+    "correctAnswer": "public static void main(String[] args)",
+    "explanation": "The Java launcher looks for a public static main method with a String array parameter.",
+    "difficulty": "easy",
+    "id": "java-71"
+  },
+  {
+    "question": "Concept review: Which component executes Java bytecode?",
+    "options": [
+      "JVM",
+      "Javadoc",
+      "JAR",
+      "JDBC"
+    ],
+    "correctAnswer": "JVM",
+    "explanation": "The Java Virtual Machine loads and executes compiled Java bytecode.",
+    "difficulty": "easy",
+    "id": "java-72"
+  },
+  {
+    "question": "Concept review: Which primitive type stores a 32-bit signed integer?",
+    "options": [
+      "short",
+      "int",
+      "long",
+      "byte"
+    ],
+    "correctAnswer": "int",
+    "explanation": "Java int is a 32-bit signed integer type.",
+    "difficulty": "easy",
+    "id": "java-73"
+  },
+  {
+    "question": "Concept review: Which collection provides a resizable array implementation?",
+    "options": [
+      "ArrayList",
+      "TreeMap",
+      "HashSet",
+      "ArrayDeque"
+    ],
+    "correctAnswer": "ArrayList",
+    "explanation": "ArrayList grows as elements are added and supports indexed access.",
+    "difficulty": "easy",
+    "id": "java-74"
+  },
+  {
+    "question": "Concept review: What is true about Java String objects?",
+    "options": [
+      "They are immutable",
+      "They can only contain digits",
+      "They are primitive types",
+      "They are always null terminated"
+    ],
+    "correctAnswer": "They are immutable",
+    "explanation": "Operations that appear to change a String create a new String value.",
+    "difficulty": "easy",
+    "id": "java-75"
+  },
+  {
+    "question": "Concept review: Which keyword declares that a class inherits from another class?",
+    "options": [
+      "implements",
+      "extends",
+      "inherits",
+      "super"
+    ],
+    "correctAnswer": "extends",
+    "explanation": "A Java class uses extends to inherit from a superclass.",
+    "difficulty": "easy",
+    "id": "java-76"
+  },
+  {
+    "question": "Concept review: Which keyword connects a class to an interface?",
+    "options": [
+      "extends",
+      "implements",
+      "interface",
+      "instanceof"
+    ],
+    "correctAnswer": "implements",
+    "explanation": "A class declares the interfaces it implements with implements.",
+    "difficulty": "easy",
+    "id": "java-77"
+  },
+  {
+    "question": "Concept review: Which exception category generally must be caught or declared?",
+    "options": [
+      "Checked exceptions",
+      "All RuntimeExceptions",
+      "Errors only",
+      "Unchecked exceptions"
+    ],
+    "correctAnswer": "Checked exceptions",
+    "explanation": "The compiler requires checked exceptions to be caught or listed with throws.",
+    "difficulty": "intermediate",
+    "id": "java-78"
+  },
+  {
+    "question": "Concept review: What does method overloading mean in Java?",
+    "options": [
+      "Same method name with different parameter lists",
+      "Replacing a superclass method",
+      "Calling a method repeatedly",
+      "Making a method private"
+    ],
+    "correctAnswer": "Same method name with different parameter lists",
+    "explanation": "Overloaded methods share a name but differ in their parameter lists.",
+    "difficulty": "intermediate",
+    "id": "java-79"
+  },
+  {
+    "question": "Concept review: Which keyword prevents a class from being subclassed?",
+    "options": [
+      "static",
+      "final",
+      "private",
+      "sealed"
+    ],
+    "correctAnswer": "final",
+    "explanation": "A final class cannot be extended.",
+    "difficulty": "intermediate",
+    "id": "java-80"
+  },
+  {
+    "question": "Select the correct statement. Which method is the standard entry point of a Java application?",
+    "options": [
+      "public static void main(String[] args)",
+      "start(String[] args)",
+      "run()",
+      "init()"
+    ],
+    "correctAnswer": "public static void main(String[] args)",
+    "explanation": "The Java launcher looks for a public static main method with a String array parameter.",
+    "difficulty": "easy",
+    "id": "java-81"
+  },
+  {
+    "question": "Select the correct statement. Which component executes Java bytecode?",
+    "options": [
+      "JVM",
+      "Javadoc",
+      "JAR",
+      "JDBC"
+    ],
+    "correctAnswer": "JVM",
+    "explanation": "The Java Virtual Machine loads and executes compiled Java bytecode.",
+    "difficulty": "easy",
+    "id": "java-82"
+  },
+  {
+    "question": "Select the correct statement. Which primitive type stores a 32-bit signed integer?",
+    "options": [
+      "short",
+      "int",
+      "long",
+      "byte"
+    ],
+    "correctAnswer": "int",
+    "explanation": "Java int is a 32-bit signed integer type.",
+    "difficulty": "easy",
+    "id": "java-83"
+  },
+  {
+    "question": "Select the correct statement. Which collection provides a resizable array implementation?",
+    "options": [
+      "ArrayList",
+      "TreeMap",
+      "HashSet",
+      "ArrayDeque"
+    ],
+    "correctAnswer": "ArrayList",
+    "explanation": "ArrayList grows as elements are added and supports indexed access.",
+    "difficulty": "easy",
+    "id": "java-84"
+  },
+  {
+    "question": "Select the correct statement. What is true about Java String objects?",
+    "options": [
+      "They are immutable",
+      "They can only contain digits",
+      "They are primitive types",
+      "They are always null terminated"
+    ],
+    "correctAnswer": "They are immutable",
+    "explanation": "Operations that appear to change a String create a new String value.",
+    "difficulty": "easy",
+    "id": "java-85"
+  },
+  {
+    "question": "Select the correct statement. Which keyword declares that a class inherits from another class?",
+    "options": [
+      "implements",
+      "extends",
+      "inherits",
+      "super"
+    ],
+    "correctAnswer": "extends",
+    "explanation": "A Java class uses extends to inherit from a superclass.",
+    "difficulty": "easy",
+    "id": "java-86"
+  },
+  {
+    "question": "Select the correct statement. Which keyword connects a class to an interface?",
+    "options": [
+      "extends",
+      "implements",
+      "interface",
+      "instanceof"
+    ],
+    "correctAnswer": "implements",
+    "explanation": "A class declares the interfaces it implements with implements.",
+    "difficulty": "easy",
+    "id": "java-87"
+  },
+  {
+    "question": "Select the correct statement. Which exception category generally must be caught or declared?",
+    "options": [
+      "Checked exceptions",
+      "All RuntimeExceptions",
+      "Errors only",
+      "Unchecked exceptions"
+    ],
+    "correctAnswer": "Checked exceptions",
+    "explanation": "The compiler requires checked exceptions to be caught or listed with throws.",
+    "difficulty": "intermediate",
+    "id": "java-88"
+  },
+  {
+    "question": "Select the correct statement. What does method overloading mean in Java?",
+    "options": [
+      "Same method name with different parameter lists",
+      "Replacing a superclass method",
+      "Calling a method repeatedly",
+      "Making a method private"
+    ],
+    "correctAnswer": "Same method name with different parameter lists",
+    "explanation": "Overloaded methods share a name but differ in their parameter lists.",
+    "difficulty": "intermediate",
+    "id": "java-89"
+  },
+  {
+    "question": "Select the correct statement. Which keyword prevents a class from being subclassed?",
+    "options": [
+      "static",
+      "final",
+      "private",
+      "sealed"
+    ],
+    "correctAnswer": "final",
+    "explanation": "A final class cannot be extended.",
+    "difficulty": "intermediate",
+    "id": "java-90"
+  },
+  {
+    "question": "Practice question: Which method is the standard entry point of a Java application?",
+    "options": [
+      "public static void main(String[] args)",
+      "start(String[] args)",
+      "run()",
+      "init()"
+    ],
+    "correctAnswer": "public static void main(String[] args)",
+    "explanation": "The Java launcher looks for a public static main method with a String array parameter.",
+    "difficulty": "easy",
+    "id": "java-91"
+  },
+  {
+    "question": "Practice question: Which component executes Java bytecode?",
+    "options": [
+      "JVM",
+      "Javadoc",
+      "JAR",
+      "JDBC"
+    ],
+    "correctAnswer": "JVM",
+    "explanation": "The Java Virtual Machine loads and executes compiled Java bytecode.",
+    "difficulty": "easy",
+    "id": "java-92"
+  },
+  {
+    "question": "Practice question: Which primitive type stores a 32-bit signed integer?",
+    "options": [
+      "short",
+      "int",
+      "long",
+      "byte"
+    ],
+    "correctAnswer": "int",
+    "explanation": "Java int is a 32-bit signed integer type.",
+    "difficulty": "easy",
+    "id": "java-93"
+  },
+  {
+    "question": "Practice question: Which collection provides a resizable array implementation?",
+    "options": [
+      "ArrayList",
+      "TreeMap",
+      "HashSet",
+      "ArrayDeque"
+    ],
+    "correctAnswer": "ArrayList",
+    "explanation": "ArrayList grows as elements are added and supports indexed access.",
+    "difficulty": "easy",
+    "id": "java-94"
+  },
+  {
+    "question": "Practice question: What is true about Java String objects?",
+    "options": [
+      "They are immutable",
+      "They can only contain digits",
+      "They are primitive types",
+      "They are always null terminated"
+    ],
+    "correctAnswer": "They are immutable",
+    "explanation": "Operations that appear to change a String create a new String value.",
+    "difficulty": "easy",
+    "id": "java-95"
+  },
+  {
+    "question": "Practice question: Which keyword declares that a class inherits from another class?",
+    "options": [
+      "implements",
+      "extends",
+      "inherits",
+      "super"
+    ],
+    "correctAnswer": "extends",
+    "explanation": "A Java class uses extends to inherit from a superclass.",
+    "difficulty": "easy",
+    "id": "java-96"
+  },
+  {
+    "question": "Practice question: Which keyword connects a class to an interface?",
+    "options": [
+      "extends",
+      "implements",
+      "interface",
+      "instanceof"
+    ],
+    "correctAnswer": "implements",
+    "explanation": "A class declares the interfaces it implements with implements.",
+    "difficulty": "easy",
+    "id": "java-97"
+  },
+  {
+    "question": "Practice question: Which exception category generally must be caught or declared?",
+    "options": [
+      "Checked exceptions",
+      "All RuntimeExceptions",
+      "Errors only",
+      "Unchecked exceptions"
+    ],
+    "correctAnswer": "Checked exceptions",
+    "explanation": "The compiler requires checked exceptions to be caught or listed with throws.",
+    "difficulty": "intermediate",
+    "id": "java-98"
+  },
+  {
+    "question": "Practice question: What does method overloading mean in Java?",
+    "options": [
+      "Same method name with different parameter lists",
+      "Replacing a superclass method",
+      "Calling a method repeatedly",
+      "Making a method private"
+    ],
+    "correctAnswer": "Same method name with different parameter lists",
+    "explanation": "Overloaded methods share a name but differ in their parameter lists.",
+    "difficulty": "intermediate",
+    "id": "java-99"
+  },
+  {
+    "question": "Practice question: Which keyword prevents a class from being subclassed?",
+    "options": [
+      "static",
+      "final",
+      "private",
+      "sealed"
+    ],
+    "correctAnswer": "final",
+    "explanation": "A final class cannot be extended.",
+    "difficulty": "intermediate",
+    "id": "java-100"
+  },
+  {
+    "question": "Test your understanding: Which method is the standard entry point of a Java application?",
+    "options": [
+      "public static void main(String[] args)",
+      "start(String[] args)",
+      "run()",
+      "init()"
+    ],
+    "correctAnswer": "public static void main(String[] args)",
+    "explanation": "The Java launcher looks for a public static main method with a String array parameter.",
+    "difficulty": "easy",
+    "id": "java-101"
+  },
+  {
+    "question": "Test your understanding: Which component executes Java bytecode?",
+    "options": [
+      "JVM",
+      "Javadoc",
+      "JAR",
+      "JDBC"
+    ],
+    "correctAnswer": "JVM",
+    "explanation": "The Java Virtual Machine loads and executes compiled Java bytecode.",
+    "difficulty": "easy",
+    "id": "java-102"
+  },
+  {
+    "question": "Test your understanding: Which primitive type stores a 32-bit signed integer?",
+    "options": [
+      "short",
+      "int",
+      "long",
+      "byte"
+    ],
+    "correctAnswer": "int",
+    "explanation": "Java int is a 32-bit signed integer type.",
+    "difficulty": "easy",
+    "id": "java-103"
+  },
+  {
+    "question": "Test your understanding: Which collection provides a resizable array implementation?",
+    "options": [
+      "ArrayList",
+      "TreeMap",
+      "HashSet",
+      "ArrayDeque"
+    ],
+    "correctAnswer": "ArrayList",
+    "explanation": "ArrayList grows as elements are added and supports indexed access.",
+    "difficulty": "easy",
+    "id": "java-104"
+  },
+  {
+    "question": "Test your understanding: What is true about Java String objects?",
+    "options": [
+      "They are immutable",
+      "They can only contain digits",
+      "They are primitive types",
+      "They are always null terminated"
+    ],
+    "correctAnswer": "They are immutable",
+    "explanation": "Operations that appear to change a String create a new String value.",
+    "difficulty": "easy",
+    "id": "java-105"
+  },
+  {
+    "question": "Test your understanding: Which keyword declares that a class inherits from another class?",
+    "options": [
+      "implements",
+      "extends",
+      "inherits",
+      "super"
+    ],
+    "correctAnswer": "extends",
+    "explanation": "A Java class uses extends to inherit from a superclass.",
+    "difficulty": "easy",
+    "id": "java-106"
+  },
+  {
+    "question": "Test your understanding: Which keyword connects a class to an interface?",
+    "options": [
+      "extends",
+      "implements",
+      "interface",
+      "instanceof"
+    ],
+    "correctAnswer": "implements",
+    "explanation": "A class declares the interfaces it implements with implements.",
+    "difficulty": "easy",
+    "id": "java-107"
+  },
+  {
+    "question": "Test your understanding: Which exception category generally must be caught or declared?",
+    "options": [
+      "Checked exceptions",
+      "All RuntimeExceptions",
+      "Errors only",
+      "Unchecked exceptions"
+    ],
+    "correctAnswer": "Checked exceptions",
+    "explanation": "The compiler requires checked exceptions to be caught or listed with throws.",
+    "difficulty": "intermediate",
+    "id": "java-108"
+  },
+  {
+    "question": "Test your understanding: What does method overloading mean in Java?",
+    "options": [
+      "Same method name with different parameter lists",
+      "Replacing a superclass method",
+      "Calling a method repeatedly",
+      "Making a method private"
+    ],
+    "correctAnswer": "Same method name with different parameter lists",
+    "explanation": "Overloaded methods share a name but differ in their parameter lists.",
+    "difficulty": "intermediate",
+    "id": "java-109"
+  },
+  {
+    "question": "Test your understanding: Which keyword prevents a class from being subclassed?",
+    "options": [
+      "static",
+      "final",
+      "private",
+      "sealed"
+    ],
+    "correctAnswer": "final",
+    "explanation": "A final class cannot be extended.",
+    "difficulty": "intermediate",
+    "id": "java-110"
+  },
+  {
+    "question": "Language basics: Which method is the standard entry point of a Java application?",
+    "options": [
+      "public static void main(String[] args)",
+      "start(String[] args)",
+      "run()",
+      "init()"
+    ],
+    "correctAnswer": "public static void main(String[] args)",
+    "explanation": "The Java launcher looks for a public static main method with a String array parameter.",
+    "difficulty": "easy",
+    "id": "java-111"
+  },
+  {
+    "question": "Language basics: Which component executes Java bytecode?",
+    "options": [
+      "JVM",
+      "Javadoc",
+      "JAR",
+      "JDBC"
+    ],
+    "correctAnswer": "JVM",
+    "explanation": "The Java Virtual Machine loads and executes compiled Java bytecode.",
+    "difficulty": "easy",
+    "id": "java-112"
+  },
+  {
+    "question": "Language basics: Which primitive type stores a 32-bit signed integer?",
+    "options": [
+      "short",
+      "int",
+      "long",
+      "byte"
+    ],
+    "correctAnswer": "int",
+    "explanation": "Java int is a 32-bit signed integer type.",
+    "difficulty": "easy",
+    "id": "java-113"
+  },
+  {
+    "question": "Language basics: Which collection provides a resizable array implementation?",
+    "options": [
+      "ArrayList",
+      "TreeMap",
+      "HashSet",
+      "ArrayDeque"
+    ],
+    "correctAnswer": "ArrayList",
+    "explanation": "ArrayList grows as elements are added and supports indexed access.",
+    "difficulty": "easy",
+    "id": "java-114"
+  },
+  {
+    "question": "Language basics: What is true about Java String objects?",
+    "options": [
+      "They are immutable",
+      "They can only contain digits",
+      "They are primitive types",
+      "They are always null terminated"
+    ],
+    "correctAnswer": "They are immutable",
+    "explanation": "Operations that appear to change a String create a new String value.",
+    "difficulty": "easy",
+    "id": "java-115"
+  },
+  {
+    "question": "Language basics: Which keyword declares that a class inherits from another class?",
+    "options": [
+      "implements",
+      "extends",
+      "inherits",
+      "super"
+    ],
+    "correctAnswer": "extends",
+    "explanation": "A Java class uses extends to inherit from a superclass.",
+    "difficulty": "easy",
+    "id": "java-116"
+  },
+  {
+    "question": "Language basics: Which keyword connects a class to an interface?",
+    "options": [
+      "extends",
+      "implements",
+      "interface",
+      "instanceof"
+    ],
+    "correctAnswer": "implements",
+    "explanation": "A class declares the interfaces it implements with implements.",
+    "difficulty": "easy",
+    "id": "java-117"
+  },
+  {
+    "question": "Language basics: Which exception category generally must be caught or declared?",
+    "options": [
+      "Checked exceptions",
+      "All RuntimeExceptions",
+      "Errors only",
+      "Unchecked exceptions"
+    ],
+    "correctAnswer": "Checked exceptions",
+    "explanation": "The compiler requires checked exceptions to be caught or listed with throws.",
+    "difficulty": "intermediate",
+    "id": "java-118"
+  },
+  {
+    "question": "Language basics: What does method overloading mean in Java?",
+    "options": [
+      "Same method name with different parameter lists",
+      "Replacing a superclass method",
+      "Calling a method repeatedly",
+      "Making a method private"
+    ],
+    "correctAnswer": "Same method name with different parameter lists",
+    "explanation": "Overloaded methods share a name but differ in their parameter lists.",
+    "difficulty": "intermediate",
+    "id": "java-119"
+  },
+  {
+    "question": "Language basics: Which keyword prevents a class from being subclassed?",
+    "options": [
+      "static",
+      "final",
+      "private",
+      "sealed"
+    ],
+    "correctAnswer": "final",
+    "explanation": "A final class cannot be extended.",
+    "difficulty": "intermediate",
+    "id": "java-120"
+  },
+  {
+    "question": "Which answer is accurate? Which method is the standard entry point of a Java application?",
+    "options": [
+      "public static void main(String[] args)",
+      "start(String[] args)",
+      "run()",
+      "init()"
+    ],
+    "correctAnswer": "public static void main(String[] args)",
+    "explanation": "The Java launcher looks for a public static main method with a String array parameter.",
+    "difficulty": "easy",
+    "id": "java-121"
+  },
+  {
+    "question": "Which answer is accurate? Which component executes Java bytecode?",
+    "options": [
+      "JVM",
+      "Javadoc",
+      "JAR",
+      "JDBC"
+    ],
+    "correctAnswer": "JVM",
+    "explanation": "The Java Virtual Machine loads and executes compiled Java bytecode.",
+    "difficulty": "easy",
+    "id": "java-122"
+  },
+  {
+    "question": "Which answer is accurate? Which primitive type stores a 32-bit signed integer?",
+    "options": [
+      "short",
+      "int",
+      "long",
+      "byte"
+    ],
+    "correctAnswer": "int",
+    "explanation": "Java int is a 32-bit signed integer type.",
+    "difficulty": "easy",
+    "id": "java-123"
+  },
+  {
+    "question": "Which answer is accurate? Which collection provides a resizable array implementation?",
+    "options": [
+      "ArrayList",
+      "TreeMap",
+      "HashSet",
+      "ArrayDeque"
+    ],
+    "correctAnswer": "ArrayList",
+    "explanation": "ArrayList grows as elements are added and supports indexed access.",
+    "difficulty": "easy",
+    "id": "java-124"
+  },
+  {
+    "question": "Which answer is accurate? What is true about Java String objects?",
+    "options": [
+      "They are immutable",
+      "They can only contain digits",
+      "They are primitive types",
+      "They are always null terminated"
+    ],
+    "correctAnswer": "They are immutable",
+    "explanation": "Operations that appear to change a String create a new String value.",
+    "difficulty": "easy",
+    "id": "java-125"
+  },
+  {
+    "question": "Which answer is accurate? Which keyword declares that a class inherits from another class?",
+    "options": [
+      "implements",
+      "extends",
+      "inherits",
+      "super"
+    ],
+    "correctAnswer": "extends",
+    "explanation": "A Java class uses extends to inherit from a superclass.",
+    "difficulty": "easy",
+    "id": "java-126"
+  },
+  {
+    "question": "Which answer is accurate? Which keyword connects a class to an interface?",
+    "options": [
+      "extends",
+      "implements",
+      "interface",
+      "instanceof"
+    ],
+    "correctAnswer": "implements",
+    "explanation": "A class declares the interfaces it implements with implements.",
+    "difficulty": "easy",
+    "id": "java-127"
+  },
+  {
+    "question": "Which answer is accurate? Which exception category generally must be caught or declared?",
+    "options": [
+      "Checked exceptions",
+      "All RuntimeExceptions",
+      "Errors only",
+      "Unchecked exceptions"
+    ],
+    "correctAnswer": "Checked exceptions",
+    "explanation": "The compiler requires checked exceptions to be caught or listed with throws.",
+    "difficulty": "intermediate",
+    "id": "java-128"
+  },
+  {
+    "question": "Which answer is accurate? What does method overloading mean in Java?",
+    "options": [
+      "Same method name with different parameter lists",
+      "Replacing a superclass method",
+      "Calling a method repeatedly",
+      "Making a method private"
+    ],
+    "correctAnswer": "Same method name with different parameter lists",
+    "explanation": "Overloaded methods share a name but differ in their parameter lists.",
+    "difficulty": "intermediate",
+    "id": "java-129"
+  },
+  {
+    "question": "Which answer is accurate? Which keyword prevents a class from being subclassed?",
+    "options": [
+      "static",
+      "final",
+      "private",
+      "sealed"
+    ],
+    "correctAnswer": "final",
+    "explanation": "A final class cannot be extended.",
+    "difficulty": "intermediate",
+    "id": "java-130"
+  },
+  {
+    "question": "Study prompt: Which method is the standard entry point of a Java application?",
+    "options": [
+      "public static void main(String[] args)",
+      "start(String[] args)",
+      "run()",
+      "init()"
+    ],
+    "correctAnswer": "public static void main(String[] args)",
+    "explanation": "The Java launcher looks for a public static main method with a String array parameter.",
+    "difficulty": "easy",
+    "id": "java-131"
+  },
+  {
+    "question": "Study prompt: Which component executes Java bytecode?",
+    "options": [
+      "JVM",
+      "Javadoc",
+      "JAR",
+      "JDBC"
+    ],
+    "correctAnswer": "JVM",
+    "explanation": "The Java Virtual Machine loads and executes compiled Java bytecode.",
+    "difficulty": "easy",
+    "id": "java-132"
+  },
+  {
+    "question": "Study prompt: Which primitive type stores a 32-bit signed integer?",
+    "options": [
+      "short",
+      "int",
+      "long",
+      "byte"
+    ],
+    "correctAnswer": "int",
+    "explanation": "Java int is a 32-bit signed integer type.",
+    "difficulty": "easy",
+    "id": "java-133"
+  },
+  {
+    "question": "Study prompt: Which collection provides a resizable array implementation?",
+    "options": [
+      "ArrayList",
+      "TreeMap",
+      "HashSet",
+      "ArrayDeque"
+    ],
+    "correctAnswer": "ArrayList",
+    "explanation": "ArrayList grows as elements are added and supports indexed access.",
+    "difficulty": "easy",
+    "id": "java-134"
+  },
+  {
+    "question": "Study prompt: What is true about Java String objects?",
+    "options": [
+      "They are immutable",
+      "They can only contain digits",
+      "They are primitive types",
+      "They are always null terminated"
+    ],
+    "correctAnswer": "They are immutable",
+    "explanation": "Operations that appear to change a String create a new String value.",
+    "difficulty": "easy",
+    "id": "java-135"
+  },
+  {
+    "question": "Study prompt: Which keyword declares that a class inherits from another class?",
+    "options": [
+      "implements",
+      "extends",
+      "inherits",
+      "super"
+    ],
+    "correctAnswer": "extends",
+    "explanation": "A Java class uses extends to inherit from a superclass.",
+    "difficulty": "easy",
+    "id": "java-136"
+  },
+  {
+    "question": "Study prompt: Which keyword connects a class to an interface?",
+    "options": [
+      "extends",
+      "implements",
+      "interface",
+      "instanceof"
+    ],
+    "correctAnswer": "implements",
+    "explanation": "A class declares the interfaces it implements with implements.",
+    "difficulty": "easy",
+    "id": "java-137"
+  },
+  {
+    "question": "Study prompt: Which exception category generally must be caught or declared?",
+    "options": [
+      "Checked exceptions",
+      "All RuntimeExceptions",
+      "Errors only",
+      "Unchecked exceptions"
+    ],
+    "correctAnswer": "Checked exceptions",
+    "explanation": "The compiler requires checked exceptions to be caught or listed with throws.",
+    "difficulty": "intermediate",
+    "id": "java-138"
+  },
+  {
+    "question": "Study prompt: What does method overloading mean in Java?",
+    "options": [
+      "Same method name with different parameter lists",
+      "Replacing a superclass method",
+      "Calling a method repeatedly",
+      "Making a method private"
+    ],
+    "correctAnswer": "Same method name with different parameter lists",
+    "explanation": "Overloaded methods share a name but differ in their parameter lists.",
+    "difficulty": "intermediate",
+    "id": "java-139"
+  },
+  {
+    "question": "Study prompt: Which keyword prevents a class from being subclassed?",
+    "options": [
+      "static",
+      "final",
+      "private",
+      "sealed"
+    ],
+    "correctAnswer": "final",
+    "explanation": "A final class cannot be extended.",
+    "difficulty": "intermediate",
+    "id": "java-140"
+  },
+  {
+    "question": "Before you continue, which method is the standard entry point of a Java application?",
+    "options": [
+      "public static void main(String[] args)",
+      "start(String[] args)",
+      "run()",
+      "init()"
+    ],
+    "correctAnswer": "public static void main(String[] args)",
+    "explanation": "The Java launcher looks for a public static main method with a String array parameter.",
+    "difficulty": "easy",
+    "id": "java-141"
+  },
+  {
+    "question": "Before you continue, which component executes Java bytecode?",
+    "options": [
+      "JVM",
+      "Javadoc",
+      "JAR",
+      "JDBC"
+    ],
+    "correctAnswer": "JVM",
+    "explanation": "The Java Virtual Machine loads and executes compiled Java bytecode.",
+    "difficulty": "easy",
+    "id": "java-142"
+  },
+  {
+    "question": "Before you continue, which primitive type stores a 32-bit signed integer?",
+    "options": [
+      "short",
+      "int",
+      "long",
+      "byte"
+    ],
+    "correctAnswer": "int",
+    "explanation": "Java int is a 32-bit signed integer type.",
+    "difficulty": "easy",
+    "id": "java-143"
+  },
+  {
+    "question": "Before you continue, which collection provides a resizable array implementation?",
+    "options": [
+      "ArrayList",
+      "TreeMap",
+      "HashSet",
+      "ArrayDeque"
+    ],
+    "correctAnswer": "ArrayList",
+    "explanation": "ArrayList grows as elements are added and supports indexed access.",
+    "difficulty": "easy",
+    "id": "java-144"
+  },
+  {
+    "question": "Before you continue, what is true about Java String objects?",
+    "options": [
+      "They are immutable",
+      "They can only contain digits",
+      "They are primitive types",
+      "They are always null terminated"
+    ],
+    "correctAnswer": "They are immutable",
+    "explanation": "Operations that appear to change a String create a new String value.",
+    "difficulty": "easy",
+    "id": "java-145"
+  },
+  {
+    "question": "Before you continue, which keyword declares that a class inherits from another class?",
+    "options": [
+      "implements",
+      "extends",
+      "inherits",
+      "super"
+    ],
+    "correctAnswer": "extends",
+    "explanation": "A Java class uses extends to inherit from a superclass.",
+    "difficulty": "easy",
+    "id": "java-146"
+  },
+  {
+    "question": "Before you continue, which keyword connects a class to an interface?",
+    "options": [
+      "extends",
+      "implements",
+      "interface",
+      "instanceof"
+    ],
+    "correctAnswer": "implements",
+    "explanation": "A class declares the interfaces it implements with implements.",
+    "difficulty": "easy",
+    "id": "java-147"
+  },
+  {
+    "question": "Before you continue, which exception category generally must be caught or declared?",
+    "options": [
+      "Checked exceptions",
+      "All RuntimeExceptions",
+      "Errors only",
+      "Unchecked exceptions"
+    ],
+    "correctAnswer": "Checked exceptions",
+    "explanation": "The compiler requires checked exceptions to be caught or listed with throws.",
+    "difficulty": "intermediate",
+    "id": "java-148"
+  },
+  {
+    "question": "Before you continue, what does method overloading mean in Java?",
+    "options": [
+      "Same method name with different parameter lists",
+      "Replacing a superclass method",
+      "Calling a method repeatedly",
+      "Making a method private"
+    ],
+    "correctAnswer": "Same method name with different parameter lists",
+    "explanation": "Overloaded methods share a name but differ in their parameter lists.",
+    "difficulty": "intermediate",
+    "id": "java-149"
+  },
+  {
+    "question": "Before you continue, which keyword prevents a class from being subclassed?",
+    "options": [
+      "static",
+      "final",
+      "private",
+      "sealed"
+    ],
+    "correctAnswer": "final",
+    "explanation": "A final class cannot be extended.",
+    "difficulty": "intermediate",
+    "id": "java-150"
+  },
+  {
+    "question": "Review this concept. Which method is the standard entry point of a Java application?",
+    "options": [
+      "public static void main(String[] args)",
+      "start(String[] args)",
+      "run()",
+      "init()"
+    ],
+    "correctAnswer": "public static void main(String[] args)",
+    "explanation": "The Java launcher looks for a public static main method with a String array parameter.",
+    "difficulty": "easy",
+    "id": "java-151"
+  },
+  {
+    "question": "Review this concept. Which component executes Java bytecode?",
+    "options": [
+      "JVM",
+      "Javadoc",
+      "JAR",
+      "JDBC"
+    ],
+    "correctAnswer": "JVM",
+    "explanation": "The Java Virtual Machine loads and executes compiled Java bytecode.",
+    "difficulty": "easy",
+    "id": "java-152"
+  },
+  {
+    "question": "Review this concept. Which primitive type stores a 32-bit signed integer?",
+    "options": [
+      "short",
+      "int",
+      "long",
+      "byte"
+    ],
+    "correctAnswer": "int",
+    "explanation": "Java int is a 32-bit signed integer type.",
+    "difficulty": "easy",
+    "id": "java-153"
+  },
+  {
+    "question": "Review this concept. Which collection provides a resizable array implementation?",
+    "options": [
+      "ArrayList",
+      "TreeMap",
+      "HashSet",
+      "ArrayDeque"
+    ],
+    "correctAnswer": "ArrayList",
+    "explanation": "ArrayList grows as elements are added and supports indexed access.",
+    "difficulty": "easy",
+    "id": "java-154"
+  },
+  {
+    "question": "Review this concept. What is true about Java String objects?",
+    "options": [
+      "They are immutable",
+      "They can only contain digits",
+      "They are primitive types",
+      "They are always null terminated"
+    ],
+    "correctAnswer": "They are immutable",
+    "explanation": "Operations that appear to change a String create a new String value.",
+    "difficulty": "easy",
+    "id": "java-155"
+  },
+  {
+    "question": "Review this concept. Which keyword declares that a class inherits from another class?",
+    "options": [
+      "implements",
+      "extends",
+      "inherits",
+      "super"
+    ],
+    "correctAnswer": "extends",
+    "explanation": "A Java class uses extends to inherit from a superclass.",
+    "difficulty": "easy",
+    "id": "java-156"
+  },
+  {
+    "question": "Review this concept. Which keyword connects a class to an interface?",
+    "options": [
+      "extends",
+      "implements",
+      "interface",
+      "instanceof"
+    ],
+    "correctAnswer": "implements",
+    "explanation": "A class declares the interfaces it implements with implements.",
+    "difficulty": "easy",
+    "id": "java-157"
+  },
+  {
+    "question": "Review this concept. Which exception category generally must be caught or declared?",
+    "options": [
+      "Checked exceptions",
+      "All RuntimeExceptions",
+      "Errors only",
+      "Unchecked exceptions"
+    ],
+    "correctAnswer": "Checked exceptions",
+    "explanation": "The compiler requires checked exceptions to be caught or listed with throws.",
+    "difficulty": "intermediate",
+    "id": "java-158"
+  },
+  {
+    "question": "Review this concept. What does method overloading mean in Java?",
+    "options": [
+      "Same method name with different parameter lists",
+      "Replacing a superclass method",
+      "Calling a method repeatedly",
+      "Making a method private"
+    ],
+    "correctAnswer": "Same method name with different parameter lists",
+    "explanation": "Overloaded methods share a name but differ in their parameter lists.",
+    "difficulty": "intermediate",
+    "id": "java-159"
+  },
+  {
+    "question": "Review this concept. Which keyword prevents a class from being subclassed?",
+    "options": [
+      "static",
+      "final",
+      "private",
+      "sealed"
+    ],
+    "correctAnswer": "final",
+    "explanation": "A final class cannot be extended.",
+    "difficulty": "intermediate",
+    "id": "java-160"
+  },
+  {
+    "question": "Technical check: Which method is the standard entry point of a Java application?",
+    "options": [
+      "public static void main(String[] args)",
+      "start(String[] args)",
+      "run()",
+      "init()"
+    ],
+    "correctAnswer": "public static void main(String[] args)",
+    "explanation": "The Java launcher looks for a public static main method with a String array parameter.",
+    "difficulty": "easy",
+    "id": "java-161"
+  },
+  {
+    "question": "Technical check: Which component executes Java bytecode?",
+    "options": [
+      "JVM",
+      "Javadoc",
+      "JAR",
+      "JDBC"
+    ],
+    "correctAnswer": "JVM",
+    "explanation": "The Java Virtual Machine loads and executes compiled Java bytecode.",
+    "difficulty": "easy",
+    "id": "java-162"
+  },
+  {
+    "question": "Technical check: Which primitive type stores a 32-bit signed integer?",
+    "options": [
+      "short",
+      "int",
+      "long",
+      "byte"
+    ],
+    "correctAnswer": "int",
+    "explanation": "Java int is a 32-bit signed integer type.",
+    "difficulty": "easy",
+    "id": "java-163"
+  },
+  {
+    "question": "Technical check: Which collection provides a resizable array implementation?",
+    "options": [
+      "ArrayList",
+      "TreeMap",
+      "HashSet",
+      "ArrayDeque"
+    ],
+    "correctAnswer": "ArrayList",
+    "explanation": "ArrayList grows as elements are added and supports indexed access.",
+    "difficulty": "easy",
+    "id": "java-164"
+  },
+  {
+    "question": "Technical check: What is true about Java String objects?",
+    "options": [
+      "They are immutable",
+      "They can only contain digits",
+      "They are primitive types",
+      "They are always null terminated"
+    ],
+    "correctAnswer": "They are immutable",
+    "explanation": "Operations that appear to change a String create a new String value.",
+    "difficulty": "easy",
+    "id": "java-165"
+  },
+  {
+    "question": "Technical check: Which keyword declares that a class inherits from another class?",
+    "options": [
+      "implements",
+      "extends",
+      "inherits",
+      "super"
+    ],
+    "correctAnswer": "extends",
+    "explanation": "A Java class uses extends to inherit from a superclass.",
+    "difficulty": "easy",
+    "id": "java-166"
+  },
+  {
+    "question": "Technical check: Which keyword connects a class to an interface?",
+    "options": [
+      "extends",
+      "implements",
+      "interface",
+      "instanceof"
+    ],
+    "correctAnswer": "implements",
+    "explanation": "A class declares the interfaces it implements with implements.",
+    "difficulty": "easy",
+    "id": "java-167"
+  },
+  {
+    "question": "Technical check: Which exception category generally must be caught or declared?",
+    "options": [
+      "Checked exceptions",
+      "All RuntimeExceptions",
+      "Errors only",
+      "Unchecked exceptions"
+    ],
+    "correctAnswer": "Checked exceptions",
+    "explanation": "The compiler requires checked exceptions to be caught or listed with throws.",
+    "difficulty": "intermediate",
+    "id": "java-168"
+  },
+  {
+    "question": "Technical check: What does method overloading mean in Java?",
+    "options": [
+      "Same method name with different parameter lists",
+      "Replacing a superclass method",
+      "Calling a method repeatedly",
+      "Making a method private"
+    ],
+    "correctAnswer": "Same method name with different parameter lists",
+    "explanation": "Overloaded methods share a name but differ in their parameter lists.",
+    "difficulty": "intermediate",
+    "id": "java-169"
+  },
+  {
+    "question": "Technical check: Which keyword prevents a class from being subclassed?",
+    "options": [
+      "static",
+      "final",
+      "private",
+      "sealed"
+    ],
+    "correctAnswer": "final",
+    "explanation": "A final class cannot be extended.",
+    "difficulty": "intermediate",
+    "id": "java-170"
+  },
+  {
+    "question": "Pick one answer. Which method is the standard entry point of a Java application?",
+    "options": [
+      "public static void main(String[] args)",
+      "start(String[] args)",
+      "run()",
+      "init()"
+    ],
+    "correctAnswer": "public static void main(String[] args)",
+    "explanation": "The Java launcher looks for a public static main method with a String array parameter.",
+    "difficulty": "easy",
+    "id": "java-171"
+  },
+  {
+    "question": "Pick one answer. Which component executes Java bytecode?",
+    "options": [
+      "JVM",
+      "Javadoc",
+      "JAR",
+      "JDBC"
+    ],
+    "correctAnswer": "JVM",
+    "explanation": "The Java Virtual Machine loads and executes compiled Java bytecode.",
+    "difficulty": "easy",
+    "id": "java-172"
+  },
+  {
+    "question": "Pick one answer. Which primitive type stores a 32-bit signed integer?",
+    "options": [
+      "short",
+      "int",
+      "long",
+      "byte"
+    ],
+    "correctAnswer": "int",
+    "explanation": "Java int is a 32-bit signed integer type.",
+    "difficulty": "easy",
+    "id": "java-173"
+  },
+  {
+    "question": "Pick one answer. Which collection provides a resizable array implementation?",
+    "options": [
+      "ArrayList",
+      "TreeMap",
+      "HashSet",
+      "ArrayDeque"
+    ],
+    "correctAnswer": "ArrayList",
+    "explanation": "ArrayList grows as elements are added and supports indexed access.",
+    "difficulty": "easy",
+    "id": "java-174"
+  },
+  {
+    "question": "Pick one answer. What is true about Java String objects?",
+    "options": [
+      "They are immutable",
+      "They can only contain digits",
+      "They are primitive types",
+      "They are always null terminated"
+    ],
+    "correctAnswer": "They are immutable",
+    "explanation": "Operations that appear to change a String create a new String value.",
+    "difficulty": "easy",
+    "id": "java-175"
+  },
+  {
+    "question": "Pick one answer. Which keyword declares that a class inherits from another class?",
+    "options": [
+      "implements",
+      "extends",
+      "inherits",
+      "super"
+    ],
+    "correctAnswer": "extends",
+    "explanation": "A Java class uses extends to inherit from a superclass.",
+    "difficulty": "easy",
+    "id": "java-176"
+  },
+  {
+    "question": "Pick one answer. Which keyword connects a class to an interface?",
+    "options": [
+      "extends",
+      "implements",
+      "interface",
+      "instanceof"
+    ],
+    "correctAnswer": "implements",
+    "explanation": "A class declares the interfaces it implements with implements.",
+    "difficulty": "easy",
+    "id": "java-177"
+  },
+  {
+    "question": "Pick one answer. Which exception category generally must be caught or declared?",
+    "options": [
+      "Checked exceptions",
+      "All RuntimeExceptions",
+      "Errors only",
+      "Unchecked exceptions"
+    ],
+    "correctAnswer": "Checked exceptions",
+    "explanation": "The compiler requires checked exceptions to be caught or listed with throws.",
+    "difficulty": "intermediate",
+    "id": "java-178"
+  },
+  {
+    "question": "Pick one answer. What does method overloading mean in Java?",
+    "options": [
+      "Same method name with different parameter lists",
+      "Replacing a superclass method",
+      "Calling a method repeatedly",
+      "Making a method private"
+    ],
+    "correctAnswer": "Same method name with different parameter lists",
+    "explanation": "Overloaded methods share a name but differ in their parameter lists.",
+    "difficulty": "intermediate",
+    "id": "java-179"
+  },
+  {
+    "question": "Pick one answer. Which keyword prevents a class from being subclassed?",
+    "options": [
+      "static",
+      "final",
+      "private",
+      "sealed"
+    ],
+    "correctAnswer": "final",
+    "explanation": "A final class cannot be extended.",
+    "difficulty": "intermediate",
+    "id": "java-180"
+  },
+  {
+    "question": "Core language question: Which method is the standard entry point of a Java application?",
+    "options": [
+      "public static void main(String[] args)",
+      "start(String[] args)",
+      "run()",
+      "init()"
+    ],
+    "correctAnswer": "public static void main(String[] args)",
+    "explanation": "The Java launcher looks for a public static main method with a String array parameter.",
+    "difficulty": "easy",
+    "id": "java-181"
+  },
+  {
+    "question": "Core language question: Which component executes Java bytecode?",
+    "options": [
+      "JVM",
+      "Javadoc",
+      "JAR",
+      "JDBC"
+    ],
+    "correctAnswer": "JVM",
+    "explanation": "The Java Virtual Machine loads and executes compiled Java bytecode.",
+    "difficulty": "easy",
+    "id": "java-182"
+  },
+  {
+    "question": "Core language question: Which primitive type stores a 32-bit signed integer?",
+    "options": [
+      "short",
+      "int",
+      "long",
+      "byte"
+    ],
+    "correctAnswer": "int",
+    "explanation": "Java int is a 32-bit signed integer type.",
+    "difficulty": "easy",
+    "id": "java-183"
+  },
+  {
+    "question": "Core language question: Which collection provides a resizable array implementation?",
+    "options": [
+      "ArrayList",
+      "TreeMap",
+      "HashSet",
+      "ArrayDeque"
+    ],
+    "correctAnswer": "ArrayList",
+    "explanation": "ArrayList grows as elements are added and supports indexed access.",
+    "difficulty": "easy",
+    "id": "java-184"
+  },
+  {
+    "question": "Core language question: What is true about Java String objects?",
+    "options": [
+      "They are immutable",
+      "They can only contain digits",
+      "They are primitive types",
+      "They are always null terminated"
+    ],
+    "correctAnswer": "They are immutable",
+    "explanation": "Operations that appear to change a String create a new String value.",
+    "difficulty": "easy",
+    "id": "java-185"
+  },
+  {
+    "question": "Core language question: Which keyword declares that a class inherits from another class?",
+    "options": [
+      "implements",
+      "extends",
+      "inherits",
+      "super"
+    ],
+    "correctAnswer": "extends",
+    "explanation": "A Java class uses extends to inherit from a superclass.",
+    "difficulty": "easy",
+    "id": "java-186"
+  },
+  {
+    "question": "Core language question: Which keyword connects a class to an interface?",
+    "options": [
+      "extends",
+      "implements",
+      "interface",
+      "instanceof"
+    ],
+    "correctAnswer": "implements",
+    "explanation": "A class declares the interfaces it implements with implements.",
+    "difficulty": "easy",
+    "id": "java-187"
+  },
+  {
+    "question": "Core language question: Which exception category generally must be caught or declared?",
+    "options": [
+      "Checked exceptions",
+      "All RuntimeExceptions",
+      "Errors only",
+      "Unchecked exceptions"
+    ],
+    "correctAnswer": "Checked exceptions",
+    "explanation": "The compiler requires checked exceptions to be caught or listed with throws.",
+    "difficulty": "intermediate",
+    "id": "java-188"
+  },
+  {
+    "question": "Core language question: What does method overloading mean in Java?",
+    "options": [
+      "Same method name with different parameter lists",
+      "Replacing a superclass method",
+      "Calling a method repeatedly",
+      "Making a method private"
+    ],
+    "correctAnswer": "Same method name with different parameter lists",
+    "explanation": "Overloaded methods share a name but differ in their parameter lists.",
+    "difficulty": "intermediate",
+    "id": "java-189"
+  },
+  {
+    "question": "Core language question: Which keyword prevents a class from being subclassed?",
+    "options": [
+      "static",
+      "final",
+      "private",
+      "sealed"
+    ],
+    "correctAnswer": "final",
+    "explanation": "A final class cannot be extended.",
+    "difficulty": "intermediate",
+    "id": "java-190"
+  },
+  {
+    "question": "Practice round: Which method is the standard entry point of a Java application?",
+    "options": [
+      "public static void main(String[] args)",
+      "start(String[] args)",
+      "run()",
+      "init()"
+    ],
+    "correctAnswer": "public static void main(String[] args)",
+    "explanation": "The Java launcher looks for a public static main method with a String array parameter.",
+    "difficulty": "easy",
+    "id": "java-191"
+  },
+  {
+    "question": "Practice round: Which component executes Java bytecode?",
+    "options": [
+      "JVM",
+      "Javadoc",
+      "JAR",
+      "JDBC"
+    ],
+    "correctAnswer": "JVM",
+    "explanation": "The Java Virtual Machine loads and executes compiled Java bytecode.",
+    "difficulty": "easy",
+    "id": "java-192"
+  },
+  {
+    "question": "Practice round: Which primitive type stores a 32-bit signed integer?",
+    "options": [
+      "short",
+      "int",
+      "long",
+      "byte"
+    ],
+    "correctAnswer": "int",
+    "explanation": "Java int is a 32-bit signed integer type.",
+    "difficulty": "easy",
+    "id": "java-193"
+  },
+  {
+    "question": "Practice round: Which collection provides a resizable array implementation?",
+    "options": [
+      "ArrayList",
+      "TreeMap",
+      "HashSet",
+      "ArrayDeque"
+    ],
+    "correctAnswer": "ArrayList",
+    "explanation": "ArrayList grows as elements are added and supports indexed access.",
+    "difficulty": "easy",
+    "id": "java-194"
+  },
+  {
+    "question": "Practice round: What is true about Java String objects?",
+    "options": [
+      "They are immutable",
+      "They can only contain digits",
+      "They are primitive types",
+      "They are always null terminated"
+    ],
+    "correctAnswer": "They are immutable",
+    "explanation": "Operations that appear to change a String create a new String value.",
+    "difficulty": "easy",
+    "id": "java-195"
+  },
+  {
+    "question": "Practice round: Which keyword declares that a class inherits from another class?",
+    "options": [
+      "implements",
+      "extends",
+      "inherits",
+      "super"
+    ],
+    "correctAnswer": "extends",
+    "explanation": "A Java class uses extends to inherit from a superclass.",
+    "difficulty": "easy",
+    "id": "java-196"
+  },
+  {
+    "question": "Practice round: Which keyword connects a class to an interface?",
+    "options": [
+      "extends",
+      "implements",
+      "interface",
+      "instanceof"
+    ],
+    "correctAnswer": "implements",
+    "explanation": "A class declares the interfaces it implements with implements.",
+    "difficulty": "easy",
+    "id": "java-197"
+  },
+  {
+    "question": "Practice round: Which exception category generally must be caught or declared?",
+    "options": [
+      "Checked exceptions",
+      "All RuntimeExceptions",
+      "Errors only",
+      "Unchecked exceptions"
+    ],
+    "correctAnswer": "Checked exceptions",
+    "explanation": "The compiler requires checked exceptions to be caught or listed with throws.",
+    "difficulty": "intermediate",
+    "id": "java-198"
+  },
+  {
+    "question": "Practice round: What does method overloading mean in Java?",
+    "options": [
+      "Same method name with different parameter lists",
+      "Replacing a superclass method",
+      "Calling a method repeatedly",
+      "Making a method private"
+    ],
+    "correctAnswer": "Same method name with different parameter lists",
+    "explanation": "Overloaded methods share a name but differ in their parameter lists.",
+    "difficulty": "intermediate",
+    "id": "java-199"
+  },
+  {
+    "question": "Practice round: Which keyword prevents a class from being subclassed?",
+    "options": [
+      "static",
+      "final",
+      "private",
+      "sealed"
+    ],
+    "correctAnswer": "final",
+    "explanation": "A final class cannot be extended.",
+    "difficulty": "intermediate",
+    "id": "java-200"
+  }
+]

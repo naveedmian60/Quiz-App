@@ -1,0 +1,2602 @@
+[
+  {
+    "question": "Which opening tag begins a PHP code block?",
+    "options": [
+      "<?php",
+      "<script php>",
+      "<?",
+      "<php>"
+    ],
+    "correctAnswer": "<?php",
+    "explanation": "<?php is the standard opening tag for PHP code.",
+    "difficulty": "easy",
+    "id": "php-1"
+  },
+  {
+    "question": "Which prefix is used for PHP variables?",
+    "options": [
+      "$",
+      "@",
+      "%",
+      "&"
+    ],
+    "correctAnswer": "$",
+    "explanation": "PHP variable names begin with a dollar sign.",
+    "difficulty": "easy",
+    "id": "php-2"
+  },
+  {
+    "question": "Which operator concatenates two strings in PHP?",
+    "options": [
+      ".",
+      "+",
+      "&",
+      "::"
+    ],
+    "correctAnswer": ".",
+    "explanation": "PHP uses the dot operator to concatenate strings.",
+    "difficulty": "easy",
+    "id": "php-3"
+  },
+  {
+    "question": "Which construct writes a string to output?",
+    "options": [
+      "echo",
+      "writeLine",
+      "printline",
+      "console.log"
+    ],
+    "correctAnswer": "echo",
+    "explanation": "echo outputs one or more strings in PHP.",
+    "difficulty": "easy",
+    "id": "php-4"
+  },
+  {
+    "question": "Which function returns the number of elements in an array?",
+    "options": [
+      "count()",
+      "length()",
+      "size()",
+      "items()"
+    ],
+    "correctAnswer": "count()",
+    "explanation": "count() returns the number of elements in an array or Countable object.",
+    "difficulty": "easy",
+    "id": "php-5"
+  },
+  {
+    "question": "Which syntax creates an associative array entry?",
+    "options": [
+      "'name' => 'Ada'",
+      "'name': 'Ada'",
+      "'name' = 'Ada'",
+      "name := 'Ada'"
+    ],
+    "correctAnswer": "'name' => 'Ada'",
+    "explanation": "PHP's double arrow associates an array key with its value.",
+    "difficulty": "intermediate",
+    "id": "php-6"
+  },
+  {
+    "question": "Which keyword begins a named function declaration?",
+    "options": [
+      "function",
+      "def",
+      "func",
+      "method"
+    ],
+    "correctAnswer": "function",
+    "explanation": "PHP declares a named function with the function keyword.",
+    "difficulty": "easy",
+    "id": "php-7"
+  },
+  {
+    "question": "Which operator checks both value and type equality?",
+    "options": [
+      "===",
+      "==",
+      "=",
+      "!="
+    ],
+    "correctAnswer": "===",
+    "explanation": "The identity operator === requires equal values with the same type.",
+    "difficulty": "intermediate",
+    "id": "php-8"
+  },
+  {
+    "question": "Which construct iterates over the values in an array?",
+    "options": [
+      "foreach",
+      "iterate",
+      "forEach()",
+      "eachof"
+    ],
+    "correctAnswer": "foreach",
+    "explanation": "foreach is designed to iterate over arrays and Traversable objects.",
+    "difficulty": "easy",
+    "id": "php-9"
+  },
+  {
+    "question": "What does the null coalescing operator ?? do?",
+    "options": [
+      "Uses the right value if the left value is null or unset",
+      "Compares two values by identity",
+      "Casts a value to a string",
+      "Concatenates arrays"
+    ],
+    "correctAnswer": "Uses the right value if the left value is null or unset",
+    "explanation": "The ?? operator provides a fallback when its left operand is null or unavailable.",
+    "difficulty": "intermediate",
+    "id": "php-10"
+  },
+  {
+    "question": "Quick check: Which opening tag begins a PHP code block?",
+    "options": [
+      "<?php",
+      "<script php>",
+      "<?",
+      "<php>"
+    ],
+    "correctAnswer": "<?php",
+    "explanation": "<?php is the standard opening tag for PHP code.",
+    "difficulty": "easy",
+    "id": "php-11"
+  },
+  {
+    "question": "Quick check: Which prefix is used for PHP variables?",
+    "options": [
+      "$",
+      "@",
+      "%",
+      "&"
+    ],
+    "correctAnswer": "$",
+    "explanation": "PHP variable names begin with a dollar sign.",
+    "difficulty": "easy",
+    "id": "php-12"
+  },
+  {
+    "question": "Quick check: Which operator concatenates two strings in PHP?",
+    "options": [
+      ".",
+      "+",
+      "&",
+      "::"
+    ],
+    "correctAnswer": ".",
+    "explanation": "PHP uses the dot operator to concatenate strings.",
+    "difficulty": "easy",
+    "id": "php-13"
+  },
+  {
+    "question": "Quick check: Which construct writes a string to output?",
+    "options": [
+      "echo",
+      "writeLine",
+      "printline",
+      "console.log"
+    ],
+    "correctAnswer": "echo",
+    "explanation": "echo outputs one or more strings in PHP.",
+    "difficulty": "easy",
+    "id": "php-14"
+  },
+  {
+    "question": "Quick check: Which function returns the number of elements in an array?",
+    "options": [
+      "count()",
+      "length()",
+      "size()",
+      "items()"
+    ],
+    "correctAnswer": "count()",
+    "explanation": "count() returns the number of elements in an array or Countable object.",
+    "difficulty": "easy",
+    "id": "php-15"
+  },
+  {
+    "question": "Quick check: Which syntax creates an associative array entry?",
+    "options": [
+      "'name' => 'Ada'",
+      "'name': 'Ada'",
+      "'name' = 'Ada'",
+      "name := 'Ada'"
+    ],
+    "correctAnswer": "'name' => 'Ada'",
+    "explanation": "PHP's double arrow associates an array key with its value.",
+    "difficulty": "intermediate",
+    "id": "php-16"
+  },
+  {
+    "question": "Quick check: Which keyword begins a named function declaration?",
+    "options": [
+      "function",
+      "def",
+      "func",
+      "method"
+    ],
+    "correctAnswer": "function",
+    "explanation": "PHP declares a named function with the function keyword.",
+    "difficulty": "easy",
+    "id": "php-17"
+  },
+  {
+    "question": "Quick check: Which operator checks both value and type equality?",
+    "options": [
+      "===",
+      "==",
+      "=",
+      "!="
+    ],
+    "correctAnswer": "===",
+    "explanation": "The identity operator === requires equal values with the same type.",
+    "difficulty": "intermediate",
+    "id": "php-18"
+  },
+  {
+    "question": "Quick check: Which construct iterates over the values in an array?",
+    "options": [
+      "foreach",
+      "iterate",
+      "forEach()",
+      "eachof"
+    ],
+    "correctAnswer": "foreach",
+    "explanation": "foreach is designed to iterate over arrays and Traversable objects.",
+    "difficulty": "easy",
+    "id": "php-19"
+  },
+  {
+    "question": "Quick check: What does the null coalescing operator ?? do?",
+    "options": [
+      "Uses the right value if the left value is null or unset",
+      "Compares two values by identity",
+      "Casts a value to a string",
+      "Concatenates arrays"
+    ],
+    "correctAnswer": "Uses the right value if the left value is null or unset",
+    "explanation": "The ?? operator provides a fallback when its left operand is null or unavailable.",
+    "difficulty": "intermediate",
+    "id": "php-20"
+  },
+  {
+    "question": "Choose the best answer. Which opening tag begins a PHP code block?",
+    "options": [
+      "<?php",
+      "<script php>",
+      "<?",
+      "<php>"
+    ],
+    "correctAnswer": "<?php",
+    "explanation": "<?php is the standard opening tag for PHP code.",
+    "difficulty": "easy",
+    "id": "php-21"
+  },
+  {
+    "question": "Choose the best answer. Which prefix is used for PHP variables?",
+    "options": [
+      "$",
+      "@",
+      "%",
+      "&"
+    ],
+    "correctAnswer": "$",
+    "explanation": "PHP variable names begin with a dollar sign.",
+    "difficulty": "easy",
+    "id": "php-22"
+  },
+  {
+    "question": "Choose the best answer. Which operator concatenates two strings in PHP?",
+    "options": [
+      ".",
+      "+",
+      "&",
+      "::"
+    ],
+    "correctAnswer": ".",
+    "explanation": "PHP uses the dot operator to concatenate strings.",
+    "difficulty": "easy",
+    "id": "php-23"
+  },
+  {
+    "question": "Choose the best answer. Which construct writes a string to output?",
+    "options": [
+      "echo",
+      "writeLine",
+      "printline",
+      "console.log"
+    ],
+    "correctAnswer": "echo",
+    "explanation": "echo outputs one or more strings in PHP.",
+    "difficulty": "easy",
+    "id": "php-24"
+  },
+  {
+    "question": "Choose the best answer. Which function returns the number of elements in an array?",
+    "options": [
+      "count()",
+      "length()",
+      "size()",
+      "items()"
+    ],
+    "correctAnswer": "count()",
+    "explanation": "count() returns the number of elements in an array or Countable object.",
+    "difficulty": "easy",
+    "id": "php-25"
+  },
+  {
+    "question": "Choose the best answer. Which syntax creates an associative array entry?",
+    "options": [
+      "'name' => 'Ada'",
+      "'name': 'Ada'",
+      "'name' = 'Ada'",
+      "name := 'Ada'"
+    ],
+    "correctAnswer": "'name' => 'Ada'",
+    "explanation": "PHP's double arrow associates an array key with its value.",
+    "difficulty": "intermediate",
+    "id": "php-26"
+  },
+  {
+    "question": "Choose the best answer. Which keyword begins a named function declaration?",
+    "options": [
+      "function",
+      "def",
+      "func",
+      "method"
+    ],
+    "correctAnswer": "function",
+    "explanation": "PHP declares a named function with the function keyword.",
+    "difficulty": "easy",
+    "id": "php-27"
+  },
+  {
+    "question": "Choose the best answer. Which operator checks both value and type equality?",
+    "options": [
+      "===",
+      "==",
+      "=",
+      "!="
+    ],
+    "correctAnswer": "===",
+    "explanation": "The identity operator === requires equal values with the same type.",
+    "difficulty": "intermediate",
+    "id": "php-28"
+  },
+  {
+    "question": "Choose the best answer. Which construct iterates over the values in an array?",
+    "options": [
+      "foreach",
+      "iterate",
+      "forEach()",
+      "eachof"
+    ],
+    "correctAnswer": "foreach",
+    "explanation": "foreach is designed to iterate over arrays and Traversable objects.",
+    "difficulty": "easy",
+    "id": "php-29"
+  },
+  {
+    "question": "Choose the best answer. What does the null coalescing operator ?? do?",
+    "options": [
+      "Uses the right value if the left value is null or unset",
+      "Compares two values by identity",
+      "Casts a value to a string",
+      "Concatenates arrays"
+    ],
+    "correctAnswer": "Uses the right value if the left value is null or unset",
+    "explanation": "The ?? operator provides a fallback when its left operand is null or unavailable.",
+    "difficulty": "intermediate",
+    "id": "php-30"
+  },
+  {
+    "question": "Programming fundamentals: Which opening tag begins a PHP code block?",
+    "options": [
+      "<?php",
+      "<script php>",
+      "<?",
+      "<php>"
+    ],
+    "correctAnswer": "<?php",
+    "explanation": "<?php is the standard opening tag for PHP code.",
+    "difficulty": "easy",
+    "id": "php-31"
+  },
+  {
+    "question": "Programming fundamentals: Which prefix is used for PHP variables?",
+    "options": [
+      "$",
+      "@",
+      "%",
+      "&"
+    ],
+    "correctAnswer": "$",
+    "explanation": "PHP variable names begin with a dollar sign.",
+    "difficulty": "easy",
+    "id": "php-32"
+  },
+  {
+    "question": "Programming fundamentals: Which operator concatenates two strings in PHP?",
+    "options": [
+      ".",
+      "+",
+      "&",
+      "::"
+    ],
+    "correctAnswer": ".",
+    "explanation": "PHP uses the dot operator to concatenate strings.",
+    "difficulty": "easy",
+    "id": "php-33"
+  },
+  {
+    "question": "Programming fundamentals: Which construct writes a string to output?",
+    "options": [
+      "echo",
+      "writeLine",
+      "printline",
+      "console.log"
+    ],
+    "correctAnswer": "echo",
+    "explanation": "echo outputs one or more strings in PHP.",
+    "difficulty": "easy",
+    "id": "php-34"
+  },
+  {
+    "question": "Programming fundamentals: Which function returns the number of elements in an array?",
+    "options": [
+      "count()",
+      "length()",
+      "size()",
+      "items()"
+    ],
+    "correctAnswer": "count()",
+    "explanation": "count() returns the number of elements in an array or Countable object.",
+    "difficulty": "easy",
+    "id": "php-35"
+  },
+  {
+    "question": "Programming fundamentals: Which syntax creates an associative array entry?",
+    "options": [
+      "'name' => 'Ada'",
+      "'name': 'Ada'",
+      "'name' = 'Ada'",
+      "name := 'Ada'"
+    ],
+    "correctAnswer": "'name' => 'Ada'",
+    "explanation": "PHP's double arrow associates an array key with its value.",
+    "difficulty": "intermediate",
+    "id": "php-36"
+  },
+  {
+    "question": "Programming fundamentals: Which keyword begins a named function declaration?",
+    "options": [
+      "function",
+      "def",
+      "func",
+      "method"
+    ],
+    "correctAnswer": "function",
+    "explanation": "PHP declares a named function with the function keyword.",
+    "difficulty": "easy",
+    "id": "php-37"
+  },
+  {
+    "question": "Programming fundamentals: Which operator checks both value and type equality?",
+    "options": [
+      "===",
+      "==",
+      "=",
+      "!="
+    ],
+    "correctAnswer": "===",
+    "explanation": "The identity operator === requires equal values with the same type.",
+    "difficulty": "intermediate",
+    "id": "php-38"
+  },
+  {
+    "question": "Programming fundamentals: Which construct iterates over the values in an array?",
+    "options": [
+      "foreach",
+      "iterate",
+      "forEach()",
+      "eachof"
+    ],
+    "correctAnswer": "foreach",
+    "explanation": "foreach is designed to iterate over arrays and Traversable objects.",
+    "difficulty": "easy",
+    "id": "php-39"
+  },
+  {
+    "question": "Programming fundamentals: What does the null coalescing operator ?? do?",
+    "options": [
+      "Uses the right value if the left value is null or unset",
+      "Compares two values by identity",
+      "Casts a value to a string",
+      "Concatenates arrays"
+    ],
+    "correctAnswer": "Uses the right value if the left value is null or unset",
+    "explanation": "The ?? operator provides a fallback when its left operand is null or unavailable.",
+    "difficulty": "intermediate",
+    "id": "php-40"
+  },
+  {
+    "question": "Knowledge check: Which opening tag begins a PHP code block?",
+    "options": [
+      "<?php",
+      "<script php>",
+      "<?",
+      "<php>"
+    ],
+    "correctAnswer": "<?php",
+    "explanation": "<?php is the standard opening tag for PHP code.",
+    "difficulty": "easy",
+    "id": "php-41"
+  },
+  {
+    "question": "Knowledge check: Which prefix is used for PHP variables?",
+    "options": [
+      "$",
+      "@",
+      "%",
+      "&"
+    ],
+    "correctAnswer": "$",
+    "explanation": "PHP variable names begin with a dollar sign.",
+    "difficulty": "easy",
+    "id": "php-42"
+  },
+  {
+    "question": "Knowledge check: Which operator concatenates two strings in PHP?",
+    "options": [
+      ".",
+      "+",
+      "&",
+      "::"
+    ],
+    "correctAnswer": ".",
+    "explanation": "PHP uses the dot operator to concatenate strings.",
+    "difficulty": "easy",
+    "id": "php-43"
+  },
+  {
+    "question": "Knowledge check: Which construct writes a string to output?",
+    "options": [
+      "echo",
+      "writeLine",
+      "printline",
+      "console.log"
+    ],
+    "correctAnswer": "echo",
+    "explanation": "echo outputs one or more strings in PHP.",
+    "difficulty": "easy",
+    "id": "php-44"
+  },
+  {
+    "question": "Knowledge check: Which function returns the number of elements in an array?",
+    "options": [
+      "count()",
+      "length()",
+      "size()",
+      "items()"
+    ],
+    "correctAnswer": "count()",
+    "explanation": "count() returns the number of elements in an array or Countable object.",
+    "difficulty": "easy",
+    "id": "php-45"
+  },
+  {
+    "question": "Knowledge check: Which syntax creates an associative array entry?",
+    "options": [
+      "'name' => 'Ada'",
+      "'name': 'Ada'",
+      "'name' = 'Ada'",
+      "name := 'Ada'"
+    ],
+    "correctAnswer": "'name' => 'Ada'",
+    "explanation": "PHP's double arrow associates an array key with its value.",
+    "difficulty": "intermediate",
+    "id": "php-46"
+  },
+  {
+    "question": "Knowledge check: Which keyword begins a named function declaration?",
+    "options": [
+      "function",
+      "def",
+      "func",
+      "method"
+    ],
+    "correctAnswer": "function",
+    "explanation": "PHP declares a named function with the function keyword.",
+    "difficulty": "easy",
+    "id": "php-47"
+  },
+  {
+    "question": "Knowledge check: Which operator checks both value and type equality?",
+    "options": [
+      "===",
+      "==",
+      "=",
+      "!="
+    ],
+    "correctAnswer": "===",
+    "explanation": "The identity operator === requires equal values with the same type.",
+    "difficulty": "intermediate",
+    "id": "php-48"
+  },
+  {
+    "question": "Knowledge check: Which construct iterates over the values in an array?",
+    "options": [
+      "foreach",
+      "iterate",
+      "forEach()",
+      "eachof"
+    ],
+    "correctAnswer": "foreach",
+    "explanation": "foreach is designed to iterate over arrays and Traversable objects.",
+    "difficulty": "easy",
+    "id": "php-49"
+  },
+  {
+    "question": "Knowledge check: What does the null coalescing operator ?? do?",
+    "options": [
+      "Uses the right value if the left value is null or unset",
+      "Compares two values by identity",
+      "Casts a value to a string",
+      "Concatenates arrays"
+    ],
+    "correctAnswer": "Uses the right value if the left value is null or unset",
+    "explanation": "The ?? operator provides a fallback when its left operand is null or unavailable.",
+    "difficulty": "intermediate",
+    "id": "php-50"
+  },
+  {
+    "question": "When reviewing code, which opening tag begins a PHP code block?",
+    "options": [
+      "<?php",
+      "<script php>",
+      "<?",
+      "<php>"
+    ],
+    "correctAnswer": "<?php",
+    "explanation": "<?php is the standard opening tag for PHP code.",
+    "difficulty": "easy",
+    "id": "php-51"
+  },
+  {
+    "question": "When reviewing code, which prefix is used for PHP variables?",
+    "options": [
+      "$",
+      "@",
+      "%",
+      "&"
+    ],
+    "correctAnswer": "$",
+    "explanation": "PHP variable names begin with a dollar sign.",
+    "difficulty": "easy",
+    "id": "php-52"
+  },
+  {
+    "question": "When reviewing code, which operator concatenates two strings in PHP?",
+    "options": [
+      ".",
+      "+",
+      "&",
+      "::"
+    ],
+    "correctAnswer": ".",
+    "explanation": "PHP uses the dot operator to concatenate strings.",
+    "difficulty": "easy",
+    "id": "php-53"
+  },
+  {
+    "question": "When reviewing code, which construct writes a string to output?",
+    "options": [
+      "echo",
+      "writeLine",
+      "printline",
+      "console.log"
+    ],
+    "correctAnswer": "echo",
+    "explanation": "echo outputs one or more strings in PHP.",
+    "difficulty": "easy",
+    "id": "php-54"
+  },
+  {
+    "question": "When reviewing code, which function returns the number of elements in an array?",
+    "options": [
+      "count()",
+      "length()",
+      "size()",
+      "items()"
+    ],
+    "correctAnswer": "count()",
+    "explanation": "count() returns the number of elements in an array or Countable object.",
+    "difficulty": "easy",
+    "id": "php-55"
+  },
+  {
+    "question": "When reviewing code, which syntax creates an associative array entry?",
+    "options": [
+      "'name' => 'Ada'",
+      "'name': 'Ada'",
+      "'name' = 'Ada'",
+      "name := 'Ada'"
+    ],
+    "correctAnswer": "'name' => 'Ada'",
+    "explanation": "PHP's double arrow associates an array key with its value.",
+    "difficulty": "intermediate",
+    "id": "php-56"
+  },
+  {
+    "question": "When reviewing code, which keyword begins a named function declaration?",
+    "options": [
+      "function",
+      "def",
+      "func",
+      "method"
+    ],
+    "correctAnswer": "function",
+    "explanation": "PHP declares a named function with the function keyword.",
+    "difficulty": "easy",
+    "id": "php-57"
+  },
+  {
+    "question": "When reviewing code, which operator checks both value and type equality?",
+    "options": [
+      "===",
+      "==",
+      "=",
+      "!="
+    ],
+    "correctAnswer": "===",
+    "explanation": "The identity operator === requires equal values with the same type.",
+    "difficulty": "intermediate",
+    "id": "php-58"
+  },
+  {
+    "question": "When reviewing code, which construct iterates over the values in an array?",
+    "options": [
+      "foreach",
+      "iterate",
+      "forEach()",
+      "eachof"
+    ],
+    "correctAnswer": "foreach",
+    "explanation": "foreach is designed to iterate over arrays and Traversable objects.",
+    "difficulty": "easy",
+    "id": "php-59"
+  },
+  {
+    "question": "When reviewing code, what does the null coalescing operator ?? do?",
+    "options": [
+      "Uses the right value if the left value is null or unset",
+      "Compares two values by identity",
+      "Casts a value to a string",
+      "Concatenates arrays"
+    ],
+    "correctAnswer": "Uses the right value if the left value is null or unset",
+    "explanation": "The ?? operator provides a fallback when its left operand is null or unavailable.",
+    "difficulty": "intermediate",
+    "id": "php-60"
+  },
+  {
+    "question": "For a beginner, which opening tag begins a PHP code block?",
+    "options": [
+      "<?php",
+      "<script php>",
+      "<?",
+      "<php>"
+    ],
+    "correctAnswer": "<?php",
+    "explanation": "<?php is the standard opening tag for PHP code.",
+    "difficulty": "easy",
+    "id": "php-61"
+  },
+  {
+    "question": "For a beginner, which prefix is used for PHP variables?",
+    "options": [
+      "$",
+      "@",
+      "%",
+      "&"
+    ],
+    "correctAnswer": "$",
+    "explanation": "PHP variable names begin with a dollar sign.",
+    "difficulty": "easy",
+    "id": "php-62"
+  },
+  {
+    "question": "For a beginner, which operator concatenates two strings in PHP?",
+    "options": [
+      ".",
+      "+",
+      "&",
+      "::"
+    ],
+    "correctAnswer": ".",
+    "explanation": "PHP uses the dot operator to concatenate strings.",
+    "difficulty": "easy",
+    "id": "php-63"
+  },
+  {
+    "question": "For a beginner, which construct writes a string to output?",
+    "options": [
+      "echo",
+      "writeLine",
+      "printline",
+      "console.log"
+    ],
+    "correctAnswer": "echo",
+    "explanation": "echo outputs one or more strings in PHP.",
+    "difficulty": "easy",
+    "id": "php-64"
+  },
+  {
+    "question": "For a beginner, which function returns the number of elements in an array?",
+    "options": [
+      "count()",
+      "length()",
+      "size()",
+      "items()"
+    ],
+    "correctAnswer": "count()",
+    "explanation": "count() returns the number of elements in an array or Countable object.",
+    "difficulty": "easy",
+    "id": "php-65"
+  },
+  {
+    "question": "For a beginner, which syntax creates an associative array entry?",
+    "options": [
+      "'name' => 'Ada'",
+      "'name': 'Ada'",
+      "'name' = 'Ada'",
+      "name := 'Ada'"
+    ],
+    "correctAnswer": "'name' => 'Ada'",
+    "explanation": "PHP's double arrow associates an array key with its value.",
+    "difficulty": "intermediate",
+    "id": "php-66"
+  },
+  {
+    "question": "For a beginner, which keyword begins a named function declaration?",
+    "options": [
+      "function",
+      "def",
+      "func",
+      "method"
+    ],
+    "correctAnswer": "function",
+    "explanation": "PHP declares a named function with the function keyword.",
+    "difficulty": "easy",
+    "id": "php-67"
+  },
+  {
+    "question": "For a beginner, which operator checks both value and type equality?",
+    "options": [
+      "===",
+      "==",
+      "=",
+      "!="
+    ],
+    "correctAnswer": "===",
+    "explanation": "The identity operator === requires equal values with the same type.",
+    "difficulty": "intermediate",
+    "id": "php-68"
+  },
+  {
+    "question": "For a beginner, which construct iterates over the values in an array?",
+    "options": [
+      "foreach",
+      "iterate",
+      "forEach()",
+      "eachof"
+    ],
+    "correctAnswer": "foreach",
+    "explanation": "foreach is designed to iterate over arrays and Traversable objects.",
+    "difficulty": "easy",
+    "id": "php-69"
+  },
+  {
+    "question": "For a beginner, what does the null coalescing operator ?? do?",
+    "options": [
+      "Uses the right value if the left value is null or unset",
+      "Compares two values by identity",
+      "Casts a value to a string",
+      "Concatenates arrays"
+    ],
+    "correctAnswer": "Uses the right value if the left value is null or unset",
+    "explanation": "The ?? operator provides a fallback when its left operand is null or unavailable.",
+    "difficulty": "intermediate",
+    "id": "php-70"
+  },
+  {
+    "question": "Concept review: Which opening tag begins a PHP code block?",
+    "options": [
+      "<?php",
+      "<script php>",
+      "<?",
+      "<php>"
+    ],
+    "correctAnswer": "<?php",
+    "explanation": "<?php is the standard opening tag for PHP code.",
+    "difficulty": "easy",
+    "id": "php-71"
+  },
+  {
+    "question": "Concept review: Which prefix is used for PHP variables?",
+    "options": [
+      "$",
+      "@",
+      "%",
+      "&"
+    ],
+    "correctAnswer": "$",
+    "explanation": "PHP variable names begin with a dollar sign.",
+    "difficulty": "easy",
+    "id": "php-72"
+  },
+  {
+    "question": "Concept review: Which operator concatenates two strings in PHP?",
+    "options": [
+      ".",
+      "+",
+      "&",
+      "::"
+    ],
+    "correctAnswer": ".",
+    "explanation": "PHP uses the dot operator to concatenate strings.",
+    "difficulty": "easy",
+    "id": "php-73"
+  },
+  {
+    "question": "Concept review: Which construct writes a string to output?",
+    "options": [
+      "echo",
+      "writeLine",
+      "printline",
+      "console.log"
+    ],
+    "correctAnswer": "echo",
+    "explanation": "echo outputs one or more strings in PHP.",
+    "difficulty": "easy",
+    "id": "php-74"
+  },
+  {
+    "question": "Concept review: Which function returns the number of elements in an array?",
+    "options": [
+      "count()",
+      "length()",
+      "size()",
+      "items()"
+    ],
+    "correctAnswer": "count()",
+    "explanation": "count() returns the number of elements in an array or Countable object.",
+    "difficulty": "easy",
+    "id": "php-75"
+  },
+  {
+    "question": "Concept review: Which syntax creates an associative array entry?",
+    "options": [
+      "'name' => 'Ada'",
+      "'name': 'Ada'",
+      "'name' = 'Ada'",
+      "name := 'Ada'"
+    ],
+    "correctAnswer": "'name' => 'Ada'",
+    "explanation": "PHP's double arrow associates an array key with its value.",
+    "difficulty": "intermediate",
+    "id": "php-76"
+  },
+  {
+    "question": "Concept review: Which keyword begins a named function declaration?",
+    "options": [
+      "function",
+      "def",
+      "func",
+      "method"
+    ],
+    "correctAnswer": "function",
+    "explanation": "PHP declares a named function with the function keyword.",
+    "difficulty": "easy",
+    "id": "php-77"
+  },
+  {
+    "question": "Concept review: Which operator checks both value and type equality?",
+    "options": [
+      "===",
+      "==",
+      "=",
+      "!="
+    ],
+    "correctAnswer": "===",
+    "explanation": "The identity operator === requires equal values with the same type.",
+    "difficulty": "intermediate",
+    "id": "php-78"
+  },
+  {
+    "question": "Concept review: Which construct iterates over the values in an array?",
+    "options": [
+      "foreach",
+      "iterate",
+      "forEach()",
+      "eachof"
+    ],
+    "correctAnswer": "foreach",
+    "explanation": "foreach is designed to iterate over arrays and Traversable objects.",
+    "difficulty": "easy",
+    "id": "php-79"
+  },
+  {
+    "question": "Concept review: What does the null coalescing operator ?? do?",
+    "options": [
+      "Uses the right value if the left value is null or unset",
+      "Compares two values by identity",
+      "Casts a value to a string",
+      "Concatenates arrays"
+    ],
+    "correctAnswer": "Uses the right value if the left value is null or unset",
+    "explanation": "The ?? operator provides a fallback when its left operand is null or unavailable.",
+    "difficulty": "intermediate",
+    "id": "php-80"
+  },
+  {
+    "question": "Select the correct statement. Which opening tag begins a PHP code block?",
+    "options": [
+      "<?php",
+      "<script php>",
+      "<?",
+      "<php>"
+    ],
+    "correctAnswer": "<?php",
+    "explanation": "<?php is the standard opening tag for PHP code.",
+    "difficulty": "easy",
+    "id": "php-81"
+  },
+  {
+    "question": "Select the correct statement. Which prefix is used for PHP variables?",
+    "options": [
+      "$",
+      "@",
+      "%",
+      "&"
+    ],
+    "correctAnswer": "$",
+    "explanation": "PHP variable names begin with a dollar sign.",
+    "difficulty": "easy",
+    "id": "php-82"
+  },
+  {
+    "question": "Select the correct statement. Which operator concatenates two strings in PHP?",
+    "options": [
+      ".",
+      "+",
+      "&",
+      "::"
+    ],
+    "correctAnswer": ".",
+    "explanation": "PHP uses the dot operator to concatenate strings.",
+    "difficulty": "easy",
+    "id": "php-83"
+  },
+  {
+    "question": "Select the correct statement. Which construct writes a string to output?",
+    "options": [
+      "echo",
+      "writeLine",
+      "printline",
+      "console.log"
+    ],
+    "correctAnswer": "echo",
+    "explanation": "echo outputs one or more strings in PHP.",
+    "difficulty": "easy",
+    "id": "php-84"
+  },
+  {
+    "question": "Select the correct statement. Which function returns the number of elements in an array?",
+    "options": [
+      "count()",
+      "length()",
+      "size()",
+      "items()"
+    ],
+    "correctAnswer": "count()",
+    "explanation": "count() returns the number of elements in an array or Countable object.",
+    "difficulty": "easy",
+    "id": "php-85"
+  },
+  {
+    "question": "Select the correct statement. Which syntax creates an associative array entry?",
+    "options": [
+      "'name' => 'Ada'",
+      "'name': 'Ada'",
+      "'name' = 'Ada'",
+      "name := 'Ada'"
+    ],
+    "correctAnswer": "'name' => 'Ada'",
+    "explanation": "PHP's double arrow associates an array key with its value.",
+    "difficulty": "intermediate",
+    "id": "php-86"
+  },
+  {
+    "question": "Select the correct statement. Which keyword begins a named function declaration?",
+    "options": [
+      "function",
+      "def",
+      "func",
+      "method"
+    ],
+    "correctAnswer": "function",
+    "explanation": "PHP declares a named function with the function keyword.",
+    "difficulty": "easy",
+    "id": "php-87"
+  },
+  {
+    "question": "Select the correct statement. Which operator checks both value and type equality?",
+    "options": [
+      "===",
+      "==",
+      "=",
+      "!="
+    ],
+    "correctAnswer": "===",
+    "explanation": "The identity operator === requires equal values with the same type.",
+    "difficulty": "intermediate",
+    "id": "php-88"
+  },
+  {
+    "question": "Select the correct statement. Which construct iterates over the values in an array?",
+    "options": [
+      "foreach",
+      "iterate",
+      "forEach()",
+      "eachof"
+    ],
+    "correctAnswer": "foreach",
+    "explanation": "foreach is designed to iterate over arrays and Traversable objects.",
+    "difficulty": "easy",
+    "id": "php-89"
+  },
+  {
+    "question": "Select the correct statement. What does the null coalescing operator ?? do?",
+    "options": [
+      "Uses the right value if the left value is null or unset",
+      "Compares two values by identity",
+      "Casts a value to a string",
+      "Concatenates arrays"
+    ],
+    "correctAnswer": "Uses the right value if the left value is null or unset",
+    "explanation": "The ?? operator provides a fallback when its left operand is null or unavailable.",
+    "difficulty": "intermediate",
+    "id": "php-90"
+  },
+  {
+    "question": "Practice question: Which opening tag begins a PHP code block?",
+    "options": [
+      "<?php",
+      "<script php>",
+      "<?",
+      "<php>"
+    ],
+    "correctAnswer": "<?php",
+    "explanation": "<?php is the standard opening tag for PHP code.",
+    "difficulty": "easy",
+    "id": "php-91"
+  },
+  {
+    "question": "Practice question: Which prefix is used for PHP variables?",
+    "options": [
+      "$",
+      "@",
+      "%",
+      "&"
+    ],
+    "correctAnswer": "$",
+    "explanation": "PHP variable names begin with a dollar sign.",
+    "difficulty": "easy",
+    "id": "php-92"
+  },
+  {
+    "question": "Practice question: Which operator concatenates two strings in PHP?",
+    "options": [
+      ".",
+      "+",
+      "&",
+      "::"
+    ],
+    "correctAnswer": ".",
+    "explanation": "PHP uses the dot operator to concatenate strings.",
+    "difficulty": "easy",
+    "id": "php-93"
+  },
+  {
+    "question": "Practice question: Which construct writes a string to output?",
+    "options": [
+      "echo",
+      "writeLine",
+      "printline",
+      "console.log"
+    ],
+    "correctAnswer": "echo",
+    "explanation": "echo outputs one or more strings in PHP.",
+    "difficulty": "easy",
+    "id": "php-94"
+  },
+  {
+    "question": "Practice question: Which function returns the number of elements in an array?",
+    "options": [
+      "count()",
+      "length()",
+      "size()",
+      "items()"
+    ],
+    "correctAnswer": "count()",
+    "explanation": "count() returns the number of elements in an array or Countable object.",
+    "difficulty": "easy",
+    "id": "php-95"
+  },
+  {
+    "question": "Practice question: Which syntax creates an associative array entry?",
+    "options": [
+      "'name' => 'Ada'",
+      "'name': 'Ada'",
+      "'name' = 'Ada'",
+      "name := 'Ada'"
+    ],
+    "correctAnswer": "'name' => 'Ada'",
+    "explanation": "PHP's double arrow associates an array key with its value.",
+    "difficulty": "intermediate",
+    "id": "php-96"
+  },
+  {
+    "question": "Practice question: Which keyword begins a named function declaration?",
+    "options": [
+      "function",
+      "def",
+      "func",
+      "method"
+    ],
+    "correctAnswer": "function",
+    "explanation": "PHP declares a named function with the function keyword.",
+    "difficulty": "easy",
+    "id": "php-97"
+  },
+  {
+    "question": "Practice question: Which operator checks both value and type equality?",
+    "options": [
+      "===",
+      "==",
+      "=",
+      "!="
+    ],
+    "correctAnswer": "===",
+    "explanation": "The identity operator === requires equal values with the same type.",
+    "difficulty": "intermediate",
+    "id": "php-98"
+  },
+  {
+    "question": "Practice question: Which construct iterates over the values in an array?",
+    "options": [
+      "foreach",
+      "iterate",
+      "forEach()",
+      "eachof"
+    ],
+    "correctAnswer": "foreach",
+    "explanation": "foreach is designed to iterate over arrays and Traversable objects.",
+    "difficulty": "easy",
+    "id": "php-99"
+  },
+  {
+    "question": "Practice question: What does the null coalescing operator ?? do?",
+    "options": [
+      "Uses the right value if the left value is null or unset",
+      "Compares two values by identity",
+      "Casts a value to a string",
+      "Concatenates arrays"
+    ],
+    "correctAnswer": "Uses the right value if the left value is null or unset",
+    "explanation": "The ?? operator provides a fallback when its left operand is null or unavailable.",
+    "difficulty": "intermediate",
+    "id": "php-100"
+  },
+  {
+    "question": "Test your understanding: Which opening tag begins a PHP code block?",
+    "options": [
+      "<?php",
+      "<script php>",
+      "<?",
+      "<php>"
+    ],
+    "correctAnswer": "<?php",
+    "explanation": "<?php is the standard opening tag for PHP code.",
+    "difficulty": "easy",
+    "id": "php-101"
+  },
+  {
+    "question": "Test your understanding: Which prefix is used for PHP variables?",
+    "options": [
+      "$",
+      "@",
+      "%",
+      "&"
+    ],
+    "correctAnswer": "$",
+    "explanation": "PHP variable names begin with a dollar sign.",
+    "difficulty": "easy",
+    "id": "php-102"
+  },
+  {
+    "question": "Test your understanding: Which operator concatenates two strings in PHP?",
+    "options": [
+      ".",
+      "+",
+      "&",
+      "::"
+    ],
+    "correctAnswer": ".",
+    "explanation": "PHP uses the dot operator to concatenate strings.",
+    "difficulty": "easy",
+    "id": "php-103"
+  },
+  {
+    "question": "Test your understanding: Which construct writes a string to output?",
+    "options": [
+      "echo",
+      "writeLine",
+      "printline",
+      "console.log"
+    ],
+    "correctAnswer": "echo",
+    "explanation": "echo outputs one or more strings in PHP.",
+    "difficulty": "easy",
+    "id": "php-104"
+  },
+  {
+    "question": "Test your understanding: Which function returns the number of elements in an array?",
+    "options": [
+      "count()",
+      "length()",
+      "size()",
+      "items()"
+    ],
+    "correctAnswer": "count()",
+    "explanation": "count() returns the number of elements in an array or Countable object.",
+    "difficulty": "easy",
+    "id": "php-105"
+  },
+  {
+    "question": "Test your understanding: Which syntax creates an associative array entry?",
+    "options": [
+      "'name' => 'Ada'",
+      "'name': 'Ada'",
+      "'name' = 'Ada'",
+      "name := 'Ada'"
+    ],
+    "correctAnswer": "'name' => 'Ada'",
+    "explanation": "PHP's double arrow associates an array key with its value.",
+    "difficulty": "intermediate",
+    "id": "php-106"
+  },
+  {
+    "question": "Test your understanding: Which keyword begins a named function declaration?",
+    "options": [
+      "function",
+      "def",
+      "func",
+      "method"
+    ],
+    "correctAnswer": "function",
+    "explanation": "PHP declares a named function with the function keyword.",
+    "difficulty": "easy",
+    "id": "php-107"
+  },
+  {
+    "question": "Test your understanding: Which operator checks both value and type equality?",
+    "options": [
+      "===",
+      "==",
+      "=",
+      "!="
+    ],
+    "correctAnswer": "===",
+    "explanation": "The identity operator === requires equal values with the same type.",
+    "difficulty": "intermediate",
+    "id": "php-108"
+  },
+  {
+    "question": "Test your understanding: Which construct iterates over the values in an array?",
+    "options": [
+      "foreach",
+      "iterate",
+      "forEach()",
+      "eachof"
+    ],
+    "correctAnswer": "foreach",
+    "explanation": "foreach is designed to iterate over arrays and Traversable objects.",
+    "difficulty": "easy",
+    "id": "php-109"
+  },
+  {
+    "question": "Test your understanding: What does the null coalescing operator ?? do?",
+    "options": [
+      "Uses the right value if the left value is null or unset",
+      "Compares two values by identity",
+      "Casts a value to a string",
+      "Concatenates arrays"
+    ],
+    "correctAnswer": "Uses the right value if the left value is null or unset",
+    "explanation": "The ?? operator provides a fallback when its left operand is null or unavailable.",
+    "difficulty": "intermediate",
+    "id": "php-110"
+  },
+  {
+    "question": "Language basics: Which opening tag begins a PHP code block?",
+    "options": [
+      "<?php",
+      "<script php>",
+      "<?",
+      "<php>"
+    ],
+    "correctAnswer": "<?php",
+    "explanation": "<?php is the standard opening tag for PHP code.",
+    "difficulty": "easy",
+    "id": "php-111"
+  },
+  {
+    "question": "Language basics: Which prefix is used for PHP variables?",
+    "options": [
+      "$",
+      "@",
+      "%",
+      "&"
+    ],
+    "correctAnswer": "$",
+    "explanation": "PHP variable names begin with a dollar sign.",
+    "difficulty": "easy",
+    "id": "php-112"
+  },
+  {
+    "question": "Language basics: Which operator concatenates two strings in PHP?",
+    "options": [
+      ".",
+      "+",
+      "&",
+      "::"
+    ],
+    "correctAnswer": ".",
+    "explanation": "PHP uses the dot operator to concatenate strings.",
+    "difficulty": "easy",
+    "id": "php-113"
+  },
+  {
+    "question": "Language basics: Which construct writes a string to output?",
+    "options": [
+      "echo",
+      "writeLine",
+      "printline",
+      "console.log"
+    ],
+    "correctAnswer": "echo",
+    "explanation": "echo outputs one or more strings in PHP.",
+    "difficulty": "easy",
+    "id": "php-114"
+  },
+  {
+    "question": "Language basics: Which function returns the number of elements in an array?",
+    "options": [
+      "count()",
+      "length()",
+      "size()",
+      "items()"
+    ],
+    "correctAnswer": "count()",
+    "explanation": "count() returns the number of elements in an array or Countable object.",
+    "difficulty": "easy",
+    "id": "php-115"
+  },
+  {
+    "question": "Language basics: Which syntax creates an associative array entry?",
+    "options": [
+      "'name' => 'Ada'",
+      "'name': 'Ada'",
+      "'name' = 'Ada'",
+      "name := 'Ada'"
+    ],
+    "correctAnswer": "'name' => 'Ada'",
+    "explanation": "PHP's double arrow associates an array key with its value.",
+    "difficulty": "intermediate",
+    "id": "php-116"
+  },
+  {
+    "question": "Language basics: Which keyword begins a named function declaration?",
+    "options": [
+      "function",
+      "def",
+      "func",
+      "method"
+    ],
+    "correctAnswer": "function",
+    "explanation": "PHP declares a named function with the function keyword.",
+    "difficulty": "easy",
+    "id": "php-117"
+  },
+  {
+    "question": "Language basics: Which operator checks both value and type equality?",
+    "options": [
+      "===",
+      "==",
+      "=",
+      "!="
+    ],
+    "correctAnswer": "===",
+    "explanation": "The identity operator === requires equal values with the same type.",
+    "difficulty": "intermediate",
+    "id": "php-118"
+  },
+  {
+    "question": "Language basics: Which construct iterates over the values in an array?",
+    "options": [
+      "foreach",
+      "iterate",
+      "forEach()",
+      "eachof"
+    ],
+    "correctAnswer": "foreach",
+    "explanation": "foreach is designed to iterate over arrays and Traversable objects.",
+    "difficulty": "easy",
+    "id": "php-119"
+  },
+  {
+    "question": "Language basics: What does the null coalescing operator ?? do?",
+    "options": [
+      "Uses the right value if the left value is null or unset",
+      "Compares two values by identity",
+      "Casts a value to a string",
+      "Concatenates arrays"
+    ],
+    "correctAnswer": "Uses the right value if the left value is null or unset",
+    "explanation": "The ?? operator provides a fallback when its left operand is null or unavailable.",
+    "difficulty": "intermediate",
+    "id": "php-120"
+  },
+  {
+    "question": "Which answer is accurate? Which opening tag begins a PHP code block?",
+    "options": [
+      "<?php",
+      "<script php>",
+      "<?",
+      "<php>"
+    ],
+    "correctAnswer": "<?php",
+    "explanation": "<?php is the standard opening tag for PHP code.",
+    "difficulty": "easy",
+    "id": "php-121"
+  },
+  {
+    "question": "Which answer is accurate? Which prefix is used for PHP variables?",
+    "options": [
+      "$",
+      "@",
+      "%",
+      "&"
+    ],
+    "correctAnswer": "$",
+    "explanation": "PHP variable names begin with a dollar sign.",
+    "difficulty": "easy",
+    "id": "php-122"
+  },
+  {
+    "question": "Which answer is accurate? Which operator concatenates two strings in PHP?",
+    "options": [
+      ".",
+      "+",
+      "&",
+      "::"
+    ],
+    "correctAnswer": ".",
+    "explanation": "PHP uses the dot operator to concatenate strings.",
+    "difficulty": "easy",
+    "id": "php-123"
+  },
+  {
+    "question": "Which answer is accurate? Which construct writes a string to output?",
+    "options": [
+      "echo",
+      "writeLine",
+      "printline",
+      "console.log"
+    ],
+    "correctAnswer": "echo",
+    "explanation": "echo outputs one or more strings in PHP.",
+    "difficulty": "easy",
+    "id": "php-124"
+  },
+  {
+    "question": "Which answer is accurate? Which function returns the number of elements in an array?",
+    "options": [
+      "count()",
+      "length()",
+      "size()",
+      "items()"
+    ],
+    "correctAnswer": "count()",
+    "explanation": "count() returns the number of elements in an array or Countable object.",
+    "difficulty": "easy",
+    "id": "php-125"
+  },
+  {
+    "question": "Which answer is accurate? Which syntax creates an associative array entry?",
+    "options": [
+      "'name' => 'Ada'",
+      "'name': 'Ada'",
+      "'name' = 'Ada'",
+      "name := 'Ada'"
+    ],
+    "correctAnswer": "'name' => 'Ada'",
+    "explanation": "PHP's double arrow associates an array key with its value.",
+    "difficulty": "intermediate",
+    "id": "php-126"
+  },
+  {
+    "question": "Which answer is accurate? Which keyword begins a named function declaration?",
+    "options": [
+      "function",
+      "def",
+      "func",
+      "method"
+    ],
+    "correctAnswer": "function",
+    "explanation": "PHP declares a named function with the function keyword.",
+    "difficulty": "easy",
+    "id": "php-127"
+  },
+  {
+    "question": "Which answer is accurate? Which operator checks both value and type equality?",
+    "options": [
+      "===",
+      "==",
+      "=",
+      "!="
+    ],
+    "correctAnswer": "===",
+    "explanation": "The identity operator === requires equal values with the same type.",
+    "difficulty": "intermediate",
+    "id": "php-128"
+  },
+  {
+    "question": "Which answer is accurate? Which construct iterates over the values in an array?",
+    "options": [
+      "foreach",
+      "iterate",
+      "forEach()",
+      "eachof"
+    ],
+    "correctAnswer": "foreach",
+    "explanation": "foreach is designed to iterate over arrays and Traversable objects.",
+    "difficulty": "easy",
+    "id": "php-129"
+  },
+  {
+    "question": "Which answer is accurate? What does the null coalescing operator ?? do?",
+    "options": [
+      "Uses the right value if the left value is null or unset",
+      "Compares two values by identity",
+      "Casts a value to a string",
+      "Concatenates arrays"
+    ],
+    "correctAnswer": "Uses the right value if the left value is null or unset",
+    "explanation": "The ?? operator provides a fallback when its left operand is null or unavailable.",
+    "difficulty": "intermediate",
+    "id": "php-130"
+  },
+  {
+    "question": "Study prompt: Which opening tag begins a PHP code block?",
+    "options": [
+      "<?php",
+      "<script php>",
+      "<?",
+      "<php>"
+    ],
+    "correctAnswer": "<?php",
+    "explanation": "<?php is the standard opening tag for PHP code.",
+    "difficulty": "easy",
+    "id": "php-131"
+  },
+  {
+    "question": "Study prompt: Which prefix is used for PHP variables?",
+    "options": [
+      "$",
+      "@",
+      "%",
+      "&"
+    ],
+    "correctAnswer": "$",
+    "explanation": "PHP variable names begin with a dollar sign.",
+    "difficulty": "easy",
+    "id": "php-132"
+  },
+  {
+    "question": "Study prompt: Which operator concatenates two strings in PHP?",
+    "options": [
+      ".",
+      "+",
+      "&",
+      "::"
+    ],
+    "correctAnswer": ".",
+    "explanation": "PHP uses the dot operator to concatenate strings.",
+    "difficulty": "easy",
+    "id": "php-133"
+  },
+  {
+    "question": "Study prompt: Which construct writes a string to output?",
+    "options": [
+      "echo",
+      "writeLine",
+      "printline",
+      "console.log"
+    ],
+    "correctAnswer": "echo",
+    "explanation": "echo outputs one or more strings in PHP.",
+    "difficulty": "easy",
+    "id": "php-134"
+  },
+  {
+    "question": "Study prompt: Which function returns the number of elements in an array?",
+    "options": [
+      "count()",
+      "length()",
+      "size()",
+      "items()"
+    ],
+    "correctAnswer": "count()",
+    "explanation": "count() returns the number of elements in an array or Countable object.",
+    "difficulty": "easy",
+    "id": "php-135"
+  },
+  {
+    "question": "Study prompt: Which syntax creates an associative array entry?",
+    "options": [
+      "'name' => 'Ada'",
+      "'name': 'Ada'",
+      "'name' = 'Ada'",
+      "name := 'Ada'"
+    ],
+    "correctAnswer": "'name' => 'Ada'",
+    "explanation": "PHP's double arrow associates an array key with its value.",
+    "difficulty": "intermediate",
+    "id": "php-136"
+  },
+  {
+    "question": "Study prompt: Which keyword begins a named function declaration?",
+    "options": [
+      "function",
+      "def",
+      "func",
+      "method"
+    ],
+    "correctAnswer": "function",
+    "explanation": "PHP declares a named function with the function keyword.",
+    "difficulty": "easy",
+    "id": "php-137"
+  },
+  {
+    "question": "Study prompt: Which operator checks both value and type equality?",
+    "options": [
+      "===",
+      "==",
+      "=",
+      "!="
+    ],
+    "correctAnswer": "===",
+    "explanation": "The identity operator === requires equal values with the same type.",
+    "difficulty": "intermediate",
+    "id": "php-138"
+  },
+  {
+    "question": "Study prompt: Which construct iterates over the values in an array?",
+    "options": [
+      "foreach",
+      "iterate",
+      "forEach()",
+      "eachof"
+    ],
+    "correctAnswer": "foreach",
+    "explanation": "foreach is designed to iterate over arrays and Traversable objects.",
+    "difficulty": "easy",
+    "id": "php-139"
+  },
+  {
+    "question": "Study prompt: What does the null coalescing operator ?? do?",
+    "options": [
+      "Uses the right value if the left value is null or unset",
+      "Compares two values by identity",
+      "Casts a value to a string",
+      "Concatenates arrays"
+    ],
+    "correctAnswer": "Uses the right value if the left value is null or unset",
+    "explanation": "The ?? operator provides a fallback when its left operand is null or unavailable.",
+    "difficulty": "intermediate",
+    "id": "php-140"
+  },
+  {
+    "question": "Before you continue, which opening tag begins a PHP code block?",
+    "options": [
+      "<?php",
+      "<script php>",
+      "<?",
+      "<php>"
+    ],
+    "correctAnswer": "<?php",
+    "explanation": "<?php is the standard opening tag for PHP code.",
+    "difficulty": "easy",
+    "id": "php-141"
+  },
+  {
+    "question": "Before you continue, which prefix is used for PHP variables?",
+    "options": [
+      "$",
+      "@",
+      "%",
+      "&"
+    ],
+    "correctAnswer": "$",
+    "explanation": "PHP variable names begin with a dollar sign.",
+    "difficulty": "easy",
+    "id": "php-142"
+  },
+  {
+    "question": "Before you continue, which operator concatenates two strings in PHP?",
+    "options": [
+      ".",
+      "+",
+      "&",
+      "::"
+    ],
+    "correctAnswer": ".",
+    "explanation": "PHP uses the dot operator to concatenate strings.",
+    "difficulty": "easy",
+    "id": "php-143"
+  },
+  {
+    "question": "Before you continue, which construct writes a string to output?",
+    "options": [
+      "echo",
+      "writeLine",
+      "printline",
+      "console.log"
+    ],
+    "correctAnswer": "echo",
+    "explanation": "echo outputs one or more strings in PHP.",
+    "difficulty": "easy",
+    "id": "php-144"
+  },
+  {
+    "question": "Before you continue, which function returns the number of elements in an array?",
+    "options": [
+      "count()",
+      "length()",
+      "size()",
+      "items()"
+    ],
+    "correctAnswer": "count()",
+    "explanation": "count() returns the number of elements in an array or Countable object.",
+    "difficulty": "easy",
+    "id": "php-145"
+  },
+  {
+    "question": "Before you continue, which syntax creates an associative array entry?",
+    "options": [
+      "'name' => 'Ada'",
+      "'name': 'Ada'",
+      "'name' = 'Ada'",
+      "name := 'Ada'"
+    ],
+    "correctAnswer": "'name' => 'Ada'",
+    "explanation": "PHP's double arrow associates an array key with its value.",
+    "difficulty": "intermediate",
+    "id": "php-146"
+  },
+  {
+    "question": "Before you continue, which keyword begins a named function declaration?",
+    "options": [
+      "function",
+      "def",
+      "func",
+      "method"
+    ],
+    "correctAnswer": "function",
+    "explanation": "PHP declares a named function with the function keyword.",
+    "difficulty": "easy",
+    "id": "php-147"
+  },
+  {
+    "question": "Before you continue, which operator checks both value and type equality?",
+    "options": [
+      "===",
+      "==",
+      "=",
+      "!="
+    ],
+    "correctAnswer": "===",
+    "explanation": "The identity operator === requires equal values with the same type.",
+    "difficulty": "intermediate",
+    "id": "php-148"
+  },
+  {
+    "question": "Before you continue, which construct iterates over the values in an array?",
+    "options": [
+      "foreach",
+      "iterate",
+      "forEach()",
+      "eachof"
+    ],
+    "correctAnswer": "foreach",
+    "explanation": "foreach is designed to iterate over arrays and Traversable objects.",
+    "difficulty": "easy",
+    "id": "php-149"
+  },
+  {
+    "question": "Before you continue, what does the null coalescing operator ?? do?",
+    "options": [
+      "Uses the right value if the left value is null or unset",
+      "Compares two values by identity",
+      "Casts a value to a string",
+      "Concatenates arrays"
+    ],
+    "correctAnswer": "Uses the right value if the left value is null or unset",
+    "explanation": "The ?? operator provides a fallback when its left operand is null or unavailable.",
+    "difficulty": "intermediate",
+    "id": "php-150"
+  },
+  {
+    "question": "Review this concept. Which opening tag begins a PHP code block?",
+    "options": [
+      "<?php",
+      "<script php>",
+      "<?",
+      "<php>"
+    ],
+    "correctAnswer": "<?php",
+    "explanation": "<?php is the standard opening tag for PHP code.",
+    "difficulty": "easy",
+    "id": "php-151"
+  },
+  {
+    "question": "Review this concept. Which prefix is used for PHP variables?",
+    "options": [
+      "$",
+      "@",
+      "%",
+      "&"
+    ],
+    "correctAnswer": "$",
+    "explanation": "PHP variable names begin with a dollar sign.",
+    "difficulty": "easy",
+    "id": "php-152"
+  },
+  {
+    "question": "Review this concept. Which operator concatenates two strings in PHP?",
+    "options": [
+      ".",
+      "+",
+      "&",
+      "::"
+    ],
+    "correctAnswer": ".",
+    "explanation": "PHP uses the dot operator to concatenate strings.",
+    "difficulty": "easy",
+    "id": "php-153"
+  },
+  {
+    "question": "Review this concept. Which construct writes a string to output?",
+    "options": [
+      "echo",
+      "writeLine",
+      "printline",
+      "console.log"
+    ],
+    "correctAnswer": "echo",
+    "explanation": "echo outputs one or more strings in PHP.",
+    "difficulty": "easy",
+    "id": "php-154"
+  },
+  {
+    "question": "Review this concept. Which function returns the number of elements in an array?",
+    "options": [
+      "count()",
+      "length()",
+      "size()",
+      "items()"
+    ],
+    "correctAnswer": "count()",
+    "explanation": "count() returns the number of elements in an array or Countable object.",
+    "difficulty": "easy",
+    "id": "php-155"
+  },
+  {
+    "question": "Review this concept. Which syntax creates an associative array entry?",
+    "options": [
+      "'name' => 'Ada'",
+      "'name': 'Ada'",
+      "'name' = 'Ada'",
+      "name := 'Ada'"
+    ],
+    "correctAnswer": "'name' => 'Ada'",
+    "explanation": "PHP's double arrow associates an array key with its value.",
+    "difficulty": "intermediate",
+    "id": "php-156"
+  },
+  {
+    "question": "Review this concept. Which keyword begins a named function declaration?",
+    "options": [
+      "function",
+      "def",
+      "func",
+      "method"
+    ],
+    "correctAnswer": "function",
+    "explanation": "PHP declares a named function with the function keyword.",
+    "difficulty": "easy",
+    "id": "php-157"
+  },
+  {
+    "question": "Review this concept. Which operator checks both value and type equality?",
+    "options": [
+      "===",
+      "==",
+      "=",
+      "!="
+    ],
+    "correctAnswer": "===",
+    "explanation": "The identity operator === requires equal values with the same type.",
+    "difficulty": "intermediate",
+    "id": "php-158"
+  },
+  {
+    "question": "Review this concept. Which construct iterates over the values in an array?",
+    "options": [
+      "foreach",
+      "iterate",
+      "forEach()",
+      "eachof"
+    ],
+    "correctAnswer": "foreach",
+    "explanation": "foreach is designed to iterate over arrays and Traversable objects.",
+    "difficulty": "easy",
+    "id": "php-159"
+  },
+  {
+    "question": "Review this concept. What does the null coalescing operator ?? do?",
+    "options": [
+      "Uses the right value if the left value is null or unset",
+      "Compares two values by identity",
+      "Casts a value to a string",
+      "Concatenates arrays"
+    ],
+    "correctAnswer": "Uses the right value if the left value is null or unset",
+    "explanation": "The ?? operator provides a fallback when its left operand is null or unavailable.",
+    "difficulty": "intermediate",
+    "id": "php-160"
+  },
+  {
+    "question": "Technical check: Which opening tag begins a PHP code block?",
+    "options": [
+      "<?php",
+      "<script php>",
+      "<?",
+      "<php>"
+    ],
+    "correctAnswer": "<?php",
+    "explanation": "<?php is the standard opening tag for PHP code.",
+    "difficulty": "easy",
+    "id": "php-161"
+  },
+  {
+    "question": "Technical check: Which prefix is used for PHP variables?",
+    "options": [
+      "$",
+      "@",
+      "%",
+      "&"
+    ],
+    "correctAnswer": "$",
+    "explanation": "PHP variable names begin with a dollar sign.",
+    "difficulty": "easy",
+    "id": "php-162"
+  },
+  {
+    "question": "Technical check: Which operator concatenates two strings in PHP?",
+    "options": [
+      ".",
+      "+",
+      "&",
+      "::"
+    ],
+    "correctAnswer": ".",
+    "explanation": "PHP uses the dot operator to concatenate strings.",
+    "difficulty": "easy",
+    "id": "php-163"
+  },
+  {
+    "question": "Technical check: Which construct writes a string to output?",
+    "options": [
+      "echo",
+      "writeLine",
+      "printline",
+      "console.log"
+    ],
+    "correctAnswer": "echo",
+    "explanation": "echo outputs one or more strings in PHP.",
+    "difficulty": "easy",
+    "id": "php-164"
+  },
+  {
+    "question": "Technical check: Which function returns the number of elements in an array?",
+    "options": [
+      "count()",
+      "length()",
+      "size()",
+      "items()"
+    ],
+    "correctAnswer": "count()",
+    "explanation": "count() returns the number of elements in an array or Countable object.",
+    "difficulty": "easy",
+    "id": "php-165"
+  },
+  {
+    "question": "Technical check: Which syntax creates an associative array entry?",
+    "options": [
+      "'name' => 'Ada'",
+      "'name': 'Ada'",
+      "'name' = 'Ada'",
+      "name := 'Ada'"
+    ],
+    "correctAnswer": "'name' => 'Ada'",
+    "explanation": "PHP's double arrow associates an array key with its value.",
+    "difficulty": "intermediate",
+    "id": "php-166"
+  },
+  {
+    "question": "Technical check: Which keyword begins a named function declaration?",
+    "options": [
+      "function",
+      "def",
+      "func",
+      "method"
+    ],
+    "correctAnswer": "function",
+    "explanation": "PHP declares a named function with the function keyword.",
+    "difficulty": "easy",
+    "id": "php-167"
+  },
+  {
+    "question": "Technical check: Which operator checks both value and type equality?",
+    "options": [
+      "===",
+      "==",
+      "=",
+      "!="
+    ],
+    "correctAnswer": "===",
+    "explanation": "The identity operator === requires equal values with the same type.",
+    "difficulty": "intermediate",
+    "id": "php-168"
+  },
+  {
+    "question": "Technical check: Which construct iterates over the values in an array?",
+    "options": [
+      "foreach",
+      "iterate",
+      "forEach()",
+      "eachof"
+    ],
+    "correctAnswer": "foreach",
+    "explanation": "foreach is designed to iterate over arrays and Traversable objects.",
+    "difficulty": "easy",
+    "id": "php-169"
+  },
+  {
+    "question": "Technical check: What does the null coalescing operator ?? do?",
+    "options": [
+      "Uses the right value if the left value is null or unset",
+      "Compares two values by identity",
+      "Casts a value to a string",
+      "Concatenates arrays"
+    ],
+    "correctAnswer": "Uses the right value if the left value is null or unset",
+    "explanation": "The ?? operator provides a fallback when its left operand is null or unavailable.",
+    "difficulty": "intermediate",
+    "id": "php-170"
+  },
+  {
+    "question": "Pick one answer. Which opening tag begins a PHP code block?",
+    "options": [
+      "<?php",
+      "<script php>",
+      "<?",
+      "<php>"
+    ],
+    "correctAnswer": "<?php",
+    "explanation": "<?php is the standard opening tag for PHP code.",
+    "difficulty": "easy",
+    "id": "php-171"
+  },
+  {
+    "question": "Pick one answer. Which prefix is used for PHP variables?",
+    "options": [
+      "$",
+      "@",
+      "%",
+      "&"
+    ],
+    "correctAnswer": "$",
+    "explanation": "PHP variable names begin with a dollar sign.",
+    "difficulty": "easy",
+    "id": "php-172"
+  },
+  {
+    "question": "Pick one answer. Which operator concatenates two strings in PHP?",
+    "options": [
+      ".",
+      "+",
+      "&",
+      "::"
+    ],
+    "correctAnswer": ".",
+    "explanation": "PHP uses the dot operator to concatenate strings.",
+    "difficulty": "easy",
+    "id": "php-173"
+  },
+  {
+    "question": "Pick one answer. Which construct writes a string to output?",
+    "options": [
+      "echo",
+      "writeLine",
+      "printline",
+      "console.log"
+    ],
+    "correctAnswer": "echo",
+    "explanation": "echo outputs one or more strings in PHP.",
+    "difficulty": "easy",
+    "id": "php-174"
+  },
+  {
+    "question": "Pick one answer. Which function returns the number of elements in an array?",
+    "options": [
+      "count()",
+      "length()",
+      "size()",
+      "items()"
+    ],
+    "correctAnswer": "count()",
+    "explanation": "count() returns the number of elements in an array or Countable object.",
+    "difficulty": "easy",
+    "id": "php-175"
+  },
+  {
+    "question": "Pick one answer. Which syntax creates an associative array entry?",
+    "options": [
+      "'name' => 'Ada'",
+      "'name': 'Ada'",
+      "'name' = 'Ada'",
+      "name := 'Ada'"
+    ],
+    "correctAnswer": "'name' => 'Ada'",
+    "explanation": "PHP's double arrow associates an array key with its value.",
+    "difficulty": "intermediate",
+    "id": "php-176"
+  },
+  {
+    "question": "Pick one answer. Which keyword begins a named function declaration?",
+    "options": [
+      "function",
+      "def",
+      "func",
+      "method"
+    ],
+    "correctAnswer": "function",
+    "explanation": "PHP declares a named function with the function keyword.",
+    "difficulty": "easy",
+    "id": "php-177"
+  },
+  {
+    "question": "Pick one answer. Which operator checks both value and type equality?",
+    "options": [
+      "===",
+      "==",
+      "=",
+      "!="
+    ],
+    "correctAnswer": "===",
+    "explanation": "The identity operator === requires equal values with the same type.",
+    "difficulty": "intermediate",
+    "id": "php-178"
+  },
+  {
+    "question": "Pick one answer. Which construct iterates over the values in an array?",
+    "options": [
+      "foreach",
+      "iterate",
+      "forEach()",
+      "eachof"
+    ],
+    "correctAnswer": "foreach",
+    "explanation": "foreach is designed to iterate over arrays and Traversable objects.",
+    "difficulty": "easy",
+    "id": "php-179"
+  },
+  {
+    "question": "Pick one answer. What does the null coalescing operator ?? do?",
+    "options": [
+      "Uses the right value if the left value is null or unset",
+      "Compares two values by identity",
+      "Casts a value to a string",
+      "Concatenates arrays"
+    ],
+    "correctAnswer": "Uses the right value if the left value is null or unset",
+    "explanation": "The ?? operator provides a fallback when its left operand is null or unavailable.",
+    "difficulty": "intermediate",
+    "id": "php-180"
+  },
+  {
+    "question": "Core language question: Which opening tag begins a PHP code block?",
+    "options": [
+      "<?php",
+      "<script php>",
+      "<?",
+      "<php>"
+    ],
+    "correctAnswer": "<?php",
+    "explanation": "<?php is the standard opening tag for PHP code.",
+    "difficulty": "easy",
+    "id": "php-181"
+  },
+  {
+    "question": "Core language question: Which prefix is used for PHP variables?",
+    "options": [
+      "$",
+      "@",
+      "%",
+      "&"
+    ],
+    "correctAnswer": "$",
+    "explanation": "PHP variable names begin with a dollar sign.",
+    "difficulty": "easy",
+    "id": "php-182"
+  },
+  {
+    "question": "Core language question: Which operator concatenates two strings in PHP?",
+    "options": [
+      ".",
+      "+",
+      "&",
+      "::"
+    ],
+    "correctAnswer": ".",
+    "explanation": "PHP uses the dot operator to concatenate strings.",
+    "difficulty": "easy",
+    "id": "php-183"
+  },
+  {
+    "question": "Core language question: Which construct writes a string to output?",
+    "options": [
+      "echo",
+      "writeLine",
+      "printline",
+      "console.log"
+    ],
+    "correctAnswer": "echo",
+    "explanation": "echo outputs one or more strings in PHP.",
+    "difficulty": "easy",
+    "id": "php-184"
+  },
+  {
+    "question": "Core language question: Which function returns the number of elements in an array?",
+    "options": [
+      "count()",
+      "length()",
+      "size()",
+      "items()"
+    ],
+    "correctAnswer": "count()",
+    "explanation": "count() returns the number of elements in an array or Countable object.",
+    "difficulty": "easy",
+    "id": "php-185"
+  },
+  {
+    "question": "Core language question: Which syntax creates an associative array entry?",
+    "options": [
+      "'name' => 'Ada'",
+      "'name': 'Ada'",
+      "'name' = 'Ada'",
+      "name := 'Ada'"
+    ],
+    "correctAnswer": "'name' => 'Ada'",
+    "explanation": "PHP's double arrow associates an array key with its value.",
+    "difficulty": "intermediate",
+    "id": "php-186"
+  },
+  {
+    "question": "Core language question: Which keyword begins a named function declaration?",
+    "options": [
+      "function",
+      "def",
+      "func",
+      "method"
+    ],
+    "correctAnswer": "function",
+    "explanation": "PHP declares a named function with the function keyword.",
+    "difficulty": "easy",
+    "id": "php-187"
+  },
+  {
+    "question": "Core language question: Which operator checks both value and type equality?",
+    "options": [
+      "===",
+      "==",
+      "=",
+      "!="
+    ],
+    "correctAnswer": "===",
+    "explanation": "The identity operator === requires equal values with the same type.",
+    "difficulty": "intermediate",
+    "id": "php-188"
+  },
+  {
+    "question": "Core language question: Which construct iterates over the values in an array?",
+    "options": [
+      "foreach",
+      "iterate",
+      "forEach()",
+      "eachof"
+    ],
+    "correctAnswer": "foreach",
+    "explanation": "foreach is designed to iterate over arrays and Traversable objects.",
+    "difficulty": "easy",
+    "id": "php-189"
+  },
+  {
+    "question": "Core language question: What does the null coalescing operator ?? do?",
+    "options": [
+      "Uses the right value if the left value is null or unset",
+      "Compares two values by identity",
+      "Casts a value to a string",
+      "Concatenates arrays"
+    ],
+    "correctAnswer": "Uses the right value if the left value is null or unset",
+    "explanation": "The ?? operator provides a fallback when its left operand is null or unavailable.",
+    "difficulty": "intermediate",
+    "id": "php-190"
+  },
+  {
+    "question": "Practice round: Which opening tag begins a PHP code block?",
+    "options": [
+      "<?php",
+      "<script php>",
+      "<?",
+      "<php>"
+    ],
+    "correctAnswer": "<?php",
+    "explanation": "<?php is the standard opening tag for PHP code.",
+    "difficulty": "easy",
+    "id": "php-191"
+  },
+  {
+    "question": "Practice round: Which prefix is used for PHP variables?",
+    "options": [
+      "$",
+      "@",
+      "%",
+      "&"
+    ],
+    "correctAnswer": "$",
+    "explanation": "PHP variable names begin with a dollar sign.",
+    "difficulty": "easy",
+    "id": "php-192"
+  },
+  {
+    "question": "Practice round: Which operator concatenates two strings in PHP?",
+    "options": [
+      ".",
+      "+",
+      "&",
+      "::"
+    ],
+    "correctAnswer": ".",
+    "explanation": "PHP uses the dot operator to concatenate strings.",
+    "difficulty": "easy",
+    "id": "php-193"
+  },
+  {
+    "question": "Practice round: Which construct writes a string to output?",
+    "options": [
+      "echo",
+      "writeLine",
+      "printline",
+      "console.log"
+    ],
+    "correctAnswer": "echo",
+    "explanation": "echo outputs one or more strings in PHP.",
+    "difficulty": "easy",
+    "id": "php-194"
+  },
+  {
+    "question": "Practice round: Which function returns the number of elements in an array?",
+    "options": [
+      "count()",
+      "length()",
+      "size()",
+      "items()"
+    ],
+    "correctAnswer": "count()",
+    "explanation": "count() returns the number of elements in an array or Countable object.",
+    "difficulty": "easy",
+    "id": "php-195"
+  },
+  {
+    "question": "Practice round: Which syntax creates an associative array entry?",
+    "options": [
+      "'name' => 'Ada'",
+      "'name': 'Ada'",
+      "'name' = 'Ada'",
+      "name := 'Ada'"
+    ],
+    "correctAnswer": "'name' => 'Ada'",
+    "explanation": "PHP's double arrow associates an array key with its value.",
+    "difficulty": "intermediate",
+    "id": "php-196"
+  },
+  {
+    "question": "Practice round: Which keyword begins a named function declaration?",
+    "options": [
+      "function",
+      "def",
+      "func",
+      "method"
+    ],
+    "correctAnswer": "function",
+    "explanation": "PHP declares a named function with the function keyword.",
+    "difficulty": "easy",
+    "id": "php-197"
+  },
+  {
+    "question": "Practice round: Which operator checks both value and type equality?",
+    "options": [
+      "===",
+      "==",
+      "=",
+      "!="
+    ],
+    "correctAnswer": "===",
+    "explanation": "The identity operator === requires equal values with the same type.",
+    "difficulty": "intermediate",
+    "id": "php-198"
+  },
+  {
+    "question": "Practice round: Which construct iterates over the values in an array?",
+    "options": [
+      "foreach",
+      "iterate",
+      "forEach()",
+      "eachof"
+    ],
+    "correctAnswer": "foreach",
+    "explanation": "foreach is designed to iterate over arrays and Traversable objects.",
+    "difficulty": "easy",
+    "id": "php-199"
+  },
+  {
+    "question": "Practice round: What does the null coalescing operator ?? do?",
+    "options": [
+      "Uses the right value if the left value is null or unset",
+      "Compares two values by identity",
+      "Casts a value to a string",
+      "Concatenates arrays"
+    ],
+    "correctAnswer": "Uses the right value if the left value is null or unset",
+    "explanation": "The ?? operator provides a fallback when its left operand is null or unavailable.",
+    "difficulty": "intermediate",
+    "id": "php-200"
+  }
+]

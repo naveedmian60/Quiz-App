@@ -1,0 +1,2602 @@
+[
+  {
+    "question": "Which keyword declares a block-scoped variable whose type can be inferred?",
+    "options": [
+      "let",
+      "varType",
+      "define",
+      "dim"
+    ],
+    "correctAnswer": "let",
+    "explanation": "TypeScript uses JavaScript's let declaration and infers a type from its initializer when possible.",
+    "difficulty": "easy",
+    "id": "typescript-1"
+  },
+  {
+    "question": "Which annotation names the string primitive type?",
+    "options": [
+      "string",
+      "StringType",
+      "text",
+      "str"
+    ],
+    "correctAnswer": "string",
+    "explanation": "The TypeScript primitive string type is written in lowercase.",
+    "difficulty": "easy",
+    "id": "typescript-2"
+  },
+  {
+    "question": "Which TypeScript feature describes the shape of an object?",
+    "options": [
+      "interface",
+      "namespace",
+      "package",
+      "module"
+    ],
+    "correctAnswer": "interface",
+    "explanation": "An interface can describe the properties and methods an object is expected to have.",
+    "difficulty": "easy",
+    "id": "typescript-3"
+  },
+  {
+    "question": "Which compiler option checks nullable values more strictly?",
+    "options": [
+      "strictNullChecks",
+      "noImplicitAny",
+      "allowJs",
+      "sourceMap"
+    ],
+    "correctAnswer": "strictNullChecks",
+    "explanation": "strictNullChecks treats null and undefined as distinct types that need to be handled.",
+    "difficulty": "intermediate",
+    "id": "typescript-4"
+  },
+  {
+    "question": "Which syntax declares an array of numbers?",
+    "options": [
+      "number[]",
+      "number()",
+      "array<number>",
+      "numbers"
+    ],
+    "correctAnswer": "number[]",
+    "explanation": "The postfix array type syntax number[] means an array whose elements are numbers.",
+    "difficulty": "easy",
+    "id": "typescript-5"
+  },
+  {
+    "question": "What does a question mark after a property name indicate in an interface?",
+    "options": [
+      "The property is optional",
+      "The property is private",
+      "The property is a promise",
+      "The property is read-only"
+    ],
+    "correctAnswer": "The property is optional",
+    "explanation": "An optional property may be omitted from an object that satisfies the interface.",
+    "difficulty": "easy",
+    "id": "typescript-6"
+  },
+  {
+    "question": "Which symbol forms a union type?",
+    "options": [
+      "|",
+      "&",
+      ":",
+      "+/"
+    ],
+    "correctAnswer": "|",
+    "explanation": "A union type such as string | number allows a value to have either type.",
+    "difficulty": "easy",
+    "id": "typescript-7"
+  },
+  {
+    "question": "What is a key benefit of using unknown instead of any?",
+    "options": [
+      "Values must be narrowed before unsafe operations",
+      "It disables type checking",
+      "It converts all values to strings",
+      "It only accepts objects"
+    ],
+    "correctAnswer": "Values must be narrowed before unsafe operations",
+    "explanation": "unknown requires type checking or narrowing before most operations are allowed.",
+    "difficulty": "intermediate",
+    "id": "typescript-8"
+  },
+  {
+    "question": "What does the TypeScript compiler normally emit for browser execution?",
+    "options": [
+      "JavaScript",
+      "WebAssembly only",
+      "HTML",
+      "Machine code"
+    ],
+    "correctAnswer": "JavaScript",
+    "explanation": "TypeScript types are erased during compilation, producing JavaScript output.",
+    "difficulty": "easy",
+    "id": "typescript-9"
+  },
+  {
+    "question": "Which modifier prevents reassignment of a property after initialization?",
+    "options": [
+      "readonly",
+      "const",
+      "static",
+      "fixed"
+    ],
+    "correctAnswer": "readonly",
+    "explanation": "A readonly property cannot be reassigned outside its allowed initialization points.",
+    "difficulty": "intermediate",
+    "id": "typescript-10"
+  },
+  {
+    "question": "Quick check: Which keyword declares a block-scoped variable whose type can be inferred?",
+    "options": [
+      "let",
+      "varType",
+      "define",
+      "dim"
+    ],
+    "correctAnswer": "let",
+    "explanation": "TypeScript uses JavaScript's let declaration and infers a type from its initializer when possible.",
+    "difficulty": "easy",
+    "id": "typescript-11"
+  },
+  {
+    "question": "Quick check: Which annotation names the string primitive type?",
+    "options": [
+      "string",
+      "StringType",
+      "text",
+      "str"
+    ],
+    "correctAnswer": "string",
+    "explanation": "The TypeScript primitive string type is written in lowercase.",
+    "difficulty": "easy",
+    "id": "typescript-12"
+  },
+  {
+    "question": "Quick check: Which TypeScript feature describes the shape of an object?",
+    "options": [
+      "interface",
+      "namespace",
+      "package",
+      "module"
+    ],
+    "correctAnswer": "interface",
+    "explanation": "An interface can describe the properties and methods an object is expected to have.",
+    "difficulty": "easy",
+    "id": "typescript-13"
+  },
+  {
+    "question": "Quick check: Which compiler option checks nullable values more strictly?",
+    "options": [
+      "strictNullChecks",
+      "noImplicitAny",
+      "allowJs",
+      "sourceMap"
+    ],
+    "correctAnswer": "strictNullChecks",
+    "explanation": "strictNullChecks treats null and undefined as distinct types that need to be handled.",
+    "difficulty": "intermediate",
+    "id": "typescript-14"
+  },
+  {
+    "question": "Quick check: Which syntax declares an array of numbers?",
+    "options": [
+      "number[]",
+      "number()",
+      "array<number>",
+      "numbers"
+    ],
+    "correctAnswer": "number[]",
+    "explanation": "The postfix array type syntax number[] means an array whose elements are numbers.",
+    "difficulty": "easy",
+    "id": "typescript-15"
+  },
+  {
+    "question": "Quick check: What does a question mark after a property name indicate in an interface?",
+    "options": [
+      "The property is optional",
+      "The property is private",
+      "The property is a promise",
+      "The property is read-only"
+    ],
+    "correctAnswer": "The property is optional",
+    "explanation": "An optional property may be omitted from an object that satisfies the interface.",
+    "difficulty": "easy",
+    "id": "typescript-16"
+  },
+  {
+    "question": "Quick check: Which symbol forms a union type?",
+    "options": [
+      "|",
+      "&",
+      ":",
+      "+/"
+    ],
+    "correctAnswer": "|",
+    "explanation": "A union type such as string | number allows a value to have either type.",
+    "difficulty": "easy",
+    "id": "typescript-17"
+  },
+  {
+    "question": "Quick check: What is a key benefit of using unknown instead of any?",
+    "options": [
+      "Values must be narrowed before unsafe operations",
+      "It disables type checking",
+      "It converts all values to strings",
+      "It only accepts objects"
+    ],
+    "correctAnswer": "Values must be narrowed before unsafe operations",
+    "explanation": "unknown requires type checking or narrowing before most operations are allowed.",
+    "difficulty": "intermediate",
+    "id": "typescript-18"
+  },
+  {
+    "question": "Quick check: What does the TypeScript compiler normally emit for browser execution?",
+    "options": [
+      "JavaScript",
+      "WebAssembly only",
+      "HTML",
+      "Machine code"
+    ],
+    "correctAnswer": "JavaScript",
+    "explanation": "TypeScript types are erased during compilation, producing JavaScript output.",
+    "difficulty": "easy",
+    "id": "typescript-19"
+  },
+  {
+    "question": "Quick check: Which modifier prevents reassignment of a property after initialization?",
+    "options": [
+      "readonly",
+      "const",
+      "static",
+      "fixed"
+    ],
+    "correctAnswer": "readonly",
+    "explanation": "A readonly property cannot be reassigned outside its allowed initialization points.",
+    "difficulty": "intermediate",
+    "id": "typescript-20"
+  },
+  {
+    "question": "Choose the best answer. Which keyword declares a block-scoped variable whose type can be inferred?",
+    "options": [
+      "let",
+      "varType",
+      "define",
+      "dim"
+    ],
+    "correctAnswer": "let",
+    "explanation": "TypeScript uses JavaScript's let declaration and infers a type from its initializer when possible.",
+    "difficulty": "easy",
+    "id": "typescript-21"
+  },
+  {
+    "question": "Choose the best answer. Which annotation names the string primitive type?",
+    "options": [
+      "string",
+      "StringType",
+      "text",
+      "str"
+    ],
+    "correctAnswer": "string",
+    "explanation": "The TypeScript primitive string type is written in lowercase.",
+    "difficulty": "easy",
+    "id": "typescript-22"
+  },
+  {
+    "question": "Choose the best answer. Which TypeScript feature describes the shape of an object?",
+    "options": [
+      "interface",
+      "namespace",
+      "package",
+      "module"
+    ],
+    "correctAnswer": "interface",
+    "explanation": "An interface can describe the properties and methods an object is expected to have.",
+    "difficulty": "easy",
+    "id": "typescript-23"
+  },
+  {
+    "question": "Choose the best answer. Which compiler option checks nullable values more strictly?",
+    "options": [
+      "strictNullChecks",
+      "noImplicitAny",
+      "allowJs",
+      "sourceMap"
+    ],
+    "correctAnswer": "strictNullChecks",
+    "explanation": "strictNullChecks treats null and undefined as distinct types that need to be handled.",
+    "difficulty": "intermediate",
+    "id": "typescript-24"
+  },
+  {
+    "question": "Choose the best answer. Which syntax declares an array of numbers?",
+    "options": [
+      "number[]",
+      "number()",
+      "array<number>",
+      "numbers"
+    ],
+    "correctAnswer": "number[]",
+    "explanation": "The postfix array type syntax number[] means an array whose elements are numbers.",
+    "difficulty": "easy",
+    "id": "typescript-25"
+  },
+  {
+    "question": "Choose the best answer. What does a question mark after a property name indicate in an interface?",
+    "options": [
+      "The property is optional",
+      "The property is private",
+      "The property is a promise",
+      "The property is read-only"
+    ],
+    "correctAnswer": "The property is optional",
+    "explanation": "An optional property may be omitted from an object that satisfies the interface.",
+    "difficulty": "easy",
+    "id": "typescript-26"
+  },
+  {
+    "question": "Choose the best answer. Which symbol forms a union type?",
+    "options": [
+      "|",
+      "&",
+      ":",
+      "+/"
+    ],
+    "correctAnswer": "|",
+    "explanation": "A union type such as string | number allows a value to have either type.",
+    "difficulty": "easy",
+    "id": "typescript-27"
+  },
+  {
+    "question": "Choose the best answer. What is a key benefit of using unknown instead of any?",
+    "options": [
+      "Values must be narrowed before unsafe operations",
+      "It disables type checking",
+      "It converts all values to strings",
+      "It only accepts objects"
+    ],
+    "correctAnswer": "Values must be narrowed before unsafe operations",
+    "explanation": "unknown requires type checking or narrowing before most operations are allowed.",
+    "difficulty": "intermediate",
+    "id": "typescript-28"
+  },
+  {
+    "question": "Choose the best answer. What does the TypeScript compiler normally emit for browser execution?",
+    "options": [
+      "JavaScript",
+      "WebAssembly only",
+      "HTML",
+      "Machine code"
+    ],
+    "correctAnswer": "JavaScript",
+    "explanation": "TypeScript types are erased during compilation, producing JavaScript output.",
+    "difficulty": "easy",
+    "id": "typescript-29"
+  },
+  {
+    "question": "Choose the best answer. Which modifier prevents reassignment of a property after initialization?",
+    "options": [
+      "readonly",
+      "const",
+      "static",
+      "fixed"
+    ],
+    "correctAnswer": "readonly",
+    "explanation": "A readonly property cannot be reassigned outside its allowed initialization points.",
+    "difficulty": "intermediate",
+    "id": "typescript-30"
+  },
+  {
+    "question": "Programming fundamentals: Which keyword declares a block-scoped variable whose type can be inferred?",
+    "options": [
+      "let",
+      "varType",
+      "define",
+      "dim"
+    ],
+    "correctAnswer": "let",
+    "explanation": "TypeScript uses JavaScript's let declaration and infers a type from its initializer when possible.",
+    "difficulty": "easy",
+    "id": "typescript-31"
+  },
+  {
+    "question": "Programming fundamentals: Which annotation names the string primitive type?",
+    "options": [
+      "string",
+      "StringType",
+      "text",
+      "str"
+    ],
+    "correctAnswer": "string",
+    "explanation": "The TypeScript primitive string type is written in lowercase.",
+    "difficulty": "easy",
+    "id": "typescript-32"
+  },
+  {
+    "question": "Programming fundamentals: Which TypeScript feature describes the shape of an object?",
+    "options": [
+      "interface",
+      "namespace",
+      "package",
+      "module"
+    ],
+    "correctAnswer": "interface",
+    "explanation": "An interface can describe the properties and methods an object is expected to have.",
+    "difficulty": "easy",
+    "id": "typescript-33"
+  },
+  {
+    "question": "Programming fundamentals: Which compiler option checks nullable values more strictly?",
+    "options": [
+      "strictNullChecks",
+      "noImplicitAny",
+      "allowJs",
+      "sourceMap"
+    ],
+    "correctAnswer": "strictNullChecks",
+    "explanation": "strictNullChecks treats null and undefined as distinct types that need to be handled.",
+    "difficulty": "intermediate",
+    "id": "typescript-34"
+  },
+  {
+    "question": "Programming fundamentals: Which syntax declares an array of numbers?",
+    "options": [
+      "number[]",
+      "number()",
+      "array<number>",
+      "numbers"
+    ],
+    "correctAnswer": "number[]",
+    "explanation": "The postfix array type syntax number[] means an array whose elements are numbers.",
+    "difficulty": "easy",
+    "id": "typescript-35"
+  },
+  {
+    "question": "Programming fundamentals: What does a question mark after a property name indicate in an interface?",
+    "options": [
+      "The property is optional",
+      "The property is private",
+      "The property is a promise",
+      "The property is read-only"
+    ],
+    "correctAnswer": "The property is optional",
+    "explanation": "An optional property may be omitted from an object that satisfies the interface.",
+    "difficulty": "easy",
+    "id": "typescript-36"
+  },
+  {
+    "question": "Programming fundamentals: Which symbol forms a union type?",
+    "options": [
+      "|",
+      "&",
+      ":",
+      "+/"
+    ],
+    "correctAnswer": "|",
+    "explanation": "A union type such as string | number allows a value to have either type.",
+    "difficulty": "easy",
+    "id": "typescript-37"
+  },
+  {
+    "question": "Programming fundamentals: What is a key benefit of using unknown instead of any?",
+    "options": [
+      "Values must be narrowed before unsafe operations",
+      "It disables type checking",
+      "It converts all values to strings",
+      "It only accepts objects"
+    ],
+    "correctAnswer": "Values must be narrowed before unsafe operations",
+    "explanation": "unknown requires type checking or narrowing before most operations are allowed.",
+    "difficulty": "intermediate",
+    "id": "typescript-38"
+  },
+  {
+    "question": "Programming fundamentals: What does the TypeScript compiler normally emit for browser execution?",
+    "options": [
+      "JavaScript",
+      "WebAssembly only",
+      "HTML",
+      "Machine code"
+    ],
+    "correctAnswer": "JavaScript",
+    "explanation": "TypeScript types are erased during compilation, producing JavaScript output.",
+    "difficulty": "easy",
+    "id": "typescript-39"
+  },
+  {
+    "question": "Programming fundamentals: Which modifier prevents reassignment of a property after initialization?",
+    "options": [
+      "readonly",
+      "const",
+      "static",
+      "fixed"
+    ],
+    "correctAnswer": "readonly",
+    "explanation": "A readonly property cannot be reassigned outside its allowed initialization points.",
+    "difficulty": "intermediate",
+    "id": "typescript-40"
+  },
+  {
+    "question": "Knowledge check: Which keyword declares a block-scoped variable whose type can be inferred?",
+    "options": [
+      "let",
+      "varType",
+      "define",
+      "dim"
+    ],
+    "correctAnswer": "let",
+    "explanation": "TypeScript uses JavaScript's let declaration and infers a type from its initializer when possible.",
+    "difficulty": "easy",
+    "id": "typescript-41"
+  },
+  {
+    "question": "Knowledge check: Which annotation names the string primitive type?",
+    "options": [
+      "string",
+      "StringType",
+      "text",
+      "str"
+    ],
+    "correctAnswer": "string",
+    "explanation": "The TypeScript primitive string type is written in lowercase.",
+    "difficulty": "easy",
+    "id": "typescript-42"
+  },
+  {
+    "question": "Knowledge check: Which TypeScript feature describes the shape of an object?",
+    "options": [
+      "interface",
+      "namespace",
+      "package",
+      "module"
+    ],
+    "correctAnswer": "interface",
+    "explanation": "An interface can describe the properties and methods an object is expected to have.",
+    "difficulty": "easy",
+    "id": "typescript-43"
+  },
+  {
+    "question": "Knowledge check: Which compiler option checks nullable values more strictly?",
+    "options": [
+      "strictNullChecks",
+      "noImplicitAny",
+      "allowJs",
+      "sourceMap"
+    ],
+    "correctAnswer": "strictNullChecks",
+    "explanation": "strictNullChecks treats null and undefined as distinct types that need to be handled.",
+    "difficulty": "intermediate",
+    "id": "typescript-44"
+  },
+  {
+    "question": "Knowledge check: Which syntax declares an array of numbers?",
+    "options": [
+      "number[]",
+      "number()",
+      "array<number>",
+      "numbers"
+    ],
+    "correctAnswer": "number[]",
+    "explanation": "The postfix array type syntax number[] means an array whose elements are numbers.",
+    "difficulty": "easy",
+    "id": "typescript-45"
+  },
+  {
+    "question": "Knowledge check: What does a question mark after a property name indicate in an interface?",
+    "options": [
+      "The property is optional",
+      "The property is private",
+      "The property is a promise",
+      "The property is read-only"
+    ],
+    "correctAnswer": "The property is optional",
+    "explanation": "An optional property may be omitted from an object that satisfies the interface.",
+    "difficulty": "easy",
+    "id": "typescript-46"
+  },
+  {
+    "question": "Knowledge check: Which symbol forms a union type?",
+    "options": [
+      "|",
+      "&",
+      ":",
+      "+/"
+    ],
+    "correctAnswer": "|",
+    "explanation": "A union type such as string | number allows a value to have either type.",
+    "difficulty": "easy",
+    "id": "typescript-47"
+  },
+  {
+    "question": "Knowledge check: What is a key benefit of using unknown instead of any?",
+    "options": [
+      "Values must be narrowed before unsafe operations",
+      "It disables type checking",
+      "It converts all values to strings",
+      "It only accepts objects"
+    ],
+    "correctAnswer": "Values must be narrowed before unsafe operations",
+    "explanation": "unknown requires type checking or narrowing before most operations are allowed.",
+    "difficulty": "intermediate",
+    "id": "typescript-48"
+  },
+  {
+    "question": "Knowledge check: What does the TypeScript compiler normally emit for browser execution?",
+    "options": [
+      "JavaScript",
+      "WebAssembly only",
+      "HTML",
+      "Machine code"
+    ],
+    "correctAnswer": "JavaScript",
+    "explanation": "TypeScript types are erased during compilation, producing JavaScript output.",
+    "difficulty": "easy",
+    "id": "typescript-49"
+  },
+  {
+    "question": "Knowledge check: Which modifier prevents reassignment of a property after initialization?",
+    "options": [
+      "readonly",
+      "const",
+      "static",
+      "fixed"
+    ],
+    "correctAnswer": "readonly",
+    "explanation": "A readonly property cannot be reassigned outside its allowed initialization points.",
+    "difficulty": "intermediate",
+    "id": "typescript-50"
+  },
+  {
+    "question": "When reviewing code, which keyword declares a block-scoped variable whose type can be inferred?",
+    "options": [
+      "let",
+      "varType",
+      "define",
+      "dim"
+    ],
+    "correctAnswer": "let",
+    "explanation": "TypeScript uses JavaScript's let declaration and infers a type from its initializer when possible.",
+    "difficulty": "easy",
+    "id": "typescript-51"
+  },
+  {
+    "question": "When reviewing code, which annotation names the string primitive type?",
+    "options": [
+      "string",
+      "StringType",
+      "text",
+      "str"
+    ],
+    "correctAnswer": "string",
+    "explanation": "The TypeScript primitive string type is written in lowercase.",
+    "difficulty": "easy",
+    "id": "typescript-52"
+  },
+  {
+    "question": "When reviewing code, which TypeScript feature describes the shape of an object?",
+    "options": [
+      "interface",
+      "namespace",
+      "package",
+      "module"
+    ],
+    "correctAnswer": "interface",
+    "explanation": "An interface can describe the properties and methods an object is expected to have.",
+    "difficulty": "easy",
+    "id": "typescript-53"
+  },
+  {
+    "question": "When reviewing code, which compiler option checks nullable values more strictly?",
+    "options": [
+      "strictNullChecks",
+      "noImplicitAny",
+      "allowJs",
+      "sourceMap"
+    ],
+    "correctAnswer": "strictNullChecks",
+    "explanation": "strictNullChecks treats null and undefined as distinct types that need to be handled.",
+    "difficulty": "intermediate",
+    "id": "typescript-54"
+  },
+  {
+    "question": "When reviewing code, which syntax declares an array of numbers?",
+    "options": [
+      "number[]",
+      "number()",
+      "array<number>",
+      "numbers"
+    ],
+    "correctAnswer": "number[]",
+    "explanation": "The postfix array type syntax number[] means an array whose elements are numbers.",
+    "difficulty": "easy",
+    "id": "typescript-55"
+  },
+  {
+    "question": "When reviewing code, what does a question mark after a property name indicate in an interface?",
+    "options": [
+      "The property is optional",
+      "The property is private",
+      "The property is a promise",
+      "The property is read-only"
+    ],
+    "correctAnswer": "The property is optional",
+    "explanation": "An optional property may be omitted from an object that satisfies the interface.",
+    "difficulty": "easy",
+    "id": "typescript-56"
+  },
+  {
+    "question": "When reviewing code, which symbol forms a union type?",
+    "options": [
+      "|",
+      "&",
+      ":",
+      "+/"
+    ],
+    "correctAnswer": "|",
+    "explanation": "A union type such as string | number allows a value to have either type.",
+    "difficulty": "easy",
+    "id": "typescript-57"
+  },
+  {
+    "question": "When reviewing code, what is a key benefit of using unknown instead of any?",
+    "options": [
+      "Values must be narrowed before unsafe operations",
+      "It disables type checking",
+      "It converts all values to strings",
+      "It only accepts objects"
+    ],
+    "correctAnswer": "Values must be narrowed before unsafe operations",
+    "explanation": "unknown requires type checking or narrowing before most operations are allowed.",
+    "difficulty": "intermediate",
+    "id": "typescript-58"
+  },
+  {
+    "question": "When reviewing code, what does the TypeScript compiler normally emit for browser execution?",
+    "options": [
+      "JavaScript",
+      "WebAssembly only",
+      "HTML",
+      "Machine code"
+    ],
+    "correctAnswer": "JavaScript",
+    "explanation": "TypeScript types are erased during compilation, producing JavaScript output.",
+    "difficulty": "easy",
+    "id": "typescript-59"
+  },
+  {
+    "question": "When reviewing code, which modifier prevents reassignment of a property after initialization?",
+    "options": [
+      "readonly",
+      "const",
+      "static",
+      "fixed"
+    ],
+    "correctAnswer": "readonly",
+    "explanation": "A readonly property cannot be reassigned outside its allowed initialization points.",
+    "difficulty": "intermediate",
+    "id": "typescript-60"
+  },
+  {
+    "question": "For a beginner, which keyword declares a block-scoped variable whose type can be inferred?",
+    "options": [
+      "let",
+      "varType",
+      "define",
+      "dim"
+    ],
+    "correctAnswer": "let",
+    "explanation": "TypeScript uses JavaScript's let declaration and infers a type from its initializer when possible.",
+    "difficulty": "easy",
+    "id": "typescript-61"
+  },
+  {
+    "question": "For a beginner, which annotation names the string primitive type?",
+    "options": [
+      "string",
+      "StringType",
+      "text",
+      "str"
+    ],
+    "correctAnswer": "string",
+    "explanation": "The TypeScript primitive string type is written in lowercase.",
+    "difficulty": "easy",
+    "id": "typescript-62"
+  },
+  {
+    "question": "For a beginner, which TypeScript feature describes the shape of an object?",
+    "options": [
+      "interface",
+      "namespace",
+      "package",
+      "module"
+    ],
+    "correctAnswer": "interface",
+    "explanation": "An interface can describe the properties and methods an object is expected to have.",
+    "difficulty": "easy",
+    "id": "typescript-63"
+  },
+  {
+    "question": "For a beginner, which compiler option checks nullable values more strictly?",
+    "options": [
+      "strictNullChecks",
+      "noImplicitAny",
+      "allowJs",
+      "sourceMap"
+    ],
+    "correctAnswer": "strictNullChecks",
+    "explanation": "strictNullChecks treats null and undefined as distinct types that need to be handled.",
+    "difficulty": "intermediate",
+    "id": "typescript-64"
+  },
+  {
+    "question": "For a beginner, which syntax declares an array of numbers?",
+    "options": [
+      "number[]",
+      "number()",
+      "array<number>",
+      "numbers"
+    ],
+    "correctAnswer": "number[]",
+    "explanation": "The postfix array type syntax number[] means an array whose elements are numbers.",
+    "difficulty": "easy",
+    "id": "typescript-65"
+  },
+  {
+    "question": "For a beginner, what does a question mark after a property name indicate in an interface?",
+    "options": [
+      "The property is optional",
+      "The property is private",
+      "The property is a promise",
+      "The property is read-only"
+    ],
+    "correctAnswer": "The property is optional",
+    "explanation": "An optional property may be omitted from an object that satisfies the interface.",
+    "difficulty": "easy",
+    "id": "typescript-66"
+  },
+  {
+    "question": "For a beginner, which symbol forms a union type?",
+    "options": [
+      "|",
+      "&",
+      ":",
+      "+/"
+    ],
+    "correctAnswer": "|",
+    "explanation": "A union type such as string | number allows a value to have either type.",
+    "difficulty": "easy",
+    "id": "typescript-67"
+  },
+  {
+    "question": "For a beginner, what is a key benefit of using unknown instead of any?",
+    "options": [
+      "Values must be narrowed before unsafe operations",
+      "It disables type checking",
+      "It converts all values to strings",
+      "It only accepts objects"
+    ],
+    "correctAnswer": "Values must be narrowed before unsafe operations",
+    "explanation": "unknown requires type checking or narrowing before most operations are allowed.",
+    "difficulty": "intermediate",
+    "id": "typescript-68"
+  },
+  {
+    "question": "For a beginner, what does the TypeScript compiler normally emit for browser execution?",
+    "options": [
+      "JavaScript",
+      "WebAssembly only",
+      "HTML",
+      "Machine code"
+    ],
+    "correctAnswer": "JavaScript",
+    "explanation": "TypeScript types are erased during compilation, producing JavaScript output.",
+    "difficulty": "easy",
+    "id": "typescript-69"
+  },
+  {
+    "question": "For a beginner, which modifier prevents reassignment of a property after initialization?",
+    "options": [
+      "readonly",
+      "const",
+      "static",
+      "fixed"
+    ],
+    "correctAnswer": "readonly",
+    "explanation": "A readonly property cannot be reassigned outside its allowed initialization points.",
+    "difficulty": "intermediate",
+    "id": "typescript-70"
+  },
+  {
+    "question": "Concept review: Which keyword declares a block-scoped variable whose type can be inferred?",
+    "options": [
+      "let",
+      "varType",
+      "define",
+      "dim"
+    ],
+    "correctAnswer": "let",
+    "explanation": "TypeScript uses JavaScript's let declaration and infers a type from its initializer when possible.",
+    "difficulty": "easy",
+    "id": "typescript-71"
+  },
+  {
+    "question": "Concept review: Which annotation names the string primitive type?",
+    "options": [
+      "string",
+      "StringType",
+      "text",
+      "str"
+    ],
+    "correctAnswer": "string",
+    "explanation": "The TypeScript primitive string type is written in lowercase.",
+    "difficulty": "easy",
+    "id": "typescript-72"
+  },
+  {
+    "question": "Concept review: Which TypeScript feature describes the shape of an object?",
+    "options": [
+      "interface",
+      "namespace",
+      "package",
+      "module"
+    ],
+    "correctAnswer": "interface",
+    "explanation": "An interface can describe the properties and methods an object is expected to have.",
+    "difficulty": "easy",
+    "id": "typescript-73"
+  },
+  {
+    "question": "Concept review: Which compiler option checks nullable values more strictly?",
+    "options": [
+      "strictNullChecks",
+      "noImplicitAny",
+      "allowJs",
+      "sourceMap"
+    ],
+    "correctAnswer": "strictNullChecks",
+    "explanation": "strictNullChecks treats null and undefined as distinct types that need to be handled.",
+    "difficulty": "intermediate",
+    "id": "typescript-74"
+  },
+  {
+    "question": "Concept review: Which syntax declares an array of numbers?",
+    "options": [
+      "number[]",
+      "number()",
+      "array<number>",
+      "numbers"
+    ],
+    "correctAnswer": "number[]",
+    "explanation": "The postfix array type syntax number[] means an array whose elements are numbers.",
+    "difficulty": "easy",
+    "id": "typescript-75"
+  },
+  {
+    "question": "Concept review: What does a question mark after a property name indicate in an interface?",
+    "options": [
+      "The property is optional",
+      "The property is private",
+      "The property is a promise",
+      "The property is read-only"
+    ],
+    "correctAnswer": "The property is optional",
+    "explanation": "An optional property may be omitted from an object that satisfies the interface.",
+    "difficulty": "easy",
+    "id": "typescript-76"
+  },
+  {
+    "question": "Concept review: Which symbol forms a union type?",
+    "options": [
+      "|",
+      "&",
+      ":",
+      "+/"
+    ],
+    "correctAnswer": "|",
+    "explanation": "A union type such as string | number allows a value to have either type.",
+    "difficulty": "easy",
+    "id": "typescript-77"
+  },
+  {
+    "question": "Concept review: What is a key benefit of using unknown instead of any?",
+    "options": [
+      "Values must be narrowed before unsafe operations",
+      "It disables type checking",
+      "It converts all values to strings",
+      "It only accepts objects"
+    ],
+    "correctAnswer": "Values must be narrowed before unsafe operations",
+    "explanation": "unknown requires type checking or narrowing before most operations are allowed.",
+    "difficulty": "intermediate",
+    "id": "typescript-78"
+  },
+  {
+    "question": "Concept review: What does the TypeScript compiler normally emit for browser execution?",
+    "options": [
+      "JavaScript",
+      "WebAssembly only",
+      "HTML",
+      "Machine code"
+    ],
+    "correctAnswer": "JavaScript",
+    "explanation": "TypeScript types are erased during compilation, producing JavaScript output.",
+    "difficulty": "easy",
+    "id": "typescript-79"
+  },
+  {
+    "question": "Concept review: Which modifier prevents reassignment of a property after initialization?",
+    "options": [
+      "readonly",
+      "const",
+      "static",
+      "fixed"
+    ],
+    "correctAnswer": "readonly",
+    "explanation": "A readonly property cannot be reassigned outside its allowed initialization points.",
+    "difficulty": "intermediate",
+    "id": "typescript-80"
+  },
+  {
+    "question": "Select the correct statement. Which keyword declares a block-scoped variable whose type can be inferred?",
+    "options": [
+      "let",
+      "varType",
+      "define",
+      "dim"
+    ],
+    "correctAnswer": "let",
+    "explanation": "TypeScript uses JavaScript's let declaration and infers a type from its initializer when possible.",
+    "difficulty": "easy",
+    "id": "typescript-81"
+  },
+  {
+    "question": "Select the correct statement. Which annotation names the string primitive type?",
+    "options": [
+      "string",
+      "StringType",
+      "text",
+      "str"
+    ],
+    "correctAnswer": "string",
+    "explanation": "The TypeScript primitive string type is written in lowercase.",
+    "difficulty": "easy",
+    "id": "typescript-82"
+  },
+  {
+    "question": "Select the correct statement. Which TypeScript feature describes the shape of an object?",
+    "options": [
+      "interface",
+      "namespace",
+      "package",
+      "module"
+    ],
+    "correctAnswer": "interface",
+    "explanation": "An interface can describe the properties and methods an object is expected to have.",
+    "difficulty": "easy",
+    "id": "typescript-83"
+  },
+  {
+    "question": "Select the correct statement. Which compiler option checks nullable values more strictly?",
+    "options": [
+      "strictNullChecks",
+      "noImplicitAny",
+      "allowJs",
+      "sourceMap"
+    ],
+    "correctAnswer": "strictNullChecks",
+    "explanation": "strictNullChecks treats null and undefined as distinct types that need to be handled.",
+    "difficulty": "intermediate",
+    "id": "typescript-84"
+  },
+  {
+    "question": "Select the correct statement. Which syntax declares an array of numbers?",
+    "options": [
+      "number[]",
+      "number()",
+      "array<number>",
+      "numbers"
+    ],
+    "correctAnswer": "number[]",
+    "explanation": "The postfix array type syntax number[] means an array whose elements are numbers.",
+    "difficulty": "easy",
+    "id": "typescript-85"
+  },
+  {
+    "question": "Select the correct statement. What does a question mark after a property name indicate in an interface?",
+    "options": [
+      "The property is optional",
+      "The property is private",
+      "The property is a promise",
+      "The property is read-only"
+    ],
+    "correctAnswer": "The property is optional",
+    "explanation": "An optional property may be omitted from an object that satisfies the interface.",
+    "difficulty": "easy",
+    "id": "typescript-86"
+  },
+  {
+    "question": "Select the correct statement. Which symbol forms a union type?",
+    "options": [
+      "|",
+      "&",
+      ":",
+      "+/"
+    ],
+    "correctAnswer": "|",
+    "explanation": "A union type such as string | number allows a value to have either type.",
+    "difficulty": "easy",
+    "id": "typescript-87"
+  },
+  {
+    "question": "Select the correct statement. What is a key benefit of using unknown instead of any?",
+    "options": [
+      "Values must be narrowed before unsafe operations",
+      "It disables type checking",
+      "It converts all values to strings",
+      "It only accepts objects"
+    ],
+    "correctAnswer": "Values must be narrowed before unsafe operations",
+    "explanation": "unknown requires type checking or narrowing before most operations are allowed.",
+    "difficulty": "intermediate",
+    "id": "typescript-88"
+  },
+  {
+    "question": "Select the correct statement. What does the TypeScript compiler normally emit for browser execution?",
+    "options": [
+      "JavaScript",
+      "WebAssembly only",
+      "HTML",
+      "Machine code"
+    ],
+    "correctAnswer": "JavaScript",
+    "explanation": "TypeScript types are erased during compilation, producing JavaScript output.",
+    "difficulty": "easy",
+    "id": "typescript-89"
+  },
+  {
+    "question": "Select the correct statement. Which modifier prevents reassignment of a property after initialization?",
+    "options": [
+      "readonly",
+      "const",
+      "static",
+      "fixed"
+    ],
+    "correctAnswer": "readonly",
+    "explanation": "A readonly property cannot be reassigned outside its allowed initialization points.",
+    "difficulty": "intermediate",
+    "id": "typescript-90"
+  },
+  {
+    "question": "Practice question: Which keyword declares a block-scoped variable whose type can be inferred?",
+    "options": [
+      "let",
+      "varType",
+      "define",
+      "dim"
+    ],
+    "correctAnswer": "let",
+    "explanation": "TypeScript uses JavaScript's let declaration and infers a type from its initializer when possible.",
+    "difficulty": "easy",
+    "id": "typescript-91"
+  },
+  {
+    "question": "Practice question: Which annotation names the string primitive type?",
+    "options": [
+      "string",
+      "StringType",
+      "text",
+      "str"
+    ],
+    "correctAnswer": "string",
+    "explanation": "The TypeScript primitive string type is written in lowercase.",
+    "difficulty": "easy",
+    "id": "typescript-92"
+  },
+  {
+    "question": "Practice question: Which TypeScript feature describes the shape of an object?",
+    "options": [
+      "interface",
+      "namespace",
+      "package",
+      "module"
+    ],
+    "correctAnswer": "interface",
+    "explanation": "An interface can describe the properties and methods an object is expected to have.",
+    "difficulty": "easy",
+    "id": "typescript-93"
+  },
+  {
+    "question": "Practice question: Which compiler option checks nullable values more strictly?",
+    "options": [
+      "strictNullChecks",
+      "noImplicitAny",
+      "allowJs",
+      "sourceMap"
+    ],
+    "correctAnswer": "strictNullChecks",
+    "explanation": "strictNullChecks treats null and undefined as distinct types that need to be handled.",
+    "difficulty": "intermediate",
+    "id": "typescript-94"
+  },
+  {
+    "question": "Practice question: Which syntax declares an array of numbers?",
+    "options": [
+      "number[]",
+      "number()",
+      "array<number>",
+      "numbers"
+    ],
+    "correctAnswer": "number[]",
+    "explanation": "The postfix array type syntax number[] means an array whose elements are numbers.",
+    "difficulty": "easy",
+    "id": "typescript-95"
+  },
+  {
+    "question": "Practice question: What does a question mark after a property name indicate in an interface?",
+    "options": [
+      "The property is optional",
+      "The property is private",
+      "The property is a promise",
+      "The property is read-only"
+    ],
+    "correctAnswer": "The property is optional",
+    "explanation": "An optional property may be omitted from an object that satisfies the interface.",
+    "difficulty": "easy",
+    "id": "typescript-96"
+  },
+  {
+    "question": "Practice question: Which symbol forms a union type?",
+    "options": [
+      "|",
+      "&",
+      ":",
+      "+/"
+    ],
+    "correctAnswer": "|",
+    "explanation": "A union type such as string | number allows a value to have either type.",
+    "difficulty": "easy",
+    "id": "typescript-97"
+  },
+  {
+    "question": "Practice question: What is a key benefit of using unknown instead of any?",
+    "options": [
+      "Values must be narrowed before unsafe operations",
+      "It disables type checking",
+      "It converts all values to strings",
+      "It only accepts objects"
+    ],
+    "correctAnswer": "Values must be narrowed before unsafe operations",
+    "explanation": "unknown requires type checking or narrowing before most operations are allowed.",
+    "difficulty": "intermediate",
+    "id": "typescript-98"
+  },
+  {
+    "question": "Practice question: What does the TypeScript compiler normally emit for browser execution?",
+    "options": [
+      "JavaScript",
+      "WebAssembly only",
+      "HTML",
+      "Machine code"
+    ],
+    "correctAnswer": "JavaScript",
+    "explanation": "TypeScript types are erased during compilation, producing JavaScript output.",
+    "difficulty": "easy",
+    "id": "typescript-99"
+  },
+  {
+    "question": "Practice question: Which modifier prevents reassignment of a property after initialization?",
+    "options": [
+      "readonly",
+      "const",
+      "static",
+      "fixed"
+    ],
+    "correctAnswer": "readonly",
+    "explanation": "A readonly property cannot be reassigned outside its allowed initialization points.",
+    "difficulty": "intermediate",
+    "id": "typescript-100"
+  },
+  {
+    "question": "Test your understanding: Which keyword declares a block-scoped variable whose type can be inferred?",
+    "options": [
+      "let",
+      "varType",
+      "define",
+      "dim"
+    ],
+    "correctAnswer": "let",
+    "explanation": "TypeScript uses JavaScript's let declaration and infers a type from its initializer when possible.",
+    "difficulty": "easy",
+    "id": "typescript-101"
+  },
+  {
+    "question": "Test your understanding: Which annotation names the string primitive type?",
+    "options": [
+      "string",
+      "StringType",
+      "text",
+      "str"
+    ],
+    "correctAnswer": "string",
+    "explanation": "The TypeScript primitive string type is written in lowercase.",
+    "difficulty": "easy",
+    "id": "typescript-102"
+  },
+  {
+    "question": "Test your understanding: Which TypeScript feature describes the shape of an object?",
+    "options": [
+      "interface",
+      "namespace",
+      "package",
+      "module"
+    ],
+    "correctAnswer": "interface",
+    "explanation": "An interface can describe the properties and methods an object is expected to have.",
+    "difficulty": "easy",
+    "id": "typescript-103"
+  },
+  {
+    "question": "Test your understanding: Which compiler option checks nullable values more strictly?",
+    "options": [
+      "strictNullChecks",
+      "noImplicitAny",
+      "allowJs",
+      "sourceMap"
+    ],
+    "correctAnswer": "strictNullChecks",
+    "explanation": "strictNullChecks treats null and undefined as distinct types that need to be handled.",
+    "difficulty": "intermediate",
+    "id": "typescript-104"
+  },
+  {
+    "question": "Test your understanding: Which syntax declares an array of numbers?",
+    "options": [
+      "number[]",
+      "number()",
+      "array<number>",
+      "numbers"
+    ],
+    "correctAnswer": "number[]",
+    "explanation": "The postfix array type syntax number[] means an array whose elements are numbers.",
+    "difficulty": "easy",
+    "id": "typescript-105"
+  },
+  {
+    "question": "Test your understanding: What does a question mark after a property name indicate in an interface?",
+    "options": [
+      "The property is optional",
+      "The property is private",
+      "The property is a promise",
+      "The property is read-only"
+    ],
+    "correctAnswer": "The property is optional",
+    "explanation": "An optional property may be omitted from an object that satisfies the interface.",
+    "difficulty": "easy",
+    "id": "typescript-106"
+  },
+  {
+    "question": "Test your understanding: Which symbol forms a union type?",
+    "options": [
+      "|",
+      "&",
+      ":",
+      "+/"
+    ],
+    "correctAnswer": "|",
+    "explanation": "A union type such as string | number allows a value to have either type.",
+    "difficulty": "easy",
+    "id": "typescript-107"
+  },
+  {
+    "question": "Test your understanding: What is a key benefit of using unknown instead of any?",
+    "options": [
+      "Values must be narrowed before unsafe operations",
+      "It disables type checking",
+      "It converts all values to strings",
+      "It only accepts objects"
+    ],
+    "correctAnswer": "Values must be narrowed before unsafe operations",
+    "explanation": "unknown requires type checking or narrowing before most operations are allowed.",
+    "difficulty": "intermediate",
+    "id": "typescript-108"
+  },
+  {
+    "question": "Test your understanding: What does the TypeScript compiler normally emit for browser execution?",
+    "options": [
+      "JavaScript",
+      "WebAssembly only",
+      "HTML",
+      "Machine code"
+    ],
+    "correctAnswer": "JavaScript",
+    "explanation": "TypeScript types are erased during compilation, producing JavaScript output.",
+    "difficulty": "easy",
+    "id": "typescript-109"
+  },
+  {
+    "question": "Test your understanding: Which modifier prevents reassignment of a property after initialization?",
+    "options": [
+      "readonly",
+      "const",
+      "static",
+      "fixed"
+    ],
+    "correctAnswer": "readonly",
+    "explanation": "A readonly property cannot be reassigned outside its allowed initialization points.",
+    "difficulty": "intermediate",
+    "id": "typescript-110"
+  },
+  {
+    "question": "Language basics: Which keyword declares a block-scoped variable whose type can be inferred?",
+    "options": [
+      "let",
+      "varType",
+      "define",
+      "dim"
+    ],
+    "correctAnswer": "let",
+    "explanation": "TypeScript uses JavaScript's let declaration and infers a type from its initializer when possible.",
+    "difficulty": "easy",
+    "id": "typescript-111"
+  },
+  {
+    "question": "Language basics: Which annotation names the string primitive type?",
+    "options": [
+      "string",
+      "StringType",
+      "text",
+      "str"
+    ],
+    "correctAnswer": "string",
+    "explanation": "The TypeScript primitive string type is written in lowercase.",
+    "difficulty": "easy",
+    "id": "typescript-112"
+  },
+  {
+    "question": "Language basics: Which TypeScript feature describes the shape of an object?",
+    "options": [
+      "interface",
+      "namespace",
+      "package",
+      "module"
+    ],
+    "correctAnswer": "interface",
+    "explanation": "An interface can describe the properties and methods an object is expected to have.",
+    "difficulty": "easy",
+    "id": "typescript-113"
+  },
+  {
+    "question": "Language basics: Which compiler option checks nullable values more strictly?",
+    "options": [
+      "strictNullChecks",
+      "noImplicitAny",
+      "allowJs",
+      "sourceMap"
+    ],
+    "correctAnswer": "strictNullChecks",
+    "explanation": "strictNullChecks treats null and undefined as distinct types that need to be handled.",
+    "difficulty": "intermediate",
+    "id": "typescript-114"
+  },
+  {
+    "question": "Language basics: Which syntax declares an array of numbers?",
+    "options": [
+      "number[]",
+      "number()",
+      "array<number>",
+      "numbers"
+    ],
+    "correctAnswer": "number[]",
+    "explanation": "The postfix array type syntax number[] means an array whose elements are numbers.",
+    "difficulty": "easy",
+    "id": "typescript-115"
+  },
+  {
+    "question": "Language basics: What does a question mark after a property name indicate in an interface?",
+    "options": [
+      "The property is optional",
+      "The property is private",
+      "The property is a promise",
+      "The property is read-only"
+    ],
+    "correctAnswer": "The property is optional",
+    "explanation": "An optional property may be omitted from an object that satisfies the interface.",
+    "difficulty": "easy",
+    "id": "typescript-116"
+  },
+  {
+    "question": "Language basics: Which symbol forms a union type?",
+    "options": [
+      "|",
+      "&",
+      ":",
+      "+/"
+    ],
+    "correctAnswer": "|",
+    "explanation": "A union type such as string | number allows a value to have either type.",
+    "difficulty": "easy",
+    "id": "typescript-117"
+  },
+  {
+    "question": "Language basics: What is a key benefit of using unknown instead of any?",
+    "options": [
+      "Values must be narrowed before unsafe operations",
+      "It disables type checking",
+      "It converts all values to strings",
+      "It only accepts objects"
+    ],
+    "correctAnswer": "Values must be narrowed before unsafe operations",
+    "explanation": "unknown requires type checking or narrowing before most operations are allowed.",
+    "difficulty": "intermediate",
+    "id": "typescript-118"
+  },
+  {
+    "question": "Language basics: What does the TypeScript compiler normally emit for browser execution?",
+    "options": [
+      "JavaScript",
+      "WebAssembly only",
+      "HTML",
+      "Machine code"
+    ],
+    "correctAnswer": "JavaScript",
+    "explanation": "TypeScript types are erased during compilation, producing JavaScript output.",
+    "difficulty": "easy",
+    "id": "typescript-119"
+  },
+  {
+    "question": "Language basics: Which modifier prevents reassignment of a property after initialization?",
+    "options": [
+      "readonly",
+      "const",
+      "static",
+      "fixed"
+    ],
+    "correctAnswer": "readonly",
+    "explanation": "A readonly property cannot be reassigned outside its allowed initialization points.",
+    "difficulty": "intermediate",
+    "id": "typescript-120"
+  },
+  {
+    "question": "Which answer is accurate? Which keyword declares a block-scoped variable whose type can be inferred?",
+    "options": [
+      "let",
+      "varType",
+      "define",
+      "dim"
+    ],
+    "correctAnswer": "let",
+    "explanation": "TypeScript uses JavaScript's let declaration and infers a type from its initializer when possible.",
+    "difficulty": "easy",
+    "id": "typescript-121"
+  },
+  {
+    "question": "Which answer is accurate? Which annotation names the string primitive type?",
+    "options": [
+      "string",
+      "StringType",
+      "text",
+      "str"
+    ],
+    "correctAnswer": "string",
+    "explanation": "The TypeScript primitive string type is written in lowercase.",
+    "difficulty": "easy",
+    "id": "typescript-122"
+  },
+  {
+    "question": "Which answer is accurate? Which TypeScript feature describes the shape of an object?",
+    "options": [
+      "interface",
+      "namespace",
+      "package",
+      "module"
+    ],
+    "correctAnswer": "interface",
+    "explanation": "An interface can describe the properties and methods an object is expected to have.",
+    "difficulty": "easy",
+    "id": "typescript-123"
+  },
+  {
+    "question": "Which answer is accurate? Which compiler option checks nullable values more strictly?",
+    "options": [
+      "strictNullChecks",
+      "noImplicitAny",
+      "allowJs",
+      "sourceMap"
+    ],
+    "correctAnswer": "strictNullChecks",
+    "explanation": "strictNullChecks treats null and undefined as distinct types that need to be handled.",
+    "difficulty": "intermediate",
+    "id": "typescript-124"
+  },
+  {
+    "question": "Which answer is accurate? Which syntax declares an array of numbers?",
+    "options": [
+      "number[]",
+      "number()",
+      "array<number>",
+      "numbers"
+    ],
+    "correctAnswer": "number[]",
+    "explanation": "The postfix array type syntax number[] means an array whose elements are numbers.",
+    "difficulty": "easy",
+    "id": "typescript-125"
+  },
+  {
+    "question": "Which answer is accurate? What does a question mark after a property name indicate in an interface?",
+    "options": [
+      "The property is optional",
+      "The property is private",
+      "The property is a promise",
+      "The property is read-only"
+    ],
+    "correctAnswer": "The property is optional",
+    "explanation": "An optional property may be omitted from an object that satisfies the interface.",
+    "difficulty": "easy",
+    "id": "typescript-126"
+  },
+  {
+    "question": "Which answer is accurate? Which symbol forms a union type?",
+    "options": [
+      "|",
+      "&",
+      ":",
+      "+/"
+    ],
+    "correctAnswer": "|",
+    "explanation": "A union type such as string | number allows a value to have either type.",
+    "difficulty": "easy",
+    "id": "typescript-127"
+  },
+  {
+    "question": "Which answer is accurate? What is a key benefit of using unknown instead of any?",
+    "options": [
+      "Values must be narrowed before unsafe operations",
+      "It disables type checking",
+      "It converts all values to strings",
+      "It only accepts objects"
+    ],
+    "correctAnswer": "Values must be narrowed before unsafe operations",
+    "explanation": "unknown requires type checking or narrowing before most operations are allowed.",
+    "difficulty": "intermediate",
+    "id": "typescript-128"
+  },
+  {
+    "question": "Which answer is accurate? What does the TypeScript compiler normally emit for browser execution?",
+    "options": [
+      "JavaScript",
+      "WebAssembly only",
+      "HTML",
+      "Machine code"
+    ],
+    "correctAnswer": "JavaScript",
+    "explanation": "TypeScript types are erased during compilation, producing JavaScript output.",
+    "difficulty": "easy",
+    "id": "typescript-129"
+  },
+  {
+    "question": "Which answer is accurate? Which modifier prevents reassignment of a property after initialization?",
+    "options": [
+      "readonly",
+      "const",
+      "static",
+      "fixed"
+    ],
+    "correctAnswer": "readonly",
+    "explanation": "A readonly property cannot be reassigned outside its allowed initialization points.",
+    "difficulty": "intermediate",
+    "id": "typescript-130"
+  },
+  {
+    "question": "Study prompt: Which keyword declares a block-scoped variable whose type can be inferred?",
+    "options": [
+      "let",
+      "varType",
+      "define",
+      "dim"
+    ],
+    "correctAnswer": "let",
+    "explanation": "TypeScript uses JavaScript's let declaration and infers a type from its initializer when possible.",
+    "difficulty": "easy",
+    "id": "typescript-131"
+  },
+  {
+    "question": "Study prompt: Which annotation names the string primitive type?",
+    "options": [
+      "string",
+      "StringType",
+      "text",
+      "str"
+    ],
+    "correctAnswer": "string",
+    "explanation": "The TypeScript primitive string type is written in lowercase.",
+    "difficulty": "easy",
+    "id": "typescript-132"
+  },
+  {
+    "question": "Study prompt: Which TypeScript feature describes the shape of an object?",
+    "options": [
+      "interface",
+      "namespace",
+      "package",
+      "module"
+    ],
+    "correctAnswer": "interface",
+    "explanation": "An interface can describe the properties and methods an object is expected to have.",
+    "difficulty": "easy",
+    "id": "typescript-133"
+  },
+  {
+    "question": "Study prompt: Which compiler option checks nullable values more strictly?",
+    "options": [
+      "strictNullChecks",
+      "noImplicitAny",
+      "allowJs",
+      "sourceMap"
+    ],
+    "correctAnswer": "strictNullChecks",
+    "explanation": "strictNullChecks treats null and undefined as distinct types that need to be handled.",
+    "difficulty": "intermediate",
+    "id": "typescript-134"
+  },
+  {
+    "question": "Study prompt: Which syntax declares an array of numbers?",
+    "options": [
+      "number[]",
+      "number()",
+      "array<number>",
+      "numbers"
+    ],
+    "correctAnswer": "number[]",
+    "explanation": "The postfix array type syntax number[] means an array whose elements are numbers.",
+    "difficulty": "easy",
+    "id": "typescript-135"
+  },
+  {
+    "question": "Study prompt: What does a question mark after a property name indicate in an interface?",
+    "options": [
+      "The property is optional",
+      "The property is private",
+      "The property is a promise",
+      "The property is read-only"
+    ],
+    "correctAnswer": "The property is optional",
+    "explanation": "An optional property may be omitted from an object that satisfies the interface.",
+    "difficulty": "easy",
+    "id": "typescript-136"
+  },
+  {
+    "question": "Study prompt: Which symbol forms a union type?",
+    "options": [
+      "|",
+      "&",
+      ":",
+      "+/"
+    ],
+    "correctAnswer": "|",
+    "explanation": "A union type such as string | number allows a value to have either type.",
+    "difficulty": "easy",
+    "id": "typescript-137"
+  },
+  {
+    "question": "Study prompt: What is a key benefit of using unknown instead of any?",
+    "options": [
+      "Values must be narrowed before unsafe operations",
+      "It disables type checking",
+      "It converts all values to strings",
+      "It only accepts objects"
+    ],
+    "correctAnswer": "Values must be narrowed before unsafe operations",
+    "explanation": "unknown requires type checking or narrowing before most operations are allowed.",
+    "difficulty": "intermediate",
+    "id": "typescript-138"
+  },
+  {
+    "question": "Study prompt: What does the TypeScript compiler normally emit for browser execution?",
+    "options": [
+      "JavaScript",
+      "WebAssembly only",
+      "HTML",
+      "Machine code"
+    ],
+    "correctAnswer": "JavaScript",
+    "explanation": "TypeScript types are erased during compilation, producing JavaScript output.",
+    "difficulty": "easy",
+    "id": "typescript-139"
+  },
+  {
+    "question": "Study prompt: Which modifier prevents reassignment of a property after initialization?",
+    "options": [
+      "readonly",
+      "const",
+      "static",
+      "fixed"
+    ],
+    "correctAnswer": "readonly",
+    "explanation": "A readonly property cannot be reassigned outside its allowed initialization points.",
+    "difficulty": "intermediate",
+    "id": "typescript-140"
+  },
+  {
+    "question": "Before you continue, which keyword declares a block-scoped variable whose type can be inferred?",
+    "options": [
+      "let",
+      "varType",
+      "define",
+      "dim"
+    ],
+    "correctAnswer": "let",
+    "explanation": "TypeScript uses JavaScript's let declaration and infers a type from its initializer when possible.",
+    "difficulty": "easy",
+    "id": "typescript-141"
+  },
+  {
+    "question": "Before you continue, which annotation names the string primitive type?",
+    "options": [
+      "string",
+      "StringType",
+      "text",
+      "str"
+    ],
+    "correctAnswer": "string",
+    "explanation": "The TypeScript primitive string type is written in lowercase.",
+    "difficulty": "easy",
+    "id": "typescript-142"
+  },
+  {
+    "question": "Before you continue, which TypeScript feature describes the shape of an object?",
+    "options": [
+      "interface",
+      "namespace",
+      "package",
+      "module"
+    ],
+    "correctAnswer": "interface",
+    "explanation": "An interface can describe the properties and methods an object is expected to have.",
+    "difficulty": "easy",
+    "id": "typescript-143"
+  },
+  {
+    "question": "Before you continue, which compiler option checks nullable values more strictly?",
+    "options": [
+      "strictNullChecks",
+      "noImplicitAny",
+      "allowJs",
+      "sourceMap"
+    ],
+    "correctAnswer": "strictNullChecks",
+    "explanation": "strictNullChecks treats null and undefined as distinct types that need to be handled.",
+    "difficulty": "intermediate",
+    "id": "typescript-144"
+  },
+  {
+    "question": "Before you continue, which syntax declares an array of numbers?",
+    "options": [
+      "number[]",
+      "number()",
+      "array<number>",
+      "numbers"
+    ],
+    "correctAnswer": "number[]",
+    "explanation": "The postfix array type syntax number[] means an array whose elements are numbers.",
+    "difficulty": "easy",
+    "id": "typescript-145"
+  },
+  {
+    "question": "Before you continue, what does a question mark after a property name indicate in an interface?",
+    "options": [
+      "The property is optional",
+      "The property is private",
+      "The property is a promise",
+      "The property is read-only"
+    ],
+    "correctAnswer": "The property is optional",
+    "explanation": "An optional property may be omitted from an object that satisfies the interface.",
+    "difficulty": "easy",
+    "id": "typescript-146"
+  },
+  {
+    "question": "Before you continue, which symbol forms a union type?",
+    "options": [
+      "|",
+      "&",
+      ":",
+      "+/"
+    ],
+    "correctAnswer": "|",
+    "explanation": "A union type such as string | number allows a value to have either type.",
+    "difficulty": "easy",
+    "id": "typescript-147"
+  },
+  {
+    "question": "Before you continue, what is a key benefit of using unknown instead of any?",
+    "options": [
+      "Values must be narrowed before unsafe operations",
+      "It disables type checking",
+      "It converts all values to strings",
+      "It only accepts objects"
+    ],
+    "correctAnswer": "Values must be narrowed before unsafe operations",
+    "explanation": "unknown requires type checking or narrowing before most operations are allowed.",
+    "difficulty": "intermediate",
+    "id": "typescript-148"
+  },
+  {
+    "question": "Before you continue, what does the TypeScript compiler normally emit for browser execution?",
+    "options": [
+      "JavaScript",
+      "WebAssembly only",
+      "HTML",
+      "Machine code"
+    ],
+    "correctAnswer": "JavaScript",
+    "explanation": "TypeScript types are erased during compilation, producing JavaScript output.",
+    "difficulty": "easy",
+    "id": "typescript-149"
+  },
+  {
+    "question": "Before you continue, which modifier prevents reassignment of a property after initialization?",
+    "options": [
+      "readonly",
+      "const",
+      "static",
+      "fixed"
+    ],
+    "correctAnswer": "readonly",
+    "explanation": "A readonly property cannot be reassigned outside its allowed initialization points.",
+    "difficulty": "intermediate",
+    "id": "typescript-150"
+  },
+  {
+    "question": "Review this concept. Which keyword declares a block-scoped variable whose type can be inferred?",
+    "options": [
+      "let",
+      "varType",
+      "define",
+      "dim"
+    ],
+    "correctAnswer": "let",
+    "explanation": "TypeScript uses JavaScript's let declaration and infers a type from its initializer when possible.",
+    "difficulty": "easy",
+    "id": "typescript-151"
+  },
+  {
+    "question": "Review this concept. Which annotation names the string primitive type?",
+    "options": [
+      "string",
+      "StringType",
+      "text",
+      "str"
+    ],
+    "correctAnswer": "string",
+    "explanation": "The TypeScript primitive string type is written in lowercase.",
+    "difficulty": "easy",
+    "id": "typescript-152"
+  },
+  {
+    "question": "Review this concept. Which TypeScript feature describes the shape of an object?",
+    "options": [
+      "interface",
+      "namespace",
+      "package",
+      "module"
+    ],
+    "correctAnswer": "interface",
+    "explanation": "An interface can describe the properties and methods an object is expected to have.",
+    "difficulty": "easy",
+    "id": "typescript-153"
+  },
+  {
+    "question": "Review this concept. Which compiler option checks nullable values more strictly?",
+    "options": [
+      "strictNullChecks",
+      "noImplicitAny",
+      "allowJs",
+      "sourceMap"
+    ],
+    "correctAnswer": "strictNullChecks",
+    "explanation": "strictNullChecks treats null and undefined as distinct types that need to be handled.",
+    "difficulty": "intermediate",
+    "id": "typescript-154"
+  },
+  {
+    "question": "Review this concept. Which syntax declares an array of numbers?",
+    "options": [
+      "number[]",
+      "number()",
+      "array<number>",
+      "numbers"
+    ],
+    "correctAnswer": "number[]",
+    "explanation": "The postfix array type syntax number[] means an array whose elements are numbers.",
+    "difficulty": "easy",
+    "id": "typescript-155"
+  },
+  {
+    "question": "Review this concept. What does a question mark after a property name indicate in an interface?",
+    "options": [
+      "The property is optional",
+      "The property is private",
+      "The property is a promise",
+      "The property is read-only"
+    ],
+    "correctAnswer": "The property is optional",
+    "explanation": "An optional property may be omitted from an object that satisfies the interface.",
+    "difficulty": "easy",
+    "id": "typescript-156"
+  },
+  {
+    "question": "Review this concept. Which symbol forms a union type?",
+    "options": [
+      "|",
+      "&",
+      ":",
+      "+/"
+    ],
+    "correctAnswer": "|",
+    "explanation": "A union type such as string | number allows a value to have either type.",
+    "difficulty": "easy",
+    "id": "typescript-157"
+  },
+  {
+    "question": "Review this concept. What is a key benefit of using unknown instead of any?",
+    "options": [
+      "Values must be narrowed before unsafe operations",
+      "It disables type checking",
+      "It converts all values to strings",
+      "It only accepts objects"
+    ],
+    "correctAnswer": "Values must be narrowed before unsafe operations",
+    "explanation": "unknown requires type checking or narrowing before most operations are allowed.",
+    "difficulty": "intermediate",
+    "id": "typescript-158"
+  },
+  {
+    "question": "Review this concept. What does the TypeScript compiler normally emit for browser execution?",
+    "options": [
+      "JavaScript",
+      "WebAssembly only",
+      "HTML",
+      "Machine code"
+    ],
+    "correctAnswer": "JavaScript",
+    "explanation": "TypeScript types are erased during compilation, producing JavaScript output.",
+    "difficulty": "easy",
+    "id": "typescript-159"
+  },
+  {
+    "question": "Review this concept. Which modifier prevents reassignment of a property after initialization?",
+    "options": [
+      "readonly",
+      "const",
+      "static",
+      "fixed"
+    ],
+    "correctAnswer": "readonly",
+    "explanation": "A readonly property cannot be reassigned outside its allowed initialization points.",
+    "difficulty": "intermediate",
+    "id": "typescript-160"
+  },
+  {
+    "question": "Technical check: Which keyword declares a block-scoped variable whose type can be inferred?",
+    "options": [
+      "let",
+      "varType",
+      "define",
+      "dim"
+    ],
+    "correctAnswer": "let",
+    "explanation": "TypeScript uses JavaScript's let declaration and infers a type from its initializer when possible.",
+    "difficulty": "easy",
+    "id": "typescript-161"
+  },
+  {
+    "question": "Technical check: Which annotation names the string primitive type?",
+    "options": [
+      "string",
+      "StringType",
+      "text",
+      "str"
+    ],
+    "correctAnswer": "string",
+    "explanation": "The TypeScript primitive string type is written in lowercase.",
+    "difficulty": "easy",
+    "id": "typescript-162"
+  },
+  {
+    "question": "Technical check: Which TypeScript feature describes the shape of an object?",
+    "options": [
+      "interface",
+      "namespace",
+      "package",
+      "module"
+    ],
+    "correctAnswer": "interface",
+    "explanation": "An interface can describe the properties and methods an object is expected to have.",
+    "difficulty": "easy",
+    "id": "typescript-163"
+  },
+  {
+    "question": "Technical check: Which compiler option checks nullable values more strictly?",
+    "options": [
+      "strictNullChecks",
+      "noImplicitAny",
+      "allowJs",
+      "sourceMap"
+    ],
+    "correctAnswer": "strictNullChecks",
+    "explanation": "strictNullChecks treats null and undefined as distinct types that need to be handled.",
+    "difficulty": "intermediate",
+    "id": "typescript-164"
+  },
+  {
+    "question": "Technical check: Which syntax declares an array of numbers?",
+    "options": [
+      "number[]",
+      "number()",
+      "array<number>",
+      "numbers"
+    ],
+    "correctAnswer": "number[]",
+    "explanation": "The postfix array type syntax number[] means an array whose elements are numbers.",
+    "difficulty": "easy",
+    "id": "typescript-165"
+  },
+  {
+    "question": "Technical check: What does a question mark after a property name indicate in an interface?",
+    "options": [
+      "The property is optional",
+      "The property is private",
+      "The property is a promise",
+      "The property is read-only"
+    ],
+    "correctAnswer": "The property is optional",
+    "explanation": "An optional property may be omitted from an object that satisfies the interface.",
+    "difficulty": "easy",
+    "id": "typescript-166"
+  },
+  {
+    "question": "Technical check: Which symbol forms a union type?",
+    "options": [
+      "|",
+      "&",
+      ":",
+      "+/"
+    ],
+    "correctAnswer": "|",
+    "explanation": "A union type such as string | number allows a value to have either type.",
+    "difficulty": "easy",
+    "id": "typescript-167"
+  },
+  {
+    "question": "Technical check: What is a key benefit of using unknown instead of any?",
+    "options": [
+      "Values must be narrowed before unsafe operations",
+      "It disables type checking",
+      "It converts all values to strings",
+      "It only accepts objects"
+    ],
+    "correctAnswer": "Values must be narrowed before unsafe operations",
+    "explanation": "unknown requires type checking or narrowing before most operations are allowed.",
+    "difficulty": "intermediate",
+    "id": "typescript-168"
+  },
+  {
+    "question": "Technical check: What does the TypeScript compiler normally emit for browser execution?",
+    "options": [
+      "JavaScript",
+      "WebAssembly only",
+      "HTML",
+      "Machine code"
+    ],
+    "correctAnswer": "JavaScript",
+    "explanation": "TypeScript types are erased during compilation, producing JavaScript output.",
+    "difficulty": "easy",
+    "id": "typescript-169"
+  },
+  {
+    "question": "Technical check: Which modifier prevents reassignment of a property after initialization?",
+    "options": [
+      "readonly",
+      "const",
+      "static",
+      "fixed"
+    ],
+    "correctAnswer": "readonly",
+    "explanation": "A readonly property cannot be reassigned outside its allowed initialization points.",
+    "difficulty": "intermediate",
+    "id": "typescript-170"
+  },
+  {
+    "question": "Pick one answer. Which keyword declares a block-scoped variable whose type can be inferred?",
+    "options": [
+      "let",
+      "varType",
+      "define",
+      "dim"
+    ],
+    "correctAnswer": "let",
+    "explanation": "TypeScript uses JavaScript's let declaration and infers a type from its initializer when possible.",
+    "difficulty": "easy",
+    "id": "typescript-171"
+  },
+  {
+    "question": "Pick one answer. Which annotation names the string primitive type?",
+    "options": [
+      "string",
+      "StringType",
+      "text",
+      "str"
+    ],
+    "correctAnswer": "string",
+    "explanation": "The TypeScript primitive string type is written in lowercase.",
+    "difficulty": "easy",
+    "id": "typescript-172"
+  },
+  {
+    "question": "Pick one answer. Which TypeScript feature describes the shape of an object?",
+    "options": [
+      "interface",
+      "namespace",
+      "package",
+      "module"
+    ],
+    "correctAnswer": "interface",
+    "explanation": "An interface can describe the properties and methods an object is expected to have.",
+    "difficulty": "easy",
+    "id": "typescript-173"
+  },
+  {
+    "question": "Pick one answer. Which compiler option checks nullable values more strictly?",
+    "options": [
+      "strictNullChecks",
+      "noImplicitAny",
+      "allowJs",
+      "sourceMap"
+    ],
+    "correctAnswer": "strictNullChecks",
+    "explanation": "strictNullChecks treats null and undefined as distinct types that need to be handled.",
+    "difficulty": "intermediate",
+    "id": "typescript-174"
+  },
+  {
+    "question": "Pick one answer. Which syntax declares an array of numbers?",
+    "options": [
+      "number[]",
+      "number()",
+      "array<number>",
+      "numbers"
+    ],
+    "correctAnswer": "number[]",
+    "explanation": "The postfix array type syntax number[] means an array whose elements are numbers.",
+    "difficulty": "easy",
+    "id": "typescript-175"
+  },
+  {
+    "question": "Pick one answer. What does a question mark after a property name indicate in an interface?",
+    "options": [
+      "The property is optional",
+      "The property is private",
+      "The property is a promise",
+      "The property is read-only"
+    ],
+    "correctAnswer": "The property is optional",
+    "explanation": "An optional property may be omitted from an object that satisfies the interface.",
+    "difficulty": "easy",
+    "id": "typescript-176"
+  },
+  {
+    "question": "Pick one answer. Which symbol forms a union type?",
+    "options": [
+      "|",
+      "&",
+      ":",
+      "+/"
+    ],
+    "correctAnswer": "|",
+    "explanation": "A union type such as string | number allows a value to have either type.",
+    "difficulty": "easy",
+    "id": "typescript-177"
+  },
+  {
+    "question": "Pick one answer. What is a key benefit of using unknown instead of any?",
+    "options": [
+      "Values must be narrowed before unsafe operations",
+      "It disables type checking",
+      "It converts all values to strings",
+      "It only accepts objects"
+    ],
+    "correctAnswer": "Values must be narrowed before unsafe operations",
+    "explanation": "unknown requires type checking or narrowing before most operations are allowed.",
+    "difficulty": "intermediate",
+    "id": "typescript-178"
+  },
+  {
+    "question": "Pick one answer. What does the TypeScript compiler normally emit for browser execution?",
+    "options": [
+      "JavaScript",
+      "WebAssembly only",
+      "HTML",
+      "Machine code"
+    ],
+    "correctAnswer": "JavaScript",
+    "explanation": "TypeScript types are erased during compilation, producing JavaScript output.",
+    "difficulty": "easy",
+    "id": "typescript-179"
+  },
+  {
+    "question": "Pick one answer. Which modifier prevents reassignment of a property after initialization?",
+    "options": [
+      "readonly",
+      "const",
+      "static",
+      "fixed"
+    ],
+    "correctAnswer": "readonly",
+    "explanation": "A readonly property cannot be reassigned outside its allowed initialization points.",
+    "difficulty": "intermediate",
+    "id": "typescript-180"
+  },
+  {
+    "question": "Core language question: Which keyword declares a block-scoped variable whose type can be inferred?",
+    "options": [
+      "let",
+      "varType",
+      "define",
+      "dim"
+    ],
+    "correctAnswer": "let",
+    "explanation": "TypeScript uses JavaScript's let declaration and infers a type from its initializer when possible.",
+    "difficulty": "easy",
+    "id": "typescript-181"
+  },
+  {
+    "question": "Core language question: Which annotation names the string primitive type?",
+    "options": [
+      "string",
+      "StringType",
+      "text",
+      "str"
+    ],
+    "correctAnswer": "string",
+    "explanation": "The TypeScript primitive string type is written in lowercase.",
+    "difficulty": "easy",
+    "id": "typescript-182"
+  },
+  {
+    "question": "Core language question: Which TypeScript feature describes the shape of an object?",
+    "options": [
+      "interface",
+      "namespace",
+      "package",
+      "module"
+    ],
+    "correctAnswer": "interface",
+    "explanation": "An interface can describe the properties and methods an object is expected to have.",
+    "difficulty": "easy",
+    "id": "typescript-183"
+  },
+  {
+    "question": "Core language question: Which compiler option checks nullable values more strictly?",
+    "options": [
+      "strictNullChecks",
+      "noImplicitAny",
+      "allowJs",
+      "sourceMap"
+    ],
+    "correctAnswer": "strictNullChecks",
+    "explanation": "strictNullChecks treats null and undefined as distinct types that need to be handled.",
+    "difficulty": "intermediate",
+    "id": "typescript-184"
+  },
+  {
+    "question": "Core language question: Which syntax declares an array of numbers?",
+    "options": [
+      "number[]",
+      "number()",
+      "array<number>",
+      "numbers"
+    ],
+    "correctAnswer": "number[]",
+    "explanation": "The postfix array type syntax number[] means an array whose elements are numbers.",
+    "difficulty": "easy",
+    "id": "typescript-185"
+  },
+  {
+    "question": "Core language question: What does a question mark after a property name indicate in an interface?",
+    "options": [
+      "The property is optional",
+      "The property is private",
+      "The property is a promise",
+      "The property is read-only"
+    ],
+    "correctAnswer": "The property is optional",
+    "explanation": "An optional property may be omitted from an object that satisfies the interface.",
+    "difficulty": "easy",
+    "id": "typescript-186"
+  },
+  {
+    "question": "Core language question: Which symbol forms a union type?",
+    "options": [
+      "|",
+      "&",
+      ":",
+      "+/"
+    ],
+    "correctAnswer": "|",
+    "explanation": "A union type such as string | number allows a value to have either type.",
+    "difficulty": "easy",
+    "id": "typescript-187"
+  },
+  {
+    "question": "Core language question: What is a key benefit of using unknown instead of any?",
+    "options": [
+      "Values must be narrowed before unsafe operations",
+      "It disables type checking",
+      "It converts all values to strings",
+      "It only accepts objects"
+    ],
+    "correctAnswer": "Values must be narrowed before unsafe operations",
+    "explanation": "unknown requires type checking or narrowing before most operations are allowed.",
+    "difficulty": "intermediate",
+    "id": "typescript-188"
+  },
+  {
+    "question": "Core language question: What does the TypeScript compiler normally emit for browser execution?",
+    "options": [
+      "JavaScript",
+      "WebAssembly only",
+      "HTML",
+      "Machine code"
+    ],
+    "correctAnswer": "JavaScript",
+    "explanation": "TypeScript types are erased during compilation, producing JavaScript output.",
+    "difficulty": "easy",
+    "id": "typescript-189"
+  },
+  {
+    "question": "Core language question: Which modifier prevents reassignment of a property after initialization?",
+    "options": [
+      "readonly",
+      "const",
+      "static",
+      "fixed"
+    ],
+    "correctAnswer": "readonly",
+    "explanation": "A readonly property cannot be reassigned outside its allowed initialization points.",
+    "difficulty": "intermediate",
+    "id": "typescript-190"
+  },
+  {
+    "question": "Practice round: Which keyword declares a block-scoped variable whose type can be inferred?",
+    "options": [
+      "let",
+      "varType",
+      "define",
+      "dim"
+    ],
+    "correctAnswer": "let",
+    "explanation": "TypeScript uses JavaScript's let declaration and infers a type from its initializer when possible.",
+    "difficulty": "easy",
+    "id": "typescript-191"
+  },
+  {
+    "question": "Practice round: Which annotation names the string primitive type?",
+    "options": [
+      "string",
+      "StringType",
+      "text",
+      "str"
+    ],
+    "correctAnswer": "string",
+    "explanation": "The TypeScript primitive string type is written in lowercase.",
+    "difficulty": "easy",
+    "id": "typescript-192"
+  },
+  {
+    "question": "Practice round: Which TypeScript feature describes the shape of an object?",
+    "options": [
+      "interface",
+      "namespace",
+      "package",
+      "module"
+    ],
+    "correctAnswer": "interface",
+    "explanation": "An interface can describe the properties and methods an object is expected to have.",
+    "difficulty": "easy",
+    "id": "typescript-193"
+  },
+  {
+    "question": "Practice round: Which compiler option checks nullable values more strictly?",
+    "options": [
+      "strictNullChecks",
+      "noImplicitAny",
+      "allowJs",
+      "sourceMap"
+    ],
+    "correctAnswer": "strictNullChecks",
+    "explanation": "strictNullChecks treats null and undefined as distinct types that need to be handled.",
+    "difficulty": "intermediate",
+    "id": "typescript-194"
+  },
+  {
+    "question": "Practice round: Which syntax declares an array of numbers?",
+    "options": [
+      "number[]",
+      "number()",
+      "array<number>",
+      "numbers"
+    ],
+    "correctAnswer": "number[]",
+    "explanation": "The postfix array type syntax number[] means an array whose elements are numbers.",
+    "difficulty": "easy",
+    "id": "typescript-195"
+  },
+  {
+    "question": "Practice round: What does a question mark after a property name indicate in an interface?",
+    "options": [
+      "The property is optional",
+      "The property is private",
+      "The property is a promise",
+      "The property is read-only"
+    ],
+    "correctAnswer": "The property is optional",
+    "explanation": "An optional property may be omitted from an object that satisfies the interface.",
+    "difficulty": "easy",
+    "id": "typescript-196"
+  },
+  {
+    "question": "Practice round: Which symbol forms a union type?",
+    "options": [
+      "|",
+      "&",
+      ":",
+      "+/"
+    ],
+    "correctAnswer": "|",
+    "explanation": "A union type such as string | number allows a value to have either type.",
+    "difficulty": "easy",
+    "id": "typescript-197"
+  },
+  {
+    "question": "Practice round: What is a key benefit of using unknown instead of any?",
+    "options": [
+      "Values must be narrowed before unsafe operations",
+      "It disables type checking",
+      "It converts all values to strings",
+      "It only accepts objects"
+    ],
+    "correctAnswer": "Values must be narrowed before unsafe operations",
+    "explanation": "unknown requires type checking or narrowing before most operations are allowed.",
+    "difficulty": "intermediate",
+    "id": "typescript-198"
+  },
+  {
+    "question": "Practice round: What does the TypeScript compiler normally emit for browser execution?",
+    "options": [
+      "JavaScript",
+      "WebAssembly only",
+      "HTML",
+      "Machine code"
+    ],
+    "correctAnswer": "JavaScript",
+    "explanation": "TypeScript types are erased during compilation, producing JavaScript output.",
+    "difficulty": "easy",
+    "id": "typescript-199"
+  },
+  {
+    "question": "Practice round: Which modifier prevents reassignment of a property after initialization?",
+    "options": [
+      "readonly",
+      "const",
+      "static",
+      "fixed"
+    ],
+    "correctAnswer": "readonly",
+    "explanation": "A readonly property cannot be reassigned outside its allowed initialization points.",
+    "difficulty": "intermediate",
+    "id": "typescript-200"
+  }
+]

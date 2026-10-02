@@ -1,14 +1,11 @@
-import React from 'react';
-
-const Reset = ({ onReset }) => {
+export default function Reset({ onReset, label = 'Restart quiz' }) {
   return (
-    <button 
-      onClick={onReset} 
-      className="mt-8 bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-500 hover:to-indigo-500 text-white font-black text-sm uppercase tracking-widest px-10 py-4 rounded-2xl shadow-[0_10px_25px_rgba(147,51,234,0.3)] hover:shadow-[0_15px_35px_rgba(147,51,234,0.5)] transition-all duration-300 active:scale-[0.97] flex items-center gap-3 focus:outline-none border border-purple-400/30"
+    <button
+      type="button"
+      onClick={onReset}
+      className="rounded-xl bg-gradient-to-r from-violet-600 to-indigo-600 px-5 py-3 text-sm font-bold text-white shadow-lg shadow-violet-950/30 transition hover:from-violet-500 hover:to-indigo-500 active:scale-[0.98]"
     >
-      <span className="text-base">🔄</span> Restart Journey
+      {label}
     </button>
   );
-};
-
-export default Reset;
+}

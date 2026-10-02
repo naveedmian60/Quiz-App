@@ -1,0 +1,2602 @@
+[
+  {
+    "question": "Which keyword is used to declare a variable in JavaScript?",
+    "options": [
+      "var",
+      "let",
+      "const",
+      "All of the above"
+    ],
+    "correctAnswer": "All of the above",
+    "explanation": "The correct answer is All of the above.",
+    "difficulty": "easy",
+    "id": "javascript-1"
+  },
+  {
+    "question": "Which of the following is the strict equality operator?",
+    "options": [
+      "=",
+      "==",
+      "===",
+      "!=="
+    ],
+    "correctAnswer": "===",
+    "explanation": "The correct answer is ===.",
+    "difficulty": "easy",
+    "id": "javascript-2"
+  },
+  {
+    "question": "What is the correct way to write a multi-line comment in JavaScript?",
+    "options": [
+      "// comment //",
+      "/* comment */",
+      "",
+      "** comment **"
+    ],
+    "correctAnswer": "/* comment */",
+    "explanation": "The correct answer is /* comment */.",
+    "difficulty": "easy",
+    "id": "javascript-3"
+  },
+  {
+    "question": "What is the output of typeof NaN?",
+    "options": [
+      "NaN",
+      "number",
+      "undefined",
+      "object"
+    ],
+    "correctAnswer": "number",
+    "explanation": "The correct answer is number.",
+    "difficulty": "intermediate",
+    "id": "javascript-4"
+  },
+  {
+    "question": "Which method is used to add a new element to the end of an array?",
+    "options": [
+      "pop()",
+      "push()",
+      "shift()",
+      "unshift()"
+    ],
+    "correctAnswer": "push()",
+    "explanation": "The correct answer is push().",
+    "difficulty": "easy",
+    "id": "javascript-5"
+  },
+  {
+    "question": "Which method is used to remove an element from the beginning of an array?",
+    "options": [
+      "shift()",
+      "unshift()",
+      "pop()",
+      "push()"
+    ],
+    "correctAnswer": "shift()",
+    "explanation": "The correct answer is shift().",
+    "difficulty": "intermediate",
+    "id": "javascript-6"
+  },
+  {
+    "question": "What is used to declare block-scoped variables in JavaScript?",
+    "options": [
+      "var",
+      "let & const",
+      "only let",
+      "only var"
+    ],
+    "correctAnswer": "let & const",
+    "explanation": "The correct answer is let & const.",
+    "difficulty": "intermediate",
+    "id": "javascript-7"
+  },
+  {
+    "question": "What is the return type of typeof null?",
+    "options": [
+      "null",
+      "undefined",
+      "object",
+      "string"
+    ],
+    "correctAnswer": "object",
+    "explanation": "The correct answer is object.",
+    "difficulty": "intermediate",
+    "id": "javascript-8"
+  },
+  {
+    "question": "Which of the following is the correct syntax for an arrow function?",
+    "options": [
+      "() => {}",
+      "function() => {}",
+      "const function = ()",
+      "() -> {}"
+    ],
+    "correctAnswer": "() => {}",
+    "explanation": "The correct answer is () => {}.",
+    "difficulty": "easy",
+    "id": "javascript-9"
+  },
+  {
+    "question": "Which concept allows us to write asynchronous code in a synchronous manner?",
+    "options": [
+      "Promises",
+      "async/await",
+      "Callbacks",
+      "Spreads"
+    ],
+    "correctAnswer": "async/await",
+    "explanation": "The correct answer is async/await.",
+    "difficulty": "intermediate",
+    "id": "javascript-10"
+  },
+  {
+    "question": "Which of the following can be used to convert a string into a number in JavaScript?",
+    "options": [
+      "parseInt()",
+      "Number()",
+      "Unary plus (+)",
+      "All of the above"
+    ],
+    "correctAnswer": "All of the above",
+    "explanation": "The correct answer is All of the above.",
+    "difficulty": "intermediate",
+    "id": "javascript-11"
+  },
+  {
+    "question": "Which method does NOT modify the original array?",
+    "options": [
+      "push()",
+      "splice()",
+      "map()",
+      "reverse()"
+    ],
+    "correctAnswer": "map()",
+    "explanation": "The correct answer is map().",
+    "difficulty": "intermediate",
+    "id": "javascript-12"
+  },
+  {
+    "question": "What is the alternative global object to the window object in Node.js?",
+    "options": [
+      "document",
+      "global",
+      "process",
+      "window"
+    ],
+    "correctAnswer": "global",
+    "explanation": "The correct answer is global.",
+    "difficulty": "hard",
+    "id": "javascript-13"
+  },
+  {
+    "question": "JavaScript is a ______ language.",
+    "options": [
+      "Single-threaded",
+      "Multi-threaded",
+      "Low-level",
+      "Compiled"
+    ],
+    "correctAnswer": "Single-threaded",
+    "explanation": "The correct answer is Single-threaded.",
+    "difficulty": "intermediate",
+    "id": "javascript-14"
+  },
+  {
+    "question": "What will be the output of '1' + 1 in JavaScript?",
+    "options": [
+      "2",
+      "11",
+      "NaN",
+      "TypeError"
+    ],
+    "correctAnswer": "11",
+    "explanation": "The correct answer is 11.",
+    "difficulty": "easy",
+    "id": "javascript-15"
+  },
+  {
+    "question": "What will be the output of '1' - 1 in JavaScript?",
+    "options": [
+      "0",
+      "11",
+      "NaN",
+      "-1"
+    ],
+    "correctAnswer": "0",
+    "explanation": "The correct answer is 0.",
+    "difficulty": "intermediate",
+    "id": "javascript-16"
+  },
+  {
+    "question": "Which statement is used to immediately terminate (break) a loop?",
+    "options": [
+      "continue",
+      "break",
+      "return",
+      "stop"
+    ],
+    "correctAnswer": "break",
+    "explanation": "The correct answer is break.",
+    "difficulty": "easy",
+    "id": "javascript-17"
+  },
+  {
+    "question": "Which method is used to get all the keys of an object into an array?",
+    "options": [
+      "Object.values()",
+      "Object.keys()",
+      "Object.entries()",
+      "Object.get()"
+    ],
+    "correctAnswer": "Object.keys()",
+    "explanation": "The correct answer is Object.keys().",
+    "difficulty": "intermediate",
+    "id": "javascript-18"
+  },
+  {
+    "question": "What is the full form of JSON?",
+    "options": [
+      "JavaScript Object Notation",
+      "Java Standard Object Network",
+      "JavaScript Open Numerical",
+      "JavaScript Object Network"
+    ],
+    "correctAnswer": "JavaScript Object Notation",
+    "explanation": "The correct answer is JavaScript Object Notation.",
+    "difficulty": "easy",
+    "id": "javascript-19"
+  },
+  {
+    "question": "Which concept allows a child function to access the variables of its parent function, even after the parent function has finished executing?",
+    "options": [
+      "Hoisting",
+      "Prototype",
+      "Closure",
+      "Callback"
+    ],
+    "correctAnswer": "Closure",
+    "explanation": "The correct answer is Closure.",
+    "difficulty": "hard",
+    "id": "javascript-20"
+  },
+  {
+    "question": "What is the process of moving variable and function declarations to the top before execution called?",
+    "options": [
+      "Hoisting",
+      "Climbing",
+      "Lifting",
+      "Scoping"
+    ],
+    "correctAnswer": "Hoisting",
+    "explanation": "The correct answer is Hoisting.",
+    "difficulty": "intermediate",
+    "id": "javascript-21"
+  },
+  {
+    "question": "Which method is used to convert a JavaScript object into a JSON string?",
+    "options": [
+      "JSON.parse()",
+      "JSON.stringify()",
+      "JSON.object()",
+      "JSON.to()"
+    ],
+    "correctAnswer": "JSON.stringify()",
+    "explanation": "The correct answer is JSON.stringify().",
+    "difficulty": "intermediate",
+    "id": "javascript-22"
+  },
+  {
+    "question": "Which method is used to convert a JSON string back into a JavaScript object?",
+    "options": [
+      "JSON.parse()",
+      "JSON.stringify()",
+      "JSON.convert()",
+      "JSON.toObject()"
+    ],
+    "correctAnswer": "JSON.parse()",
+    "explanation": "The correct answer is JSON.parse().",
+    "difficulty": "intermediate",
+    "id": "javascript-23"
+  },
+  {
+    "question": "Which data type is NOT primitive in JavaScript?",
+    "options": [
+      "String",
+      "Boolean",
+      "Object",
+      "Number"
+    ],
+    "correctAnswer": "Object",
+    "explanation": "The correct answer is Object.",
+    "difficulty": "easy",
+    "id": "javascript-24"
+  },
+  {
+    "question": "Which symbol is used to write template literals?",
+    "options": [
+      "Single quotes ('')",
+      "Double quotes (\"\")",
+      "Backticks (``)",
+      "Slashes (//)"
+    ],
+    "correctAnswer": "Backticks (``)",
+    "explanation": "The correct answer is Backticks (``).",
+    "difficulty": "easy",
+    "id": "javascript-25"
+  },
+  {
+    "question": "What does the setInterval() method do?",
+    "options": [
+      "Executes code once after a specific delay",
+      "Executes code repeatedly at fixed intervals",
+      "Breaks the loop",
+      "Pauses the time"
+    ],
+    "correctAnswer": "Executes code repeatedly at fixed intervals",
+    "explanation": "The correct answer is Executes code repeatedly at fixed intervals.",
+    "difficulty": "intermediate",
+    "id": "javascript-26"
+  },
+  {
+    "question": "What is the full form of DOM?",
+    "options": [
+      "Data Object Model",
+      "Document Object Model",
+      "Document Oriented Module",
+      "Digital Object Management"
+    ],
+    "correctAnswer": "Document Object Model",
+    "explanation": "The correct answer is Document Object Model.",
+    "difficulty": "easy",
+    "id": "javascript-27"
+  },
+  {
+    "question": "Which method is used to stop event bubbling?",
+    "options": [
+      "event.preventDefault()",
+      "event.stopPropagation()",
+      "event.stopEvent()",
+      "return false"
+    ],
+    "correctAnswer": "event.stopPropagation()",
+    "explanation": "The correct answer is event.stopPropagation().",
+    "difficulty": "hard",
+    "id": "javascript-28"
+  },
+  {
+    "question": "Which keyword is used to implement inheritance at the class level?",
+    "options": [
+      "extends",
+      "inherits",
+      "implements",
+      "prototype"
+    ],
+    "correctAnswer": "extends",
+    "explanation": "The correct answer is extends.",
+    "difficulty": "intermediate",
+    "id": "javascript-29"
+  },
+  {
+    "question": "In what range does Math.random() generate numbers?",
+    "options": [
+      "From 1 to 10",
+      "From 0 to 1 (1 included)",
+      "From 0 to 1 (1 excluded)",
+      "In any negative range"
+    ],
+    "correctAnswer": "From 0 to 1 (1 excluded)",
+    "explanation": "The correct answer is From 0 to 1 (1 excluded).",
+    "difficulty": "hard",
+    "id": "javascript-30"
+  },
+  {
+    "question": "Which array method checks if all elements in an array pass a specific condition?",
+    "options": [
+      "some()",
+      "every()",
+      "filter()",
+      "find()"
+    ],
+    "correctAnswer": "every()",
+    "explanation": "The correct answer is every().",
+    "difficulty": "intermediate",
+    "id": "javascript-31"
+  },
+  {
+    "question": "What is the result of 'true + false' in JavaScript?",
+    "options": [
+      "truefalse",
+      "1",
+      "0",
+      "NaN"
+    ],
+    "correctAnswer": "1",
+    "explanation": "The correct answer is 1.",
+    "difficulty": "hard",
+    "id": "javascript-32"
+  },
+  {
+    "question": "Which operator is used to check if a property exists in an object?",
+    "options": [
+      "within",
+      "exists",
+      "inside",
+      "in"
+    ],
+    "correctAnswer": "in",
+    "explanation": "The correct answer is in.",
+    "difficulty": "easy",
+    "id": "javascript-33"
+  },
+  {
+    "question": "What is the default value of an uninitialized variable?",
+    "options": [
+      "null",
+      "undefined",
+      "0",
+      "NaN"
+    ],
+    "correctAnswer": "undefined",
+    "explanation": "The correct answer is undefined.",
+    "difficulty": "easy",
+    "id": "javascript-34"
+  },
+  {
+    "question": "Which of the following is used to handle execution rejections in async/await?",
+    "options": [
+      "try...catch",
+      "then().catch()",
+      "throw",
+      "reject()"
+    ],
+    "correctAnswer": "try...catch",
+    "explanation": "The correct answer is try...catch.",
+    "difficulty": "easy",
+    "id": "javascript-35"
+  },
+  {
+    "question": "What does 'typeof []' return?",
+    "options": [
+      "array",
+      "object",
+      "list",
+      "undefined"
+    ],
+    "correctAnswer": "object",
+    "explanation": "The correct answer is object.",
+    "difficulty": "intermediate",
+    "id": "javascript-36"
+  },
+  {
+    "question": "Which method removes the last element from an array and returns it?",
+    "options": [
+      "pop()",
+      "push()",
+      "shift()",
+      "unshift()"
+    ],
+    "correctAnswer": "pop()",
+    "explanation": "The correct answer is pop().",
+    "difficulty": "easy",
+    "id": "javascript-37"
+  },
+  {
+    "question": "What is the result of '3 > 2 > 1' in JavaScript?",
+    "options": [
+      "true",
+      "false",
+      "Error",
+      "NaN"
+    ],
+    "correctAnswer": "false",
+    "explanation": "The correct answer is false.",
+    "difficulty": "hard",
+    "id": "javascript-38"
+  },
+  {
+    "question": "Which mathematical method returns the absolute value of a number?",
+    "options": [
+      "Math.ceil()",
+      "Math.abs()",
+      "Math.floor()",
+      "Math.round()"
+    ],
+    "correctAnswer": "Math.abs()",
+    "explanation": "The correct answer is Math.abs().",
+    "difficulty": "easy",
+    "id": "javascript-39"
+  },
+  {
+    "question": "What will 'console.log(typeof typeof 1)' print?",
+    "options": [
+      "number",
+      "string",
+      "undefined",
+      "object"
+    ],
+    "correctAnswer": "string",
+    "explanation": "The correct answer is string.",
+    "difficulty": "hard",
+    "id": "javascript-40"
+  },
+  {
+    "question": "Which built-in method combines the text of two strings and returns a new string?",
+    "options": [
+      "append()",
+      "concat()",
+      "attach()",
+      "join()"
+    ],
+    "correctAnswer": "concat()",
+    "explanation": "The correct answer is concat().",
+    "difficulty": "easy",
+    "id": "javascript-41"
+  },
+  {
+    "question": "How do you check the length of a string 'str'?",
+    "options": [
+      "str.length()",
+      "str.len",
+      "str.size",
+      "str.length"
+    ],
+    "correctAnswer": "str.length",
+    "explanation": "The correct answer is str.length.",
+    "difficulty": "easy",
+    "id": "javascript-42"
+  },
+  {
+    "question": "Which statement can safely exit from a switch block?",
+    "options": [
+      "break",
+      "exit",
+      "stop",
+      "return"
+    ],
+    "correctAnswer": "break",
+    "explanation": "The correct answer is break.",
+    "difficulty": "easy",
+    "id": "javascript-43"
+  },
+  {
+    "question": "Which error is thrown when you try to access a variable that is not defined?",
+    "options": [
+      "TypeError",
+      "ReferenceError",
+      "SyntaxError",
+      "RangeError"
+    ],
+    "correctAnswer": "ReferenceError",
+    "explanation": "The correct answer is ReferenceError.",
+    "difficulty": "intermediate",
+    "id": "javascript-44"
+  },
+  {
+    "question": "What is the value of 'false || 'hello''?",
+    "options": [
+      "false",
+      "true",
+      "hello",
+      "undefined"
+    ],
+    "correctAnswer": "hello",
+    "explanation": "The correct answer is hello.",
+    "difficulty": "intermediate",
+    "id": "javascript-45"
+  },
+  {
+    "question": "Which method returns a shadow copy of a portion of an array into a new array object?",
+    "options": [
+      "splice()",
+      "slice()",
+      "split()",
+      "shift()"
+    ],
+    "correctAnswer": "slice()",
+    "explanation": "The correct answer is slice().",
+    "difficulty": "intermediate",
+    "id": "javascript-46"
+  },
+  {
+    "question": "What does the 'this' keyword refer to inside a simple function execution globally in non-strict mode?",
+    "options": [
+      "The function itself",
+      "The window/global object",
+      "undefined",
+      "null"
+    ],
+    "correctAnswer": "The window/global object",
+    "explanation": "The correct answer is The window/global object.",
+    "difficulty": "hard",
+    "id": "javascript-47"
+  },
+  {
+    "question": "Which ES6 feature allows you to extract properties from an object into distinct variables?",
+    "options": [
+      "Spread operator",
+      "Destructuring",
+      "Template Literals",
+      "Rest Parameters"
+    ],
+    "correctAnswer": "Destructuring",
+    "explanation": "The correct answer is Destructuring.",
+    "difficulty": "intermediate",
+    "id": "javascript-48"
+  },
+  {
+    "question": "What will 'Boolean('false')' return?",
+    "options": [
+      "false",
+      "true",
+      "undefined",
+      "TypeError"
+    ],
+    "correctAnswer": "true",
+    "explanation": "The correct answer is true.",
+    "difficulty": "hard",
+    "id": "javascript-49"
+  },
+  {
+    "question": "Which method is used to execute a function once after a specified number of milliseconds?",
+    "options": [
+      "setInterval()",
+      "setTimeout()",
+      "delay()",
+      "wait()"
+    ],
+    "correctAnswer": "setTimeout()",
+    "explanation": "The correct answer is setTimeout().",
+    "difficulty": "easy",
+    "id": "javascript-50"
+  },
+  {
+    "question": "Which operator is known as the Nullish Coalescing Operator?",
+    "options": [
+      "||",
+      "&&",
+      "??",
+      "?:"
+    ],
+    "correctAnswer": "??",
+    "explanation": "The correct answer is ??.",
+    "difficulty": "hard",
+    "id": "javascript-51"
+  },
+  {
+    "question": "What is the correct syntax to create a new Object in JavaScript?",
+    "options": [
+      "const obj = Object();",
+      "const obj = {};",
+      "const obj = new Object();",
+      "All of the above"
+    ],
+    "correctAnswer": "All of the above",
+    "explanation": "The correct answer is All of the above.",
+    "difficulty": "intermediate",
+    "id": "javascript-52"
+  },
+  {
+    "question": "Which structure holds unique values of any type?",
+    "options": [
+      "Map",
+      "Set",
+      "Array",
+      "Object"
+    ],
+    "correctAnswer": "Set",
+    "explanation": "The correct answer is Set.",
+    "difficulty": "intermediate",
+    "id": "javascript-53"
+  },
+  {
+    "question": "What is the output of 'console.log(1 === 1.0)'?",
+    "options": [
+      "true",
+      "false",
+      "undefined",
+      "SyntaxError"
+    ],
+    "correctAnswer": "true",
+    "explanation": "The correct answer is true.",
+    "difficulty": "easy",
+    "id": "javascript-54"
+  },
+  {
+    "question": "Which event occurs when the user clicks on an HTML element?",
+    "options": [
+      "onchange",
+      "onmouseover",
+      "onclick",
+      "onmouseclick"
+    ],
+    "correctAnswer": "onclick",
+    "explanation": "The correct answer is onclick.",
+    "difficulty": "easy",
+    "id": "javascript-55"
+  },
+  {
+    "question": "What is the main use of the 'encodeURI()' function?",
+    "options": [
+      "To encrypt a password",
+      "To encode a URL string",
+      "To compress a file",
+      "To parse an integer"
+    ],
+    "correctAnswer": "To encode a URL string",
+    "explanation": "The correct answer is To encode a URL string.",
+    "difficulty": "intermediate",
+    "id": "javascript-56"
+  },
+  {
+    "question": "Which array method creates a string by joining all elements?",
+    "options": [
+      "concat()",
+      "join()",
+      "pop()",
+      "push()"
+    ],
+    "correctAnswer": "join()",
+    "explanation": "The correct answer is join().",
+    "difficulty": "easy",
+    "id": "javascript-57"
+  },
+  {
+    "question": "What will 'console.log(2 + '2' - 1)' output?",
+    "options": [
+      "21",
+      "3",
+      "221",
+      "NaN"
+    ],
+    "correctAnswer": "21",
+    "explanation": "The correct answer is 21.",
+    "difficulty": "hard",
+    "id": "javascript-58"
+  },
+  {
+    "question": "Which object property is used to find the constructor function of an object?",
+    "options": [
+      "__proto__",
+      "prototype",
+      "constructor",
+      "object"
+    ],
+    "correctAnswer": "constructor",
+    "explanation": "The correct answer is constructor.",
+    "difficulty": "hard",
+    "id": "javascript-59"
+  },
+  {
+    "question": "How do you create a function in JavaScript?",
+    "options": [
+      "function myFunction()",
+      "function:myFunction()",
+      "function = myFunction()",
+      "new function myFunction()"
+    ],
+    "correctAnswer": "function myFunction()",
+    "explanation": "The correct answer is function myFunction().",
+    "difficulty": "easy",
+    "id": "javascript-60"
+  },
+  {
+    "question": "Which method searches a string for a specified value and returns the position of the match?",
+    "options": [
+      "search()",
+      "indexOf()",
+      "locate()",
+      "find()"
+    ],
+    "correctAnswer": "indexOf()",
+    "explanation": "The correct answer is indexOf().",
+    "difficulty": "easy",
+    "id": "javascript-61"
+  },
+  {
+    "question": "What does 'JSON.parse()' do?",
+    "options": [
+      "Converts a JSON string to an Object",
+      "Converts an Object to a JSON string",
+      "Validates a JSON syntax",
+      "Deletes a JSON file"
+    ],
+    "correctAnswer": "Converts a JSON string to an Object",
+    "explanation": "The correct answer is Converts a JSON string to an Object.",
+    "difficulty": "easy",
+    "id": "javascript-62"
+  },
+  {
+    "question": "What will 'console.log([] == ![])' output?",
+    "options": [
+      "true",
+      "false",
+      "TypeError",
+      "undefined"
+    ],
+    "correctAnswer": "true",
+    "explanation": "The correct answer is true.",
+    "difficulty": "hard",
+    "id": "javascript-63"
+  },
+  {
+    "question": "Which keyword is used to refer to a superclass constructor inside a child class?",
+    "options": [
+      "parent",
+      "super",
+      "this",
+      "extends"
+    ],
+    "correctAnswer": "super",
+    "explanation": "The correct answer is super.",
+    "difficulty": "intermediate",
+    "id": "javascript-64"
+  },
+  {
+    "question": "Which loop is guaranteed to execute at least once?",
+    "options": [
+      "for loop",
+      "while loop",
+      "do...while loop",
+      "for...in loop"
+    ],
+    "correctAnswer": "do...while loop",
+    "explanation": "The correct answer is do...while loop.",
+    "difficulty": "easy",
+    "id": "javascript-65"
+  },
+  {
+    "question": "Which method returns the first element in an array that passes a test function?",
+    "options": [
+      "filter()",
+      "find()",
+      "some()",
+      "map()"
+    ],
+    "correctAnswer": "find()",
+    "explanation": "The correct answer is find().",
+    "difficulty": "intermediate",
+    "id": "javascript-66"
+  },
+  {
+    "question": "What is the correct way to call a function named 'myFunc'?",
+    "options": [
+      "call function myFunc()",
+      "myFunc()",
+      "call myFunc()",
+      "execute myFunc()"
+    ],
+    "correctAnswer": "myFunc()",
+    "explanation": "The correct answer is myFunc().",
+    "difficulty": "easy",
+    "id": "javascript-67"
+  },
+  {
+    "question": "What will 'console.log(typeof function(){})' output?",
+    "options": [
+      "object",
+      "function",
+      "undefined",
+      "string"
+    ],
+    "correctAnswer": "function",
+    "explanation": "The correct answer is function.",
+    "difficulty": "intermediate",
+    "id": "javascript-68"
+  },
+  {
+    "question": "Which method removes the first element from an array?",
+    "options": [
+      "shift()",
+      "unshift()",
+      "pop()",
+      "push()"
+    ],
+    "correctAnswer": "shift()",
+    "explanation": "The correct answer is shift().",
+    "difficulty": "easy",
+    "id": "javascript-69"
+  },
+  {
+    "question": "Which token is used to represent the rest parameter syntax in functions?",
+    "options": [
+      "...",
+      "..",
+      "*",
+      "&&"
+    ],
+    "correctAnswer": "...",
+    "explanation": "The correct answer is ....",
+    "difficulty": "intermediate",
+    "id": "javascript-70"
+  },
+  {
+    "question": "What is the value of '10 || 20'?",
+    "options": [
+      "10",
+      "20",
+      "true",
+      "30"
+    ],
+    "correctAnswer": "10",
+    "explanation": "The correct answer is 10.",
+    "difficulty": "intermediate",
+    "id": "javascript-71"
+  },
+  {
+    "question": "Which method returns a new array with all elements that pass the test implemented by the provided function?",
+    "options": [
+      "map()",
+      "filter()",
+      "reduce()",
+      "forEach()"
+    ],
+    "correctAnswer": "filter()",
+    "explanation": "The correct answer is filter().",
+    "difficulty": "easy",
+    "id": "javascript-72"
+  },
+  {
+    "question": "What is the output of 'console.log(undefined == null)'?",
+    "options": [
+      "true",
+      "false",
+      "ReferenceError",
+      "NullPointer"
+    ],
+    "correctAnswer": "true",
+    "explanation": "The correct answer is true.",
+    "difficulty": "intermediate",
+    "id": "javascript-73"
+  },
+  {
+    "question": "What is the output of 'console.log(undefined === null)'?",
+    "options": [
+      "true",
+      "false",
+      "TypeError",
+      "undefined"
+    ],
+    "correctAnswer": "false",
+    "explanation": "The correct answer is false.",
+    "difficulty": "intermediate",
+    "id": "javascript-74"
+  },
+  {
+    "question": "Which of the following creates a block scope?",
+    "options": [
+      "if statement",
+      "for loop",
+      "Curly braces {}",
+      "All of the above"
+    ],
+    "correctAnswer": "All of the above",
+    "explanation": "The correct answer is All of the above.",
+    "difficulty": "intermediate",
+    "id": "javascript-75"
+  },
+  {
+    "question": "What will 'console.log(NaN === NaN)' output?",
+    "options": [
+      "true",
+      "false",
+      "TypeError",
+      "undefined"
+    ],
+    "correctAnswer": "false",
+    "explanation": "The correct answer is false.",
+    "difficulty": "hard",
+    "id": "javascript-76"
+  },
+  {
+    "question": "Which method adds one or more elements to the beginning of an array?",
+    "options": [
+      "shift()",
+      "unshift()",
+      "pop()",
+      "push()"
+    ],
+    "correctAnswer": "unshift()",
+    "explanation": "The correct answer is unshift().",
+    "difficulty": "easy",
+    "id": "javascript-77"
+  },
+  {
+    "question": "How do you declare a JavaScript variable that cannot be reassigned?",
+    "options": [
+      "var",
+      "let",
+      "const",
+      "immutable"
+    ],
+    "correctAnswer": "const",
+    "explanation": "The correct answer is const.",
+    "difficulty": "easy",
+    "id": "javascript-78"
+  },
+  {
+    "question": "Which method reduces the array to a single value?",
+    "options": [
+      "map()",
+      "filter()",
+      "reduce()",
+      "forEach()"
+    ],
+    "correctAnswer": "reduce()",
+    "explanation": "The correct answer is reduce().",
+    "difficulty": "intermediate",
+    "id": "javascript-79"
+  },
+  {
+    "question": "What is the purpose of 'use strict'?",
+    "options": [
+      "To ignore syntax errors",
+      "To enforce stricter parsing and error handling",
+      "To make code execute faster",
+      "To import external modules"
+    ],
+    "correctAnswer": "To enforce stricter parsing and error handling",
+    "explanation": "The correct answer is To enforce stricter parsing and error handling.",
+    "difficulty": "intermediate",
+    "id": "javascript-80"
+  },
+  {
+    "question": "Which of the following is NOT a valid JavaScript variable name?",
+    "options": [
+      "_myVar",
+      "$myVar",
+      "2myVar",
+      "myVar2"
+    ],
+    "correctAnswer": "2myVar",
+    "explanation": "The correct answer is 2myVar.",
+    "difficulty": "easy",
+    "id": "javascript-81"
+  },
+  {
+    "question": "What is the primary difference between local storage and session storage?",
+    "options": [
+      "Capacity limit",
+      "Expiration behavior",
+      "Data security",
+      "Browser compatibility"
+    ],
+    "correctAnswer": "Expiration behavior",
+    "explanation": "The correct answer is Expiration behavior.",
+    "difficulty": "intermediate",
+    "id": "javascript-82"
+  },
+  {
+    "question": "Which operator returns true if the operands are not equal or not of the same type?",
+    "options": [
+      "!=",
+      "!==",
+      "==",
+      "==="
+    ],
+    "correctAnswer": "!==",
+    "explanation": "The correct answer is !==.",
+    "difficulty": "easy",
+    "id": "javascript-83"
+  },
+  {
+    "question": "What will 'console.log(false == 0)' output?",
+    "options": [
+      "true",
+      "false",
+      "undefined",
+      "NaN"
+    ],
+    "correctAnswer": "true",
+    "explanation": "The correct answer is true.",
+    "difficulty": "easy",
+    "id": "javascript-84"
+  },
+  {
+    "question": "Which statement can be used to skip the current iteration of a loop?",
+    "options": [
+      "break",
+      "pass",
+      "skip",
+      "continue"
+    ],
+    "correctAnswer": "continue",
+    "explanation": "The correct answer is continue.",
+    "difficulty": "easy",
+    "id": "javascript-85"
+  },
+  {
+    "question": "What will 'console.log(typeof Infinity)' output?",
+    "options": [
+      "number",
+      "string",
+      "Infinity",
+      "undefined"
+    ],
+    "correctAnswer": "number",
+    "explanation": "The correct answer is number.",
+    "difficulty": "intermediate",
+    "id": "javascript-86"
+  },
+  {
+    "question": "Which object method prevents any modifications to existing properties or adding new properties?",
+    "options": [
+      "Object.seal()",
+      "Object.freeze()",
+      "Object.lock()",
+      "Object.protect()"
+    ],
+    "correctAnswer": "Object.freeze()",
+    "explanation": "The correct answer is Object.freeze().",
+    "difficulty": "hard",
+    "id": "javascript-87"
+  },
+  {
+    "question": "Which object method prevents adding new properties but allows modifying existing ones?",
+    "options": [
+      "Object.seal()",
+      "Object.freeze()",
+      "Object.lock()",
+      "Object.preventExtensions()"
+    ],
+    "correctAnswer": "Object.seal()",
+    "explanation": "The correct answer is Object.seal().",
+    "difficulty": "hard",
+    "id": "javascript-88"
+  },
+  {
+    "question": "What is the return value of the 'push()' method on an array?",
+    "options": [
+      "The added element",
+      "The original array",
+      "The new length of the array",
+      "undefined"
+    ],
+    "correctAnswer": "The new length of the array",
+    "explanation": "The correct answer is The new length of the array.",
+    "difficulty": "intermediate",
+    "id": "javascript-89"
+  },
+  {
+    "question": "What will 'console.log(parseInt('16px'))' output?",
+    "options": [
+      "16",
+      "NaN",
+      "16px",
+      "TypeError"
+    ],
+    "correctAnswer": "16",
+    "explanation": "The correct answer is 16.",
+    "difficulty": "easy",
+    "id": "javascript-90"
+  },
+  {
+    "question": "What will 'console.log(parseInt('px16'))' output?",
+    "options": [
+      "16",
+      "NaN",
+      "Error",
+      "undefined"
+    ],
+    "correctAnswer": "NaN",
+    "explanation": "The correct answer is NaN.",
+    "difficulty": "intermediate",
+    "id": "javascript-91"
+  },
+  {
+    "question": "Which mechanism automatically frees up memory that is no longer being used by the program?",
+    "options": [
+      "Garbage Collection",
+      "Caching",
+      "Hoisting",
+      "Scoping"
+    ],
+    "correctAnswer": "Garbage Collection",
+    "explanation": "The correct answer is Garbage Collection.",
+    "difficulty": "intermediate",
+    "id": "javascript-92"
+  },
+  {
+    "question": "Which of the following is a way to create a deep copy of a simple nested object?",
+    "options": [
+      "Object.assign()",
+      "Spread operator (...)",
+      "JSON.parse(JSON.stringify(obj))",
+      "None of the above"
+    ],
+    "correctAnswer": "JSON.parse(JSON.stringify(obj))",
+    "explanation": "The correct answer is JSON.parse(JSON.stringify(obj)).",
+    "difficulty": "hard",
+    "id": "javascript-93"
+  },
+  {
+    "question": "What is the default value of the second argument in 'parseInt()' if it is omitted for standard decimal numbers?",
+    "options": [
+      "2",
+      "8",
+      "10",
+      "16"
+    ],
+    "correctAnswer": "10",
+    "explanation": "The correct answer is 10.",
+    "difficulty": "intermediate",
+    "id": "javascript-94"
+  },
+  {
+    "question": "Which design pattern relies on a callback function executed after an asynchronous operation finishes?",
+    "options": [
+      "Singleton",
+      "Observer",
+      "Callback Pattern",
+      "Factory"
+    ],
+    "correctAnswer": "Callback Pattern",
+    "explanation": "The correct answer is Callback Pattern.",
+    "difficulty": "intermediate",
+    "id": "javascript-95"
+  },
+  {
+    "question": "What will 'console.log(!!'hello')' output?",
+    "options": [
+      "true",
+      "false",
+      "hello",
+      "TypeError"
+    ],
+    "correctAnswer": "true",
+    "explanation": "The correct answer is true.",
+    "difficulty": "intermediate",
+    "id": "javascript-96"
+  },
+  {
+    "question": "Which window method is used to ask the user to type a text input?",
+    "options": [
+      "alert()",
+      "confirm()",
+      "prompt()",
+      "open()"
+    ],
+    "correctAnswer": "prompt()",
+    "explanation": "The correct answer is prompt().",
+    "difficulty": "easy",
+    "id": "javascript-97"
+  },
+  {
+    "question": "Which window method displays a dialog box with an OK and a Cancel button?",
+    "options": [
+      "alert()",
+      "confirm()",
+      "prompt()",
+      "message()"
+    ],
+    "correctAnswer": "confirm()",
+    "explanation": "The correct answer is confirm().",
+    "difficulty": "easy",
+    "id": "javascript-98"
+  },
+  {
+    "question": "What will 'console.log([] + [])' output?",
+    "options": [
+      "[]",
+      "an empty string",
+      "undefined",
+      "NaN"
+    ],
+    "correctAnswer": "an empty string",
+    "explanation": "The correct answer is an empty string.",
+    "difficulty": "hard",
+    "id": "javascript-99"
+  },
+  {
+    "question": "Which operator executes the right-hand operand if the left-hand operand is null or undefined?",
+    "options": [
+      "||",
+      "&&",
+      "?.",
+      "??"
+    ],
+    "correctAnswer": "??",
+    "explanation": "The correct answer is ??.",
+    "difficulty": "intermediate",
+    "id": "javascript-100"
+  },
+  {
+    "question": "What is the purpose of the 'clearTimeout()' function?",
+    "options": [
+      "To reset the system clock",
+      "To stop a running interval loop",
+      "To cancel a timer set by setTimeout()",
+      "To delete browser cache"
+    ],
+    "correctAnswer": "To cancel a timer set by setTimeout()",
+    "explanation": "The correct answer is To cancel a timer set by setTimeout().",
+    "difficulty": "easy",
+    "id": "javascript-101"
+  },
+  {
+    "question": "Which of the following values is NOT falsy in JavaScript?",
+    "options": [
+      "0",
+      "'' (empty string)",
+      "[] (empty array)",
+      "null"
+    ],
+    "correctAnswer": "[] (empty array)",
+    "explanation": "The correct answer is [] (empty array).",
+    "difficulty": "intermediate",
+    "id": "javascript-102"
+  },
+  {
+    "question": "What will 'console.log(typeof Object)' output?",
+    "options": [
+      "object",
+      "function",
+      "undefined",
+      "class"
+    ],
+    "correctAnswer": "function",
+    "explanation": "The correct answer is function.",
+    "difficulty": "hard",
+    "id": "javascript-103"
+  },
+  {
+    "question": "Which method returns the index of the first occurrence of a specified value in a string?",
+    "options": [
+      "search()",
+      "indexOf()",
+      "locate()",
+      "charAt()"
+    ],
+    "correctAnswer": "indexOf()",
+    "explanation": "The correct answer is indexOf().",
+    "difficulty": "easy",
+    "id": "javascript-104"
+  },
+  {
+    "question": "Which method checks whether an array includes a certain value among its entries?",
+    "options": [
+      "has()",
+      "contains()",
+      "includes()",
+      "find()"
+    ],
+    "correctAnswer": "includes()",
+    "explanation": "The correct answer is includes().",
+    "difficulty": "easy",
+    "id": "javascript-105"
+  },
+  {
+    "question": "What will 'console.log(10 + 20 + '30')' output?",
+    "options": [
+      "60",
+      "3030",
+      "102030",
+      "NaN"
+    ],
+    "correctAnswer": "3030",
+    "explanation": "The correct answer is 3030.",
+    "difficulty": "intermediate",
+    "id": "javascript-106"
+  },
+  {
+    "question": "What will 'console.log('30' + 10 + 20)' output?",
+    "options": [
+      "60",
+      "3030",
+      "301020",
+      "NaN"
+    ],
+    "correctAnswer": "301020",
+    "explanation": "The correct answer is 301020.",
+    "difficulty": "intermediate",
+    "id": "javascript-107"
+  },
+  {
+    "question": "Which keyword is used inside a class constructor to call methods or properties from the parent class?",
+    "options": [
+      "this",
+      "super",
+      "parent",
+      "prototype"
+    ],
+    "correctAnswer": "super",
+    "explanation": "The correct answer is super.",
+    "difficulty": "intermediate",
+    "id": "javascript-108"
+  },
+  {
+    "question": "Which method converts all characters in a string to lower case?",
+    "options": [
+      "toLowerCase()",
+      "toLower()",
+      "changeCase(lower)",
+      "lowercase()"
+    ],
+    "correctAnswer": "toLowerCase()",
+    "explanation": "The correct answer is toLowerCase().",
+    "difficulty": "easy",
+    "id": "javascript-109"
+  },
+  {
+    "question": "Which method removes whitespace from both ends of a string?",
+    "options": [
+      "strip()",
+      "clean()",
+      "trim()",
+      "cut()"
+    ],
+    "correctAnswer": "trim()",
+    "explanation": "The correct answer is trim().",
+    "difficulty": "easy",
+    "id": "javascript-110"
+  },
+  {
+    "question": "What will 'console.log(Math.floor(4.7))' return?",
+    "options": [
+      "4",
+      "5",
+      "4.7",
+      "0"
+    ],
+    "correctAnswer": "4",
+    "explanation": "The correct answer is 4.",
+    "difficulty": "easy",
+    "id": "javascript-111"
+  },
+  {
+    "question": "What will 'console.log(Math.ceil(4.1))' return?",
+    "options": [
+      "4",
+      "5",
+      "4.1",
+      "0"
+    ],
+    "correctAnswer": "5",
+    "explanation": "The correct answer is 5.",
+    "difficulty": "easy",
+    "id": "javascript-112"
+  },
+  {
+    "question": "Which statement describes the behavior of JavaScript promises when they complete successfully?",
+    "options": [
+      "They are rejected",
+      "They are broken",
+      "They are fulfilled",
+      "They are pending"
+    ],
+    "correctAnswer": "They are fulfilled",
+    "explanation": "The correct answer is They are fulfilled.",
+    "difficulty": "easy",
+    "id": "javascript-113"
+  },
+  {
+    "question": "What is the phase called when an event travels down from the window object to the target element?",
+    "options": [
+      "Bubbling Phase",
+      "Target Phase",
+      "Capturing Phase",
+      "Execution Phase"
+    ],
+    "correctAnswer": "Capturing Phase",
+    "explanation": "The correct answer is Capturing Phase.",
+    "difficulty": "hard",
+    "id": "javascript-114"
+  },
+  {
+    "question": "Which of the following cannot be used as an option to select elements via DOM?",
+    "options": [
+      "getElementById",
+      "getElementsByClassName",
+      "querySelector",
+      "getElementByStyles"
+    ],
+    "correctAnswer": "getElementByStyles",
+    "explanation": "The correct answer is getElementByStyles.",
+    "difficulty": "easy",
+    "id": "javascript-115"
+  },
+  {
+    "question": "What does the 'URL' stand for?",
+    "options": [
+      "Uniform Resource Locator",
+      "Unique Resource Link",
+      "Universal Resource Locator",
+      "United Resource Line"
+    ],
+    "correctAnswer": "Uniform Resource Locator",
+    "explanation": "The correct answer is Uniform Resource Locator.",
+    "difficulty": "easy",
+    "id": "javascript-116"
+  },
+  {
+    "question": "What will 'console.log(typeof NaN === 'number')' output?",
+    "options": [
+      "true",
+      "false",
+      "undefined",
+      "TypeError"
+    ],
+    "correctAnswer": "true",
+    "explanation": "The correct answer is true.",
+    "difficulty": "intermediate",
+    "id": "javascript-117"
+  },
+  {
+    "question": "Which syntax allows you to easily copy all properties of an object into another object?",
+    "options": [
+      "Spread properties `...obj` font",
+      "Arrow functions",
+      "Destructuring",
+      "Map objects"
+    ],
+    "correctAnswer": "Spread properties `...obj` font",
+    "explanation": "The correct answer is Spread properties `...obj` font.",
+    "difficulty": "easy",
+    "id": "javascript-118"
+  },
+  {
+    "question": "What is the primary feature of an Arrow Function regarding the 'this' context?",
+    "options": [
+      "It has its own local dynamic 'this'",
+      "It inherits 'this' lexically from its parent scope",
+      "It resets 'this' to null",
+      "It binds 'this' automatically to the document root"
+    ],
+    "correctAnswer": "It inherits 'this' lexically from its parent scope",
+    "explanation": "The correct answer is It inherits 'this' lexically from its parent scope.",
+    "difficulty": "hard",
+    "id": "javascript-119"
+  },
+  {
+    "question": "Which method is called automatically when an object instance is created from a class definition?",
+    "options": [
+      "init()",
+      "start()",
+      "constructor()",
+      "create()"
+    ],
+    "correctAnswer": "constructor()",
+    "explanation": "The correct answer is constructor().",
+    "difficulty": "easy",
+    "id": "javascript-120"
+  },
+  {
+    "question": "What does 'API' stand for in web development?",
+    "options": [
+      "Application Programming Interface",
+      "Automated Processing Internet",
+      "Applied Program Integration",
+      "Application Protocol Interface"
+    ],
+    "correctAnswer": "Application Programming Interface",
+    "explanation": "The correct answer is Application Programming Interface.",
+    "difficulty": "easy",
+    "id": "javascript-121"
+  },
+  {
+    "question": "Which keyword is used to pause the execution inside an asynchronous function until a promise settles?",
+    "options": [
+      "wait",
+      "pause",
+      "await",
+      "halt"
+    ],
+    "correctAnswer": "await",
+    "explanation": "The correct answer is await.",
+    "difficulty": "easy",
+    "id": "javascript-122"
+  },
+  {
+    "question": "What is the output of 'console.log(false || true)'?",
+    "options": [
+      "false",
+      "true",
+      "undefined",
+      "NaN"
+    ],
+    "correctAnswer": "true",
+    "explanation": "The correct answer is true.",
+    "difficulty": "easy",
+    "id": "javascript-123"
+  },
+  {
+    "question": "What will 'console.log(true && false)' output?",
+    "options": [
+      "true",
+      "false",
+      "undefined",
+      "NaN"
+    ],
+    "correctAnswer": "false",
+    "explanation": "The correct answer is false.",
+    "difficulty": "easy",
+    "id": "javascript-124"
+  },
+  {
+    "question": "Which built-in object allows you to perform mathematical operations?",
+    "options": [
+      "Mathematics",
+      "Math",
+      "Calc",
+      "Numbers"
+    ],
+    "correctAnswer": "Math",
+    "explanation": "The correct answer is Math.",
+    "difficulty": "easy",
+    "id": "javascript-125"
+  },
+  {
+    "question": "Which of the following data types was newly introduced in ES6?",
+    "options": [
+      "Symbol",
+      "String",
+      "Boolean",
+      "Object"
+    ],
+    "correctAnswer": "Symbol",
+    "explanation": "The correct answer is Symbol.",
+    "difficulty": "intermediate",
+    "id": "javascript-126"
+  },
+  {
+    "question": "What does the 'Event.preventDefault()' method do?",
+    "options": [
+      "Stops the event from bubbling up",
+      "Cancels the event if it is cancelable without stopping further propagation",
+      "Deletes the HTML element",
+      "Triggers a browser error alert"
+    ],
+    "correctAnswer": "Cancels the event if it is cancelable without stopping further propagation",
+    "explanation": "The correct answer is Cancels the event if it is cancelable without stopping further propagation.",
+    "difficulty": "intermediate",
+    "id": "javascript-127"
+  },
+  {
+    "question": "What will 'console.log(typeof String(123))' output?",
+    "options": [
+      "number",
+      "string",
+      "object",
+      "undefined"
+    ],
+    "correctAnswer": "string",
+    "explanation": "The correct answer is string.",
+    "difficulty": "easy",
+    "id": "javascript-128"
+  },
+  {
+    "question": "Which keyword is used to export functions or variables from an ES6 module?",
+    "options": [
+      "export",
+      "module.exports",
+      "share",
+      "send"
+    ],
+    "correctAnswer": "export",
+    "explanation": "The correct answer is export.",
+    "difficulty": "easy",
+    "id": "javascript-129"
+  },
+  {
+    "question": "Which keyword is used to load variables exported from another ES6 module?",
+    "options": [
+      "require",
+      "import",
+      "load",
+      "include"
+    ],
+    "correctAnswer": "import",
+    "explanation": "The correct answer is import.",
+    "difficulty": "easy",
+    "id": "javascript-130"
+  },
+  {
+    "question": "What will 'console.log(Number('123a'))' return?",
+    "options": [
+      "123",
+      "NaN",
+      "123a",
+      "TypeError"
+    ],
+    "correctAnswer": "NaN",
+    "explanation": "The correct answer is NaN.",
+    "difficulty": "intermediate",
+    "id": "javascript-131"
+  },
+  {
+    "question": "Which loop is explicitly designed to iterate over the values of an iterable object like an array?",
+    "options": [
+      "for...in loop",
+      "for...of loop",
+      "while loop",
+      "do...while loop"
+    ],
+    "correctAnswer": "for...of loop",
+    "explanation": "The correct answer is for...of loop.",
+    "difficulty": "intermediate",
+    "id": "javascript-132"
+  },
+  {
+    "question": "Which loop is explicitly designed to iterate over the keys or properties of an object?",
+    "options": [
+      "for...in loop",
+      "for...of loop",
+      "while loop",
+      "forEach loop"
+    ],
+    "correctAnswer": "for...in loop",
+    "explanation": "The correct answer is for...in loop.",
+    "difficulty": "intermediate",
+    "id": "javascript-133"
+  },
+  {
+    "question": "What is the value of an unassigned property of an initialized object?",
+    "options": [
+      "null",
+      "undefined",
+      "0",
+      "false"
+    ],
+    "correctAnswer": "undefined",
+    "explanation": "The correct answer is undefined.",
+    "difficulty": "easy",
+    "id": "javascript-134"
+  },
+  {
+    "question": "What will 'console.log(5 == '5')' return?",
+    "options": [
+      "true",
+      "false",
+      "TypeError",
+      "undefined"
+    ],
+    "correctAnswer": "true",
+    "explanation": "The correct answer is true.",
+    "difficulty": "easy",
+    "id": "javascript-135"
+  },
+  {
+    "question": "What will 'console.log(5 === '5')' return?",
+    "options": [
+      "true",
+      "false",
+      "TypeError",
+      "undefined"
+    ],
+    "correctAnswer": "false",
+    "explanation": "The correct answer is false.",
+    "difficulty": "easy",
+    "id": "javascript-136"
+  },
+  {
+    "question": "Which global method checks whether a value is not a number?",
+    "options": [
+      "isNumber()",
+      "checkNaN()",
+      "isNaN()",
+      "notANumber()"
+    ],
+    "correctAnswer": "isNaN()",
+    "explanation": "The correct answer is isNaN().",
+    "difficulty": "easy",
+    "id": "javascript-137"
+  },
+  {
+    "question": "What does the temporal dead zone refer to in JavaScript?",
+    "options": [
+      "The time before a let/const variable is declared within its block scope",
+      "The time during garbage collection routines",
+      "An infinite loop crash scenario",
+      "The period before an async promise resolves"
+    ],
+    "correctAnswer": "The time before a let/const variable is declared within its block scope",
+    "explanation": "The correct answer is The time before a let/const variable is declared within its block scope.",
+    "difficulty": "hard",
+    "id": "javascript-138"
+  },
+  {
+    "question": "What will 'console.log(3 ** 2)' return in ES6?",
+    "options": [
+      "6",
+      "9",
+      "5",
+      "1"
+    ],
+    "correctAnswer": "9",
+    "explanation": "The correct answer is 9.",
+    "difficulty": "easy",
+    "id": "javascript-139"
+  },
+  {
+    "question": "Which method executes a reducer function on each element of the array, resulting in a single summary output value?",
+    "options": [
+      "map()",
+      "filter()",
+      "reduce()",
+      "join()"
+    ],
+    "correctAnswer": "reduce()",
+    "explanation": "The correct answer is reduce().",
+    "difficulty": "intermediate",
+    "id": "javascript-140"
+  },
+  {
+    "question": "What is the primary engine used by Google Chrome to parse and execute JavaScript code?",
+    "options": [
+      "SpiderMonkey",
+      "Chakra",
+      "V8",
+      "JavaScriptCore"
+    ],
+    "correctAnswer": "V8",
+    "explanation": "The correct answer is V8.",
+    "difficulty": "intermediate",
+    "id": "javascript-141"
+  },
+  {
+    "question": "Which of the following array methods reverses the elements in an array in place?",
+    "options": [
+      "reverse()",
+      "invert()",
+      "flip()",
+      "sort(desc)"
+    ],
+    "correctAnswer": "reverse()",
+    "explanation": "The correct answer is reverse().",
+    "difficulty": "easy",
+    "id": "javascript-142"
+  },
+  {
+    "question": "What will 'console.log(typeof NaN)' output?",
+    "options": [
+      "NaN",
+      "number",
+      "undefined",
+      "object"
+    ],
+    "correctAnswer": "number",
+    "explanation": "The correct answer is number.",
+    "difficulty": "easy",
+    "id": "javascript-143"
+  },
+  {
+    "question": "Which method returns the primitive value of a specified JavaScript object?",
+    "options": [
+      "toValue()",
+      "valueOf()",
+      "getPrimitive()",
+      "toString()"
+    ],
+    "correctAnswer": "valueOf()",
+    "explanation": "The correct answer is valueOf().",
+    "difficulty": "hard",
+    "id": "javascript-144"
+  },
+  {
+    "question": "What does the 'Set' object allow you to store in JavaScript?",
+    "options": [
+      "Key-value pairs only",
+      "Unique values of any type",
+      "Only strings and numbers",
+      "Ordered lists with duplicate values"
+    ],
+    "correctAnswer": "Unique values of any type",
+    "explanation": "The correct answer is Unique values of any type.",
+    "difficulty": "intermediate",
+    "id": "javascript-145"
+  },
+  {
+    "question": "Which array method creates a new array with all sub-array elements concatenated into it recursively up to a specified depth?",
+    "options": [
+      "flatten()",
+      "flat()",
+      "merge()",
+      "concatAll()"
+    ],
+    "correctAnswer": "flat()",
+    "explanation": "The correct answer is flat().",
+    "difficulty": "intermediate",
+    "id": "javascript-146"
+  },
+  {
+    "question": "What will 'console.log(1 < 2 < 3)' output?",
+    "options": [
+      "true",
+      "false",
+      "NaN",
+      "TypeError"
+    ],
+    "correctAnswer": "true",
+    "explanation": "The correct answer is true.",
+    "difficulty": "hard",
+    "id": "javascript-147"
+  },
+  {
+    "question": "Which feature allows you to read the value of a property located deep within a chain of connected objects without checking each reference?",
+    "options": [
+      "Optional chaining (?.)",
+      "Nullish coalescing (??)",
+      "Logical OR (||)",
+      "Safe guarding"
+    ],
+    "correctAnswer": "Optional chaining (?.)",
+    "explanation": "The correct answer is Optional chaining (?.).",
+    "difficulty": "intermediate",
+    "id": "javascript-148"
+  },
+  {
+    "question": "What will 'console.log(3 + 2 + '7')' output?",
+    "options": [
+      "12",
+      "57",
+      "327",
+      "NaN"
+    ],
+    "correctAnswer": "57",
+    "explanation": "The correct answer is 57.",
+    "difficulty": "easy",
+    "id": "javascript-149"
+  },
+  {
+    "question": "What is the return type of a JavaScript Generator function when it is invoked?",
+    "options": [
+      "A Promise",
+      "An Generator/Iterator Object",
+      "An Array of values",
+      "undefined"
+    ],
+    "correctAnswer": "An Generator/Iterator Object",
+    "explanation": "The correct answer is An Generator/Iterator Object.",
+    "difficulty": "hard",
+    "id": "javascript-150"
+  },
+  {
+    "question": "Which of the following is used to securely match or manipulate text patterns in JavaScript?",
+    "options": [
+      "Strings",
+      "Regular Expressions (RegEx)",
+      "JSON",
+      "Arrays"
+    ],
+    "correctAnswer": "Regular Expressions (RegEx)",
+    "explanation": "The correct answer is Regular Expressions (RegEx).",
+    "difficulty": "easy",
+    "id": "javascript-151"
+  },
+  {
+    "question": "What does 'HTTP' stand for in web terminology?",
+    "options": [
+      "HyperText Transfer Protocol",
+      "HighText Transfer Path",
+      "Hyperlink Text Transmission Protocol",
+      "Hypertech Text Process"
+    ],
+    "correctAnswer": "HyperText Transfer Protocol",
+    "explanation": "The correct answer is HyperText Transfer Protocol.",
+    "difficulty": "easy",
+    "id": "javascript-152"
+  },
+  {
+    "question": "Which keyword can be used to check if an object instance belongs to a specific class or constructor function?",
+    "options": [
+      "typeof",
+      "instanceof",
+      "isPrototypeOf",
+      "extends"
+    ],
+    "correctAnswer": "instanceof",
+    "explanation": "The correct answer is instanceof.",
+    "difficulty": "intermediate",
+    "id": "javascript-153"
+  },
+  {
+    "question": "What will 'console.log(typeof [])' return?",
+    "options": [
+      "array",
+      "object",
+      "undefined",
+      "null"
+    ],
+    "correctAnswer": "object",
+    "explanation": "The correct answer is object.",
+    "difficulty": "easy",
+    "id": "javascript-154"
+  },
+  {
+    "question": "Which event fires immediately when a webpage has fully loaded its HTML, scripts, and stylesheets?",
+    "options": [
+      "onload",
+      "ready",
+      "DOMContentLoaded",
+      "onrender"
+    ],
+    "correctAnswer": "onload",
+    "explanation": "The correct answer is onload.",
+    "difficulty": "intermediate",
+    "id": "javascript-155"
+  },
+  {
+    "question": "What will 'console.log(10 / 0)' output in standard JavaScript?",
+    "options": [
+      "0",
+      "Infinity",
+      "NaN",
+      "Throws a ZeroDivisionError"
+    ],
+    "correctAnswer": "Infinity",
+    "explanation": "The correct answer is Infinity.",
+    "difficulty": "intermediate",
+    "id": "javascript-156"
+  },
+  {
+    "question": "Which function method creates a new function that, when called, has its 'this' keyword set to a provided value?",
+    "options": [
+      "call()",
+      "apply()",
+      "bind()",
+      "assign()"
+    ],
+    "correctAnswer": "bind()",
+    "explanation": "The correct answer is bind().",
+    "difficulty": "hard",
+    "id": "javascript-157"
+  },
+  {
+    "question": "Which function method calls a function with a given 'this' value and arguments provided as an array?",
+    "options": [
+      "call()",
+      "apply()",
+      "bind()",
+      "spread()"
+    ],
+    "correctAnswer": "apply()",
+    "explanation": "The correct answer is apply().",
+    "difficulty": "hard",
+    "id": "javascript-158"
+  },
+  {
+    "question": "Which function method calls a function with a given 'this' value and arguments provided individually?",
+    "options": [
+      "call()",
+      "apply()",
+      "bind()",
+      "execute()"
+    ],
+    "correctAnswer": "call()",
+    "explanation": "The correct answer is call().",
+    "difficulty": "hard",
+    "id": "javascript-159"
+  },
+  {
+    "question": "What will 'console.log(parseInt('11', 2))' output?",
+    "options": [
+      "11",
+      "2",
+      "3",
+      "NaN"
+    ],
+    "correctAnswer": "3",
+    "explanation": "The correct answer is 3.",
+    "difficulty": "hard",
+    "id": "javascript-160"
+  },
+  {
+    "question": "Which object method returns an array of a given object's own enumerable string-keyed property [key, value] pairs?",
+    "options": [
+      "Object.keys()",
+      "Object.values()",
+      "Object.entries()",
+      "Object.getOwnPropertyNames()"
+    ],
+    "correctAnswer": "Object.entries()",
+    "explanation": "The correct answer is Object.entries().",
+    "difficulty": "intermediate",
+    "id": "javascript-161"
+  },
+  {
+    "question": "Which data structure stores data as key-value pairs where keys can be of any data type, including objects?",
+    "options": [
+      "Object",
+      "Map",
+      "Set",
+      "WeakSet"
+    ],
+    "correctAnswer": "Map",
+    "explanation": "The correct answer is Map.",
+    "difficulty": "intermediate",
+    "id": "javascript-162"
+  },
+  {
+    "question": "What is the standard name of the specification that standardizes JavaScript rules?",
+    "options": [
+      "Java Standard",
+      "ECMAScript",
+      "W3C Script",
+      "V8 Engine Spec"
+    ],
+    "correctAnswer": "ECMAScript",
+    "explanation": "The correct answer is ECMAScript.",
+    "difficulty": "easy",
+    "id": "javascript-163"
+  },
+  {
+    "question": "What will 'console.log(typeof null)' output?",
+    "options": [
+      "null",
+      "undefined",
+      "object",
+      "string"
+    ],
+    "correctAnswer": "object",
+    "explanation": "The correct answer is object.",
+    "difficulty": "easy",
+    "id": "javascript-164"
+  },
+  {
+    "question": "Which array method determines whether an array contains a specified element, returning true or false?",
+    "options": [
+      "indexOf()",
+      "includes()",
+      "find()",
+      "has()"
+    ],
+    "correctAnswer": "includes()",
+    "explanation": "The correct answer is includes().",
+    "difficulty": "easy",
+    "id": "javascript-165"
+  },
+  {
+    "question": "What will 'console.log('5' * 5)' return?",
+    "options": [
+      "25",
+      "55",
+      "NaN",
+      "TypeError"
+    ],
+    "correctAnswer": "25",
+    "explanation": "The correct answer is 25.",
+    "difficulty": "intermediate",
+    "id": "javascript-166"
+  },
+  {
+    "question": "What will 'console.log('5' - '2')' return?",
+    "options": [
+      "3",
+      "52",
+      "NaN",
+      "TypeError"
+    ],
+    "correctAnswer": "3",
+    "explanation": "The correct answer is 3.",
+    "difficulty": "intermediate",
+    "id": "javascript-167"
+  },
+  {
+    "question": "Which properties can be used to dynamically alter the text content inside an HTML element container using DOM?",
+    "options": [
+      "textContent or innerText",
+      "innerHTML",
+      "style.text",
+      "Both textContent or innerText and innerHTML"
+    ],
+    "correctAnswer": "Both textContent or innerText and innerHTML",
+    "explanation": "The correct answer is Both textContent or innerText and innerHTML.",
+    "difficulty": "easy",
+    "id": "javascript-168"
+  },
+  {
+    "question": "What will 'console.log(Boolean(0))' output?",
+    "options": [
+      "true",
+      "false",
+      "undefined",
+      "TypeError"
+    ],
+    "correctAnswer": "false",
+    "explanation": "The correct answer is false.",
+    "difficulty": "easy",
+    "id": "javascript-169"
+  },
+  {
+    "question": "What will 'console.log(Boolean([]))' output?",
+    "options": [
+      "true",
+      "false",
+      "undefined",
+      "TypeError"
+    ],
+    "correctAnswer": "true",
+    "explanation": "The correct answer is true.",
+    "difficulty": "intermediate",
+    "id": "javascript-170"
+  },
+  {
+    "question": "Which built-in JSON method converts a JavaScript value or object to a JSON string?",
+    "options": [
+      "JSON.stringify()",
+      "JSON.parse()",
+      "JSON.toString()",
+      "JSON.convert()"
+    ],
+    "correctAnswer": "JSON.stringify()",
+    "explanation": "The correct answer is JSON.stringify().",
+    "difficulty": "easy",
+    "id": "javascript-171"
+  },
+  {
+    "question": "What is the return type of the 'setTimeout()' method globally in a browser runtime environment?",
+    "options": [
+      "A positive integer ID representing the timer setup",
+      "A Promise reference",
+      "The callback executed output",
+      "null"
+    ],
+    "correctAnswer": "A positive integer ID representing the timer setup",
+    "explanation": "The correct answer is A positive integer ID representing the timer setup.",
+    "difficulty": "intermediate",
+    "id": "javascript-172"
+  },
+  {
+    "question": "Which array method creates a shallow copy of a portion of an array, extracted from 'start' to 'end' (end not included)?",
+    "options": [
+      "splice()",
+      "slice()",
+      "cut()",
+      "split()"
+    ],
+    "correctAnswer": "slice()",
+    "explanation": "The correct answer is slice().",
+    "difficulty": "intermediate",
+    "id": "javascript-173"
+  },
+  {
+    "question": "Which array method changes the contents of an array by removing or replacing existing elements and/or adding new elements in place?",
+    "options": [
+      "splice()",
+      "slice()",
+      "shift()",
+      "push()"
+    ],
+    "correctAnswer": "splice()",
+    "explanation": "The correct answer is splice().",
+    "difficulty": "intermediate",
+    "id": "javascript-174"
+  },
+  {
+    "question": "What is the main advantage of asynchronous JavaScript loading techniques like 'async' or 'defer' scripts?",
+    "options": [
+      "They block DOM parsing for protection",
+      "They prevent script execution errors completely",
+      "They prevent scripts from blocking the parsing of HTML files",
+      "They automatically compress code length"
+    ],
+    "correctAnswer": "They prevent scripts from blocking the parsing of HTML files",
+    "explanation": "The correct answer is They prevent scripts from blocking the parsing of HTML files.",
+    "difficulty": "intermediate",
+    "id": "javascript-175"
+  },
+  {
+    "question": "What will 'console.log(typeof template literals `hello`)' resolve to?",
+    "options": [
+      "string",
+      "object",
+      "template",
+      "undefined"
+    ],
+    "correctAnswer": "string",
+    "explanation": "The correct answer is string.",
+    "difficulty": "easy",
+    "id": "javascript-176"
+  },
+  {
+    "question": "Which structural loop tracks counter indices explicitly through initialization, condition evaluation, and expression updates?",
+    "options": [
+      "while loop",
+      "do...while loop",
+      "standard for loop",
+      "for...of loop"
+    ],
+    "correctAnswer": "standard for loop",
+    "explanation": "The correct answer is standard for loop.",
+    "difficulty": "easy",
+    "id": "javascript-177"
+  },
+  {
+    "question": "Which keyword must be placed before a function definition statement to mark it as capable of resolving async operations?",
+    "options": [
+      "await",
+      "async",
+      "promise",
+      "defer"
+    ],
+    "correctAnswer": "async",
+    "explanation": "The correct answer is async.",
+    "difficulty": "easy",
+    "id": "javascript-178"
+  },
+  {
+    "question": "What will 'console.log(Number.isInteger(4.5))' return?",
+    "options": [
+      "true",
+      "false",
+      "NaN",
+      "TypeError"
+    ],
+    "correctAnswer": "false",
+    "explanation": "The correct answer is false.",
+    "difficulty": "easy",
+    "id": "javascript-179"
+  },
+  {
+    "question": "Which collection structure only keeps weak references to its elements and does not prevent garbage collection targets?",
+    "options": [
+      "Map",
+      "Set",
+      "WeakMap or WeakSet",
+      "Object"
+    ],
+    "correctAnswer": "WeakMap or WeakSet",
+    "explanation": "The correct answer is WeakMap or WeakSet.",
+    "difficulty": "hard",
+    "id": "javascript-180"
+  },
+  {
+    "question": "Which of the following is an example of an operational web API provided by browser runtimes instead of core ECMAScript engines?",
+    "options": [
+      "Math.random()",
+      "JSON.parse()",
+      "fetch()",
+      "Array.prototype.push()"
+    ],
+    "correctAnswer": "fetch()",
+    "explanation": "The correct answer is fetch().",
+    "difficulty": "intermediate",
+    "id": "javascript-181"
+  },
+  {
+    "question": "What will 'console.log(null == undefined)' output?",
+    "options": [
+      "true",
+      "false",
+      "ReferenceError",
+      "TypeError"
+    ],
+    "correctAnswer": "true",
+    "explanation": "The correct answer is true.",
+    "difficulty": "easy",
+    "id": "javascript-182"
+  },
+  {
+    "question": "What will 'console.log(null === undefined)' output?",
+    "options": [
+      "true",
+      "false",
+      "ReferenceError",
+      "TypeError"
+    ],
+    "correctAnswer": "false",
+    "explanation": "The correct answer is false.",
+    "difficulty": "easy",
+    "id": "javascript-183"
+  },
+  {
+    "question": "What does DOM stand for?",
+    "options": [
+      "Data Object Model",
+      "Document Object Model",
+      "Digital Object Manager",
+      "Document Oriented Multi-threading"
+    ],
+    "correctAnswer": "Document Object Model",
+    "explanation": "The correct answer is Document Object Model.",
+    "difficulty": "easy",
+    "id": "javascript-184"
+  },
+  {
+    "question": "Which method on an array creates a new array populated with the results of calling a provided function on every single element?",
+    "options": [
+      "forEach()",
+      "filter()",
+      "map()",
+      "reduce()"
+    ],
+    "correctAnswer": "map()",
+    "explanation": "The correct answer is map().",
+    "difficulty": "easy",
+    "id": "javascript-185"
+  },
+  {
+    "question": "What will 'console.log('hello'.charAt(0))' output?",
+    "options": [
+      "h",
+      "e",
+      "0",
+      "undefined"
+    ],
+    "correctAnswer": "h",
+    "explanation": "The correct answer is h.",
+    "difficulty": "easy",
+    "id": "javascript-186"
+  },
+  {
+    "question": "Which mathematical property is used to identify the Euler's constant value base in JavaScript?",
+    "options": [
+      "Math.E",
+      "Math.PI",
+      "Math.LN2",
+      "Math.SQRT1_2"
+    ],
+    "correctAnswer": "Math.E",
+    "explanation": "The correct answer is Math.E.",
+    "difficulty": "intermediate",
+    "id": "javascript-187"
+  },
+  {
+    "question": "Which operational approach halts further event propagation up through DOM hierarchies?",
+    "options": [
+      "event.preventDefault()",
+      "event.stopPropagation()",
+      "return false",
+      "event.cancelBubble() only"
+    ],
+    "correctAnswer": "event.stopPropagation()",
+    "explanation": "The correct answer is event.stopPropagation().",
+    "difficulty": "intermediate",
+    "id": "javascript-188"
+  },
+  {
+    "question": "What will 'console.log(10 % 3)' output?",
+    "options": [
+      "1",
+      "3",
+      "3.33",
+      "0"
+    ],
+    "correctAnswer": "1",
+    "explanation": "The correct answer is 1.",
+    "difficulty": "easy",
+    "id": "javascript-189"
+  },
+  {
+    "question": "Which array property returns the total number of items stored within the array container?",
+    "options": [
+      "size",
+      "count",
+      "length",
+      "index"
+    ],
+    "correctAnswer": "length",
+    "explanation": "The correct answer is length.",
+    "difficulty": "easy",
+    "id": "javascript-190"
+  },
+  {
+    "question": "Which statement matches exactly when utilizing default switch conditional checking criteria parameters?",
+    "options": [
+      "Loose equality (==)",
+      "Strict equality (===)",
+      "Truthy checks",
+      "Object reference match rules"
+    ],
+    "correctAnswer": "Strict equality (===)",
+    "explanation": "The correct answer is Strict equality (===).",
+    "difficulty": "intermediate",
+    "id": "javascript-191"
+  },
+  {
+    "question": "What will 'console.log(typeof Symbol('id'))' output?",
+    "options": [
+      "symbol",
+      "string",
+      "object",
+      "undefined"
+    ],
+    "correctAnswer": "symbol",
+    "explanation": "The correct answer is symbol.",
+    "difficulty": "intermediate",
+    "id": "javascript-192"
+  },
+  {
+    "question": "Which browser runtime feature loops infinitely, keeping check lists monitoring the microtask and macrotask execution stacks?",
+    "options": [
+      "Memory Heap",
+      "Call Stack",
+      "Event Loop",
+      "Web API Worker"
+    ],
+    "correctAnswer": "Event Loop",
+    "explanation": "The correct answer is Event Loop.",
+    "difficulty": "hard",
+    "id": "javascript-193"
+  },
+  {
+    "question": "What is the primary feature of structural variables declared via 'var' keywords inside code functions?",
+    "options": [
+      "They are block-scoped",
+      "They are function-scoped and hoisted",
+      "They cannot be reassigned",
+      "They throw reference errors if read early"
+    ],
+    "correctAnswer": "They are function-scoped and hoisted",
+    "explanation": "The correct answer is They are function-scoped and hoisted.",
+    "difficulty": "intermediate",
+    "id": "javascript-194"
+  },
+  {
+    "question": "Which object property holds references pointing straight back towards implicit prototype chains?",
+    "options": [
+      "__proto__",
+      "prototype",
+      "constructor",
+      "super"
+    ],
+    "correctAnswer": "__proto__",
+    "explanation": "The correct answer is __proto__.",
+    "difficulty": "hard",
+    "id": "javascript-195"
+  },
+  {
+    "question": "What will 'console.log(typeof BigInt(9007199254740991))' output?",
+    "options": [
+      "number",
+      "bigint",
+      "object",
+      "undefined"
+    ],
+    "correctAnswer": "bigint",
+    "explanation": "The correct answer is bigint.",
+    "difficulty": "intermediate",
+    "id": "javascript-196"
+  },
+  {
+    "question": "Which global operational property marks errors indicating text arrays aren't formatted correctly inside standard JSON parsing logic handlers?",
+    "options": [
+      "TypeError",
+      "SyntaxError",
+      "ReferenceError",
+      "URIError"
+    ],
+    "correctAnswer": "SyntaxError",
+    "explanation": "The correct answer is SyntaxError.",
+    "difficulty": "easy",
+    "id": "javascript-197"
+  },
+  {
+    "question": "What will 'console.log(1 === true)' return?",
+    "options": [
+      "true",
+      "false",
+      "TypeError",
+      "undefined"
+    ],
+    "correctAnswer": "false",
+    "explanation": "The correct answer is false.",
+    "difficulty": "easy",
+    "id": "javascript-198"
+  },
+  {
+    "question": "Which method splits a String object into an array of strings by separating the string into substrings?",
+    "options": [
+      "slice()",
+      "splice()",
+      "split()",
+      "join()"
+    ],
+    "correctAnswer": "split()",
+    "explanation": "The correct answer is split().",
+    "difficulty": "easy",
+    "id": "javascript-199"
+  },
+  {
+    "question": "What is the resolution status state value of a Promise object when it is newly created via new constructors?",
+    "options": [
+      "fulfilled",
+      "rejected",
+      "pending",
+      "settled"
+    ],
+    "correctAnswer": "pending",
+    "explanation": "The correct answer is pending.",
+    "difficulty": "easy",
+    "id": "javascript-200"
+  }
+]

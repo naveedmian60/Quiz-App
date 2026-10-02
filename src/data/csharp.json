@@ -1,0 +1,2602 @@
+[
+  {
+    "question": "Which directive commonly makes types from the System namespace available by short name?",
+    "options": [
+      "using System;",
+      "import System;",
+      "include System;",
+      "namespace System;"
+    ],
+    "correctAnswer": "using System;",
+    "explanation": "A using directive lets code refer to namespace members without writing the full namespace each time.",
+    "difficulty": "easy",
+    "id": "csharp-1"
+  },
+  {
+    "question": "Which type is an alias for System.String?",
+    "options": [
+      "string",
+      "text",
+      "char[]",
+      "StringBuilder"
+    ],
+    "correctAnswer": "string",
+    "explanation": "In C#, string is a language alias for the System.String reference type.",
+    "difficulty": "easy",
+    "id": "csharp-2"
+  },
+  {
+    "question": "Which pair commonly defines a simple C# property?",
+    "options": [
+      "get and set",
+      "read and write",
+      "fetch and put",
+      "in and out"
+    ],
+    "correctAnswer": "get and set",
+    "explanation": "A property can expose accessors such as get and set.",
+    "difficulty": "easy",
+    "id": "csharp-3"
+  },
+  {
+    "question": "Which generic type represents a growable list?",
+    "options": [
+      "List<T>",
+      "Array<T>",
+      "Growable<T>",
+      "CollectionArray<T>"
+    ],
+    "correctAnswer": "List<T>",
+    "explanation": "System.Collections.Generic.List<T> is a resizable generic collection.",
+    "difficulty": "easy",
+    "id": "csharp-4"
+  },
+  {
+    "question": "What does an async method commonly return when declared with Task?",
+    "options": [
+      "A Task representing asynchronous work",
+      "A new thread",
+      "A callback delegate",
+      "A timer"
+    ],
+    "correctAnswer": "A Task representing asynchronous work",
+    "explanation": "Task represents an asynchronous operation that may complete later.",
+    "difficulty": "intermediate",
+    "id": "csharp-5"
+  },
+  {
+    "question": "What does a using statement help ensure for an IDisposable resource?",
+    "options": [
+      "Dispose is called when the scope ends",
+      "The value becomes static",
+      "The resource is serialized",
+      "The object is never collected"
+    ],
+    "correctAnswer": "Dispose is called when the scope ends",
+    "explanation": "A using statement disposes the resource when execution leaves its scope.",
+    "difficulty": "intermediate",
+    "id": "csharp-6"
+  },
+  {
+    "question": "Which LINQ method filters a sequence using a predicate?",
+    "options": [
+      "Where",
+      "Select",
+      "OrderBy",
+      "Aggregate"
+    ],
+    "correctAnswer": "Where",
+    "explanation": "Where returns the elements that satisfy a predicate.",
+    "difficulty": "easy",
+    "id": "csharp-7"
+  },
+  {
+    "question": "What does the ?. operator do when the value on its left is null?",
+    "options": [
+      "Skips member access and returns null",
+      "Throws immediately",
+      "Creates a new object",
+      "Converts null to false"
+    ],
+    "correctAnswer": "Skips member access and returns null",
+    "explanation": "Null-conditional access avoids member access when its receiver is null.",
+    "difficulty": "intermediate",
+    "id": "csharp-8"
+  },
+  {
+    "question": "Which keyword tests whether an object is compatible with a type?",
+    "options": [
+      "is",
+      "typeof",
+      "instance",
+      "check"
+    ],
+    "correctAnswer": "is",
+    "explanation": "The is operator tests whether an object can be treated as a specified type.",
+    "difficulty": "easy",
+    "id": "csharp-9"
+  },
+  {
+    "question": "Which value type stores true or false?",
+    "options": [
+      "bool",
+      "bit",
+      "Boolean32",
+      "flag"
+    ],
+    "correctAnswer": "bool",
+    "explanation": "bool is C#'s Boolean value type.",
+    "difficulty": "easy",
+    "id": "csharp-10"
+  },
+  {
+    "question": "Quick check: Which directive commonly makes types from the System namespace available by short name?",
+    "options": [
+      "using System;",
+      "import System;",
+      "include System;",
+      "namespace System;"
+    ],
+    "correctAnswer": "using System;",
+    "explanation": "A using directive lets code refer to namespace members without writing the full namespace each time.",
+    "difficulty": "easy",
+    "id": "csharp-11"
+  },
+  {
+    "question": "Quick check: Which type is an alias for System.String?",
+    "options": [
+      "string",
+      "text",
+      "char[]",
+      "StringBuilder"
+    ],
+    "correctAnswer": "string",
+    "explanation": "In C#, string is a language alias for the System.String reference type.",
+    "difficulty": "easy",
+    "id": "csharp-12"
+  },
+  {
+    "question": "Quick check: Which pair commonly defines a simple C# property?",
+    "options": [
+      "get and set",
+      "read and write",
+      "fetch and put",
+      "in and out"
+    ],
+    "correctAnswer": "get and set",
+    "explanation": "A property can expose accessors such as get and set.",
+    "difficulty": "easy",
+    "id": "csharp-13"
+  },
+  {
+    "question": "Quick check: Which generic type represents a growable list?",
+    "options": [
+      "List<T>",
+      "Array<T>",
+      "Growable<T>",
+      "CollectionArray<T>"
+    ],
+    "correctAnswer": "List<T>",
+    "explanation": "System.Collections.Generic.List<T> is a resizable generic collection.",
+    "difficulty": "easy",
+    "id": "csharp-14"
+  },
+  {
+    "question": "Quick check: What does an async method commonly return when declared with Task?",
+    "options": [
+      "A Task representing asynchronous work",
+      "A new thread",
+      "A callback delegate",
+      "A timer"
+    ],
+    "correctAnswer": "A Task representing asynchronous work",
+    "explanation": "Task represents an asynchronous operation that may complete later.",
+    "difficulty": "intermediate",
+    "id": "csharp-15"
+  },
+  {
+    "question": "Quick check: What does a using statement help ensure for an IDisposable resource?",
+    "options": [
+      "Dispose is called when the scope ends",
+      "The value becomes static",
+      "The resource is serialized",
+      "The object is never collected"
+    ],
+    "correctAnswer": "Dispose is called when the scope ends",
+    "explanation": "A using statement disposes the resource when execution leaves its scope.",
+    "difficulty": "intermediate",
+    "id": "csharp-16"
+  },
+  {
+    "question": "Quick check: Which LINQ method filters a sequence using a predicate?",
+    "options": [
+      "Where",
+      "Select",
+      "OrderBy",
+      "Aggregate"
+    ],
+    "correctAnswer": "Where",
+    "explanation": "Where returns the elements that satisfy a predicate.",
+    "difficulty": "easy",
+    "id": "csharp-17"
+  },
+  {
+    "question": "Quick check: What does the ?. operator do when the value on its left is null?",
+    "options": [
+      "Skips member access and returns null",
+      "Throws immediately",
+      "Creates a new object",
+      "Converts null to false"
+    ],
+    "correctAnswer": "Skips member access and returns null",
+    "explanation": "Null-conditional access avoids member access when its receiver is null.",
+    "difficulty": "intermediate",
+    "id": "csharp-18"
+  },
+  {
+    "question": "Quick check: Which keyword tests whether an object is compatible with a type?",
+    "options": [
+      "is",
+      "typeof",
+      "instance",
+      "check"
+    ],
+    "correctAnswer": "is",
+    "explanation": "The is operator tests whether an object can be treated as a specified type.",
+    "difficulty": "easy",
+    "id": "csharp-19"
+  },
+  {
+    "question": "Quick check: Which value type stores true or false?",
+    "options": [
+      "bool",
+      "bit",
+      "Boolean32",
+      "flag"
+    ],
+    "correctAnswer": "bool",
+    "explanation": "bool is C#'s Boolean value type.",
+    "difficulty": "easy",
+    "id": "csharp-20"
+  },
+  {
+    "question": "Choose the best answer. Which directive commonly makes types from the System namespace available by short name?",
+    "options": [
+      "using System;",
+      "import System;",
+      "include System;",
+      "namespace System;"
+    ],
+    "correctAnswer": "using System;",
+    "explanation": "A using directive lets code refer to namespace members without writing the full namespace each time.",
+    "difficulty": "easy",
+    "id": "csharp-21"
+  },
+  {
+    "question": "Choose the best answer. Which type is an alias for System.String?",
+    "options": [
+      "string",
+      "text",
+      "char[]",
+      "StringBuilder"
+    ],
+    "correctAnswer": "string",
+    "explanation": "In C#, string is a language alias for the System.String reference type.",
+    "difficulty": "easy",
+    "id": "csharp-22"
+  },
+  {
+    "question": "Choose the best answer. Which pair commonly defines a simple C# property?",
+    "options": [
+      "get and set",
+      "read and write",
+      "fetch and put",
+      "in and out"
+    ],
+    "correctAnswer": "get and set",
+    "explanation": "A property can expose accessors such as get and set.",
+    "difficulty": "easy",
+    "id": "csharp-23"
+  },
+  {
+    "question": "Choose the best answer. Which generic type represents a growable list?",
+    "options": [
+      "List<T>",
+      "Array<T>",
+      "Growable<T>",
+      "CollectionArray<T>"
+    ],
+    "correctAnswer": "List<T>",
+    "explanation": "System.Collections.Generic.List<T> is a resizable generic collection.",
+    "difficulty": "easy",
+    "id": "csharp-24"
+  },
+  {
+    "question": "Choose the best answer. What does an async method commonly return when declared with Task?",
+    "options": [
+      "A Task representing asynchronous work",
+      "A new thread",
+      "A callback delegate",
+      "A timer"
+    ],
+    "correctAnswer": "A Task representing asynchronous work",
+    "explanation": "Task represents an asynchronous operation that may complete later.",
+    "difficulty": "intermediate",
+    "id": "csharp-25"
+  },
+  {
+    "question": "Choose the best answer. What does a using statement help ensure for an IDisposable resource?",
+    "options": [
+      "Dispose is called when the scope ends",
+      "The value becomes static",
+      "The resource is serialized",
+      "The object is never collected"
+    ],
+    "correctAnswer": "Dispose is called when the scope ends",
+    "explanation": "A using statement disposes the resource when execution leaves its scope.",
+    "difficulty": "intermediate",
+    "id": "csharp-26"
+  },
+  {
+    "question": "Choose the best answer. Which LINQ method filters a sequence using a predicate?",
+    "options": [
+      "Where",
+      "Select",
+      "OrderBy",
+      "Aggregate"
+    ],
+    "correctAnswer": "Where",
+    "explanation": "Where returns the elements that satisfy a predicate.",
+    "difficulty": "easy",
+    "id": "csharp-27"
+  },
+  {
+    "question": "Choose the best answer. What does the ?. operator do when the value on its left is null?",
+    "options": [
+      "Skips member access and returns null",
+      "Throws immediately",
+      "Creates a new object",
+      "Converts null to false"
+    ],
+    "correctAnswer": "Skips member access and returns null",
+    "explanation": "Null-conditional access avoids member access when its receiver is null.",
+    "difficulty": "intermediate",
+    "id": "csharp-28"
+  },
+  {
+    "question": "Choose the best answer. Which keyword tests whether an object is compatible with a type?",
+    "options": [
+      "is",
+      "typeof",
+      "instance",
+      "check"
+    ],
+    "correctAnswer": "is",
+    "explanation": "The is operator tests whether an object can be treated as a specified type.",
+    "difficulty": "easy",
+    "id": "csharp-29"
+  },
+  {
+    "question": "Choose the best answer. Which value type stores true or false?",
+    "options": [
+      "bool",
+      "bit",
+      "Boolean32",
+      "flag"
+    ],
+    "correctAnswer": "bool",
+    "explanation": "bool is C#'s Boolean value type.",
+    "difficulty": "easy",
+    "id": "csharp-30"
+  },
+  {
+    "question": "Programming fundamentals: Which directive commonly makes types from the System namespace available by short name?",
+    "options": [
+      "using System;",
+      "import System;",
+      "include System;",
+      "namespace System;"
+    ],
+    "correctAnswer": "using System;",
+    "explanation": "A using directive lets code refer to namespace members without writing the full namespace each time.",
+    "difficulty": "easy",
+    "id": "csharp-31"
+  },
+  {
+    "question": "Programming fundamentals: Which type is an alias for System.String?",
+    "options": [
+      "string",
+      "text",
+      "char[]",
+      "StringBuilder"
+    ],
+    "correctAnswer": "string",
+    "explanation": "In C#, string is a language alias for the System.String reference type.",
+    "difficulty": "easy",
+    "id": "csharp-32"
+  },
+  {
+    "question": "Programming fundamentals: Which pair commonly defines a simple C# property?",
+    "options": [
+      "get and set",
+      "read and write",
+      "fetch and put",
+      "in and out"
+    ],
+    "correctAnswer": "get and set",
+    "explanation": "A property can expose accessors such as get and set.",
+    "difficulty": "easy",
+    "id": "csharp-33"
+  },
+  {
+    "question": "Programming fundamentals: Which generic type represents a growable list?",
+    "options": [
+      "List<T>",
+      "Array<T>",
+      "Growable<T>",
+      "CollectionArray<T>"
+    ],
+    "correctAnswer": "List<T>",
+    "explanation": "System.Collections.Generic.List<T> is a resizable generic collection.",
+    "difficulty": "easy",
+    "id": "csharp-34"
+  },
+  {
+    "question": "Programming fundamentals: What does an async method commonly return when declared with Task?",
+    "options": [
+      "A Task representing asynchronous work",
+      "A new thread",
+      "A callback delegate",
+      "A timer"
+    ],
+    "correctAnswer": "A Task representing asynchronous work",
+    "explanation": "Task represents an asynchronous operation that may complete later.",
+    "difficulty": "intermediate",
+    "id": "csharp-35"
+  },
+  {
+    "question": "Programming fundamentals: What does a using statement help ensure for an IDisposable resource?",
+    "options": [
+      "Dispose is called when the scope ends",
+      "The value becomes static",
+      "The resource is serialized",
+      "The object is never collected"
+    ],
+    "correctAnswer": "Dispose is called when the scope ends",
+    "explanation": "A using statement disposes the resource when execution leaves its scope.",
+    "difficulty": "intermediate",
+    "id": "csharp-36"
+  },
+  {
+    "question": "Programming fundamentals: Which LINQ method filters a sequence using a predicate?",
+    "options": [
+      "Where",
+      "Select",
+      "OrderBy",
+      "Aggregate"
+    ],
+    "correctAnswer": "Where",
+    "explanation": "Where returns the elements that satisfy a predicate.",
+    "difficulty": "easy",
+    "id": "csharp-37"
+  },
+  {
+    "question": "Programming fundamentals: What does the ?. operator do when the value on its left is null?",
+    "options": [
+      "Skips member access and returns null",
+      "Throws immediately",
+      "Creates a new object",
+      "Converts null to false"
+    ],
+    "correctAnswer": "Skips member access and returns null",
+    "explanation": "Null-conditional access avoids member access when its receiver is null.",
+    "difficulty": "intermediate",
+    "id": "csharp-38"
+  },
+  {
+    "question": "Programming fundamentals: Which keyword tests whether an object is compatible with a type?",
+    "options": [
+      "is",
+      "typeof",
+      "instance",
+      "check"
+    ],
+    "correctAnswer": "is",
+    "explanation": "The is operator tests whether an object can be treated as a specified type.",
+    "difficulty": "easy",
+    "id": "csharp-39"
+  },
+  {
+    "question": "Programming fundamentals: Which value type stores true or false?",
+    "options": [
+      "bool",
+      "bit",
+      "Boolean32",
+      "flag"
+    ],
+    "correctAnswer": "bool",
+    "explanation": "bool is C#'s Boolean value type.",
+    "difficulty": "easy",
+    "id": "csharp-40"
+  },
+  {
+    "question": "Knowledge check: Which directive commonly makes types from the System namespace available by short name?",
+    "options": [
+      "using System;",
+      "import System;",
+      "include System;",
+      "namespace System;"
+    ],
+    "correctAnswer": "using System;",
+    "explanation": "A using directive lets code refer to namespace members without writing the full namespace each time.",
+    "difficulty": "easy",
+    "id": "csharp-41"
+  },
+  {
+    "question": "Knowledge check: Which type is an alias for System.String?",
+    "options": [
+      "string",
+      "text",
+      "char[]",
+      "StringBuilder"
+    ],
+    "correctAnswer": "string",
+    "explanation": "In C#, string is a language alias for the System.String reference type.",
+    "difficulty": "easy",
+    "id": "csharp-42"
+  },
+  {
+    "question": "Knowledge check: Which pair commonly defines a simple C# property?",
+    "options": [
+      "get and set",
+      "read and write",
+      "fetch and put",
+      "in and out"
+    ],
+    "correctAnswer": "get and set",
+    "explanation": "A property can expose accessors such as get and set.",
+    "difficulty": "easy",
+    "id": "csharp-43"
+  },
+  {
+    "question": "Knowledge check: Which generic type represents a growable list?",
+    "options": [
+      "List<T>",
+      "Array<T>",
+      "Growable<T>",
+      "CollectionArray<T>"
+    ],
+    "correctAnswer": "List<T>",
+    "explanation": "System.Collections.Generic.List<T> is a resizable generic collection.",
+    "difficulty": "easy",
+    "id": "csharp-44"
+  },
+  {
+    "question": "Knowledge check: What does an async method commonly return when declared with Task?",
+    "options": [
+      "A Task representing asynchronous work",
+      "A new thread",
+      "A callback delegate",
+      "A timer"
+    ],
+    "correctAnswer": "A Task representing asynchronous work",
+    "explanation": "Task represents an asynchronous operation that may complete later.",
+    "difficulty": "intermediate",
+    "id": "csharp-45"
+  },
+  {
+    "question": "Knowledge check: What does a using statement help ensure for an IDisposable resource?",
+    "options": [
+      "Dispose is called when the scope ends",
+      "The value becomes static",
+      "The resource is serialized",
+      "The object is never collected"
+    ],
+    "correctAnswer": "Dispose is called when the scope ends",
+    "explanation": "A using statement disposes the resource when execution leaves its scope.",
+    "difficulty": "intermediate",
+    "id": "csharp-46"
+  },
+  {
+    "question": "Knowledge check: Which LINQ method filters a sequence using a predicate?",
+    "options": [
+      "Where",
+      "Select",
+      "OrderBy",
+      "Aggregate"
+    ],
+    "correctAnswer": "Where",
+    "explanation": "Where returns the elements that satisfy a predicate.",
+    "difficulty": "easy",
+    "id": "csharp-47"
+  },
+  {
+    "question": "Knowledge check: What does the ?. operator do when the value on its left is null?",
+    "options": [
+      "Skips member access and returns null",
+      "Throws immediately",
+      "Creates a new object",
+      "Converts null to false"
+    ],
+    "correctAnswer": "Skips member access and returns null",
+    "explanation": "Null-conditional access avoids member access when its receiver is null.",
+    "difficulty": "intermediate",
+    "id": "csharp-48"
+  },
+  {
+    "question": "Knowledge check: Which keyword tests whether an object is compatible with a type?",
+    "options": [
+      "is",
+      "typeof",
+      "instance",
+      "check"
+    ],
+    "correctAnswer": "is",
+    "explanation": "The is operator tests whether an object can be treated as a specified type.",
+    "difficulty": "easy",
+    "id": "csharp-49"
+  },
+  {
+    "question": "Knowledge check: Which value type stores true or false?",
+    "options": [
+      "bool",
+      "bit",
+      "Boolean32",
+      "flag"
+    ],
+    "correctAnswer": "bool",
+    "explanation": "bool is C#'s Boolean value type.",
+    "difficulty": "easy",
+    "id": "csharp-50"
+  },
+  {
+    "question": "When reviewing code, which directive commonly makes types from the System namespace available by short name?",
+    "options": [
+      "using System;",
+      "import System;",
+      "include System;",
+      "namespace System;"
+    ],
+    "correctAnswer": "using System;",
+    "explanation": "A using directive lets code refer to namespace members without writing the full namespace each time.",
+    "difficulty": "easy",
+    "id": "csharp-51"
+  },
+  {
+    "question": "When reviewing code, which type is an alias for System.String?",
+    "options": [
+      "string",
+      "text",
+      "char[]",
+      "StringBuilder"
+    ],
+    "correctAnswer": "string",
+    "explanation": "In C#, string is a language alias for the System.String reference type.",
+    "difficulty": "easy",
+    "id": "csharp-52"
+  },
+  {
+    "question": "When reviewing code, which pair commonly defines a simple C# property?",
+    "options": [
+      "get and set",
+      "read and write",
+      "fetch and put",
+      "in and out"
+    ],
+    "correctAnswer": "get and set",
+    "explanation": "A property can expose accessors such as get and set.",
+    "difficulty": "easy",
+    "id": "csharp-53"
+  },
+  {
+    "question": "When reviewing code, which generic type represents a growable list?",
+    "options": [
+      "List<T>",
+      "Array<T>",
+      "Growable<T>",
+      "CollectionArray<T>"
+    ],
+    "correctAnswer": "List<T>",
+    "explanation": "System.Collections.Generic.List<T> is a resizable generic collection.",
+    "difficulty": "easy",
+    "id": "csharp-54"
+  },
+  {
+    "question": "When reviewing code, what does an async method commonly return when declared with Task?",
+    "options": [
+      "A Task representing asynchronous work",
+      "A new thread",
+      "A callback delegate",
+      "A timer"
+    ],
+    "correctAnswer": "A Task representing asynchronous work",
+    "explanation": "Task represents an asynchronous operation that may complete later.",
+    "difficulty": "intermediate",
+    "id": "csharp-55"
+  },
+  {
+    "question": "When reviewing code, what does a using statement help ensure for an IDisposable resource?",
+    "options": [
+      "Dispose is called when the scope ends",
+      "The value becomes static",
+      "The resource is serialized",
+      "The object is never collected"
+    ],
+    "correctAnswer": "Dispose is called when the scope ends",
+    "explanation": "A using statement disposes the resource when execution leaves its scope.",
+    "difficulty": "intermediate",
+    "id": "csharp-56"
+  },
+  {
+    "question": "When reviewing code, which LINQ method filters a sequence using a predicate?",
+    "options": [
+      "Where",
+      "Select",
+      "OrderBy",
+      "Aggregate"
+    ],
+    "correctAnswer": "Where",
+    "explanation": "Where returns the elements that satisfy a predicate.",
+    "difficulty": "easy",
+    "id": "csharp-57"
+  },
+  {
+    "question": "When reviewing code, what does the ?. operator do when the value on its left is null?",
+    "options": [
+      "Skips member access and returns null",
+      "Throws immediately",
+      "Creates a new object",
+      "Converts null to false"
+    ],
+    "correctAnswer": "Skips member access and returns null",
+    "explanation": "Null-conditional access avoids member access when its receiver is null.",
+    "difficulty": "intermediate",
+    "id": "csharp-58"
+  },
+  {
+    "question": "When reviewing code, which keyword tests whether an object is compatible with a type?",
+    "options": [
+      "is",
+      "typeof",
+      "instance",
+      "check"
+    ],
+    "correctAnswer": "is",
+    "explanation": "The is operator tests whether an object can be treated as a specified type.",
+    "difficulty": "easy",
+    "id": "csharp-59"
+  },
+  {
+    "question": "When reviewing code, which value type stores true or false?",
+    "options": [
+      "bool",
+      "bit",
+      "Boolean32",
+      "flag"
+    ],
+    "correctAnswer": "bool",
+    "explanation": "bool is C#'s Boolean value type.",
+    "difficulty": "easy",
+    "id": "csharp-60"
+  },
+  {
+    "question": "For a beginner, which directive commonly makes types from the System namespace available by short name?",
+    "options": [
+      "using System;",
+      "import System;",
+      "include System;",
+      "namespace System;"
+    ],
+    "correctAnswer": "using System;",
+    "explanation": "A using directive lets code refer to namespace members without writing the full namespace each time.",
+    "difficulty": "easy",
+    "id": "csharp-61"
+  },
+  {
+    "question": "For a beginner, which type is an alias for System.String?",
+    "options": [
+      "string",
+      "text",
+      "char[]",
+      "StringBuilder"
+    ],
+    "correctAnswer": "string",
+    "explanation": "In C#, string is a language alias for the System.String reference type.",
+    "difficulty": "easy",
+    "id": "csharp-62"
+  },
+  {
+    "question": "For a beginner, which pair commonly defines a simple C# property?",
+    "options": [
+      "get and set",
+      "read and write",
+      "fetch and put",
+      "in and out"
+    ],
+    "correctAnswer": "get and set",
+    "explanation": "A property can expose accessors such as get and set.",
+    "difficulty": "easy",
+    "id": "csharp-63"
+  },
+  {
+    "question": "For a beginner, which generic type represents a growable list?",
+    "options": [
+      "List<T>",
+      "Array<T>",
+      "Growable<T>",
+      "CollectionArray<T>"
+    ],
+    "correctAnswer": "List<T>",
+    "explanation": "System.Collections.Generic.List<T> is a resizable generic collection.",
+    "difficulty": "easy",
+    "id": "csharp-64"
+  },
+  {
+    "question": "For a beginner, what does an async method commonly return when declared with Task?",
+    "options": [
+      "A Task representing asynchronous work",
+      "A new thread",
+      "A callback delegate",
+      "A timer"
+    ],
+    "correctAnswer": "A Task representing asynchronous work",
+    "explanation": "Task represents an asynchronous operation that may complete later.",
+    "difficulty": "intermediate",
+    "id": "csharp-65"
+  },
+  {
+    "question": "For a beginner, what does a using statement help ensure for an IDisposable resource?",
+    "options": [
+      "Dispose is called when the scope ends",
+      "The value becomes static",
+      "The resource is serialized",
+      "The object is never collected"
+    ],
+    "correctAnswer": "Dispose is called when the scope ends",
+    "explanation": "A using statement disposes the resource when execution leaves its scope.",
+    "difficulty": "intermediate",
+    "id": "csharp-66"
+  },
+  {
+    "question": "For a beginner, which LINQ method filters a sequence using a predicate?",
+    "options": [
+      "Where",
+      "Select",
+      "OrderBy",
+      "Aggregate"
+    ],
+    "correctAnswer": "Where",
+    "explanation": "Where returns the elements that satisfy a predicate.",
+    "difficulty": "easy",
+    "id": "csharp-67"
+  },
+  {
+    "question": "For a beginner, what does the ?. operator do when the value on its left is null?",
+    "options": [
+      "Skips member access and returns null",
+      "Throws immediately",
+      "Creates a new object",
+      "Converts null to false"
+    ],
+    "correctAnswer": "Skips member access and returns null",
+    "explanation": "Null-conditional access avoids member access when its receiver is null.",
+    "difficulty": "intermediate",
+    "id": "csharp-68"
+  },
+  {
+    "question": "For a beginner, which keyword tests whether an object is compatible with a type?",
+    "options": [
+      "is",
+      "typeof",
+      "instance",
+      "check"
+    ],
+    "correctAnswer": "is",
+    "explanation": "The is operator tests whether an object can be treated as a specified type.",
+    "difficulty": "easy",
+    "id": "csharp-69"
+  },
+  {
+    "question": "For a beginner, which value type stores true or false?",
+    "options": [
+      "bool",
+      "bit",
+      "Boolean32",
+      "flag"
+    ],
+    "correctAnswer": "bool",
+    "explanation": "bool is C#'s Boolean value type.",
+    "difficulty": "easy",
+    "id": "csharp-70"
+  },
+  {
+    "question": "Concept review: Which directive commonly makes types from the System namespace available by short name?",
+    "options": [
+      "using System;",
+      "import System;",
+      "include System;",
+      "namespace System;"
+    ],
+    "correctAnswer": "using System;",
+    "explanation": "A using directive lets code refer to namespace members without writing the full namespace each time.",
+    "difficulty": "easy",
+    "id": "csharp-71"
+  },
+  {
+    "question": "Concept review: Which type is an alias for System.String?",
+    "options": [
+      "string",
+      "text",
+      "char[]",
+      "StringBuilder"
+    ],
+    "correctAnswer": "string",
+    "explanation": "In C#, string is a language alias for the System.String reference type.",
+    "difficulty": "easy",
+    "id": "csharp-72"
+  },
+  {
+    "question": "Concept review: Which pair commonly defines a simple C# property?",
+    "options": [
+      "get and set",
+      "read and write",
+      "fetch and put",
+      "in and out"
+    ],
+    "correctAnswer": "get and set",
+    "explanation": "A property can expose accessors such as get and set.",
+    "difficulty": "easy",
+    "id": "csharp-73"
+  },
+  {
+    "question": "Concept review: Which generic type represents a growable list?",
+    "options": [
+      "List<T>",
+      "Array<T>",
+      "Growable<T>",
+      "CollectionArray<T>"
+    ],
+    "correctAnswer": "List<T>",
+    "explanation": "System.Collections.Generic.List<T> is a resizable generic collection.",
+    "difficulty": "easy",
+    "id": "csharp-74"
+  },
+  {
+    "question": "Concept review: What does an async method commonly return when declared with Task?",
+    "options": [
+      "A Task representing asynchronous work",
+      "A new thread",
+      "A callback delegate",
+      "A timer"
+    ],
+    "correctAnswer": "A Task representing asynchronous work",
+    "explanation": "Task represents an asynchronous operation that may complete later.",
+    "difficulty": "intermediate",
+    "id": "csharp-75"
+  },
+  {
+    "question": "Concept review: What does a using statement help ensure for an IDisposable resource?",
+    "options": [
+      "Dispose is called when the scope ends",
+      "The value becomes static",
+      "The resource is serialized",
+      "The object is never collected"
+    ],
+    "correctAnswer": "Dispose is called when the scope ends",
+    "explanation": "A using statement disposes the resource when execution leaves its scope.",
+    "difficulty": "intermediate",
+    "id": "csharp-76"
+  },
+  {
+    "question": "Concept review: Which LINQ method filters a sequence using a predicate?",
+    "options": [
+      "Where",
+      "Select",
+      "OrderBy",
+      "Aggregate"
+    ],
+    "correctAnswer": "Where",
+    "explanation": "Where returns the elements that satisfy a predicate.",
+    "difficulty": "easy",
+    "id": "csharp-77"
+  },
+  {
+    "question": "Concept review: What does the ?. operator do when the value on its left is null?",
+    "options": [
+      "Skips member access and returns null",
+      "Throws immediately",
+      "Creates a new object",
+      "Converts null to false"
+    ],
+    "correctAnswer": "Skips member access and returns null",
+    "explanation": "Null-conditional access avoids member access when its receiver is null.",
+    "difficulty": "intermediate",
+    "id": "csharp-78"
+  },
+  {
+    "question": "Concept review: Which keyword tests whether an object is compatible with a type?",
+    "options": [
+      "is",
+      "typeof",
+      "instance",
+      "check"
+    ],
+    "correctAnswer": "is",
+    "explanation": "The is operator tests whether an object can be treated as a specified type.",
+    "difficulty": "easy",
+    "id": "csharp-79"
+  },
+  {
+    "question": "Concept review: Which value type stores true or false?",
+    "options": [
+      "bool",
+      "bit",
+      "Boolean32",
+      "flag"
+    ],
+    "correctAnswer": "bool",
+    "explanation": "bool is C#'s Boolean value type.",
+    "difficulty": "easy",
+    "id": "csharp-80"
+  },
+  {
+    "question": "Select the correct statement. Which directive commonly makes types from the System namespace available by short name?",
+    "options": [
+      "using System;",
+      "import System;",
+      "include System;",
+      "namespace System;"
+    ],
+    "correctAnswer": "using System;",
+    "explanation": "A using directive lets code refer to namespace members without writing the full namespace each time.",
+    "difficulty": "easy",
+    "id": "csharp-81"
+  },
+  {
+    "question": "Select the correct statement. Which type is an alias for System.String?",
+    "options": [
+      "string",
+      "text",
+      "char[]",
+      "StringBuilder"
+    ],
+    "correctAnswer": "string",
+    "explanation": "In C#, string is a language alias for the System.String reference type.",
+    "difficulty": "easy",
+    "id": "csharp-82"
+  },
+  {
+    "question": "Select the correct statement. Which pair commonly defines a simple C# property?",
+    "options": [
+      "get and set",
+      "read and write",
+      "fetch and put",
+      "in and out"
+    ],
+    "correctAnswer": "get and set",
+    "explanation": "A property can expose accessors such as get and set.",
+    "difficulty": "easy",
+    "id": "csharp-83"
+  },
+  {
+    "question": "Select the correct statement. Which generic type represents a growable list?",
+    "options": [
+      "List<T>",
+      "Array<T>",
+      "Growable<T>",
+      "CollectionArray<T>"
+    ],
+    "correctAnswer": "List<T>",
+    "explanation": "System.Collections.Generic.List<T> is a resizable generic collection.",
+    "difficulty": "easy",
+    "id": "csharp-84"
+  },
+  {
+    "question": "Select the correct statement. What does an async method commonly return when declared with Task?",
+    "options": [
+      "A Task representing asynchronous work",
+      "A new thread",
+      "A callback delegate",
+      "A timer"
+    ],
+    "correctAnswer": "A Task representing asynchronous work",
+    "explanation": "Task represents an asynchronous operation that may complete later.",
+    "difficulty": "intermediate",
+    "id": "csharp-85"
+  },
+  {
+    "question": "Select the correct statement. What does a using statement help ensure for an IDisposable resource?",
+    "options": [
+      "Dispose is called when the scope ends",
+      "The value becomes static",
+      "The resource is serialized",
+      "The object is never collected"
+    ],
+    "correctAnswer": "Dispose is called when the scope ends",
+    "explanation": "A using statement disposes the resource when execution leaves its scope.",
+    "difficulty": "intermediate",
+    "id": "csharp-86"
+  },
+  {
+    "question": "Select the correct statement. Which LINQ method filters a sequence using a predicate?",
+    "options": [
+      "Where",
+      "Select",
+      "OrderBy",
+      "Aggregate"
+    ],
+    "correctAnswer": "Where",
+    "explanation": "Where returns the elements that satisfy a predicate.",
+    "difficulty": "easy",
+    "id": "csharp-87"
+  },
+  {
+    "question": "Select the correct statement. What does the ?. operator do when the value on its left is null?",
+    "options": [
+      "Skips member access and returns null",
+      "Throws immediately",
+      "Creates a new object",
+      "Converts null to false"
+    ],
+    "correctAnswer": "Skips member access and returns null",
+    "explanation": "Null-conditional access avoids member access when its receiver is null.",
+    "difficulty": "intermediate",
+    "id": "csharp-88"
+  },
+  {
+    "question": "Select the correct statement. Which keyword tests whether an object is compatible with a type?",
+    "options": [
+      "is",
+      "typeof",
+      "instance",
+      "check"
+    ],
+    "correctAnswer": "is",
+    "explanation": "The is operator tests whether an object can be treated as a specified type.",
+    "difficulty": "easy",
+    "id": "csharp-89"
+  },
+  {
+    "question": "Select the correct statement. Which value type stores true or false?",
+    "options": [
+      "bool",
+      "bit",
+      "Boolean32",
+      "flag"
+    ],
+    "correctAnswer": "bool",
+    "explanation": "bool is C#'s Boolean value type.",
+    "difficulty": "easy",
+    "id": "csharp-90"
+  },
+  {
+    "question": "Practice question: Which directive commonly makes types from the System namespace available by short name?",
+    "options": [
+      "using System;",
+      "import System;",
+      "include System;",
+      "namespace System;"
+    ],
+    "correctAnswer": "using System;",
+    "explanation": "A using directive lets code refer to namespace members without writing the full namespace each time.",
+    "difficulty": "easy",
+    "id": "csharp-91"
+  },
+  {
+    "question": "Practice question: Which type is an alias for System.String?",
+    "options": [
+      "string",
+      "text",
+      "char[]",
+      "StringBuilder"
+    ],
+    "correctAnswer": "string",
+    "explanation": "In C#, string is a language alias for the System.String reference type.",
+    "difficulty": "easy",
+    "id": "csharp-92"
+  },
+  {
+    "question": "Practice question: Which pair commonly defines a simple C# property?",
+    "options": [
+      "get and set",
+      "read and write",
+      "fetch and put",
+      "in and out"
+    ],
+    "correctAnswer": "get and set",
+    "explanation": "A property can expose accessors such as get and set.",
+    "difficulty": "easy",
+    "id": "csharp-93"
+  },
+  {
+    "question": "Practice question: Which generic type represents a growable list?",
+    "options": [
+      "List<T>",
+      "Array<T>",
+      "Growable<T>",
+      "CollectionArray<T>"
+    ],
+    "correctAnswer": "List<T>",
+    "explanation": "System.Collections.Generic.List<T> is a resizable generic collection.",
+    "difficulty": "easy",
+    "id": "csharp-94"
+  },
+  {
+    "question": "Practice question: What does an async method commonly return when declared with Task?",
+    "options": [
+      "A Task representing asynchronous work",
+      "A new thread",
+      "A callback delegate",
+      "A timer"
+    ],
+    "correctAnswer": "A Task representing asynchronous work",
+    "explanation": "Task represents an asynchronous operation that may complete later.",
+    "difficulty": "intermediate",
+    "id": "csharp-95"
+  },
+  {
+    "question": "Practice question: What does a using statement help ensure for an IDisposable resource?",
+    "options": [
+      "Dispose is called when the scope ends",
+      "The value becomes static",
+      "The resource is serialized",
+      "The object is never collected"
+    ],
+    "correctAnswer": "Dispose is called when the scope ends",
+    "explanation": "A using statement disposes the resource when execution leaves its scope.",
+    "difficulty": "intermediate",
+    "id": "csharp-96"
+  },
+  {
+    "question": "Practice question: Which LINQ method filters a sequence using a predicate?",
+    "options": [
+      "Where",
+      "Select",
+      "OrderBy",
+      "Aggregate"
+    ],
+    "correctAnswer": "Where",
+    "explanation": "Where returns the elements that satisfy a predicate.",
+    "difficulty": "easy",
+    "id": "csharp-97"
+  },
+  {
+    "question": "Practice question: What does the ?. operator do when the value on its left is null?",
+    "options": [
+      "Skips member access and returns null",
+      "Throws immediately",
+      "Creates a new object",
+      "Converts null to false"
+    ],
+    "correctAnswer": "Skips member access and returns null",
+    "explanation": "Null-conditional access avoids member access when its receiver is null.",
+    "difficulty": "intermediate",
+    "id": "csharp-98"
+  },
+  {
+    "question": "Practice question: Which keyword tests whether an object is compatible with a type?",
+    "options": [
+      "is",
+      "typeof",
+      "instance",
+      "check"
+    ],
+    "correctAnswer": "is",
+    "explanation": "The is operator tests whether an object can be treated as a specified type.",
+    "difficulty": "easy",
+    "id": "csharp-99"
+  },
+  {
+    "question": "Practice question: Which value type stores true or false?",
+    "options": [
+      "bool",
+      "bit",
+      "Boolean32",
+      "flag"
+    ],
+    "correctAnswer": "bool",
+    "explanation": "bool is C#'s Boolean value type.",
+    "difficulty": "easy",
+    "id": "csharp-100"
+  },
+  {
+    "question": "Test your understanding: Which directive commonly makes types from the System namespace available by short name?",
+    "options": [
+      "using System;",
+      "import System;",
+      "include System;",
+      "namespace System;"
+    ],
+    "correctAnswer": "using System;",
+    "explanation": "A using directive lets code refer to namespace members without writing the full namespace each time.",
+    "difficulty": "easy",
+    "id": "csharp-101"
+  },
+  {
+    "question": "Test your understanding: Which type is an alias for System.String?",
+    "options": [
+      "string",
+      "text",
+      "char[]",
+      "StringBuilder"
+    ],
+    "correctAnswer": "string",
+    "explanation": "In C#, string is a language alias for the System.String reference type.",
+    "difficulty": "easy",
+    "id": "csharp-102"
+  },
+  {
+    "question": "Test your understanding: Which pair commonly defines a simple C# property?",
+    "options": [
+      "get and set",
+      "read and write",
+      "fetch and put",
+      "in and out"
+    ],
+    "correctAnswer": "get and set",
+    "explanation": "A property can expose accessors such as get and set.",
+    "difficulty": "easy",
+    "id": "csharp-103"
+  },
+  {
+    "question": "Test your understanding: Which generic type represents a growable list?",
+    "options": [
+      "List<T>",
+      "Array<T>",
+      "Growable<T>",
+      "CollectionArray<T>"
+    ],
+    "correctAnswer": "List<T>",
+    "explanation": "System.Collections.Generic.List<T> is a resizable generic collection.",
+    "difficulty": "easy",
+    "id": "csharp-104"
+  },
+  {
+    "question": "Test your understanding: What does an async method commonly return when declared with Task?",
+    "options": [
+      "A Task representing asynchronous work",
+      "A new thread",
+      "A callback delegate",
+      "A timer"
+    ],
+    "correctAnswer": "A Task representing asynchronous work",
+    "explanation": "Task represents an asynchronous operation that may complete later.",
+    "difficulty": "intermediate",
+    "id": "csharp-105"
+  },
+  {
+    "question": "Test your understanding: What does a using statement help ensure for an IDisposable resource?",
+    "options": [
+      "Dispose is called when the scope ends",
+      "The value becomes static",
+      "The resource is serialized",
+      "The object is never collected"
+    ],
+    "correctAnswer": "Dispose is called when the scope ends",
+    "explanation": "A using statement disposes the resource when execution leaves its scope.",
+    "difficulty": "intermediate",
+    "id": "csharp-106"
+  },
+  {
+    "question": "Test your understanding: Which LINQ method filters a sequence using a predicate?",
+    "options": [
+      "Where",
+      "Select",
+      "OrderBy",
+      "Aggregate"
+    ],
+    "correctAnswer": "Where",
+    "explanation": "Where returns the elements that satisfy a predicate.",
+    "difficulty": "easy",
+    "id": "csharp-107"
+  },
+  {
+    "question": "Test your understanding: What does the ?. operator do when the value on its left is null?",
+    "options": [
+      "Skips member access and returns null",
+      "Throws immediately",
+      "Creates a new object",
+      "Converts null to false"
+    ],
+    "correctAnswer": "Skips member access and returns null",
+    "explanation": "Null-conditional access avoids member access when its receiver is null.",
+    "difficulty": "intermediate",
+    "id": "csharp-108"
+  },
+  {
+    "question": "Test your understanding: Which keyword tests whether an object is compatible with a type?",
+    "options": [
+      "is",
+      "typeof",
+      "instance",
+      "check"
+    ],
+    "correctAnswer": "is",
+    "explanation": "The is operator tests whether an object can be treated as a specified type.",
+    "difficulty": "easy",
+    "id": "csharp-109"
+  },
+  {
+    "question": "Test your understanding: Which value type stores true or false?",
+    "options": [
+      "bool",
+      "bit",
+      "Boolean32",
+      "flag"
+    ],
+    "correctAnswer": "bool",
+    "explanation": "bool is C#'s Boolean value type.",
+    "difficulty": "easy",
+    "id": "csharp-110"
+  },
+  {
+    "question": "Language basics: Which directive commonly makes types from the System namespace available by short name?",
+    "options": [
+      "using System;",
+      "import System;",
+      "include System;",
+      "namespace System;"
+    ],
+    "correctAnswer": "using System;",
+    "explanation": "A using directive lets code refer to namespace members without writing the full namespace each time.",
+    "difficulty": "easy",
+    "id": "csharp-111"
+  },
+  {
+    "question": "Language basics: Which type is an alias for System.String?",
+    "options": [
+      "string",
+      "text",
+      "char[]",
+      "StringBuilder"
+    ],
+    "correctAnswer": "string",
+    "explanation": "In C#, string is a language alias for the System.String reference type.",
+    "difficulty": "easy",
+    "id": "csharp-112"
+  },
+  {
+    "question": "Language basics: Which pair commonly defines a simple C# property?",
+    "options": [
+      "get and set",
+      "read and write",
+      "fetch and put",
+      "in and out"
+    ],
+    "correctAnswer": "get and set",
+    "explanation": "A property can expose accessors such as get and set.",
+    "difficulty": "easy",
+    "id": "csharp-113"
+  },
+  {
+    "question": "Language basics: Which generic type represents a growable list?",
+    "options": [
+      "List<T>",
+      "Array<T>",
+      "Growable<T>",
+      "CollectionArray<T>"
+    ],
+    "correctAnswer": "List<T>",
+    "explanation": "System.Collections.Generic.List<T> is a resizable generic collection.",
+    "difficulty": "easy",
+    "id": "csharp-114"
+  },
+  {
+    "question": "Language basics: What does an async method commonly return when declared with Task?",
+    "options": [
+      "A Task representing asynchronous work",
+      "A new thread",
+      "A callback delegate",
+      "A timer"
+    ],
+    "correctAnswer": "A Task representing asynchronous work",
+    "explanation": "Task represents an asynchronous operation that may complete later.",
+    "difficulty": "intermediate",
+    "id": "csharp-115"
+  },
+  {
+    "question": "Language basics: What does a using statement help ensure for an IDisposable resource?",
+    "options": [
+      "Dispose is called when the scope ends",
+      "The value becomes static",
+      "The resource is serialized",
+      "The object is never collected"
+    ],
+    "correctAnswer": "Dispose is called when the scope ends",
+    "explanation": "A using statement disposes the resource when execution leaves its scope.",
+    "difficulty": "intermediate",
+    "id": "csharp-116"
+  },
+  {
+    "question": "Language basics: Which LINQ method filters a sequence using a predicate?",
+    "options": [
+      "Where",
+      "Select",
+      "OrderBy",
+      "Aggregate"
+    ],
+    "correctAnswer": "Where",
+    "explanation": "Where returns the elements that satisfy a predicate.",
+    "difficulty": "easy",
+    "id": "csharp-117"
+  },
+  {
+    "question": "Language basics: What does the ?. operator do when the value on its left is null?",
+    "options": [
+      "Skips member access and returns null",
+      "Throws immediately",
+      "Creates a new object",
+      "Converts null to false"
+    ],
+    "correctAnswer": "Skips member access and returns null",
+    "explanation": "Null-conditional access avoids member access when its receiver is null.",
+    "difficulty": "intermediate",
+    "id": "csharp-118"
+  },
+  {
+    "question": "Language basics: Which keyword tests whether an object is compatible with a type?",
+    "options": [
+      "is",
+      "typeof",
+      "instance",
+      "check"
+    ],
+    "correctAnswer": "is",
+    "explanation": "The is operator tests whether an object can be treated as a specified type.",
+    "difficulty": "easy",
+    "id": "csharp-119"
+  },
+  {
+    "question": "Language basics: Which value type stores true or false?",
+    "options": [
+      "bool",
+      "bit",
+      "Boolean32",
+      "flag"
+    ],
+    "correctAnswer": "bool",
+    "explanation": "bool is C#'s Boolean value type.",
+    "difficulty": "easy",
+    "id": "csharp-120"
+  },
+  {
+    "question": "Which answer is accurate? Which directive commonly makes types from the System namespace available by short name?",
+    "options": [
+      "using System;",
+      "import System;",
+      "include System;",
+      "namespace System;"
+    ],
+    "correctAnswer": "using System;",
+    "explanation": "A using directive lets code refer to namespace members without writing the full namespace each time.",
+    "difficulty": "easy",
+    "id": "csharp-121"
+  },
+  {
+    "question": "Which answer is accurate? Which type is an alias for System.String?",
+    "options": [
+      "string",
+      "text",
+      "char[]",
+      "StringBuilder"
+    ],
+    "correctAnswer": "string",
+    "explanation": "In C#, string is a language alias for the System.String reference type.",
+    "difficulty": "easy",
+    "id": "csharp-122"
+  },
+  {
+    "question": "Which answer is accurate? Which pair commonly defines a simple C# property?",
+    "options": [
+      "get and set",
+      "read and write",
+      "fetch and put",
+      "in and out"
+    ],
+    "correctAnswer": "get and set",
+    "explanation": "A property can expose accessors such as get and set.",
+    "difficulty": "easy",
+    "id": "csharp-123"
+  },
+  {
+    "question": "Which answer is accurate? Which generic type represents a growable list?",
+    "options": [
+      "List<T>",
+      "Array<T>",
+      "Growable<T>",
+      "CollectionArray<T>"
+    ],
+    "correctAnswer": "List<T>",
+    "explanation": "System.Collections.Generic.List<T> is a resizable generic collection.",
+    "difficulty": "easy",
+    "id": "csharp-124"
+  },
+  {
+    "question": "Which answer is accurate? What does an async method commonly return when declared with Task?",
+    "options": [
+      "A Task representing asynchronous work",
+      "A new thread",
+      "A callback delegate",
+      "A timer"
+    ],
+    "correctAnswer": "A Task representing asynchronous work",
+    "explanation": "Task represents an asynchronous operation that may complete later.",
+    "difficulty": "intermediate",
+    "id": "csharp-125"
+  },
+  {
+    "question": "Which answer is accurate? What does a using statement help ensure for an IDisposable resource?",
+    "options": [
+      "Dispose is called when the scope ends",
+      "The value becomes static",
+      "The resource is serialized",
+      "The object is never collected"
+    ],
+    "correctAnswer": "Dispose is called when the scope ends",
+    "explanation": "A using statement disposes the resource when execution leaves its scope.",
+    "difficulty": "intermediate",
+    "id": "csharp-126"
+  },
+  {
+    "question": "Which answer is accurate? Which LINQ method filters a sequence using a predicate?",
+    "options": [
+      "Where",
+      "Select",
+      "OrderBy",
+      "Aggregate"
+    ],
+    "correctAnswer": "Where",
+    "explanation": "Where returns the elements that satisfy a predicate.",
+    "difficulty": "easy",
+    "id": "csharp-127"
+  },
+  {
+    "question": "Which answer is accurate? What does the ?. operator do when the value on its left is null?",
+    "options": [
+      "Skips member access and returns null",
+      "Throws immediately",
+      "Creates a new object",
+      "Converts null to false"
+    ],
+    "correctAnswer": "Skips member access and returns null",
+    "explanation": "Null-conditional access avoids member access when its receiver is null.",
+    "difficulty": "intermediate",
+    "id": "csharp-128"
+  },
+  {
+    "question": "Which answer is accurate? Which keyword tests whether an object is compatible with a type?",
+    "options": [
+      "is",
+      "typeof",
+      "instance",
+      "check"
+    ],
+    "correctAnswer": "is",
+    "explanation": "The is operator tests whether an object can be treated as a specified type.",
+    "difficulty": "easy",
+    "id": "csharp-129"
+  },
+  {
+    "question": "Which answer is accurate? Which value type stores true or false?",
+    "options": [
+      "bool",
+      "bit",
+      "Boolean32",
+      "flag"
+    ],
+    "correctAnswer": "bool",
+    "explanation": "bool is C#'s Boolean value type.",
+    "difficulty": "easy",
+    "id": "csharp-130"
+  },
+  {
+    "question": "Study prompt: Which directive commonly makes types from the System namespace available by short name?",
+    "options": [
+      "using System;",
+      "import System;",
+      "include System;",
+      "namespace System;"
+    ],
+    "correctAnswer": "using System;",
+    "explanation": "A using directive lets code refer to namespace members without writing the full namespace each time.",
+    "difficulty": "easy",
+    "id": "csharp-131"
+  },
+  {
+    "question": "Study prompt: Which type is an alias for System.String?",
+    "options": [
+      "string",
+      "text",
+      "char[]",
+      "StringBuilder"
+    ],
+    "correctAnswer": "string",
+    "explanation": "In C#, string is a language alias for the System.String reference type.",
+    "difficulty": "easy",
+    "id": "csharp-132"
+  },
+  {
+    "question": "Study prompt: Which pair commonly defines a simple C# property?",
+    "options": [
+      "get and set",
+      "read and write",
+      "fetch and put",
+      "in and out"
+    ],
+    "correctAnswer": "get and set",
+    "explanation": "A property can expose accessors such as get and set.",
+    "difficulty": "easy",
+    "id": "csharp-133"
+  },
+  {
+    "question": "Study prompt: Which generic type represents a growable list?",
+    "options": [
+      "List<T>",
+      "Array<T>",
+      "Growable<T>",
+      "CollectionArray<T>"
+    ],
+    "correctAnswer": "List<T>",
+    "explanation": "System.Collections.Generic.List<T> is a resizable generic collection.",
+    "difficulty": "easy",
+    "id": "csharp-134"
+  },
+  {
+    "question": "Study prompt: What does an async method commonly return when declared with Task?",
+    "options": [
+      "A Task representing asynchronous work",
+      "A new thread",
+      "A callback delegate",
+      "A timer"
+    ],
+    "correctAnswer": "A Task representing asynchronous work",
+    "explanation": "Task represents an asynchronous operation that may complete later.",
+    "difficulty": "intermediate",
+    "id": "csharp-135"
+  },
+  {
+    "question": "Study prompt: What does a using statement help ensure for an IDisposable resource?",
+    "options": [
+      "Dispose is called when the scope ends",
+      "The value becomes static",
+      "The resource is serialized",
+      "The object is never collected"
+    ],
+    "correctAnswer": "Dispose is called when the scope ends",
+    "explanation": "A using statement disposes the resource when execution leaves its scope.",
+    "difficulty": "intermediate",
+    "id": "csharp-136"
+  },
+  {
+    "question": "Study prompt: Which LINQ method filters a sequence using a predicate?",
+    "options": [
+      "Where",
+      "Select",
+      "OrderBy",
+      "Aggregate"
+    ],
+    "correctAnswer": "Where",
+    "explanation": "Where returns the elements that satisfy a predicate.",
+    "difficulty": "easy",
+    "id": "csharp-137"
+  },
+  {
+    "question": "Study prompt: What does the ?. operator do when the value on its left is null?",
+    "options": [
+      "Skips member access and returns null",
+      "Throws immediately",
+      "Creates a new object",
+      "Converts null to false"
+    ],
+    "correctAnswer": "Skips member access and returns null",
+    "explanation": "Null-conditional access avoids member access when its receiver is null.",
+    "difficulty": "intermediate",
+    "id": "csharp-138"
+  },
+  {
+    "question": "Study prompt: Which keyword tests whether an object is compatible with a type?",
+    "options": [
+      "is",
+      "typeof",
+      "instance",
+      "check"
+    ],
+    "correctAnswer": "is",
+    "explanation": "The is operator tests whether an object can be treated as a specified type.",
+    "difficulty": "easy",
+    "id": "csharp-139"
+  },
+  {
+    "question": "Study prompt: Which value type stores true or false?",
+    "options": [
+      "bool",
+      "bit",
+      "Boolean32",
+      "flag"
+    ],
+    "correctAnswer": "bool",
+    "explanation": "bool is C#'s Boolean value type.",
+    "difficulty": "easy",
+    "id": "csharp-140"
+  },
+  {
+    "question": "Before you continue, which directive commonly makes types from the System namespace available by short name?",
+    "options": [
+      "using System;",
+      "import System;",
+      "include System;",
+      "namespace System;"
+    ],
+    "correctAnswer": "using System;",
+    "explanation": "A using directive lets code refer to namespace members without writing the full namespace each time.",
+    "difficulty": "easy",
+    "id": "csharp-141"
+  },
+  {
+    "question": "Before you continue, which type is an alias for System.String?",
+    "options": [
+      "string",
+      "text",
+      "char[]",
+      "StringBuilder"
+    ],
+    "correctAnswer": "string",
+    "explanation": "In C#, string is a language alias for the System.String reference type.",
+    "difficulty": "easy",
+    "id": "csharp-142"
+  },
+  {
+    "question": "Before you continue, which pair commonly defines a simple C# property?",
+    "options": [
+      "get and set",
+      "read and write",
+      "fetch and put",
+      "in and out"
+    ],
+    "correctAnswer": "get and set",
+    "explanation": "A property can expose accessors such as get and set.",
+    "difficulty": "easy",
+    "id": "csharp-143"
+  },
+  {
+    "question": "Before you continue, which generic type represents a growable list?",
+    "options": [
+      "List<T>",
+      "Array<T>",
+      "Growable<T>",
+      "CollectionArray<T>"
+    ],
+    "correctAnswer": "List<T>",
+    "explanation": "System.Collections.Generic.List<T> is a resizable generic collection.",
+    "difficulty": "easy",
+    "id": "csharp-144"
+  },
+  {
+    "question": "Before you continue, what does an async method commonly return when declared with Task?",
+    "options": [
+      "A Task representing asynchronous work",
+      "A new thread",
+      "A callback delegate",
+      "A timer"
+    ],
+    "correctAnswer": "A Task representing asynchronous work",
+    "explanation": "Task represents an asynchronous operation that may complete later.",
+    "difficulty": "intermediate",
+    "id": "csharp-145"
+  },
+  {
+    "question": "Before you continue, what does a using statement help ensure for an IDisposable resource?",
+    "options": [
+      "Dispose is called when the scope ends",
+      "The value becomes static",
+      "The resource is serialized",
+      "The object is never collected"
+    ],
+    "correctAnswer": "Dispose is called when the scope ends",
+    "explanation": "A using statement disposes the resource when execution leaves its scope.",
+    "difficulty": "intermediate",
+    "id": "csharp-146"
+  },
+  {
+    "question": "Before you continue, which LINQ method filters a sequence using a predicate?",
+    "options": [
+      "Where",
+      "Select",
+      "OrderBy",
+      "Aggregate"
+    ],
+    "correctAnswer": "Where",
+    "explanation": "Where returns the elements that satisfy a predicate.",
+    "difficulty": "easy",
+    "id": "csharp-147"
+  },
+  {
+    "question": "Before you continue, what does the ?. operator do when the value on its left is null?",
+    "options": [
+      "Skips member access and returns null",
+      "Throws immediately",
+      "Creates a new object",
+      "Converts null to false"
+    ],
+    "correctAnswer": "Skips member access and returns null",
+    "explanation": "Null-conditional access avoids member access when its receiver is null.",
+    "difficulty": "intermediate",
+    "id": "csharp-148"
+  },
+  {
+    "question": "Before you continue, which keyword tests whether an object is compatible with a type?",
+    "options": [
+      "is",
+      "typeof",
+      "instance",
+      "check"
+    ],
+    "correctAnswer": "is",
+    "explanation": "The is operator tests whether an object can be treated as a specified type.",
+    "difficulty": "easy",
+    "id": "csharp-149"
+  },
+  {
+    "question": "Before you continue, which value type stores true or false?",
+    "options": [
+      "bool",
+      "bit",
+      "Boolean32",
+      "flag"
+    ],
+    "correctAnswer": "bool",
+    "explanation": "bool is C#'s Boolean value type.",
+    "difficulty": "easy",
+    "id": "csharp-150"
+  },
+  {
+    "question": "Review this concept. Which directive commonly makes types from the System namespace available by short name?",
+    "options": [
+      "using System;",
+      "import System;",
+      "include System;",
+      "namespace System;"
+    ],
+    "correctAnswer": "using System;",
+    "explanation": "A using directive lets code refer to namespace members without writing the full namespace each time.",
+    "difficulty": "easy",
+    "id": "csharp-151"
+  },
+  {
+    "question": "Review this concept. Which type is an alias for System.String?",
+    "options": [
+      "string",
+      "text",
+      "char[]",
+      "StringBuilder"
+    ],
+    "correctAnswer": "string",
+    "explanation": "In C#, string is a language alias for the System.String reference type.",
+    "difficulty": "easy",
+    "id": "csharp-152"
+  },
+  {
+    "question": "Review this concept. Which pair commonly defines a simple C# property?",
+    "options": [
+      "get and set",
+      "read and write",
+      "fetch and put",
+      "in and out"
+    ],
+    "correctAnswer": "get and set",
+    "explanation": "A property can expose accessors such as get and set.",
+    "difficulty": "easy",
+    "id": "csharp-153"
+  },
+  {
+    "question": "Review this concept. Which generic type represents a growable list?",
+    "options": [
+      "List<T>",
+      "Array<T>",
+      "Growable<T>",
+      "CollectionArray<T>"
+    ],
+    "correctAnswer": "List<T>",
+    "explanation": "System.Collections.Generic.List<T> is a resizable generic collection.",
+    "difficulty": "easy",
+    "id": "csharp-154"
+  },
+  {
+    "question": "Review this concept. What does an async method commonly return when declared with Task?",
+    "options": [
+      "A Task representing asynchronous work",
+      "A new thread",
+      "A callback delegate",
+      "A timer"
+    ],
+    "correctAnswer": "A Task representing asynchronous work",
+    "explanation": "Task represents an asynchronous operation that may complete later.",
+    "difficulty": "intermediate",
+    "id": "csharp-155"
+  },
+  {
+    "question": "Review this concept. What does a using statement help ensure for an IDisposable resource?",
+    "options": [
+      "Dispose is called when the scope ends",
+      "The value becomes static",
+      "The resource is serialized",
+      "The object is never collected"
+    ],
+    "correctAnswer": "Dispose is called when the scope ends",
+    "explanation": "A using statement disposes the resource when execution leaves its scope.",
+    "difficulty": "intermediate",
+    "id": "csharp-156"
+  },
+  {
+    "question": "Review this concept. Which LINQ method filters a sequence using a predicate?",
+    "options": [
+      "Where",
+      "Select",
+      "OrderBy",
+      "Aggregate"
+    ],
+    "correctAnswer": "Where",
+    "explanation": "Where returns the elements that satisfy a predicate.",
+    "difficulty": "easy",
+    "id": "csharp-157"
+  },
+  {
+    "question": "Review this concept. What does the ?. operator do when the value on its left is null?",
+    "options": [
+      "Skips member access and returns null",
+      "Throws immediately",
+      "Creates a new object",
+      "Converts null to false"
+    ],
+    "correctAnswer": "Skips member access and returns null",
+    "explanation": "Null-conditional access avoids member access when its receiver is null.",
+    "difficulty": "intermediate",
+    "id": "csharp-158"
+  },
+  {
+    "question": "Review this concept. Which keyword tests whether an object is compatible with a type?",
+    "options": [
+      "is",
+      "typeof",
+      "instance",
+      "check"
+    ],
+    "correctAnswer": "is",
+    "explanation": "The is operator tests whether an object can be treated as a specified type.",
+    "difficulty": "easy",
+    "id": "csharp-159"
+  },
+  {
+    "question": "Review this concept. Which value type stores true or false?",
+    "options": [
+      "bool",
+      "bit",
+      "Boolean32",
+      "flag"
+    ],
+    "correctAnswer": "bool",
+    "explanation": "bool is C#'s Boolean value type.",
+    "difficulty": "easy",
+    "id": "csharp-160"
+  },
+  {
+    "question": "Technical check: Which directive commonly makes types from the System namespace available by short name?",
+    "options": [
+      "using System;",
+      "import System;",
+      "include System;",
+      "namespace System;"
+    ],
+    "correctAnswer": "using System;",
+    "explanation": "A using directive lets code refer to namespace members without writing the full namespace each time.",
+    "difficulty": "easy",
+    "id": "csharp-161"
+  },
+  {
+    "question": "Technical check: Which type is an alias for System.String?",
+    "options": [
+      "string",
+      "text",
+      "char[]",
+      "StringBuilder"
+    ],
+    "correctAnswer": "string",
+    "explanation": "In C#, string is a language alias for the System.String reference type.",
+    "difficulty": "easy",
+    "id": "csharp-162"
+  },
+  {
+    "question": "Technical check: Which pair commonly defines a simple C# property?",
+    "options": [
+      "get and set",
+      "read and write",
+      "fetch and put",
+      "in and out"
+    ],
+    "correctAnswer": "get and set",
+    "explanation": "A property can expose accessors such as get and set.",
+    "difficulty": "easy",
+    "id": "csharp-163"
+  },
+  {
+    "question": "Technical check: Which generic type represents a growable list?",
+    "options": [
+      "List<T>",
+      "Array<T>",
+      "Growable<T>",
+      "CollectionArray<T>"
+    ],
+    "correctAnswer": "List<T>",
+    "explanation": "System.Collections.Generic.List<T> is a resizable generic collection.",
+    "difficulty": "easy",
+    "id": "csharp-164"
+  },
+  {
+    "question": "Technical check: What does an async method commonly return when declared with Task?",
+    "options": [
+      "A Task representing asynchronous work",
+      "A new thread",
+      "A callback delegate",
+      "A timer"
+    ],
+    "correctAnswer": "A Task representing asynchronous work",
+    "explanation": "Task represents an asynchronous operation that may complete later.",
+    "difficulty": "intermediate",
+    "id": "csharp-165"
+  },
+  {
+    "question": "Technical check: What does a using statement help ensure for an IDisposable resource?",
+    "options": [
+      "Dispose is called when the scope ends",
+      "The value becomes static",
+      "The resource is serialized",
+      "The object is never collected"
+    ],
+    "correctAnswer": "Dispose is called when the scope ends",
+    "explanation": "A using statement disposes the resource when execution leaves its scope.",
+    "difficulty": "intermediate",
+    "id": "csharp-166"
+  },
+  {
+    "question": "Technical check: Which LINQ method filters a sequence using a predicate?",
+    "options": [
+      "Where",
+      "Select",
+      "OrderBy",
+      "Aggregate"
+    ],
+    "correctAnswer": "Where",
+    "explanation": "Where returns the elements that satisfy a predicate.",
+    "difficulty": "easy",
+    "id": "csharp-167"
+  },
+  {
+    "question": "Technical check: What does the ?. operator do when the value on its left is null?",
+    "options": [
+      "Skips member access and returns null",
+      "Throws immediately",
+      "Creates a new object",
+      "Converts null to false"
+    ],
+    "correctAnswer": "Skips member access and returns null",
+    "explanation": "Null-conditional access avoids member access when its receiver is null.",
+    "difficulty": "intermediate",
+    "id": "csharp-168"
+  },
+  {
+    "question": "Technical check: Which keyword tests whether an object is compatible with a type?",
+    "options": [
+      "is",
+      "typeof",
+      "instance",
+      "check"
+    ],
+    "correctAnswer": "is",
+    "explanation": "The is operator tests whether an object can be treated as a specified type.",
+    "difficulty": "easy",
+    "id": "csharp-169"
+  },
+  {
+    "question": "Technical check: Which value type stores true or false?",
+    "options": [
+      "bool",
+      "bit",
+      "Boolean32",
+      "flag"
+    ],
+    "correctAnswer": "bool",
+    "explanation": "bool is C#'s Boolean value type.",
+    "difficulty": "easy",
+    "id": "csharp-170"
+  },
+  {
+    "question": "Pick one answer. Which directive commonly makes types from the System namespace available by short name?",
+    "options": [
+      "using System;",
+      "import System;",
+      "include System;",
+      "namespace System;"
+    ],
+    "correctAnswer": "using System;",
+    "explanation": "A using directive lets code refer to namespace members without writing the full namespace each time.",
+    "difficulty": "easy",
+    "id": "csharp-171"
+  },
+  {
+    "question": "Pick one answer. Which type is an alias for System.String?",
+    "options": [
+      "string",
+      "text",
+      "char[]",
+      "StringBuilder"
+    ],
+    "correctAnswer": "string",
+    "explanation": "In C#, string is a language alias for the System.String reference type.",
+    "difficulty": "easy",
+    "id": "csharp-172"
+  },
+  {
+    "question": "Pick one answer. Which pair commonly defines a simple C# property?",
+    "options": [
+      "get and set",
+      "read and write",
+      "fetch and put",
+      "in and out"
+    ],
+    "correctAnswer": "get and set",
+    "explanation": "A property can expose accessors such as get and set.",
+    "difficulty": "easy",
+    "id": "csharp-173"
+  },
+  {
+    "question": "Pick one answer. Which generic type represents a growable list?",
+    "options": [
+      "List<T>",
+      "Array<T>",
+      "Growable<T>",
+      "CollectionArray<T>"
+    ],
+    "correctAnswer": "List<T>",
+    "explanation": "System.Collections.Generic.List<T> is a resizable generic collection.",
+    "difficulty": "easy",
+    "id": "csharp-174"
+  },
+  {
+    "question": "Pick one answer. What does an async method commonly return when declared with Task?",
+    "options": [
+      "A Task representing asynchronous work",
+      "A new thread",
+      "A callback delegate",
+      "A timer"
+    ],
+    "correctAnswer": "A Task representing asynchronous work",
+    "explanation": "Task represents an asynchronous operation that may complete later.",
+    "difficulty": "intermediate",
+    "id": "csharp-175"
+  },
+  {
+    "question": "Pick one answer. What does a using statement help ensure for an IDisposable resource?",
+    "options": [
+      "Dispose is called when the scope ends",
+      "The value becomes static",
+      "The resource is serialized",
+      "The object is never collected"
+    ],
+    "correctAnswer": "Dispose is called when the scope ends",
+    "explanation": "A using statement disposes the resource when execution leaves its scope.",
+    "difficulty": "intermediate",
+    "id": "csharp-176"
+  },
+  {
+    "question": "Pick one answer. Which LINQ method filters a sequence using a predicate?",
+    "options": [
+      "Where",
+      "Select",
+      "OrderBy",
+      "Aggregate"
+    ],
+    "correctAnswer": "Where",
+    "explanation": "Where returns the elements that satisfy a predicate.",
+    "difficulty": "easy",
+    "id": "csharp-177"
+  },
+  {
+    "question": "Pick one answer. What does the ?. operator do when the value on its left is null?",
+    "options": [
+      "Skips member access and returns null",
+      "Throws immediately",
+      "Creates a new object",
+      "Converts null to false"
+    ],
+    "correctAnswer": "Skips member access and returns null",
+    "explanation": "Null-conditional access avoids member access when its receiver is null.",
+    "difficulty": "intermediate",
+    "id": "csharp-178"
+  },
+  {
+    "question": "Pick one answer. Which keyword tests whether an object is compatible with a type?",
+    "options": [
+      "is",
+      "typeof",
+      "instance",
+      "check"
+    ],
+    "correctAnswer": "is",
+    "explanation": "The is operator tests whether an object can be treated as a specified type.",
+    "difficulty": "easy",
+    "id": "csharp-179"
+  },
+  {
+    "question": "Pick one answer. Which value type stores true or false?",
+    "options": [
+      "bool",
+      "bit",
+      "Boolean32",
+      "flag"
+    ],
+    "correctAnswer": "bool",
+    "explanation": "bool is C#'s Boolean value type.",
+    "difficulty": "easy",
+    "id": "csharp-180"
+  },
+  {
+    "question": "Core language question: Which directive commonly makes types from the System namespace available by short name?",
+    "options": [
+      "using System;",
+      "import System;",
+      "include System;",
+      "namespace System;"
+    ],
+    "correctAnswer": "using System;",
+    "explanation": "A using directive lets code refer to namespace members without writing the full namespace each time.",
+    "difficulty": "easy",
+    "id": "csharp-181"
+  },
+  {
+    "question": "Core language question: Which type is an alias for System.String?",
+    "options": [
+      "string",
+      "text",
+      "char[]",
+      "StringBuilder"
+    ],
+    "correctAnswer": "string",
+    "explanation": "In C#, string is a language alias for the System.String reference type.",
+    "difficulty": "easy",
+    "id": "csharp-182"
+  },
+  {
+    "question": "Core language question: Which pair commonly defines a simple C# property?",
+    "options": [
+      "get and set",
+      "read and write",
+      "fetch and put",
+      "in and out"
+    ],
+    "correctAnswer": "get and set",
+    "explanation": "A property can expose accessors such as get and set.",
+    "difficulty": "easy",
+    "id": "csharp-183"
+  },
+  {
+    "question": "Core language question: Which generic type represents a growable list?",
+    "options": [
+      "List<T>",
+      "Array<T>",
+      "Growable<T>",
+      "CollectionArray<T>"
+    ],
+    "correctAnswer": "List<T>",
+    "explanation": "System.Collections.Generic.List<T> is a resizable generic collection.",
+    "difficulty": "easy",
+    "id": "csharp-184"
+  },
+  {
+    "question": "Core language question: What does an async method commonly return when declared with Task?",
+    "options": [
+      "A Task representing asynchronous work",
+      "A new thread",
+      "A callback delegate",
+      "A timer"
+    ],
+    "correctAnswer": "A Task representing asynchronous work",
+    "explanation": "Task represents an asynchronous operation that may complete later.",
+    "difficulty": "intermediate",
+    "id": "csharp-185"
+  },
+  {
+    "question": "Core language question: What does a using statement help ensure for an IDisposable resource?",
+    "options": [
+      "Dispose is called when the scope ends",
+      "The value becomes static",
+      "The resource is serialized",
+      "The object is never collected"
+    ],
+    "correctAnswer": "Dispose is called when the scope ends",
+    "explanation": "A using statement disposes the resource when execution leaves its scope.",
+    "difficulty": "intermediate",
+    "id": "csharp-186"
+  },
+  {
+    "question": "Core language question: Which LINQ method filters a sequence using a predicate?",
+    "options": [
+      "Where",
+      "Select",
+      "OrderBy",
+      "Aggregate"
+    ],
+    "correctAnswer": "Where",
+    "explanation": "Where returns the elements that satisfy a predicate.",
+    "difficulty": "easy",
+    "id": "csharp-187"
+  },
+  {
+    "question": "Core language question: What does the ?. operator do when the value on its left is null?",
+    "options": [
+      "Skips member access and returns null",
+      "Throws immediately",
+      "Creates a new object",
+      "Converts null to false"
+    ],
+    "correctAnswer": "Skips member access and returns null",
+    "explanation": "Null-conditional access avoids member access when its receiver is null.",
+    "difficulty": "intermediate",
+    "id": "csharp-188"
+  },
+  {
+    "question": "Core language question: Which keyword tests whether an object is compatible with a type?",
+    "options": [
+      "is",
+      "typeof",
+      "instance",
+      "check"
+    ],
+    "correctAnswer": "is",
+    "explanation": "The is operator tests whether an object can be treated as a specified type.",
+    "difficulty": "easy",
+    "id": "csharp-189"
+  },
+  {
+    "question": "Core language question: Which value type stores true or false?",
+    "options": [
+      "bool",
+      "bit",
+      "Boolean32",
+      "flag"
+    ],
+    "correctAnswer": "bool",
+    "explanation": "bool is C#'s Boolean value type.",
+    "difficulty": "easy",
+    "id": "csharp-190"
+  },
+  {
+    "question": "Practice round: Which directive commonly makes types from the System namespace available by short name?",
+    "options": [
+      "using System;",
+      "import System;",
+      "include System;",
+      "namespace System;"
+    ],
+    "correctAnswer": "using System;",
+    "explanation": "A using directive lets code refer to namespace members without writing the full namespace each time.",
+    "difficulty": "easy",
+    "id": "csharp-191"
+  },
+  {
+    "question": "Practice round: Which type is an alias for System.String?",
+    "options": [
+      "string",
+      "text",
+      "char[]",
+      "StringBuilder"
+    ],
+    "correctAnswer": "string",
+    "explanation": "In C#, string is a language alias for the System.String reference type.",
+    "difficulty": "easy",
+    "id": "csharp-192"
+  },
+  {
+    "question": "Practice round: Which pair commonly defines a simple C# property?",
+    "options": [
+      "get and set",
+      "read and write",
+      "fetch and put",
+      "in and out"
+    ],
+    "correctAnswer": "get and set",
+    "explanation": "A property can expose accessors such as get and set.",
+    "difficulty": "easy",
+    "id": "csharp-193"
+  },
+  {
+    "question": "Practice round: Which generic type represents a growable list?",
+    "options": [
+      "List<T>",
+      "Array<T>",
+      "Growable<T>",
+      "CollectionArray<T>"
+    ],
+    "correctAnswer": "List<T>",
+    "explanation": "System.Collections.Generic.List<T> is a resizable generic collection.",
+    "difficulty": "easy",
+    "id": "csharp-194"
+  },
+  {
+    "question": "Practice round: What does an async method commonly return when declared with Task?",
+    "options": [
+      "A Task representing asynchronous work",
+      "A new thread",
+      "A callback delegate",
+      "A timer"
+    ],
+    "correctAnswer": "A Task representing asynchronous work",
+    "explanation": "Task represents an asynchronous operation that may complete later.",
+    "difficulty": "intermediate",
+    "id": "csharp-195"
+  },
+  {
+    "question": "Practice round: What does a using statement help ensure for an IDisposable resource?",
+    "options": [
+      "Dispose is called when the scope ends",
+      "The value becomes static",
+      "The resource is serialized",
+      "The object is never collected"
+    ],
+    "correctAnswer": "Dispose is called when the scope ends",
+    "explanation": "A using statement disposes the resource when execution leaves its scope.",
+    "difficulty": "intermediate",
+    "id": "csharp-196"
+  },
+  {
+    "question": "Practice round: Which LINQ method filters a sequence using a predicate?",
+    "options": [
+      "Where",
+      "Select",
+      "OrderBy",
+      "Aggregate"
+    ],
+    "correctAnswer": "Where",
+    "explanation": "Where returns the elements that satisfy a predicate.",
+    "difficulty": "easy",
+    "id": "csharp-197"
+  },
+  {
+    "question": "Practice round: What does the ?. operator do when the value on its left is null?",
+    "options": [
+      "Skips member access and returns null",
+      "Throws immediately",
+      "Creates a new object",
+      "Converts null to false"
+    ],
+    "correctAnswer": "Skips member access and returns null",
+    "explanation": "Null-conditional access avoids member access when its receiver is null.",
+    "difficulty": "intermediate",
+    "id": "csharp-198"
+  },
+  {
+    "question": "Practice round: Which keyword tests whether an object is compatible with a type?",
+    "options": [
+      "is",
+      "typeof",
+      "instance",
+      "check"
+    ],
+    "correctAnswer": "is",
+    "explanation": "The is operator tests whether an object can be treated as a specified type.",
+    "difficulty": "easy",
+    "id": "csharp-199"
+  },
+  {
+    "question": "Practice round: Which value type stores true or false?",
+    "options": [
+      "bool",
+      "bit",
+      "Boolean32",
+      "flag"
+    ],
+    "correctAnswer": "bool",
+    "explanation": "bool is C#'s Boolean value type.",
+    "difficulty": "easy",
+    "id": "csharp-200"
+  }
+]

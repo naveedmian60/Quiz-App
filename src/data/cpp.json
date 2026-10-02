@@ -1,0 +1,2602 @@
+[
+  {
+    "question": "Which header provides std::cout?",
+    "options": [
+      "<iostream>",
+      "<stdio.h>",
+      "<output>",
+      "<stream>"
+    ],
+    "correctAnswer": "<iostream>",
+    "explanation": "The iostream header declares standard C++ input and output stream objects.",
+    "difficulty": "easy",
+    "id": "cpp-1"
+  },
+  {
+    "question": "Which standard container is a dynamically resizable sequence?",
+    "options": [
+      "std::vector",
+      "std::array",
+      "std::tuple",
+      "std::pair"
+    ],
+    "correctAnswer": "std::vector",
+    "explanation": "std::vector manages a contiguous sequence whose size can grow.",
+    "difficulty": "easy",
+    "id": "cpp-2"
+  },
+  {
+    "question": "What symbol is used in a reference declaration?",
+    "options": [
+      "&",
+      "*",
+      "%",
+      "#"
+    ],
+    "correctAnswer": "&",
+    "explanation": "A declaration such as int& ref creates a reference to an int.",
+    "difficulty": "easy",
+    "id": "cpp-3"
+  },
+  {
+    "question": "What is a destructor commonly used for?",
+    "options": [
+      "Releasing an object's resources",
+      "Creating a namespace",
+      "Overloading a variable",
+      "Starting a thread"
+    ],
+    "correctAnswer": "Releasing an object's resources",
+    "explanation": "A destructor runs when an object's lifetime ends and can release owned resources.",
+    "difficulty": "intermediate",
+    "id": "cpp-4"
+  },
+  {
+    "question": "Which syntax specifies public inheritance from Base?",
+    "options": [
+      "class Derived : public Base",
+      "class Derived extends Base",
+      "class Derived inherits Base",
+      "public class Derived(Base)"
+    ],
+    "correctAnswer": "class Derived : public Base",
+    "explanation": "C++ places a colon and access specifier between a derived class and its base class.",
+    "difficulty": "easy",
+    "id": "cpp-5"
+  },
+  {
+    "question": "Which keyword represents a null pointer literal in modern C++?",
+    "options": [
+      "NULLPTR",
+      "nullptr",
+      "nil",
+      "null"
+    ],
+    "correctAnswer": "nullptr",
+    "explanation": "nullptr has the dedicated type std::nullptr_t and represents a null pointer.",
+    "difficulty": "easy",
+    "id": "cpp-6"
+  },
+  {
+    "question": "Which loop is designed to iterate over each element of a range?",
+    "options": [
+      "Range-based for loop",
+      "goto loop",
+      "do-for loop",
+      "case loop"
+    ],
+    "correctAnswer": "Range-based for loop",
+    "explanation": "A range-based for loop visits each element in an array or compatible range.",
+    "difficulty": "easy",
+    "id": "cpp-7"
+  },
+  {
+    "question": "What does const generally indicate for a variable?",
+    "options": [
+      "It cannot be modified through that name",
+      "It is global",
+      "It is stored on the heap",
+      "It has no type"
+    ],
+    "correctAnswer": "It cannot be modified through that name",
+    "explanation": "const makes an object non-modifiable through that const-qualified access.",
+    "difficulty": "easy",
+    "id": "cpp-8"
+  },
+  {
+    "question": "Which keyword enables a member function to be overridden for dynamic dispatch?",
+    "options": [
+      "virtual",
+      "dynamic",
+      "overrideable",
+      "runtime"
+    ],
+    "correctAnswer": "virtual",
+    "explanation": "A virtual base member can be dispatched to an override through a base pointer or reference.",
+    "difficulty": "intermediate",
+    "id": "cpp-9"
+  },
+  {
+    "question": "Which standard type represents an owning dynamic array of characters?",
+    "options": [
+      "std::string",
+      "charlist",
+      "std::text",
+      "StringBuilder"
+    ],
+    "correctAnswer": "std::string",
+    "explanation": "std::string is the standard library string type for sequences of char.",
+    "difficulty": "easy",
+    "id": "cpp-10"
+  },
+  {
+    "question": "Quick check: Which header provides std::cout?",
+    "options": [
+      "<iostream>",
+      "<stdio.h>",
+      "<output>",
+      "<stream>"
+    ],
+    "correctAnswer": "<iostream>",
+    "explanation": "The iostream header declares standard C++ input and output stream objects.",
+    "difficulty": "easy",
+    "id": "cpp-11"
+  },
+  {
+    "question": "Quick check: Which standard container is a dynamically resizable sequence?",
+    "options": [
+      "std::vector",
+      "std::array",
+      "std::tuple",
+      "std::pair"
+    ],
+    "correctAnswer": "std::vector",
+    "explanation": "std::vector manages a contiguous sequence whose size can grow.",
+    "difficulty": "easy",
+    "id": "cpp-12"
+  },
+  {
+    "question": "Quick check: What symbol is used in a reference declaration?",
+    "options": [
+      "&",
+      "*",
+      "%",
+      "#"
+    ],
+    "correctAnswer": "&",
+    "explanation": "A declaration such as int& ref creates a reference to an int.",
+    "difficulty": "easy",
+    "id": "cpp-13"
+  },
+  {
+    "question": "Quick check: What is a destructor commonly used for?",
+    "options": [
+      "Releasing an object's resources",
+      "Creating a namespace",
+      "Overloading a variable",
+      "Starting a thread"
+    ],
+    "correctAnswer": "Releasing an object's resources",
+    "explanation": "A destructor runs when an object's lifetime ends and can release owned resources.",
+    "difficulty": "intermediate",
+    "id": "cpp-14"
+  },
+  {
+    "question": "Quick check: Which syntax specifies public inheritance from Base?",
+    "options": [
+      "class Derived : public Base",
+      "class Derived extends Base",
+      "class Derived inherits Base",
+      "public class Derived(Base)"
+    ],
+    "correctAnswer": "class Derived : public Base",
+    "explanation": "C++ places a colon and access specifier between a derived class and its base class.",
+    "difficulty": "easy",
+    "id": "cpp-15"
+  },
+  {
+    "question": "Quick check: Which keyword represents a null pointer literal in modern C++?",
+    "options": [
+      "NULLPTR",
+      "nullptr",
+      "nil",
+      "null"
+    ],
+    "correctAnswer": "nullptr",
+    "explanation": "nullptr has the dedicated type std::nullptr_t and represents a null pointer.",
+    "difficulty": "easy",
+    "id": "cpp-16"
+  },
+  {
+    "question": "Quick check: Which loop is designed to iterate over each element of a range?",
+    "options": [
+      "Range-based for loop",
+      "goto loop",
+      "do-for loop",
+      "case loop"
+    ],
+    "correctAnswer": "Range-based for loop",
+    "explanation": "A range-based for loop visits each element in an array or compatible range.",
+    "difficulty": "easy",
+    "id": "cpp-17"
+  },
+  {
+    "question": "Quick check: What does const generally indicate for a variable?",
+    "options": [
+      "It cannot be modified through that name",
+      "It is global",
+      "It is stored on the heap",
+      "It has no type"
+    ],
+    "correctAnswer": "It cannot be modified through that name",
+    "explanation": "const makes an object non-modifiable through that const-qualified access.",
+    "difficulty": "easy",
+    "id": "cpp-18"
+  },
+  {
+    "question": "Quick check: Which keyword enables a member function to be overridden for dynamic dispatch?",
+    "options": [
+      "virtual",
+      "dynamic",
+      "overrideable",
+      "runtime"
+    ],
+    "correctAnswer": "virtual",
+    "explanation": "A virtual base member can be dispatched to an override through a base pointer or reference.",
+    "difficulty": "intermediate",
+    "id": "cpp-19"
+  },
+  {
+    "question": "Quick check: Which standard type represents an owning dynamic array of characters?",
+    "options": [
+      "std::string",
+      "charlist",
+      "std::text",
+      "StringBuilder"
+    ],
+    "correctAnswer": "std::string",
+    "explanation": "std::string is the standard library string type for sequences of char.",
+    "difficulty": "easy",
+    "id": "cpp-20"
+  },
+  {
+    "question": "Choose the best answer. Which header provides std::cout?",
+    "options": [
+      "<iostream>",
+      "<stdio.h>",
+      "<output>",
+      "<stream>"
+    ],
+    "correctAnswer": "<iostream>",
+    "explanation": "The iostream header declares standard C++ input and output stream objects.",
+    "difficulty": "easy",
+    "id": "cpp-21"
+  },
+  {
+    "question": "Choose the best answer. Which standard container is a dynamically resizable sequence?",
+    "options": [
+      "std::vector",
+      "std::array",
+      "std::tuple",
+      "std::pair"
+    ],
+    "correctAnswer": "std::vector",
+    "explanation": "std::vector manages a contiguous sequence whose size can grow.",
+    "difficulty": "easy",
+    "id": "cpp-22"
+  },
+  {
+    "question": "Choose the best answer. What symbol is used in a reference declaration?",
+    "options": [
+      "&",
+      "*",
+      "%",
+      "#"
+    ],
+    "correctAnswer": "&",
+    "explanation": "A declaration such as int& ref creates a reference to an int.",
+    "difficulty": "easy",
+    "id": "cpp-23"
+  },
+  {
+    "question": "Choose the best answer. What is a destructor commonly used for?",
+    "options": [
+      "Releasing an object's resources",
+      "Creating a namespace",
+      "Overloading a variable",
+      "Starting a thread"
+    ],
+    "correctAnswer": "Releasing an object's resources",
+    "explanation": "A destructor runs when an object's lifetime ends and can release owned resources.",
+    "difficulty": "intermediate",
+    "id": "cpp-24"
+  },
+  {
+    "question": "Choose the best answer. Which syntax specifies public inheritance from Base?",
+    "options": [
+      "class Derived : public Base",
+      "class Derived extends Base",
+      "class Derived inherits Base",
+      "public class Derived(Base)"
+    ],
+    "correctAnswer": "class Derived : public Base",
+    "explanation": "C++ places a colon and access specifier between a derived class and its base class.",
+    "difficulty": "easy",
+    "id": "cpp-25"
+  },
+  {
+    "question": "Choose the best answer. Which keyword represents a null pointer literal in modern C++?",
+    "options": [
+      "NULLPTR",
+      "nullptr",
+      "nil",
+      "null"
+    ],
+    "correctAnswer": "nullptr",
+    "explanation": "nullptr has the dedicated type std::nullptr_t and represents a null pointer.",
+    "difficulty": "easy",
+    "id": "cpp-26"
+  },
+  {
+    "question": "Choose the best answer. Which loop is designed to iterate over each element of a range?",
+    "options": [
+      "Range-based for loop",
+      "goto loop",
+      "do-for loop",
+      "case loop"
+    ],
+    "correctAnswer": "Range-based for loop",
+    "explanation": "A range-based for loop visits each element in an array or compatible range.",
+    "difficulty": "easy",
+    "id": "cpp-27"
+  },
+  {
+    "question": "Choose the best answer. What does const generally indicate for a variable?",
+    "options": [
+      "It cannot be modified through that name",
+      "It is global",
+      "It is stored on the heap",
+      "It has no type"
+    ],
+    "correctAnswer": "It cannot be modified through that name",
+    "explanation": "const makes an object non-modifiable through that const-qualified access.",
+    "difficulty": "easy",
+    "id": "cpp-28"
+  },
+  {
+    "question": "Choose the best answer. Which keyword enables a member function to be overridden for dynamic dispatch?",
+    "options": [
+      "virtual",
+      "dynamic",
+      "overrideable",
+      "runtime"
+    ],
+    "correctAnswer": "virtual",
+    "explanation": "A virtual base member can be dispatched to an override through a base pointer or reference.",
+    "difficulty": "intermediate",
+    "id": "cpp-29"
+  },
+  {
+    "question": "Choose the best answer. Which standard type represents an owning dynamic array of characters?",
+    "options": [
+      "std::string",
+      "charlist",
+      "std::text",
+      "StringBuilder"
+    ],
+    "correctAnswer": "std::string",
+    "explanation": "std::string is the standard library string type for sequences of char.",
+    "difficulty": "easy",
+    "id": "cpp-30"
+  },
+  {
+    "question": "Programming fundamentals: Which header provides std::cout?",
+    "options": [
+      "<iostream>",
+      "<stdio.h>",
+      "<output>",
+      "<stream>"
+    ],
+    "correctAnswer": "<iostream>",
+    "explanation": "The iostream header declares standard C++ input and output stream objects.",
+    "difficulty": "easy",
+    "id": "cpp-31"
+  },
+  {
+    "question": "Programming fundamentals: Which standard container is a dynamically resizable sequence?",
+    "options": [
+      "std::vector",
+      "std::array",
+      "std::tuple",
+      "std::pair"
+    ],
+    "correctAnswer": "std::vector",
+    "explanation": "std::vector manages a contiguous sequence whose size can grow.",
+    "difficulty": "easy",
+    "id": "cpp-32"
+  },
+  {
+    "question": "Programming fundamentals: What symbol is used in a reference declaration?",
+    "options": [
+      "&",
+      "*",
+      "%",
+      "#"
+    ],
+    "correctAnswer": "&",
+    "explanation": "A declaration such as int& ref creates a reference to an int.",
+    "difficulty": "easy",
+    "id": "cpp-33"
+  },
+  {
+    "question": "Programming fundamentals: What is a destructor commonly used for?",
+    "options": [
+      "Releasing an object's resources",
+      "Creating a namespace",
+      "Overloading a variable",
+      "Starting a thread"
+    ],
+    "correctAnswer": "Releasing an object's resources",
+    "explanation": "A destructor runs when an object's lifetime ends and can release owned resources.",
+    "difficulty": "intermediate",
+    "id": "cpp-34"
+  },
+  {
+    "question": "Programming fundamentals: Which syntax specifies public inheritance from Base?",
+    "options": [
+      "class Derived : public Base",
+      "class Derived extends Base",
+      "class Derived inherits Base",
+      "public class Derived(Base)"
+    ],
+    "correctAnswer": "class Derived : public Base",
+    "explanation": "C++ places a colon and access specifier between a derived class and its base class.",
+    "difficulty": "easy",
+    "id": "cpp-35"
+  },
+  {
+    "question": "Programming fundamentals: Which keyword represents a null pointer literal in modern C++?",
+    "options": [
+      "NULLPTR",
+      "nullptr",
+      "nil",
+      "null"
+    ],
+    "correctAnswer": "nullptr",
+    "explanation": "nullptr has the dedicated type std::nullptr_t and represents a null pointer.",
+    "difficulty": "easy",
+    "id": "cpp-36"
+  },
+  {
+    "question": "Programming fundamentals: Which loop is designed to iterate over each element of a range?",
+    "options": [
+      "Range-based for loop",
+      "goto loop",
+      "do-for loop",
+      "case loop"
+    ],
+    "correctAnswer": "Range-based for loop",
+    "explanation": "A range-based for loop visits each element in an array or compatible range.",
+    "difficulty": "easy",
+    "id": "cpp-37"
+  },
+  {
+    "question": "Programming fundamentals: What does const generally indicate for a variable?",
+    "options": [
+      "It cannot be modified through that name",
+      "It is global",
+      "It is stored on the heap",
+      "It has no type"
+    ],
+    "correctAnswer": "It cannot be modified through that name",
+    "explanation": "const makes an object non-modifiable through that const-qualified access.",
+    "difficulty": "easy",
+    "id": "cpp-38"
+  },
+  {
+    "question": "Programming fundamentals: Which keyword enables a member function to be overridden for dynamic dispatch?",
+    "options": [
+      "virtual",
+      "dynamic",
+      "overrideable",
+      "runtime"
+    ],
+    "correctAnswer": "virtual",
+    "explanation": "A virtual base member can be dispatched to an override through a base pointer or reference.",
+    "difficulty": "intermediate",
+    "id": "cpp-39"
+  },
+  {
+    "question": "Programming fundamentals: Which standard type represents an owning dynamic array of characters?",
+    "options": [
+      "std::string",
+      "charlist",
+      "std::text",
+      "StringBuilder"
+    ],
+    "correctAnswer": "std::string",
+    "explanation": "std::string is the standard library string type for sequences of char.",
+    "difficulty": "easy",
+    "id": "cpp-40"
+  },
+  {
+    "question": "Knowledge check: Which header provides std::cout?",
+    "options": [
+      "<iostream>",
+      "<stdio.h>",
+      "<output>",
+      "<stream>"
+    ],
+    "correctAnswer": "<iostream>",
+    "explanation": "The iostream header declares standard C++ input and output stream objects.",
+    "difficulty": "easy",
+    "id": "cpp-41"
+  },
+  {
+    "question": "Knowledge check: Which standard container is a dynamically resizable sequence?",
+    "options": [
+      "std::vector",
+      "std::array",
+      "std::tuple",
+      "std::pair"
+    ],
+    "correctAnswer": "std::vector",
+    "explanation": "std::vector manages a contiguous sequence whose size can grow.",
+    "difficulty": "easy",
+    "id": "cpp-42"
+  },
+  {
+    "question": "Knowledge check: What symbol is used in a reference declaration?",
+    "options": [
+      "&",
+      "*",
+      "%",
+      "#"
+    ],
+    "correctAnswer": "&",
+    "explanation": "A declaration such as int& ref creates a reference to an int.",
+    "difficulty": "easy",
+    "id": "cpp-43"
+  },
+  {
+    "question": "Knowledge check: What is a destructor commonly used for?",
+    "options": [
+      "Releasing an object's resources",
+      "Creating a namespace",
+      "Overloading a variable",
+      "Starting a thread"
+    ],
+    "correctAnswer": "Releasing an object's resources",
+    "explanation": "A destructor runs when an object's lifetime ends and can release owned resources.",
+    "difficulty": "intermediate",
+    "id": "cpp-44"
+  },
+  {
+    "question": "Knowledge check: Which syntax specifies public inheritance from Base?",
+    "options": [
+      "class Derived : public Base",
+      "class Derived extends Base",
+      "class Derived inherits Base",
+      "public class Derived(Base)"
+    ],
+    "correctAnswer": "class Derived : public Base",
+    "explanation": "C++ places a colon and access specifier between a derived class and its base class.",
+    "difficulty": "easy",
+    "id": "cpp-45"
+  },
+  {
+    "question": "Knowledge check: Which keyword represents a null pointer literal in modern C++?",
+    "options": [
+      "NULLPTR",
+      "nullptr",
+      "nil",
+      "null"
+    ],
+    "correctAnswer": "nullptr",
+    "explanation": "nullptr has the dedicated type std::nullptr_t and represents a null pointer.",
+    "difficulty": "easy",
+    "id": "cpp-46"
+  },
+  {
+    "question": "Knowledge check: Which loop is designed to iterate over each element of a range?",
+    "options": [
+      "Range-based for loop",
+      "goto loop",
+      "do-for loop",
+      "case loop"
+    ],
+    "correctAnswer": "Range-based for loop",
+    "explanation": "A range-based for loop visits each element in an array or compatible range.",
+    "difficulty": "easy",
+    "id": "cpp-47"
+  },
+  {
+    "question": "Knowledge check: What does const generally indicate for a variable?",
+    "options": [
+      "It cannot be modified through that name",
+      "It is global",
+      "It is stored on the heap",
+      "It has no type"
+    ],
+    "correctAnswer": "It cannot be modified through that name",
+    "explanation": "const makes an object non-modifiable through that const-qualified access.",
+    "difficulty": "easy",
+    "id": "cpp-48"
+  },
+  {
+    "question": "Knowledge check: Which keyword enables a member function to be overridden for dynamic dispatch?",
+    "options": [
+      "virtual",
+      "dynamic",
+      "overrideable",
+      "runtime"
+    ],
+    "correctAnswer": "virtual",
+    "explanation": "A virtual base member can be dispatched to an override through a base pointer or reference.",
+    "difficulty": "intermediate",
+    "id": "cpp-49"
+  },
+  {
+    "question": "Knowledge check: Which standard type represents an owning dynamic array of characters?",
+    "options": [
+      "std::string",
+      "charlist",
+      "std::text",
+      "StringBuilder"
+    ],
+    "correctAnswer": "std::string",
+    "explanation": "std::string is the standard library string type for sequences of char.",
+    "difficulty": "easy",
+    "id": "cpp-50"
+  },
+  {
+    "question": "When reviewing code, which header provides std::cout?",
+    "options": [
+      "<iostream>",
+      "<stdio.h>",
+      "<output>",
+      "<stream>"
+    ],
+    "correctAnswer": "<iostream>",
+    "explanation": "The iostream header declares standard C++ input and output stream objects.",
+    "difficulty": "easy",
+    "id": "cpp-51"
+  },
+  {
+    "question": "When reviewing code, which standard container is a dynamically resizable sequence?",
+    "options": [
+      "std::vector",
+      "std::array",
+      "std::tuple",
+      "std::pair"
+    ],
+    "correctAnswer": "std::vector",
+    "explanation": "std::vector manages a contiguous sequence whose size can grow.",
+    "difficulty": "easy",
+    "id": "cpp-52"
+  },
+  {
+    "question": "When reviewing code, what symbol is used in a reference declaration?",
+    "options": [
+      "&",
+      "*",
+      "%",
+      "#"
+    ],
+    "correctAnswer": "&",
+    "explanation": "A declaration such as int& ref creates a reference to an int.",
+    "difficulty": "easy",
+    "id": "cpp-53"
+  },
+  {
+    "question": "When reviewing code, what is a destructor commonly used for?",
+    "options": [
+      "Releasing an object's resources",
+      "Creating a namespace",
+      "Overloading a variable",
+      "Starting a thread"
+    ],
+    "correctAnswer": "Releasing an object's resources",
+    "explanation": "A destructor runs when an object's lifetime ends and can release owned resources.",
+    "difficulty": "intermediate",
+    "id": "cpp-54"
+  },
+  {
+    "question": "When reviewing code, which syntax specifies public inheritance from Base?",
+    "options": [
+      "class Derived : public Base",
+      "class Derived extends Base",
+      "class Derived inherits Base",
+      "public class Derived(Base)"
+    ],
+    "correctAnswer": "class Derived : public Base",
+    "explanation": "C++ places a colon and access specifier between a derived class and its base class.",
+    "difficulty": "easy",
+    "id": "cpp-55"
+  },
+  {
+    "question": "When reviewing code, which keyword represents a null pointer literal in modern C++?",
+    "options": [
+      "NULLPTR",
+      "nullptr",
+      "nil",
+      "null"
+    ],
+    "correctAnswer": "nullptr",
+    "explanation": "nullptr has the dedicated type std::nullptr_t and represents a null pointer.",
+    "difficulty": "easy",
+    "id": "cpp-56"
+  },
+  {
+    "question": "When reviewing code, which loop is designed to iterate over each element of a range?",
+    "options": [
+      "Range-based for loop",
+      "goto loop",
+      "do-for loop",
+      "case loop"
+    ],
+    "correctAnswer": "Range-based for loop",
+    "explanation": "A range-based for loop visits each element in an array or compatible range.",
+    "difficulty": "easy",
+    "id": "cpp-57"
+  },
+  {
+    "question": "When reviewing code, what does const generally indicate for a variable?",
+    "options": [
+      "It cannot be modified through that name",
+      "It is global",
+      "It is stored on the heap",
+      "It has no type"
+    ],
+    "correctAnswer": "It cannot be modified through that name",
+    "explanation": "const makes an object non-modifiable through that const-qualified access.",
+    "difficulty": "easy",
+    "id": "cpp-58"
+  },
+  {
+    "question": "When reviewing code, which keyword enables a member function to be overridden for dynamic dispatch?",
+    "options": [
+      "virtual",
+      "dynamic",
+      "overrideable",
+      "runtime"
+    ],
+    "correctAnswer": "virtual",
+    "explanation": "A virtual base member can be dispatched to an override through a base pointer or reference.",
+    "difficulty": "intermediate",
+    "id": "cpp-59"
+  },
+  {
+    "question": "When reviewing code, which standard type represents an owning dynamic array of characters?",
+    "options": [
+      "std::string",
+      "charlist",
+      "std::text",
+      "StringBuilder"
+    ],
+    "correctAnswer": "std::string",
+    "explanation": "std::string is the standard library string type for sequences of char.",
+    "difficulty": "easy",
+    "id": "cpp-60"
+  },
+  {
+    "question": "For a beginner, which header provides std::cout?",
+    "options": [
+      "<iostream>",
+      "<stdio.h>",
+      "<output>",
+      "<stream>"
+    ],
+    "correctAnswer": "<iostream>",
+    "explanation": "The iostream header declares standard C++ input and output stream objects.",
+    "difficulty": "easy",
+    "id": "cpp-61"
+  },
+  {
+    "question": "For a beginner, which standard container is a dynamically resizable sequence?",
+    "options": [
+      "std::vector",
+      "std::array",
+      "std::tuple",
+      "std::pair"
+    ],
+    "correctAnswer": "std::vector",
+    "explanation": "std::vector manages a contiguous sequence whose size can grow.",
+    "difficulty": "easy",
+    "id": "cpp-62"
+  },
+  {
+    "question": "For a beginner, what symbol is used in a reference declaration?",
+    "options": [
+      "&",
+      "*",
+      "%",
+      "#"
+    ],
+    "correctAnswer": "&",
+    "explanation": "A declaration such as int& ref creates a reference to an int.",
+    "difficulty": "easy",
+    "id": "cpp-63"
+  },
+  {
+    "question": "For a beginner, what is a destructor commonly used for?",
+    "options": [
+      "Releasing an object's resources",
+      "Creating a namespace",
+      "Overloading a variable",
+      "Starting a thread"
+    ],
+    "correctAnswer": "Releasing an object's resources",
+    "explanation": "A destructor runs when an object's lifetime ends and can release owned resources.",
+    "difficulty": "intermediate",
+    "id": "cpp-64"
+  },
+  {
+    "question": "For a beginner, which syntax specifies public inheritance from Base?",
+    "options": [
+      "class Derived : public Base",
+      "class Derived extends Base",
+      "class Derived inherits Base",
+      "public class Derived(Base)"
+    ],
+    "correctAnswer": "class Derived : public Base",
+    "explanation": "C++ places a colon and access specifier between a derived class and its base class.",
+    "difficulty": "easy",
+    "id": "cpp-65"
+  },
+  {
+    "question": "For a beginner, which keyword represents a null pointer literal in modern C++?",
+    "options": [
+      "NULLPTR",
+      "nullptr",
+      "nil",
+      "null"
+    ],
+    "correctAnswer": "nullptr",
+    "explanation": "nullptr has the dedicated type std::nullptr_t and represents a null pointer.",
+    "difficulty": "easy",
+    "id": "cpp-66"
+  },
+  {
+    "question": "For a beginner, which loop is designed to iterate over each element of a range?",
+    "options": [
+      "Range-based for loop",
+      "goto loop",
+      "do-for loop",
+      "case loop"
+    ],
+    "correctAnswer": "Range-based for loop",
+    "explanation": "A range-based for loop visits each element in an array or compatible range.",
+    "difficulty": "easy",
+    "id": "cpp-67"
+  },
+  {
+    "question": "For a beginner, what does const generally indicate for a variable?",
+    "options": [
+      "It cannot be modified through that name",
+      "It is global",
+      "It is stored on the heap",
+      "It has no type"
+    ],
+    "correctAnswer": "It cannot be modified through that name",
+    "explanation": "const makes an object non-modifiable through that const-qualified access.",
+    "difficulty": "easy",
+    "id": "cpp-68"
+  },
+  {
+    "question": "For a beginner, which keyword enables a member function to be overridden for dynamic dispatch?",
+    "options": [
+      "virtual",
+      "dynamic",
+      "overrideable",
+      "runtime"
+    ],
+    "correctAnswer": "virtual",
+    "explanation": "A virtual base member can be dispatched to an override through a base pointer or reference.",
+    "difficulty": "intermediate",
+    "id": "cpp-69"
+  },
+  {
+    "question": "For a beginner, which standard type represents an owning dynamic array of characters?",
+    "options": [
+      "std::string",
+      "charlist",
+      "std::text",
+      "StringBuilder"
+    ],
+    "correctAnswer": "std::string",
+    "explanation": "std::string is the standard library string type for sequences of char.",
+    "difficulty": "easy",
+    "id": "cpp-70"
+  },
+  {
+    "question": "Concept review: Which header provides std::cout?",
+    "options": [
+      "<iostream>",
+      "<stdio.h>",
+      "<output>",
+      "<stream>"
+    ],
+    "correctAnswer": "<iostream>",
+    "explanation": "The iostream header declares standard C++ input and output stream objects.",
+    "difficulty": "easy",
+    "id": "cpp-71"
+  },
+  {
+    "question": "Concept review: Which standard container is a dynamically resizable sequence?",
+    "options": [
+      "std::vector",
+      "std::array",
+      "std::tuple",
+      "std::pair"
+    ],
+    "correctAnswer": "std::vector",
+    "explanation": "std::vector manages a contiguous sequence whose size can grow.",
+    "difficulty": "easy",
+    "id": "cpp-72"
+  },
+  {
+    "question": "Concept review: What symbol is used in a reference declaration?",
+    "options": [
+      "&",
+      "*",
+      "%",
+      "#"
+    ],
+    "correctAnswer": "&",
+    "explanation": "A declaration such as int& ref creates a reference to an int.",
+    "difficulty": "easy",
+    "id": "cpp-73"
+  },
+  {
+    "question": "Concept review: What is a destructor commonly used for?",
+    "options": [
+      "Releasing an object's resources",
+      "Creating a namespace",
+      "Overloading a variable",
+      "Starting a thread"
+    ],
+    "correctAnswer": "Releasing an object's resources",
+    "explanation": "A destructor runs when an object's lifetime ends and can release owned resources.",
+    "difficulty": "intermediate",
+    "id": "cpp-74"
+  },
+  {
+    "question": "Concept review: Which syntax specifies public inheritance from Base?",
+    "options": [
+      "class Derived : public Base",
+      "class Derived extends Base",
+      "class Derived inherits Base",
+      "public class Derived(Base)"
+    ],
+    "correctAnswer": "class Derived : public Base",
+    "explanation": "C++ places a colon and access specifier between a derived class and its base class.",
+    "difficulty": "easy",
+    "id": "cpp-75"
+  },
+  {
+    "question": "Concept review: Which keyword represents a null pointer literal in modern C++?",
+    "options": [
+      "NULLPTR",
+      "nullptr",
+      "nil",
+      "null"
+    ],
+    "correctAnswer": "nullptr",
+    "explanation": "nullptr has the dedicated type std::nullptr_t and represents a null pointer.",
+    "difficulty": "easy",
+    "id": "cpp-76"
+  },
+  {
+    "question": "Concept review: Which loop is designed to iterate over each element of a range?",
+    "options": [
+      "Range-based for loop",
+      "goto loop",
+      "do-for loop",
+      "case loop"
+    ],
+    "correctAnswer": "Range-based for loop",
+    "explanation": "A range-based for loop visits each element in an array or compatible range.",
+    "difficulty": "easy",
+    "id": "cpp-77"
+  },
+  {
+    "question": "Concept review: What does const generally indicate for a variable?",
+    "options": [
+      "It cannot be modified through that name",
+      "It is global",
+      "It is stored on the heap",
+      "It has no type"
+    ],
+    "correctAnswer": "It cannot be modified through that name",
+    "explanation": "const makes an object non-modifiable through that const-qualified access.",
+    "difficulty": "easy",
+    "id": "cpp-78"
+  },
+  {
+    "question": "Concept review: Which keyword enables a member function to be overridden for dynamic dispatch?",
+    "options": [
+      "virtual",
+      "dynamic",
+      "overrideable",
+      "runtime"
+    ],
+    "correctAnswer": "virtual",
+    "explanation": "A virtual base member can be dispatched to an override through a base pointer or reference.",
+    "difficulty": "intermediate",
+    "id": "cpp-79"
+  },
+  {
+    "question": "Concept review: Which standard type represents an owning dynamic array of characters?",
+    "options": [
+      "std::string",
+      "charlist",
+      "std::text",
+      "StringBuilder"
+    ],
+    "correctAnswer": "std::string",
+    "explanation": "std::string is the standard library string type for sequences of char.",
+    "difficulty": "easy",
+    "id": "cpp-80"
+  },
+  {
+    "question": "Select the correct statement. Which header provides std::cout?",
+    "options": [
+      "<iostream>",
+      "<stdio.h>",
+      "<output>",
+      "<stream>"
+    ],
+    "correctAnswer": "<iostream>",
+    "explanation": "The iostream header declares standard C++ input and output stream objects.",
+    "difficulty": "easy",
+    "id": "cpp-81"
+  },
+  {
+    "question": "Select the correct statement. Which standard container is a dynamically resizable sequence?",
+    "options": [
+      "std::vector",
+      "std::array",
+      "std::tuple",
+      "std::pair"
+    ],
+    "correctAnswer": "std::vector",
+    "explanation": "std::vector manages a contiguous sequence whose size can grow.",
+    "difficulty": "easy",
+    "id": "cpp-82"
+  },
+  {
+    "question": "Select the correct statement. What symbol is used in a reference declaration?",
+    "options": [
+      "&",
+      "*",
+      "%",
+      "#"
+    ],
+    "correctAnswer": "&",
+    "explanation": "A declaration such as int& ref creates a reference to an int.",
+    "difficulty": "easy",
+    "id": "cpp-83"
+  },
+  {
+    "question": "Select the correct statement. What is a destructor commonly used for?",
+    "options": [
+      "Releasing an object's resources",
+      "Creating a namespace",
+      "Overloading a variable",
+      "Starting a thread"
+    ],
+    "correctAnswer": "Releasing an object's resources",
+    "explanation": "A destructor runs when an object's lifetime ends and can release owned resources.",
+    "difficulty": "intermediate",
+    "id": "cpp-84"
+  },
+  {
+    "question": "Select the correct statement. Which syntax specifies public inheritance from Base?",
+    "options": [
+      "class Derived : public Base",
+      "class Derived extends Base",
+      "class Derived inherits Base",
+      "public class Derived(Base)"
+    ],
+    "correctAnswer": "class Derived : public Base",
+    "explanation": "C++ places a colon and access specifier between a derived class and its base class.",
+    "difficulty": "easy",
+    "id": "cpp-85"
+  },
+  {
+    "question": "Select the correct statement. Which keyword represents a null pointer literal in modern C++?",
+    "options": [
+      "NULLPTR",
+      "nullptr",
+      "nil",
+      "null"
+    ],
+    "correctAnswer": "nullptr",
+    "explanation": "nullptr has the dedicated type std::nullptr_t and represents a null pointer.",
+    "difficulty": "easy",
+    "id": "cpp-86"
+  },
+  {
+    "question": "Select the correct statement. Which loop is designed to iterate over each element of a range?",
+    "options": [
+      "Range-based for loop",
+      "goto loop",
+      "do-for loop",
+      "case loop"
+    ],
+    "correctAnswer": "Range-based for loop",
+    "explanation": "A range-based for loop visits each element in an array or compatible range.",
+    "difficulty": "easy",
+    "id": "cpp-87"
+  },
+  {
+    "question": "Select the correct statement. What does const generally indicate for a variable?",
+    "options": [
+      "It cannot be modified through that name",
+      "It is global",
+      "It is stored on the heap",
+      "It has no type"
+    ],
+    "correctAnswer": "It cannot be modified through that name",
+    "explanation": "const makes an object non-modifiable through that const-qualified access.",
+    "difficulty": "easy",
+    "id": "cpp-88"
+  },
+  {
+    "question": "Select the correct statement. Which keyword enables a member function to be overridden for dynamic dispatch?",
+    "options": [
+      "virtual",
+      "dynamic",
+      "overrideable",
+      "runtime"
+    ],
+    "correctAnswer": "virtual",
+    "explanation": "A virtual base member can be dispatched to an override through a base pointer or reference.",
+    "difficulty": "intermediate",
+    "id": "cpp-89"
+  },
+  {
+    "question": "Select the correct statement. Which standard type represents an owning dynamic array of characters?",
+    "options": [
+      "std::string",
+      "charlist",
+      "std::text",
+      "StringBuilder"
+    ],
+    "correctAnswer": "std::string",
+    "explanation": "std::string is the standard library string type for sequences of char.",
+    "difficulty": "easy",
+    "id": "cpp-90"
+  },
+  {
+    "question": "Practice question: Which header provides std::cout?",
+    "options": [
+      "<iostream>",
+      "<stdio.h>",
+      "<output>",
+      "<stream>"
+    ],
+    "correctAnswer": "<iostream>",
+    "explanation": "The iostream header declares standard C++ input and output stream objects.",
+    "difficulty": "easy",
+    "id": "cpp-91"
+  },
+  {
+    "question": "Practice question: Which standard container is a dynamically resizable sequence?",
+    "options": [
+      "std::vector",
+      "std::array",
+      "std::tuple",
+      "std::pair"
+    ],
+    "correctAnswer": "std::vector",
+    "explanation": "std::vector manages a contiguous sequence whose size can grow.",
+    "difficulty": "easy",
+    "id": "cpp-92"
+  },
+  {
+    "question": "Practice question: What symbol is used in a reference declaration?",
+    "options": [
+      "&",
+      "*",
+      "%",
+      "#"
+    ],
+    "correctAnswer": "&",
+    "explanation": "A declaration such as int& ref creates a reference to an int.",
+    "difficulty": "easy",
+    "id": "cpp-93"
+  },
+  {
+    "question": "Practice question: What is a destructor commonly used for?",
+    "options": [
+      "Releasing an object's resources",
+      "Creating a namespace",
+      "Overloading a variable",
+      "Starting a thread"
+    ],
+    "correctAnswer": "Releasing an object's resources",
+    "explanation": "A destructor runs when an object's lifetime ends and can release owned resources.",
+    "difficulty": "intermediate",
+    "id": "cpp-94"
+  },
+  {
+    "question": "Practice question: Which syntax specifies public inheritance from Base?",
+    "options": [
+      "class Derived : public Base",
+      "class Derived extends Base",
+      "class Derived inherits Base",
+      "public class Derived(Base)"
+    ],
+    "correctAnswer": "class Derived : public Base",
+    "explanation": "C++ places a colon and access specifier between a derived class and its base class.",
+    "difficulty": "easy",
+    "id": "cpp-95"
+  },
+  {
+    "question": "Practice question: Which keyword represents a null pointer literal in modern C++?",
+    "options": [
+      "NULLPTR",
+      "nullptr",
+      "nil",
+      "null"
+    ],
+    "correctAnswer": "nullptr",
+    "explanation": "nullptr has the dedicated type std::nullptr_t and represents a null pointer.",
+    "difficulty": "easy",
+    "id": "cpp-96"
+  },
+  {
+    "question": "Practice question: Which loop is designed to iterate over each element of a range?",
+    "options": [
+      "Range-based for loop",
+      "goto loop",
+      "do-for loop",
+      "case loop"
+    ],
+    "correctAnswer": "Range-based for loop",
+    "explanation": "A range-based for loop visits each element in an array or compatible range.",
+    "difficulty": "easy",
+    "id": "cpp-97"
+  },
+  {
+    "question": "Practice question: What does const generally indicate for a variable?",
+    "options": [
+      "It cannot be modified through that name",
+      "It is global",
+      "It is stored on the heap",
+      "It has no type"
+    ],
+    "correctAnswer": "It cannot be modified through that name",
+    "explanation": "const makes an object non-modifiable through that const-qualified access.",
+    "difficulty": "easy",
+    "id": "cpp-98"
+  },
+  {
+    "question": "Practice question: Which keyword enables a member function to be overridden for dynamic dispatch?",
+    "options": [
+      "virtual",
+      "dynamic",
+      "overrideable",
+      "runtime"
+    ],
+    "correctAnswer": "virtual",
+    "explanation": "A virtual base member can be dispatched to an override through a base pointer or reference.",
+    "difficulty": "intermediate",
+    "id": "cpp-99"
+  },
+  {
+    "question": "Practice question: Which standard type represents an owning dynamic array of characters?",
+    "options": [
+      "std::string",
+      "charlist",
+      "std::text",
+      "StringBuilder"
+    ],
+    "correctAnswer": "std::string",
+    "explanation": "std::string is the standard library string type for sequences of char.",
+    "difficulty": "easy",
+    "id": "cpp-100"
+  },
+  {
+    "question": "Test your understanding: Which header provides std::cout?",
+    "options": [
+      "<iostream>",
+      "<stdio.h>",
+      "<output>",
+      "<stream>"
+    ],
+    "correctAnswer": "<iostream>",
+    "explanation": "The iostream header declares standard C++ input and output stream objects.",
+    "difficulty": "easy",
+    "id": "cpp-101"
+  },
+  {
+    "question": "Test your understanding: Which standard container is a dynamically resizable sequence?",
+    "options": [
+      "std::vector",
+      "std::array",
+      "std::tuple",
+      "std::pair"
+    ],
+    "correctAnswer": "std::vector",
+    "explanation": "std::vector manages a contiguous sequence whose size can grow.",
+    "difficulty": "easy",
+    "id": "cpp-102"
+  },
+  {
+    "question": "Test your understanding: What symbol is used in a reference declaration?",
+    "options": [
+      "&",
+      "*",
+      "%",
+      "#"
+    ],
+    "correctAnswer": "&",
+    "explanation": "A declaration such as int& ref creates a reference to an int.",
+    "difficulty": "easy",
+    "id": "cpp-103"
+  },
+  {
+    "question": "Test your understanding: What is a destructor commonly used for?",
+    "options": [
+      "Releasing an object's resources",
+      "Creating a namespace",
+      "Overloading a variable",
+      "Starting a thread"
+    ],
+    "correctAnswer": "Releasing an object's resources",
+    "explanation": "A destructor runs when an object's lifetime ends and can release owned resources.",
+    "difficulty": "intermediate",
+    "id": "cpp-104"
+  },
+  {
+    "question": "Test your understanding: Which syntax specifies public inheritance from Base?",
+    "options": [
+      "class Derived : public Base",
+      "class Derived extends Base",
+      "class Derived inherits Base",
+      "public class Derived(Base)"
+    ],
+    "correctAnswer": "class Derived : public Base",
+    "explanation": "C++ places a colon and access specifier between a derived class and its base class.",
+    "difficulty": "easy",
+    "id": "cpp-105"
+  },
+  {
+    "question": "Test your understanding: Which keyword represents a null pointer literal in modern C++?",
+    "options": [
+      "NULLPTR",
+      "nullptr",
+      "nil",
+      "null"
+    ],
+    "correctAnswer": "nullptr",
+    "explanation": "nullptr has the dedicated type std::nullptr_t and represents a null pointer.",
+    "difficulty": "easy",
+    "id": "cpp-106"
+  },
+  {
+    "question": "Test your understanding: Which loop is designed to iterate over each element of a range?",
+    "options": [
+      "Range-based for loop",
+      "goto loop",
+      "do-for loop",
+      "case loop"
+    ],
+    "correctAnswer": "Range-based for loop",
+    "explanation": "A range-based for loop visits each element in an array or compatible range.",
+    "difficulty": "easy",
+    "id": "cpp-107"
+  },
+  {
+    "question": "Test your understanding: What does const generally indicate for a variable?",
+    "options": [
+      "It cannot be modified through that name",
+      "It is global",
+      "It is stored on the heap",
+      "It has no type"
+    ],
+    "correctAnswer": "It cannot be modified through that name",
+    "explanation": "const makes an object non-modifiable through that const-qualified access.",
+    "difficulty": "easy",
+    "id": "cpp-108"
+  },
+  {
+    "question": "Test your understanding: Which keyword enables a member function to be overridden for dynamic dispatch?",
+    "options": [
+      "virtual",
+      "dynamic",
+      "overrideable",
+      "runtime"
+    ],
+    "correctAnswer": "virtual",
+    "explanation": "A virtual base member can be dispatched to an override through a base pointer or reference.",
+    "difficulty": "intermediate",
+    "id": "cpp-109"
+  },
+  {
+    "question": "Test your understanding: Which standard type represents an owning dynamic array of characters?",
+    "options": [
+      "std::string",
+      "charlist",
+      "std::text",
+      "StringBuilder"
+    ],
+    "correctAnswer": "std::string",
+    "explanation": "std::string is the standard library string type for sequences of char.",
+    "difficulty": "easy",
+    "id": "cpp-110"
+  },
+  {
+    "question": "Language basics: Which header provides std::cout?",
+    "options": [
+      "<iostream>",
+      "<stdio.h>",
+      "<output>",
+      "<stream>"
+    ],
+    "correctAnswer": "<iostream>",
+    "explanation": "The iostream header declares standard C++ input and output stream objects.",
+    "difficulty": "easy",
+    "id": "cpp-111"
+  },
+  {
+    "question": "Language basics: Which standard container is a dynamically resizable sequence?",
+    "options": [
+      "std::vector",
+      "std::array",
+      "std::tuple",
+      "std::pair"
+    ],
+    "correctAnswer": "std::vector",
+    "explanation": "std::vector manages a contiguous sequence whose size can grow.",
+    "difficulty": "easy",
+    "id": "cpp-112"
+  },
+  {
+    "question": "Language basics: What symbol is used in a reference declaration?",
+    "options": [
+      "&",
+      "*",
+      "%",
+      "#"
+    ],
+    "correctAnswer": "&",
+    "explanation": "A declaration such as int& ref creates a reference to an int.",
+    "difficulty": "easy",
+    "id": "cpp-113"
+  },
+  {
+    "question": "Language basics: What is a destructor commonly used for?",
+    "options": [
+      "Releasing an object's resources",
+      "Creating a namespace",
+      "Overloading a variable",
+      "Starting a thread"
+    ],
+    "correctAnswer": "Releasing an object's resources",
+    "explanation": "A destructor runs when an object's lifetime ends and can release owned resources.",
+    "difficulty": "intermediate",
+    "id": "cpp-114"
+  },
+  {
+    "question": "Language basics: Which syntax specifies public inheritance from Base?",
+    "options": [
+      "class Derived : public Base",
+      "class Derived extends Base",
+      "class Derived inherits Base",
+      "public class Derived(Base)"
+    ],
+    "correctAnswer": "class Derived : public Base",
+    "explanation": "C++ places a colon and access specifier between a derived class and its base class.",
+    "difficulty": "easy",
+    "id": "cpp-115"
+  },
+  {
+    "question": "Language basics: Which keyword represents a null pointer literal in modern C++?",
+    "options": [
+      "NULLPTR",
+      "nullptr",
+      "nil",
+      "null"
+    ],
+    "correctAnswer": "nullptr",
+    "explanation": "nullptr has the dedicated type std::nullptr_t and represents a null pointer.",
+    "difficulty": "easy",
+    "id": "cpp-116"
+  },
+  {
+    "question": "Language basics: Which loop is designed to iterate over each element of a range?",
+    "options": [
+      "Range-based for loop",
+      "goto loop",
+      "do-for loop",
+      "case loop"
+    ],
+    "correctAnswer": "Range-based for loop",
+    "explanation": "A range-based for loop visits each element in an array or compatible range.",
+    "difficulty": "easy",
+    "id": "cpp-117"
+  },
+  {
+    "question": "Language basics: What does const generally indicate for a variable?",
+    "options": [
+      "It cannot be modified through that name",
+      "It is global",
+      "It is stored on the heap",
+      "It has no type"
+    ],
+    "correctAnswer": "It cannot be modified through that name",
+    "explanation": "const makes an object non-modifiable through that const-qualified access.",
+    "difficulty": "easy",
+    "id": "cpp-118"
+  },
+  {
+    "question": "Language basics: Which keyword enables a member function to be overridden for dynamic dispatch?",
+    "options": [
+      "virtual",
+      "dynamic",
+      "overrideable",
+      "runtime"
+    ],
+    "correctAnswer": "virtual",
+    "explanation": "A virtual base member can be dispatched to an override through a base pointer or reference.",
+    "difficulty": "intermediate",
+    "id": "cpp-119"
+  },
+  {
+    "question": "Language basics: Which standard type represents an owning dynamic array of characters?",
+    "options": [
+      "std::string",
+      "charlist",
+      "std::text",
+      "StringBuilder"
+    ],
+    "correctAnswer": "std::string",
+    "explanation": "std::string is the standard library string type for sequences of char.",
+    "difficulty": "easy",
+    "id": "cpp-120"
+  },
+  {
+    "question": "Which answer is accurate? Which header provides std::cout?",
+    "options": [
+      "<iostream>",
+      "<stdio.h>",
+      "<output>",
+      "<stream>"
+    ],
+    "correctAnswer": "<iostream>",
+    "explanation": "The iostream header declares standard C++ input and output stream objects.",
+    "difficulty": "easy",
+    "id": "cpp-121"
+  },
+  {
+    "question": "Which answer is accurate? Which standard container is a dynamically resizable sequence?",
+    "options": [
+      "std::vector",
+      "std::array",
+      "std::tuple",
+      "std::pair"
+    ],
+    "correctAnswer": "std::vector",
+    "explanation": "std::vector manages a contiguous sequence whose size can grow.",
+    "difficulty": "easy",
+    "id": "cpp-122"
+  },
+  {
+    "question": "Which answer is accurate? What symbol is used in a reference declaration?",
+    "options": [
+      "&",
+      "*",
+      "%",
+      "#"
+    ],
+    "correctAnswer": "&",
+    "explanation": "A declaration such as int& ref creates a reference to an int.",
+    "difficulty": "easy",
+    "id": "cpp-123"
+  },
+  {
+    "question": "Which answer is accurate? What is a destructor commonly used for?",
+    "options": [
+      "Releasing an object's resources",
+      "Creating a namespace",
+      "Overloading a variable",
+      "Starting a thread"
+    ],
+    "correctAnswer": "Releasing an object's resources",
+    "explanation": "A destructor runs when an object's lifetime ends and can release owned resources.",
+    "difficulty": "intermediate",
+    "id": "cpp-124"
+  },
+  {
+    "question": "Which answer is accurate? Which syntax specifies public inheritance from Base?",
+    "options": [
+      "class Derived : public Base",
+      "class Derived extends Base",
+      "class Derived inherits Base",
+      "public class Derived(Base)"
+    ],
+    "correctAnswer": "class Derived : public Base",
+    "explanation": "C++ places a colon and access specifier between a derived class and its base class.",
+    "difficulty": "easy",
+    "id": "cpp-125"
+  },
+  {
+    "question": "Which answer is accurate? Which keyword represents a null pointer literal in modern C++?",
+    "options": [
+      "NULLPTR",
+      "nullptr",
+      "nil",
+      "null"
+    ],
+    "correctAnswer": "nullptr",
+    "explanation": "nullptr has the dedicated type std::nullptr_t and represents a null pointer.",
+    "difficulty": "easy",
+    "id": "cpp-126"
+  },
+  {
+    "question": "Which answer is accurate? Which loop is designed to iterate over each element of a range?",
+    "options": [
+      "Range-based for loop",
+      "goto loop",
+      "do-for loop",
+      "case loop"
+    ],
+    "correctAnswer": "Range-based for loop",
+    "explanation": "A range-based for loop visits each element in an array or compatible range.",
+    "difficulty": "easy",
+    "id": "cpp-127"
+  },
+  {
+    "question": "Which answer is accurate? What does const generally indicate for a variable?",
+    "options": [
+      "It cannot be modified through that name",
+      "It is global",
+      "It is stored on the heap",
+      "It has no type"
+    ],
+    "correctAnswer": "It cannot be modified through that name",
+    "explanation": "const makes an object non-modifiable through that const-qualified access.",
+    "difficulty": "easy",
+    "id": "cpp-128"
+  },
+  {
+    "question": "Which answer is accurate? Which keyword enables a member function to be overridden for dynamic dispatch?",
+    "options": [
+      "virtual",
+      "dynamic",
+      "overrideable",
+      "runtime"
+    ],
+    "correctAnswer": "virtual",
+    "explanation": "A virtual base member can be dispatched to an override through a base pointer or reference.",
+    "difficulty": "intermediate",
+    "id": "cpp-129"
+  },
+  {
+    "question": "Which answer is accurate? Which standard type represents an owning dynamic array of characters?",
+    "options": [
+      "std::string",
+      "charlist",
+      "std::text",
+      "StringBuilder"
+    ],
+    "correctAnswer": "std::string",
+    "explanation": "std::string is the standard library string type for sequences of char.",
+    "difficulty": "easy",
+    "id": "cpp-130"
+  },
+  {
+    "question": "Study prompt: Which header provides std::cout?",
+    "options": [
+      "<iostream>",
+      "<stdio.h>",
+      "<output>",
+      "<stream>"
+    ],
+    "correctAnswer": "<iostream>",
+    "explanation": "The iostream header declares standard C++ input and output stream objects.",
+    "difficulty": "easy",
+    "id": "cpp-131"
+  },
+  {
+    "question": "Study prompt: Which standard container is a dynamically resizable sequence?",
+    "options": [
+      "std::vector",
+      "std::array",
+      "std::tuple",
+      "std::pair"
+    ],
+    "correctAnswer": "std::vector",
+    "explanation": "std::vector manages a contiguous sequence whose size can grow.",
+    "difficulty": "easy",
+    "id": "cpp-132"
+  },
+  {
+    "question": "Study prompt: What symbol is used in a reference declaration?",
+    "options": [
+      "&",
+      "*",
+      "%",
+      "#"
+    ],
+    "correctAnswer": "&",
+    "explanation": "A declaration such as int& ref creates a reference to an int.",
+    "difficulty": "easy",
+    "id": "cpp-133"
+  },
+  {
+    "question": "Study prompt: What is a destructor commonly used for?",
+    "options": [
+      "Releasing an object's resources",
+      "Creating a namespace",
+      "Overloading a variable",
+      "Starting a thread"
+    ],
+    "correctAnswer": "Releasing an object's resources",
+    "explanation": "A destructor runs when an object's lifetime ends and can release owned resources.",
+    "difficulty": "intermediate",
+    "id": "cpp-134"
+  },
+  {
+    "question": "Study prompt: Which syntax specifies public inheritance from Base?",
+    "options": [
+      "class Derived : public Base",
+      "class Derived extends Base",
+      "class Derived inherits Base",
+      "public class Derived(Base)"
+    ],
+    "correctAnswer": "class Derived : public Base",
+    "explanation": "C++ places a colon and access specifier between a derived class and its base class.",
+    "difficulty": "easy",
+    "id": "cpp-135"
+  },
+  {
+    "question": "Study prompt: Which keyword represents a null pointer literal in modern C++?",
+    "options": [
+      "NULLPTR",
+      "nullptr",
+      "nil",
+      "null"
+    ],
+    "correctAnswer": "nullptr",
+    "explanation": "nullptr has the dedicated type std::nullptr_t and represents a null pointer.",
+    "difficulty": "easy",
+    "id": "cpp-136"
+  },
+  {
+    "question": "Study prompt: Which loop is designed to iterate over each element of a range?",
+    "options": [
+      "Range-based for loop",
+      "goto loop",
+      "do-for loop",
+      "case loop"
+    ],
+    "correctAnswer": "Range-based for loop",
+    "explanation": "A range-based for loop visits each element in an array or compatible range.",
+    "difficulty": "easy",
+    "id": "cpp-137"
+  },
+  {
+    "question": "Study prompt: What does const generally indicate for a variable?",
+    "options": [
+      "It cannot be modified through that name",
+      "It is global",
+      "It is stored on the heap",
+      "It has no type"
+    ],
+    "correctAnswer": "It cannot be modified through that name",
+    "explanation": "const makes an object non-modifiable through that const-qualified access.",
+    "difficulty": "easy",
+    "id": "cpp-138"
+  },
+  {
+    "question": "Study prompt: Which keyword enables a member function to be overridden for dynamic dispatch?",
+    "options": [
+      "virtual",
+      "dynamic",
+      "overrideable",
+      "runtime"
+    ],
+    "correctAnswer": "virtual",
+    "explanation": "A virtual base member can be dispatched to an override through a base pointer or reference.",
+    "difficulty": "intermediate",
+    "id": "cpp-139"
+  },
+  {
+    "question": "Study prompt: Which standard type represents an owning dynamic array of characters?",
+    "options": [
+      "std::string",
+      "charlist",
+      "std::text",
+      "StringBuilder"
+    ],
+    "correctAnswer": "std::string",
+    "explanation": "std::string is the standard library string type for sequences of char.",
+    "difficulty": "easy",
+    "id": "cpp-140"
+  },
+  {
+    "question": "Before you continue, which header provides std::cout?",
+    "options": [
+      "<iostream>",
+      "<stdio.h>",
+      "<output>",
+      "<stream>"
+    ],
+    "correctAnswer": "<iostream>",
+    "explanation": "The iostream header declares standard C++ input and output stream objects.",
+    "difficulty": "easy",
+    "id": "cpp-141"
+  },
+  {
+    "question": "Before you continue, which standard container is a dynamically resizable sequence?",
+    "options": [
+      "std::vector",
+      "std::array",
+      "std::tuple",
+      "std::pair"
+    ],
+    "correctAnswer": "std::vector",
+    "explanation": "std::vector manages a contiguous sequence whose size can grow.",
+    "difficulty": "easy",
+    "id": "cpp-142"
+  },
+  {
+    "question": "Before you continue, what symbol is used in a reference declaration?",
+    "options": [
+      "&",
+      "*",
+      "%",
+      "#"
+    ],
+    "correctAnswer": "&",
+    "explanation": "A declaration such as int& ref creates a reference to an int.",
+    "difficulty": "easy",
+    "id": "cpp-143"
+  },
+  {
+    "question": "Before you continue, what is a destructor commonly used for?",
+    "options": [
+      "Releasing an object's resources",
+      "Creating a namespace",
+      "Overloading a variable",
+      "Starting a thread"
+    ],
+    "correctAnswer": "Releasing an object's resources",
+    "explanation": "A destructor runs when an object's lifetime ends and can release owned resources.",
+    "difficulty": "intermediate",
+    "id": "cpp-144"
+  },
+  {
+    "question": "Before you continue, which syntax specifies public inheritance from Base?",
+    "options": [
+      "class Derived : public Base",
+      "class Derived extends Base",
+      "class Derived inherits Base",
+      "public class Derived(Base)"
+    ],
+    "correctAnswer": "class Derived : public Base",
+    "explanation": "C++ places a colon and access specifier between a derived class and its base class.",
+    "difficulty": "easy",
+    "id": "cpp-145"
+  },
+  {
+    "question": "Before you continue, which keyword represents a null pointer literal in modern C++?",
+    "options": [
+      "NULLPTR",
+      "nullptr",
+      "nil",
+      "null"
+    ],
+    "correctAnswer": "nullptr",
+    "explanation": "nullptr has the dedicated type std::nullptr_t and represents a null pointer.",
+    "difficulty": "easy",
+    "id": "cpp-146"
+  },
+  {
+    "question": "Before you continue, which loop is designed to iterate over each element of a range?",
+    "options": [
+      "Range-based for loop",
+      "goto loop",
+      "do-for loop",
+      "case loop"
+    ],
+    "correctAnswer": "Range-based for loop",
+    "explanation": "A range-based for loop visits each element in an array or compatible range.",
+    "difficulty": "easy",
+    "id": "cpp-147"
+  },
+  {
+    "question": "Before you continue, what does const generally indicate for a variable?",
+    "options": [
+      "It cannot be modified through that name",
+      "It is global",
+      "It is stored on the heap",
+      "It has no type"
+    ],
+    "correctAnswer": "It cannot be modified through that name",
+    "explanation": "const makes an object non-modifiable through that const-qualified access.",
+    "difficulty": "easy",
+    "id": "cpp-148"
+  },
+  {
+    "question": "Before you continue, which keyword enables a member function to be overridden for dynamic dispatch?",
+    "options": [
+      "virtual",
+      "dynamic",
+      "overrideable",
+      "runtime"
+    ],
+    "correctAnswer": "virtual",
+    "explanation": "A virtual base member can be dispatched to an override through a base pointer or reference.",
+    "difficulty": "intermediate",
+    "id": "cpp-149"
+  },
+  {
+    "question": "Before you continue, which standard type represents an owning dynamic array of characters?",
+    "options": [
+      "std::string",
+      "charlist",
+      "std::text",
+      "StringBuilder"
+    ],
+    "correctAnswer": "std::string",
+    "explanation": "std::string is the standard library string type for sequences of char.",
+    "difficulty": "easy",
+    "id": "cpp-150"
+  },
+  {
+    "question": "Review this concept. Which header provides std::cout?",
+    "options": [
+      "<iostream>",
+      "<stdio.h>",
+      "<output>",
+      "<stream>"
+    ],
+    "correctAnswer": "<iostream>",
+    "explanation": "The iostream header declares standard C++ input and output stream objects.",
+    "difficulty": "easy",
+    "id": "cpp-151"
+  },
+  {
+    "question": "Review this concept. Which standard container is a dynamically resizable sequence?",
+    "options": [
+      "std::vector",
+      "std::array",
+      "std::tuple",
+      "std::pair"
+    ],
+    "correctAnswer": "std::vector",
+    "explanation": "std::vector manages a contiguous sequence whose size can grow.",
+    "difficulty": "easy",
+    "id": "cpp-152"
+  },
+  {
+    "question": "Review this concept. What symbol is used in a reference declaration?",
+    "options": [
+      "&",
+      "*",
+      "%",
+      "#"
+    ],
+    "correctAnswer": "&",
+    "explanation": "A declaration such as int& ref creates a reference to an int.",
+    "difficulty": "easy",
+    "id": "cpp-153"
+  },
+  {
+    "question": "Review this concept. What is a destructor commonly used for?",
+    "options": [
+      "Releasing an object's resources",
+      "Creating a namespace",
+      "Overloading a variable",
+      "Starting a thread"
+    ],
+    "correctAnswer": "Releasing an object's resources",
+    "explanation": "A destructor runs when an object's lifetime ends and can release owned resources.",
+    "difficulty": "intermediate",
+    "id": "cpp-154"
+  },
+  {
+    "question": "Review this concept. Which syntax specifies public inheritance from Base?",
+    "options": [
+      "class Derived : public Base",
+      "class Derived extends Base",
+      "class Derived inherits Base",
+      "public class Derived(Base)"
+    ],
+    "correctAnswer": "class Derived : public Base",
+    "explanation": "C++ places a colon and access specifier between a derived class and its base class.",
+    "difficulty": "easy",
+    "id": "cpp-155"
+  },
+  {
+    "question": "Review this concept. Which keyword represents a null pointer literal in modern C++?",
+    "options": [
+      "NULLPTR",
+      "nullptr",
+      "nil",
+      "null"
+    ],
+    "correctAnswer": "nullptr",
+    "explanation": "nullptr has the dedicated type std::nullptr_t and represents a null pointer.",
+    "difficulty": "easy",
+    "id": "cpp-156"
+  },
+  {
+    "question": "Review this concept. Which loop is designed to iterate over each element of a range?",
+    "options": [
+      "Range-based for loop",
+      "goto loop",
+      "do-for loop",
+      "case loop"
+    ],
+    "correctAnswer": "Range-based for loop",
+    "explanation": "A range-based for loop visits each element in an array or compatible range.",
+    "difficulty": "easy",
+    "id": "cpp-157"
+  },
+  {
+    "question": "Review this concept. What does const generally indicate for a variable?",
+    "options": [
+      "It cannot be modified through that name",
+      "It is global",
+      "It is stored on the heap",
+      "It has no type"
+    ],
+    "correctAnswer": "It cannot be modified through that name",
+    "explanation": "const makes an object non-modifiable through that const-qualified access.",
+    "difficulty": "easy",
+    "id": "cpp-158"
+  },
+  {
+    "question": "Review this concept. Which keyword enables a member function to be overridden for dynamic dispatch?",
+    "options": [
+      "virtual",
+      "dynamic",
+      "overrideable",
+      "runtime"
+    ],
+    "correctAnswer": "virtual",
+    "explanation": "A virtual base member can be dispatched to an override through a base pointer or reference.",
+    "difficulty": "intermediate",
+    "id": "cpp-159"
+  },
+  {
+    "question": "Review this concept. Which standard type represents an owning dynamic array of characters?",
+    "options": [
+      "std::string",
+      "charlist",
+      "std::text",
+      "StringBuilder"
+    ],
+    "correctAnswer": "std::string",
+    "explanation": "std::string is the standard library string type for sequences of char.",
+    "difficulty": "easy",
+    "id": "cpp-160"
+  },
+  {
+    "question": "Technical check: Which header provides std::cout?",
+    "options": [
+      "<iostream>",
+      "<stdio.h>",
+      "<output>",
+      "<stream>"
+    ],
+    "correctAnswer": "<iostream>",
+    "explanation": "The iostream header declares standard C++ input and output stream objects.",
+    "difficulty": "easy",
+    "id": "cpp-161"
+  },
+  {
+    "question": "Technical check: Which standard container is a dynamically resizable sequence?",
+    "options": [
+      "std::vector",
+      "std::array",
+      "std::tuple",
+      "std::pair"
+    ],
+    "correctAnswer": "std::vector",
+    "explanation": "std::vector manages a contiguous sequence whose size can grow.",
+    "difficulty": "easy",
+    "id": "cpp-162"
+  },
+  {
+    "question": "Technical check: What symbol is used in a reference declaration?",
+    "options": [
+      "&",
+      "*",
+      "%",
+      "#"
+    ],
+    "correctAnswer": "&",
+    "explanation": "A declaration such as int& ref creates a reference to an int.",
+    "difficulty": "easy",
+    "id": "cpp-163"
+  },
+  {
+    "question": "Technical check: What is a destructor commonly used for?",
+    "options": [
+      "Releasing an object's resources",
+      "Creating a namespace",
+      "Overloading a variable",
+      "Starting a thread"
+    ],
+    "correctAnswer": "Releasing an object's resources",
+    "explanation": "A destructor runs when an object's lifetime ends and can release owned resources.",
+    "difficulty": "intermediate",
+    "id": "cpp-164"
+  },
+  {
+    "question": "Technical check: Which syntax specifies public inheritance from Base?",
+    "options": [
+      "class Derived : public Base",
+      "class Derived extends Base",
+      "class Derived inherits Base",
+      "public class Derived(Base)"
+    ],
+    "correctAnswer": "class Derived : public Base",
+    "explanation": "C++ places a colon and access specifier between a derived class and its base class.",
+    "difficulty": "easy",
+    "id": "cpp-165"
+  },
+  {
+    "question": "Technical check: Which keyword represents a null pointer literal in modern C++?",
+    "options": [
+      "NULLPTR",
+      "nullptr",
+      "nil",
+      "null"
+    ],
+    "correctAnswer": "nullptr",
+    "explanation": "nullptr has the dedicated type std::nullptr_t and represents a null pointer.",
+    "difficulty": "easy",
+    "id": "cpp-166"
+  },
+  {
+    "question": "Technical check: Which loop is designed to iterate over each element of a range?",
+    "options": [
+      "Range-based for loop",
+      "goto loop",
+      "do-for loop",
+      "case loop"
+    ],
+    "correctAnswer": "Range-based for loop",
+    "explanation": "A range-based for loop visits each element in an array or compatible range.",
+    "difficulty": "easy",
+    "id": "cpp-167"
+  },
+  {
+    "question": "Technical check: What does const generally indicate for a variable?",
+    "options": [
+      "It cannot be modified through that name",
+      "It is global",
+      "It is stored on the heap",
+      "It has no type"
+    ],
+    "correctAnswer": "It cannot be modified through that name",
+    "explanation": "const makes an object non-modifiable through that const-qualified access.",
+    "difficulty": "easy",
+    "id": "cpp-168"
+  },
+  {
+    "question": "Technical check: Which keyword enables a member function to be overridden for dynamic dispatch?",
+    "options": [
+      "virtual",
+      "dynamic",
+      "overrideable",
+      "runtime"
+    ],
+    "correctAnswer": "virtual",
+    "explanation": "A virtual base member can be dispatched to an override through a base pointer or reference.",
+    "difficulty": "intermediate",
+    "id": "cpp-169"
+  },
+  {
+    "question": "Technical check: Which standard type represents an owning dynamic array of characters?",
+    "options": [
+      "std::string",
+      "charlist",
+      "std::text",
+      "StringBuilder"
+    ],
+    "correctAnswer": "std::string",
+    "explanation": "std::string is the standard library string type for sequences of char.",
+    "difficulty": "easy",
+    "id": "cpp-170"
+  },
+  {
+    "question": "Pick one answer. Which header provides std::cout?",
+    "options": [
+      "<iostream>",
+      "<stdio.h>",
+      "<output>",
+      "<stream>"
+    ],
+    "correctAnswer": "<iostream>",
+    "explanation": "The iostream header declares standard C++ input and output stream objects.",
+    "difficulty": "easy",
+    "id": "cpp-171"
+  },
+  {
+    "question": "Pick one answer. Which standard container is a dynamically resizable sequence?",
+    "options": [
+      "std::vector",
+      "std::array",
+      "std::tuple",
+      "std::pair"
+    ],
+    "correctAnswer": "std::vector",
+    "explanation": "std::vector manages a contiguous sequence whose size can grow.",
+    "difficulty": "easy",
+    "id": "cpp-172"
+  },
+  {
+    "question": "Pick one answer. What symbol is used in a reference declaration?",
+    "options": [
+      "&",
+      "*",
+      "%",
+      "#"
+    ],
+    "correctAnswer": "&",
+    "explanation": "A declaration such as int& ref creates a reference to an int.",
+    "difficulty": "easy",
+    "id": "cpp-173"
+  },
+  {
+    "question": "Pick one answer. What is a destructor commonly used for?",
+    "options": [
+      "Releasing an object's resources",
+      "Creating a namespace",
+      "Overloading a variable",
+      "Starting a thread"
+    ],
+    "correctAnswer": "Releasing an object's resources",
+    "explanation": "A destructor runs when an object's lifetime ends and can release owned resources.",
+    "difficulty": "intermediate",
+    "id": "cpp-174"
+  },
+  {
+    "question": "Pick one answer. Which syntax specifies public inheritance from Base?",
+    "options": [
+      "class Derived : public Base",
+      "class Derived extends Base",
+      "class Derived inherits Base",
+      "public class Derived(Base)"
+    ],
+    "correctAnswer": "class Derived : public Base",
+    "explanation": "C++ places a colon and access specifier between a derived class and its base class.",
+    "difficulty": "easy",
+    "id": "cpp-175"
+  },
+  {
+    "question": "Pick one answer. Which keyword represents a null pointer literal in modern C++?",
+    "options": [
+      "NULLPTR",
+      "nullptr",
+      "nil",
+      "null"
+    ],
+    "correctAnswer": "nullptr",
+    "explanation": "nullptr has the dedicated type std::nullptr_t and represents a null pointer.",
+    "difficulty": "easy",
+    "id": "cpp-176"
+  },
+  {
+    "question": "Pick one answer. Which loop is designed to iterate over each element of a range?",
+    "options": [
+      "Range-based for loop",
+      "goto loop",
+      "do-for loop",
+      "case loop"
+    ],
+    "correctAnswer": "Range-based for loop",
+    "explanation": "A range-based for loop visits each element in an array or compatible range.",
+    "difficulty": "easy",
+    "id": "cpp-177"
+  },
+  {
+    "question": "Pick one answer. What does const generally indicate for a variable?",
+    "options": [
+      "It cannot be modified through that name",
+      "It is global",
+      "It is stored on the heap",
+      "It has no type"
+    ],
+    "correctAnswer": "It cannot be modified through that name",
+    "explanation": "const makes an object non-modifiable through that const-qualified access.",
+    "difficulty": "easy",
+    "id": "cpp-178"
+  },
+  {
+    "question": "Pick one answer. Which keyword enables a member function to be overridden for dynamic dispatch?",
+    "options": [
+      "virtual",
+      "dynamic",
+      "overrideable",
+      "runtime"
+    ],
+    "correctAnswer": "virtual",
+    "explanation": "A virtual base member can be dispatched to an override through a base pointer or reference.",
+    "difficulty": "intermediate",
+    "id": "cpp-179"
+  },
+  {
+    "question": "Pick one answer. Which standard type represents an owning dynamic array of characters?",
+    "options": [
+      "std::string",
+      "charlist",
+      "std::text",
+      "StringBuilder"
+    ],
+    "correctAnswer": "std::string",
+    "explanation": "std::string is the standard library string type for sequences of char.",
+    "difficulty": "easy",
+    "id": "cpp-180"
+  },
+  {
+    "question": "Core language question: Which header provides std::cout?",
+    "options": [
+      "<iostream>",
+      "<stdio.h>",
+      "<output>",
+      "<stream>"
+    ],
+    "correctAnswer": "<iostream>",
+    "explanation": "The iostream header declares standard C++ input and output stream objects.",
+    "difficulty": "easy",
+    "id": "cpp-181"
+  },
+  {
+    "question": "Core language question: Which standard container is a dynamically resizable sequence?",
+    "options": [
+      "std::vector",
+      "std::array",
+      "std::tuple",
+      "std::pair"
+    ],
+    "correctAnswer": "std::vector",
+    "explanation": "std::vector manages a contiguous sequence whose size can grow.",
+    "difficulty": "easy",
+    "id": "cpp-182"
+  },
+  {
+    "question": "Core language question: What symbol is used in a reference declaration?",
+    "options": [
+      "&",
+      "*",
+      "%",
+      "#"
+    ],
+    "correctAnswer": "&",
+    "explanation": "A declaration such as int& ref creates a reference to an int.",
+    "difficulty": "easy",
+    "id": "cpp-183"
+  },
+  {
+    "question": "Core language question: What is a destructor commonly used for?",
+    "options": [
+      "Releasing an object's resources",
+      "Creating a namespace",
+      "Overloading a variable",
+      "Starting a thread"
+    ],
+    "correctAnswer": "Releasing an object's resources",
+    "explanation": "A destructor runs when an object's lifetime ends and can release owned resources.",
+    "difficulty": "intermediate",
+    "id": "cpp-184"
+  },
+  {
+    "question": "Core language question: Which syntax specifies public inheritance from Base?",
+    "options": [
+      "class Derived : public Base",
+      "class Derived extends Base",
+      "class Derived inherits Base",
+      "public class Derived(Base)"
+    ],
+    "correctAnswer": "class Derived : public Base",
+    "explanation": "C++ places a colon and access specifier between a derived class and its base class.",
+    "difficulty": "easy",
+    "id": "cpp-185"
+  },
+  {
+    "question": "Core language question: Which keyword represents a null pointer literal in modern C++?",
+    "options": [
+      "NULLPTR",
+      "nullptr",
+      "nil",
+      "null"
+    ],
+    "correctAnswer": "nullptr",
+    "explanation": "nullptr has the dedicated type std::nullptr_t and represents a null pointer.",
+    "difficulty": "easy",
+    "id": "cpp-186"
+  },
+  {
+    "question": "Core language question: Which loop is designed to iterate over each element of a range?",
+    "options": [
+      "Range-based for loop",
+      "goto loop",
+      "do-for loop",
+      "case loop"
+    ],
+    "correctAnswer": "Range-based for loop",
+    "explanation": "A range-based for loop visits each element in an array or compatible range.",
+    "difficulty": "easy",
+    "id": "cpp-187"
+  },
+  {
+    "question": "Core language question: What does const generally indicate for a variable?",
+    "options": [
+      "It cannot be modified through that name",
+      "It is global",
+      "It is stored on the heap",
+      "It has no type"
+    ],
+    "correctAnswer": "It cannot be modified through that name",
+    "explanation": "const makes an object non-modifiable through that const-qualified access.",
+    "difficulty": "easy",
+    "id": "cpp-188"
+  },
+  {
+    "question": "Core language question: Which keyword enables a member function to be overridden for dynamic dispatch?",
+    "options": [
+      "virtual",
+      "dynamic",
+      "overrideable",
+      "runtime"
+    ],
+    "correctAnswer": "virtual",
+    "explanation": "A virtual base member can be dispatched to an override through a base pointer or reference.",
+    "difficulty": "intermediate",
+    "id": "cpp-189"
+  },
+  {
+    "question": "Core language question: Which standard type represents an owning dynamic array of characters?",
+    "options": [
+      "std::string",
+      "charlist",
+      "std::text",
+      "StringBuilder"
+    ],
+    "correctAnswer": "std::string",
+    "explanation": "std::string is the standard library string type for sequences of char.",
+    "difficulty": "easy",
+    "id": "cpp-190"
+  },
+  {
+    "question": "Practice round: Which header provides std::cout?",
+    "options": [
+      "<iostream>",
+      "<stdio.h>",
+      "<output>",
+      "<stream>"
+    ],
+    "correctAnswer": "<iostream>",
+    "explanation": "The iostream header declares standard C++ input and output stream objects.",
+    "difficulty": "easy",
+    "id": "cpp-191"
+  },
+  {
+    "question": "Practice round: Which standard container is a dynamically resizable sequence?",
+    "options": [
+      "std::vector",
+      "std::array",
+      "std::tuple",
+      "std::pair"
+    ],
+    "correctAnswer": "std::vector",
+    "explanation": "std::vector manages a contiguous sequence whose size can grow.",
+    "difficulty": "easy",
+    "id": "cpp-192"
+  },
+  {
+    "question": "Practice round: What symbol is used in a reference declaration?",
+    "options": [
+      "&",
+      "*",
+      "%",
+      "#"
+    ],
+    "correctAnswer": "&",
+    "explanation": "A declaration such as int& ref creates a reference to an int.",
+    "difficulty": "easy",
+    "id": "cpp-193"
+  },
+  {
+    "question": "Practice round: What is a destructor commonly used for?",
+    "options": [
+      "Releasing an object's resources",
+      "Creating a namespace",
+      "Overloading a variable",
+      "Starting a thread"
+    ],
+    "correctAnswer": "Releasing an object's resources",
+    "explanation": "A destructor runs when an object's lifetime ends and can release owned resources.",
+    "difficulty": "intermediate",
+    "id": "cpp-194"
+  },
+  {
+    "question": "Practice round: Which syntax specifies public inheritance from Base?",
+    "options": [
+      "class Derived : public Base",
+      "class Derived extends Base",
+      "class Derived inherits Base",
+      "public class Derived(Base)"
+    ],
+    "correctAnswer": "class Derived : public Base",
+    "explanation": "C++ places a colon and access specifier between a derived class and its base class.",
+    "difficulty": "easy",
+    "id": "cpp-195"
+  },
+  {
+    "question": "Practice round: Which keyword represents a null pointer literal in modern C++?",
+    "options": [
+      "NULLPTR",
+      "nullptr",
+      "nil",
+      "null"
+    ],
+    "correctAnswer": "nullptr",
+    "explanation": "nullptr has the dedicated type std::nullptr_t and represents a null pointer.",
+    "difficulty": "easy",
+    "id": "cpp-196"
+  },
+  {
+    "question": "Practice round: Which loop is designed to iterate over each element of a range?",
+    "options": [
+      "Range-based for loop",
+      "goto loop",
+      "do-for loop",
+      "case loop"
+    ],
+    "correctAnswer": "Range-based for loop",
+    "explanation": "A range-based for loop visits each element in an array or compatible range.",
+    "difficulty": "easy",
+    "id": "cpp-197"
+  },
+  {
+    "question": "Practice round: What does const generally indicate for a variable?",
+    "options": [
+      "It cannot be modified through that name",
+      "It is global",
+      "It is stored on the heap",
+      "It has no type"
+    ],
+    "correctAnswer": "It cannot be modified through that name",
+    "explanation": "const makes an object non-modifiable through that const-qualified access.",
+    "difficulty": "easy",
+    "id": "cpp-198"
+  },
+  {
+    "question": "Practice round: Which keyword enables a member function to be overridden for dynamic dispatch?",
+    "options": [
+      "virtual",
+      "dynamic",
+      "overrideable",
+      "runtime"
+    ],
+    "correctAnswer": "virtual",
+    "explanation": "A virtual base member can be dispatched to an override through a base pointer or reference.",
+    "difficulty": "intermediate",
+    "id": "cpp-199"
+  },
+  {
+    "question": "Practice round: Which standard type represents an owning dynamic array of characters?",
+    "options": [
+      "std::string",
+      "charlist",
+      "std::text",
+      "StringBuilder"
+    ],
+    "correctAnswer": "std::string",
+    "explanation": "std::string is the standard library string type for sequences of char.",
+    "difficulty": "easy",
+    "id": "cpp-200"
+  }
+]

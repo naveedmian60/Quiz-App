@@ -1,0 +1,2602 @@
+[
+  {
+    "question": "Which directive includes a standard header in a C source file?",
+    "options": [
+      "#include",
+      "import",
+      "using",
+      "require"
+    ],
+    "correctAnswer": "#include",
+    "explanation": "The preprocessor handles #include directives before compilation.",
+    "difficulty": "easy",
+    "id": "c-1"
+  },
+  {
+    "question": "Which function prints formatted text to standard output?",
+    "options": [
+      "scanf",
+      "printf",
+      "print",
+      "putsf"
+    ],
+    "correctAnswer": "printf",
+    "explanation": "printf writes formatted output to the standard output stream.",
+    "difficulty": "easy",
+    "id": "c-2"
+  },
+  {
+    "question": "Which is a valid declaration of the conventional C program entry point?",
+    "options": [
+      "int main(void)",
+      "void start()",
+      "program main()",
+      "public main()"
+    ],
+    "correctAnswer": "int main(void)",
+    "explanation": "A hosted C program commonly begins execution in a function returning int named main.",
+    "difficulty": "easy",
+    "id": "c-3"
+  },
+  {
+    "question": "What does the unary & operator produce when applied to an object?",
+    "options": [
+      "Its address",
+      "Its size",
+      "Its value squared",
+      "A reference count"
+    ],
+    "correctAnswer": "Its address",
+    "explanation": "The address-of operator gives a pointer to its operand.",
+    "difficulty": "easy",
+    "id": "c-4"
+  },
+  {
+    "question": "What does the unary * operator do when applied to a valid pointer?",
+    "options": [
+      "Declares a pointer",
+      "Dereferences the pointer",
+      "Frees memory",
+      "Finds the pointer's size"
+    ],
+    "correctAnswer": "Dereferences the pointer",
+    "explanation": "Dereferencing accesses the object that the pointer points to.",
+    "difficulty": "intermediate",
+    "id": "c-5"
+  },
+  {
+    "question": "What does calloc initialize allocated bytes to?",
+    "options": [
+      "Zero",
+      "The previous heap contents",
+      "One",
+      "The null pointer value in every byte"
+    ],
+    "correctAnswer": "Zero",
+    "explanation": "calloc allocates space for an array and initializes its bytes to zero.",
+    "difficulty": "intermediate",
+    "id": "c-6"
+  },
+  {
+    "question": "What marks the end of a C string stored in a character array?",
+    "options": [
+      "A newline",
+      "The null character '\\0'",
+      "A space",
+      "The character '0'"
+    ],
+    "correctAnswer": "The null character '\\0'",
+    "explanation": "C string functions use the null character to identify the end of a string.",
+    "difficulty": "easy",
+    "id": "c-7"
+  },
+  {
+    "question": "Which operator returns the size in bytes of an object or type?",
+    "options": [
+      "length",
+      "sizeof",
+      "bytes",
+      "countof"
+    ],
+    "correctAnswer": "sizeof",
+    "explanation": "sizeof is an operator that yields the size in bytes of its operand's type.",
+    "difficulty": "easy",
+    "id": "c-8"
+  },
+  {
+    "question": "Which standard library function releases memory allocated by malloc?",
+    "options": [
+      "delete",
+      "free",
+      "release",
+      "remove"
+    ],
+    "correctAnswer": "free",
+    "explanation": "free returns a dynamically allocated block to the C allocator.",
+    "difficulty": "easy",
+    "id": "c-9"
+  },
+  {
+    "question": "If ptr points to a structure, what does ptr->field mean?",
+    "options": [
+      "(*ptr).field",
+      "ptr.field",
+      "&ptr.field",
+      "ptr + field"
+    ],
+    "correctAnswer": "(*ptr).field",
+    "explanation": "The arrow operator accesses a structure member through a pointer.",
+    "difficulty": "intermediate",
+    "id": "c-10"
+  },
+  {
+    "question": "Quick check: Which directive includes a standard header in a C source file?",
+    "options": [
+      "#include",
+      "import",
+      "using",
+      "require"
+    ],
+    "correctAnswer": "#include",
+    "explanation": "The preprocessor handles #include directives before compilation.",
+    "difficulty": "easy",
+    "id": "c-11"
+  },
+  {
+    "question": "Quick check: Which function prints formatted text to standard output?",
+    "options": [
+      "scanf",
+      "printf",
+      "print",
+      "putsf"
+    ],
+    "correctAnswer": "printf",
+    "explanation": "printf writes formatted output to the standard output stream.",
+    "difficulty": "easy",
+    "id": "c-12"
+  },
+  {
+    "question": "Quick check: Which is a valid declaration of the conventional C program entry point?",
+    "options": [
+      "int main(void)",
+      "void start()",
+      "program main()",
+      "public main()"
+    ],
+    "correctAnswer": "int main(void)",
+    "explanation": "A hosted C program commonly begins execution in a function returning int named main.",
+    "difficulty": "easy",
+    "id": "c-13"
+  },
+  {
+    "question": "Quick check: What does the unary & operator produce when applied to an object?",
+    "options": [
+      "Its address",
+      "Its size",
+      "Its value squared",
+      "A reference count"
+    ],
+    "correctAnswer": "Its address",
+    "explanation": "The address-of operator gives a pointer to its operand.",
+    "difficulty": "easy",
+    "id": "c-14"
+  },
+  {
+    "question": "Quick check: What does the unary * operator do when applied to a valid pointer?",
+    "options": [
+      "Declares a pointer",
+      "Dereferences the pointer",
+      "Frees memory",
+      "Finds the pointer's size"
+    ],
+    "correctAnswer": "Dereferences the pointer",
+    "explanation": "Dereferencing accesses the object that the pointer points to.",
+    "difficulty": "intermediate",
+    "id": "c-15"
+  },
+  {
+    "question": "Quick check: What does calloc initialize allocated bytes to?",
+    "options": [
+      "Zero",
+      "The previous heap contents",
+      "One",
+      "The null pointer value in every byte"
+    ],
+    "correctAnswer": "Zero",
+    "explanation": "calloc allocates space for an array and initializes its bytes to zero.",
+    "difficulty": "intermediate",
+    "id": "c-16"
+  },
+  {
+    "question": "Quick check: What marks the end of a C string stored in a character array?",
+    "options": [
+      "A newline",
+      "The null character '\\0'",
+      "A space",
+      "The character '0'"
+    ],
+    "correctAnswer": "The null character '\\0'",
+    "explanation": "C string functions use the null character to identify the end of a string.",
+    "difficulty": "easy",
+    "id": "c-17"
+  },
+  {
+    "question": "Quick check: Which operator returns the size in bytes of an object or type?",
+    "options": [
+      "length",
+      "sizeof",
+      "bytes",
+      "countof"
+    ],
+    "correctAnswer": "sizeof",
+    "explanation": "sizeof is an operator that yields the size in bytes of its operand's type.",
+    "difficulty": "easy",
+    "id": "c-18"
+  },
+  {
+    "question": "Quick check: Which standard library function releases memory allocated by malloc?",
+    "options": [
+      "delete",
+      "free",
+      "release",
+      "remove"
+    ],
+    "correctAnswer": "free",
+    "explanation": "free returns a dynamically allocated block to the C allocator.",
+    "difficulty": "easy",
+    "id": "c-19"
+  },
+  {
+    "question": "Quick check: If ptr points to a structure, what does ptr->field mean?",
+    "options": [
+      "(*ptr).field",
+      "ptr.field",
+      "&ptr.field",
+      "ptr + field"
+    ],
+    "correctAnswer": "(*ptr).field",
+    "explanation": "The arrow operator accesses a structure member through a pointer.",
+    "difficulty": "intermediate",
+    "id": "c-20"
+  },
+  {
+    "question": "Choose the best answer. Which directive includes a standard header in a C source file?",
+    "options": [
+      "#include",
+      "import",
+      "using",
+      "require"
+    ],
+    "correctAnswer": "#include",
+    "explanation": "The preprocessor handles #include directives before compilation.",
+    "difficulty": "easy",
+    "id": "c-21"
+  },
+  {
+    "question": "Choose the best answer. Which function prints formatted text to standard output?",
+    "options": [
+      "scanf",
+      "printf",
+      "print",
+      "putsf"
+    ],
+    "correctAnswer": "printf",
+    "explanation": "printf writes formatted output to the standard output stream.",
+    "difficulty": "easy",
+    "id": "c-22"
+  },
+  {
+    "question": "Choose the best answer. Which is a valid declaration of the conventional C program entry point?",
+    "options": [
+      "int main(void)",
+      "void start()",
+      "program main()",
+      "public main()"
+    ],
+    "correctAnswer": "int main(void)",
+    "explanation": "A hosted C program commonly begins execution in a function returning int named main.",
+    "difficulty": "easy",
+    "id": "c-23"
+  },
+  {
+    "question": "Choose the best answer. What does the unary & operator produce when applied to an object?",
+    "options": [
+      "Its address",
+      "Its size",
+      "Its value squared",
+      "A reference count"
+    ],
+    "correctAnswer": "Its address",
+    "explanation": "The address-of operator gives a pointer to its operand.",
+    "difficulty": "easy",
+    "id": "c-24"
+  },
+  {
+    "question": "Choose the best answer. What does the unary * operator do when applied to a valid pointer?",
+    "options": [
+      "Declares a pointer",
+      "Dereferences the pointer",
+      "Frees memory",
+      "Finds the pointer's size"
+    ],
+    "correctAnswer": "Dereferences the pointer",
+    "explanation": "Dereferencing accesses the object that the pointer points to.",
+    "difficulty": "intermediate",
+    "id": "c-25"
+  },
+  {
+    "question": "Choose the best answer. What does calloc initialize allocated bytes to?",
+    "options": [
+      "Zero",
+      "The previous heap contents",
+      "One",
+      "The null pointer value in every byte"
+    ],
+    "correctAnswer": "Zero",
+    "explanation": "calloc allocates space for an array and initializes its bytes to zero.",
+    "difficulty": "intermediate",
+    "id": "c-26"
+  },
+  {
+    "question": "Choose the best answer. What marks the end of a C string stored in a character array?",
+    "options": [
+      "A newline",
+      "The null character '\\0'",
+      "A space",
+      "The character '0'"
+    ],
+    "correctAnswer": "The null character '\\0'",
+    "explanation": "C string functions use the null character to identify the end of a string.",
+    "difficulty": "easy",
+    "id": "c-27"
+  },
+  {
+    "question": "Choose the best answer. Which operator returns the size in bytes of an object or type?",
+    "options": [
+      "length",
+      "sizeof",
+      "bytes",
+      "countof"
+    ],
+    "correctAnswer": "sizeof",
+    "explanation": "sizeof is an operator that yields the size in bytes of its operand's type.",
+    "difficulty": "easy",
+    "id": "c-28"
+  },
+  {
+    "question": "Choose the best answer. Which standard library function releases memory allocated by malloc?",
+    "options": [
+      "delete",
+      "free",
+      "release",
+      "remove"
+    ],
+    "correctAnswer": "free",
+    "explanation": "free returns a dynamically allocated block to the C allocator.",
+    "difficulty": "easy",
+    "id": "c-29"
+  },
+  {
+    "question": "Choose the best answer. If ptr points to a structure, what does ptr->field mean?",
+    "options": [
+      "(*ptr).field",
+      "ptr.field",
+      "&ptr.field",
+      "ptr + field"
+    ],
+    "correctAnswer": "(*ptr).field",
+    "explanation": "The arrow operator accesses a structure member through a pointer.",
+    "difficulty": "intermediate",
+    "id": "c-30"
+  },
+  {
+    "question": "Programming fundamentals: Which directive includes a standard header in a C source file?",
+    "options": [
+      "#include",
+      "import",
+      "using",
+      "require"
+    ],
+    "correctAnswer": "#include",
+    "explanation": "The preprocessor handles #include directives before compilation.",
+    "difficulty": "easy",
+    "id": "c-31"
+  },
+  {
+    "question": "Programming fundamentals: Which function prints formatted text to standard output?",
+    "options": [
+      "scanf",
+      "printf",
+      "print",
+      "putsf"
+    ],
+    "correctAnswer": "printf",
+    "explanation": "printf writes formatted output to the standard output stream.",
+    "difficulty": "easy",
+    "id": "c-32"
+  },
+  {
+    "question": "Programming fundamentals: Which is a valid declaration of the conventional C program entry point?",
+    "options": [
+      "int main(void)",
+      "void start()",
+      "program main()",
+      "public main()"
+    ],
+    "correctAnswer": "int main(void)",
+    "explanation": "A hosted C program commonly begins execution in a function returning int named main.",
+    "difficulty": "easy",
+    "id": "c-33"
+  },
+  {
+    "question": "Programming fundamentals: What does the unary & operator produce when applied to an object?",
+    "options": [
+      "Its address",
+      "Its size",
+      "Its value squared",
+      "A reference count"
+    ],
+    "correctAnswer": "Its address",
+    "explanation": "The address-of operator gives a pointer to its operand.",
+    "difficulty": "easy",
+    "id": "c-34"
+  },
+  {
+    "question": "Programming fundamentals: What does the unary * operator do when applied to a valid pointer?",
+    "options": [
+      "Declares a pointer",
+      "Dereferences the pointer",
+      "Frees memory",
+      "Finds the pointer's size"
+    ],
+    "correctAnswer": "Dereferences the pointer",
+    "explanation": "Dereferencing accesses the object that the pointer points to.",
+    "difficulty": "intermediate",
+    "id": "c-35"
+  },
+  {
+    "question": "Programming fundamentals: What does calloc initialize allocated bytes to?",
+    "options": [
+      "Zero",
+      "The previous heap contents",
+      "One",
+      "The null pointer value in every byte"
+    ],
+    "correctAnswer": "Zero",
+    "explanation": "calloc allocates space for an array and initializes its bytes to zero.",
+    "difficulty": "intermediate",
+    "id": "c-36"
+  },
+  {
+    "question": "Programming fundamentals: What marks the end of a C string stored in a character array?",
+    "options": [
+      "A newline",
+      "The null character '\\0'",
+      "A space",
+      "The character '0'"
+    ],
+    "correctAnswer": "The null character '\\0'",
+    "explanation": "C string functions use the null character to identify the end of a string.",
+    "difficulty": "easy",
+    "id": "c-37"
+  },
+  {
+    "question": "Programming fundamentals: Which operator returns the size in bytes of an object or type?",
+    "options": [
+      "length",
+      "sizeof",
+      "bytes",
+      "countof"
+    ],
+    "correctAnswer": "sizeof",
+    "explanation": "sizeof is an operator that yields the size in bytes of its operand's type.",
+    "difficulty": "easy",
+    "id": "c-38"
+  },
+  {
+    "question": "Programming fundamentals: Which standard library function releases memory allocated by malloc?",
+    "options": [
+      "delete",
+      "free",
+      "release",
+      "remove"
+    ],
+    "correctAnswer": "free",
+    "explanation": "free returns a dynamically allocated block to the C allocator.",
+    "difficulty": "easy",
+    "id": "c-39"
+  },
+  {
+    "question": "Programming fundamentals: If ptr points to a structure, what does ptr->field mean?",
+    "options": [
+      "(*ptr).field",
+      "ptr.field",
+      "&ptr.field",
+      "ptr + field"
+    ],
+    "correctAnswer": "(*ptr).field",
+    "explanation": "The arrow operator accesses a structure member through a pointer.",
+    "difficulty": "intermediate",
+    "id": "c-40"
+  },
+  {
+    "question": "Knowledge check: Which directive includes a standard header in a C source file?",
+    "options": [
+      "#include",
+      "import",
+      "using",
+      "require"
+    ],
+    "correctAnswer": "#include",
+    "explanation": "The preprocessor handles #include directives before compilation.",
+    "difficulty": "easy",
+    "id": "c-41"
+  },
+  {
+    "question": "Knowledge check: Which function prints formatted text to standard output?",
+    "options": [
+      "scanf",
+      "printf",
+      "print",
+      "putsf"
+    ],
+    "correctAnswer": "printf",
+    "explanation": "printf writes formatted output to the standard output stream.",
+    "difficulty": "easy",
+    "id": "c-42"
+  },
+  {
+    "question": "Knowledge check: Which is a valid declaration of the conventional C program entry point?",
+    "options": [
+      "int main(void)",
+      "void start()",
+      "program main()",
+      "public main()"
+    ],
+    "correctAnswer": "int main(void)",
+    "explanation": "A hosted C program commonly begins execution in a function returning int named main.",
+    "difficulty": "easy",
+    "id": "c-43"
+  },
+  {
+    "question": "Knowledge check: What does the unary & operator produce when applied to an object?",
+    "options": [
+      "Its address",
+      "Its size",
+      "Its value squared",
+      "A reference count"
+    ],
+    "correctAnswer": "Its address",
+    "explanation": "The address-of operator gives a pointer to its operand.",
+    "difficulty": "easy",
+    "id": "c-44"
+  },
+  {
+    "question": "Knowledge check: What does the unary * operator do when applied to a valid pointer?",
+    "options": [
+      "Declares a pointer",
+      "Dereferences the pointer",
+      "Frees memory",
+      "Finds the pointer's size"
+    ],
+    "correctAnswer": "Dereferences the pointer",
+    "explanation": "Dereferencing accesses the object that the pointer points to.",
+    "difficulty": "intermediate",
+    "id": "c-45"
+  },
+  {
+    "question": "Knowledge check: What does calloc initialize allocated bytes to?",
+    "options": [
+      "Zero",
+      "The previous heap contents",
+      "One",
+      "The null pointer value in every byte"
+    ],
+    "correctAnswer": "Zero",
+    "explanation": "calloc allocates space for an array and initializes its bytes to zero.",
+    "difficulty": "intermediate",
+    "id": "c-46"
+  },
+  {
+    "question": "Knowledge check: What marks the end of a C string stored in a character array?",
+    "options": [
+      "A newline",
+      "The null character '\\0'",
+      "A space",
+      "The character '0'"
+    ],
+    "correctAnswer": "The null character '\\0'",
+    "explanation": "C string functions use the null character to identify the end of a string.",
+    "difficulty": "easy",
+    "id": "c-47"
+  },
+  {
+    "question": "Knowledge check: Which operator returns the size in bytes of an object or type?",
+    "options": [
+      "length",
+      "sizeof",
+      "bytes",
+      "countof"
+    ],
+    "correctAnswer": "sizeof",
+    "explanation": "sizeof is an operator that yields the size in bytes of its operand's type.",
+    "difficulty": "easy",
+    "id": "c-48"
+  },
+  {
+    "question": "Knowledge check: Which standard library function releases memory allocated by malloc?",
+    "options": [
+      "delete",
+      "free",
+      "release",
+      "remove"
+    ],
+    "correctAnswer": "free",
+    "explanation": "free returns a dynamically allocated block to the C allocator.",
+    "difficulty": "easy",
+    "id": "c-49"
+  },
+  {
+    "question": "Knowledge check: If ptr points to a structure, what does ptr->field mean?",
+    "options": [
+      "(*ptr).field",
+      "ptr.field",
+      "&ptr.field",
+      "ptr + field"
+    ],
+    "correctAnswer": "(*ptr).field",
+    "explanation": "The arrow operator accesses a structure member through a pointer.",
+    "difficulty": "intermediate",
+    "id": "c-50"
+  },
+  {
+    "question": "When reviewing code, which directive includes a standard header in a C source file?",
+    "options": [
+      "#include",
+      "import",
+      "using",
+      "require"
+    ],
+    "correctAnswer": "#include",
+    "explanation": "The preprocessor handles #include directives before compilation.",
+    "difficulty": "easy",
+    "id": "c-51"
+  },
+  {
+    "question": "When reviewing code, which function prints formatted text to standard output?",
+    "options": [
+      "scanf",
+      "printf",
+      "print",
+      "putsf"
+    ],
+    "correctAnswer": "printf",
+    "explanation": "printf writes formatted output to the standard output stream.",
+    "difficulty": "easy",
+    "id": "c-52"
+  },
+  {
+    "question": "When reviewing code, which is a valid declaration of the conventional C program entry point?",
+    "options": [
+      "int main(void)",
+      "void start()",
+      "program main()",
+      "public main()"
+    ],
+    "correctAnswer": "int main(void)",
+    "explanation": "A hosted C program commonly begins execution in a function returning int named main.",
+    "difficulty": "easy",
+    "id": "c-53"
+  },
+  {
+    "question": "When reviewing code, what does the unary & operator produce when applied to an object?",
+    "options": [
+      "Its address",
+      "Its size",
+      "Its value squared",
+      "A reference count"
+    ],
+    "correctAnswer": "Its address",
+    "explanation": "The address-of operator gives a pointer to its operand.",
+    "difficulty": "easy",
+    "id": "c-54"
+  },
+  {
+    "question": "When reviewing code, what does the unary * operator do when applied to a valid pointer?",
+    "options": [
+      "Declares a pointer",
+      "Dereferences the pointer",
+      "Frees memory",
+      "Finds the pointer's size"
+    ],
+    "correctAnswer": "Dereferences the pointer",
+    "explanation": "Dereferencing accesses the object that the pointer points to.",
+    "difficulty": "intermediate",
+    "id": "c-55"
+  },
+  {
+    "question": "When reviewing code, what does calloc initialize allocated bytes to?",
+    "options": [
+      "Zero",
+      "The previous heap contents",
+      "One",
+      "The null pointer value in every byte"
+    ],
+    "correctAnswer": "Zero",
+    "explanation": "calloc allocates space for an array and initializes its bytes to zero.",
+    "difficulty": "intermediate",
+    "id": "c-56"
+  },
+  {
+    "question": "When reviewing code, what marks the end of a C string stored in a character array?",
+    "options": [
+      "A newline",
+      "The null character '\\0'",
+      "A space",
+      "The character '0'"
+    ],
+    "correctAnswer": "The null character '\\0'",
+    "explanation": "C string functions use the null character to identify the end of a string.",
+    "difficulty": "easy",
+    "id": "c-57"
+  },
+  {
+    "question": "When reviewing code, which operator returns the size in bytes of an object or type?",
+    "options": [
+      "length",
+      "sizeof",
+      "bytes",
+      "countof"
+    ],
+    "correctAnswer": "sizeof",
+    "explanation": "sizeof is an operator that yields the size in bytes of its operand's type.",
+    "difficulty": "easy",
+    "id": "c-58"
+  },
+  {
+    "question": "When reviewing code, which standard library function releases memory allocated by malloc?",
+    "options": [
+      "delete",
+      "free",
+      "release",
+      "remove"
+    ],
+    "correctAnswer": "free",
+    "explanation": "free returns a dynamically allocated block to the C allocator.",
+    "difficulty": "easy",
+    "id": "c-59"
+  },
+  {
+    "question": "When reviewing code, if ptr points to a structure, what does ptr->field mean?",
+    "options": [
+      "(*ptr).field",
+      "ptr.field",
+      "&ptr.field",
+      "ptr + field"
+    ],
+    "correctAnswer": "(*ptr).field",
+    "explanation": "The arrow operator accesses a structure member through a pointer.",
+    "difficulty": "intermediate",
+    "id": "c-60"
+  },
+  {
+    "question": "For a beginner, which directive includes a standard header in a C source file?",
+    "options": [
+      "#include",
+      "import",
+      "using",
+      "require"
+    ],
+    "correctAnswer": "#include",
+    "explanation": "The preprocessor handles #include directives before compilation.",
+    "difficulty": "easy",
+    "id": "c-61"
+  },
+  {
+    "question": "For a beginner, which function prints formatted text to standard output?",
+    "options": [
+      "scanf",
+      "printf",
+      "print",
+      "putsf"
+    ],
+    "correctAnswer": "printf",
+    "explanation": "printf writes formatted output to the standard output stream.",
+    "difficulty": "easy",
+    "id": "c-62"
+  },
+  {
+    "question": "For a beginner, which is a valid declaration of the conventional C program entry point?",
+    "options": [
+      "int main(void)",
+      "void start()",
+      "program main()",
+      "public main()"
+    ],
+    "correctAnswer": "int main(void)",
+    "explanation": "A hosted C program commonly begins execution in a function returning int named main.",
+    "difficulty": "easy",
+    "id": "c-63"
+  },
+  {
+    "question": "For a beginner, what does the unary & operator produce when applied to an object?",
+    "options": [
+      "Its address",
+      "Its size",
+      "Its value squared",
+      "A reference count"
+    ],
+    "correctAnswer": "Its address",
+    "explanation": "The address-of operator gives a pointer to its operand.",
+    "difficulty": "easy",
+    "id": "c-64"
+  },
+  {
+    "question": "For a beginner, what does the unary * operator do when applied to a valid pointer?",
+    "options": [
+      "Declares a pointer",
+      "Dereferences the pointer",
+      "Frees memory",
+      "Finds the pointer's size"
+    ],
+    "correctAnswer": "Dereferences the pointer",
+    "explanation": "Dereferencing accesses the object that the pointer points to.",
+    "difficulty": "intermediate",
+    "id": "c-65"
+  },
+  {
+    "question": "For a beginner, what does calloc initialize allocated bytes to?",
+    "options": [
+      "Zero",
+      "The previous heap contents",
+      "One",
+      "The null pointer value in every byte"
+    ],
+    "correctAnswer": "Zero",
+    "explanation": "calloc allocates space for an array and initializes its bytes to zero.",
+    "difficulty": "intermediate",
+    "id": "c-66"
+  },
+  {
+    "question": "For a beginner, what marks the end of a C string stored in a character array?",
+    "options": [
+      "A newline",
+      "The null character '\\0'",
+      "A space",
+      "The character '0'"
+    ],
+    "correctAnswer": "The null character '\\0'",
+    "explanation": "C string functions use the null character to identify the end of a string.",
+    "difficulty": "easy",
+    "id": "c-67"
+  },
+  {
+    "question": "For a beginner, which operator returns the size in bytes of an object or type?",
+    "options": [
+      "length",
+      "sizeof",
+      "bytes",
+      "countof"
+    ],
+    "correctAnswer": "sizeof",
+    "explanation": "sizeof is an operator that yields the size in bytes of its operand's type.",
+    "difficulty": "easy",
+    "id": "c-68"
+  },
+  {
+    "question": "For a beginner, which standard library function releases memory allocated by malloc?",
+    "options": [
+      "delete",
+      "free",
+      "release",
+      "remove"
+    ],
+    "correctAnswer": "free",
+    "explanation": "free returns a dynamically allocated block to the C allocator.",
+    "difficulty": "easy",
+    "id": "c-69"
+  },
+  {
+    "question": "For a beginner, if ptr points to a structure, what does ptr->field mean?",
+    "options": [
+      "(*ptr).field",
+      "ptr.field",
+      "&ptr.field",
+      "ptr + field"
+    ],
+    "correctAnswer": "(*ptr).field",
+    "explanation": "The arrow operator accesses a structure member through a pointer.",
+    "difficulty": "intermediate",
+    "id": "c-70"
+  },
+  {
+    "question": "Concept review: Which directive includes a standard header in a C source file?",
+    "options": [
+      "#include",
+      "import",
+      "using",
+      "require"
+    ],
+    "correctAnswer": "#include",
+    "explanation": "The preprocessor handles #include directives before compilation.",
+    "difficulty": "easy",
+    "id": "c-71"
+  },
+  {
+    "question": "Concept review: Which function prints formatted text to standard output?",
+    "options": [
+      "scanf",
+      "printf",
+      "print",
+      "putsf"
+    ],
+    "correctAnswer": "printf",
+    "explanation": "printf writes formatted output to the standard output stream.",
+    "difficulty": "easy",
+    "id": "c-72"
+  },
+  {
+    "question": "Concept review: Which is a valid declaration of the conventional C program entry point?",
+    "options": [
+      "int main(void)",
+      "void start()",
+      "program main()",
+      "public main()"
+    ],
+    "correctAnswer": "int main(void)",
+    "explanation": "A hosted C program commonly begins execution in a function returning int named main.",
+    "difficulty": "easy",
+    "id": "c-73"
+  },
+  {
+    "question": "Concept review: What does the unary & operator produce when applied to an object?",
+    "options": [
+      "Its address",
+      "Its size",
+      "Its value squared",
+      "A reference count"
+    ],
+    "correctAnswer": "Its address",
+    "explanation": "The address-of operator gives a pointer to its operand.",
+    "difficulty": "easy",
+    "id": "c-74"
+  },
+  {
+    "question": "Concept review: What does the unary * operator do when applied to a valid pointer?",
+    "options": [
+      "Declares a pointer",
+      "Dereferences the pointer",
+      "Frees memory",
+      "Finds the pointer's size"
+    ],
+    "correctAnswer": "Dereferences the pointer",
+    "explanation": "Dereferencing accesses the object that the pointer points to.",
+    "difficulty": "intermediate",
+    "id": "c-75"
+  },
+  {
+    "question": "Concept review: What does calloc initialize allocated bytes to?",
+    "options": [
+      "Zero",
+      "The previous heap contents",
+      "One",
+      "The null pointer value in every byte"
+    ],
+    "correctAnswer": "Zero",
+    "explanation": "calloc allocates space for an array and initializes its bytes to zero.",
+    "difficulty": "intermediate",
+    "id": "c-76"
+  },
+  {
+    "question": "Concept review: What marks the end of a C string stored in a character array?",
+    "options": [
+      "A newline",
+      "The null character '\\0'",
+      "A space",
+      "The character '0'"
+    ],
+    "correctAnswer": "The null character '\\0'",
+    "explanation": "C string functions use the null character to identify the end of a string.",
+    "difficulty": "easy",
+    "id": "c-77"
+  },
+  {
+    "question": "Concept review: Which operator returns the size in bytes of an object or type?",
+    "options": [
+      "length",
+      "sizeof",
+      "bytes",
+      "countof"
+    ],
+    "correctAnswer": "sizeof",
+    "explanation": "sizeof is an operator that yields the size in bytes of its operand's type.",
+    "difficulty": "easy",
+    "id": "c-78"
+  },
+  {
+    "question": "Concept review: Which standard library function releases memory allocated by malloc?",
+    "options": [
+      "delete",
+      "free",
+      "release",
+      "remove"
+    ],
+    "correctAnswer": "free",
+    "explanation": "free returns a dynamically allocated block to the C allocator.",
+    "difficulty": "easy",
+    "id": "c-79"
+  },
+  {
+    "question": "Concept review: If ptr points to a structure, what does ptr->field mean?",
+    "options": [
+      "(*ptr).field",
+      "ptr.field",
+      "&ptr.field",
+      "ptr + field"
+    ],
+    "correctAnswer": "(*ptr).field",
+    "explanation": "The arrow operator accesses a structure member through a pointer.",
+    "difficulty": "intermediate",
+    "id": "c-80"
+  },
+  {
+    "question": "Select the correct statement. Which directive includes a standard header in a C source file?",
+    "options": [
+      "#include",
+      "import",
+      "using",
+      "require"
+    ],
+    "correctAnswer": "#include",
+    "explanation": "The preprocessor handles #include directives before compilation.",
+    "difficulty": "easy",
+    "id": "c-81"
+  },
+  {
+    "question": "Select the correct statement. Which function prints formatted text to standard output?",
+    "options": [
+      "scanf",
+      "printf",
+      "print",
+      "putsf"
+    ],
+    "correctAnswer": "printf",
+    "explanation": "printf writes formatted output to the standard output stream.",
+    "difficulty": "easy",
+    "id": "c-82"
+  },
+  {
+    "question": "Select the correct statement. Which is a valid declaration of the conventional C program entry point?",
+    "options": [
+      "int main(void)",
+      "void start()",
+      "program main()",
+      "public main()"
+    ],
+    "correctAnswer": "int main(void)",
+    "explanation": "A hosted C program commonly begins execution in a function returning int named main.",
+    "difficulty": "easy",
+    "id": "c-83"
+  },
+  {
+    "question": "Select the correct statement. What does the unary & operator produce when applied to an object?",
+    "options": [
+      "Its address",
+      "Its size",
+      "Its value squared",
+      "A reference count"
+    ],
+    "correctAnswer": "Its address",
+    "explanation": "The address-of operator gives a pointer to its operand.",
+    "difficulty": "easy",
+    "id": "c-84"
+  },
+  {
+    "question": "Select the correct statement. What does the unary * operator do when applied to a valid pointer?",
+    "options": [
+      "Declares a pointer",
+      "Dereferences the pointer",
+      "Frees memory",
+      "Finds the pointer's size"
+    ],
+    "correctAnswer": "Dereferences the pointer",
+    "explanation": "Dereferencing accesses the object that the pointer points to.",
+    "difficulty": "intermediate",
+    "id": "c-85"
+  },
+  {
+    "question": "Select the correct statement. What does calloc initialize allocated bytes to?",
+    "options": [
+      "Zero",
+      "The previous heap contents",
+      "One",
+      "The null pointer value in every byte"
+    ],
+    "correctAnswer": "Zero",
+    "explanation": "calloc allocates space for an array and initializes its bytes to zero.",
+    "difficulty": "intermediate",
+    "id": "c-86"
+  },
+  {
+    "question": "Select the correct statement. What marks the end of a C string stored in a character array?",
+    "options": [
+      "A newline",
+      "The null character '\\0'",
+      "A space",
+      "The character '0'"
+    ],
+    "correctAnswer": "The null character '\\0'",
+    "explanation": "C string functions use the null character to identify the end of a string.",
+    "difficulty": "easy",
+    "id": "c-87"
+  },
+  {
+    "question": "Select the correct statement. Which operator returns the size in bytes of an object or type?",
+    "options": [
+      "length",
+      "sizeof",
+      "bytes",
+      "countof"
+    ],
+    "correctAnswer": "sizeof",
+    "explanation": "sizeof is an operator that yields the size in bytes of its operand's type.",
+    "difficulty": "easy",
+    "id": "c-88"
+  },
+  {
+    "question": "Select the correct statement. Which standard library function releases memory allocated by malloc?",
+    "options": [
+      "delete",
+      "free",
+      "release",
+      "remove"
+    ],
+    "correctAnswer": "free",
+    "explanation": "free returns a dynamically allocated block to the C allocator.",
+    "difficulty": "easy",
+    "id": "c-89"
+  },
+  {
+    "question": "Select the correct statement. If ptr points to a structure, what does ptr->field mean?",
+    "options": [
+      "(*ptr).field",
+      "ptr.field",
+      "&ptr.field",
+      "ptr + field"
+    ],
+    "correctAnswer": "(*ptr).field",
+    "explanation": "The arrow operator accesses a structure member through a pointer.",
+    "difficulty": "intermediate",
+    "id": "c-90"
+  },
+  {
+    "question": "Practice question: Which directive includes a standard header in a C source file?",
+    "options": [
+      "#include",
+      "import",
+      "using",
+      "require"
+    ],
+    "correctAnswer": "#include",
+    "explanation": "The preprocessor handles #include directives before compilation.",
+    "difficulty": "easy",
+    "id": "c-91"
+  },
+  {
+    "question": "Practice question: Which function prints formatted text to standard output?",
+    "options": [
+      "scanf",
+      "printf",
+      "print",
+      "putsf"
+    ],
+    "correctAnswer": "printf",
+    "explanation": "printf writes formatted output to the standard output stream.",
+    "difficulty": "easy",
+    "id": "c-92"
+  },
+  {
+    "question": "Practice question: Which is a valid declaration of the conventional C program entry point?",
+    "options": [
+      "int main(void)",
+      "void start()",
+      "program main()",
+      "public main()"
+    ],
+    "correctAnswer": "int main(void)",
+    "explanation": "A hosted C program commonly begins execution in a function returning int named main.",
+    "difficulty": "easy",
+    "id": "c-93"
+  },
+  {
+    "question": "Practice question: What does the unary & operator produce when applied to an object?",
+    "options": [
+      "Its address",
+      "Its size",
+      "Its value squared",
+      "A reference count"
+    ],
+    "correctAnswer": "Its address",
+    "explanation": "The address-of operator gives a pointer to its operand.",
+    "difficulty": "easy",
+    "id": "c-94"
+  },
+  {
+    "question": "Practice question: What does the unary * operator do when applied to a valid pointer?",
+    "options": [
+      "Declares a pointer",
+      "Dereferences the pointer",
+      "Frees memory",
+      "Finds the pointer's size"
+    ],
+    "correctAnswer": "Dereferences the pointer",
+    "explanation": "Dereferencing accesses the object that the pointer points to.",
+    "difficulty": "intermediate",
+    "id": "c-95"
+  },
+  {
+    "question": "Practice question: What does calloc initialize allocated bytes to?",
+    "options": [
+      "Zero",
+      "The previous heap contents",
+      "One",
+      "The null pointer value in every byte"
+    ],
+    "correctAnswer": "Zero",
+    "explanation": "calloc allocates space for an array and initializes its bytes to zero.",
+    "difficulty": "intermediate",
+    "id": "c-96"
+  },
+  {
+    "question": "Practice question: What marks the end of a C string stored in a character array?",
+    "options": [
+      "A newline",
+      "The null character '\\0'",
+      "A space",
+      "The character '0'"
+    ],
+    "correctAnswer": "The null character '\\0'",
+    "explanation": "C string functions use the null character to identify the end of a string.",
+    "difficulty": "easy",
+    "id": "c-97"
+  },
+  {
+    "question": "Practice question: Which operator returns the size in bytes of an object or type?",
+    "options": [
+      "length",
+      "sizeof",
+      "bytes",
+      "countof"
+    ],
+    "correctAnswer": "sizeof",
+    "explanation": "sizeof is an operator that yields the size in bytes of its operand's type.",
+    "difficulty": "easy",
+    "id": "c-98"
+  },
+  {
+    "question": "Practice question: Which standard library function releases memory allocated by malloc?",
+    "options": [
+      "delete",
+      "free",
+      "release",
+      "remove"
+    ],
+    "correctAnswer": "free",
+    "explanation": "free returns a dynamically allocated block to the C allocator.",
+    "difficulty": "easy",
+    "id": "c-99"
+  },
+  {
+    "question": "Practice question: If ptr points to a structure, what does ptr->field mean?",
+    "options": [
+      "(*ptr).field",
+      "ptr.field",
+      "&ptr.field",
+      "ptr + field"
+    ],
+    "correctAnswer": "(*ptr).field",
+    "explanation": "The arrow operator accesses a structure member through a pointer.",
+    "difficulty": "intermediate",
+    "id": "c-100"
+  },
+  {
+    "question": "Test your understanding: Which directive includes a standard header in a C source file?",
+    "options": [
+      "#include",
+      "import",
+      "using",
+      "require"
+    ],
+    "correctAnswer": "#include",
+    "explanation": "The preprocessor handles #include directives before compilation.",
+    "difficulty": "easy",
+    "id": "c-101"
+  },
+  {
+    "question": "Test your understanding: Which function prints formatted text to standard output?",
+    "options": [
+      "scanf",
+      "printf",
+      "print",
+      "putsf"
+    ],
+    "correctAnswer": "printf",
+    "explanation": "printf writes formatted output to the standard output stream.",
+    "difficulty": "easy",
+    "id": "c-102"
+  },
+  {
+    "question": "Test your understanding: Which is a valid declaration of the conventional C program entry point?",
+    "options": [
+      "int main(void)",
+      "void start()",
+      "program main()",
+      "public main()"
+    ],
+    "correctAnswer": "int main(void)",
+    "explanation": "A hosted C program commonly begins execution in a function returning int named main.",
+    "difficulty": "easy",
+    "id": "c-103"
+  },
+  {
+    "question": "Test your understanding: What does the unary & operator produce when applied to an object?",
+    "options": [
+      "Its address",
+      "Its size",
+      "Its value squared",
+      "A reference count"
+    ],
+    "correctAnswer": "Its address",
+    "explanation": "The address-of operator gives a pointer to its operand.",
+    "difficulty": "easy",
+    "id": "c-104"
+  },
+  {
+    "question": "Test your understanding: What does the unary * operator do when applied to a valid pointer?",
+    "options": [
+      "Declares a pointer",
+      "Dereferences the pointer",
+      "Frees memory",
+      "Finds the pointer's size"
+    ],
+    "correctAnswer": "Dereferences the pointer",
+    "explanation": "Dereferencing accesses the object that the pointer points to.",
+    "difficulty": "intermediate",
+    "id": "c-105"
+  },
+  {
+    "question": "Test your understanding: What does calloc initialize allocated bytes to?",
+    "options": [
+      "Zero",
+      "The previous heap contents",
+      "One",
+      "The null pointer value in every byte"
+    ],
+    "correctAnswer": "Zero",
+    "explanation": "calloc allocates space for an array and initializes its bytes to zero.",
+    "difficulty": "intermediate",
+    "id": "c-106"
+  },
+  {
+    "question": "Test your understanding: What marks the end of a C string stored in a character array?",
+    "options": [
+      "A newline",
+      "The null character '\\0'",
+      "A space",
+      "The character '0'"
+    ],
+    "correctAnswer": "The null character '\\0'",
+    "explanation": "C string functions use the null character to identify the end of a string.",
+    "difficulty": "easy",
+    "id": "c-107"
+  },
+  {
+    "question": "Test your understanding: Which operator returns the size in bytes of an object or type?",
+    "options": [
+      "length",
+      "sizeof",
+      "bytes",
+      "countof"
+    ],
+    "correctAnswer": "sizeof",
+    "explanation": "sizeof is an operator that yields the size in bytes of its operand's type.",
+    "difficulty": "easy",
+    "id": "c-108"
+  },
+  {
+    "question": "Test your understanding: Which standard library function releases memory allocated by malloc?",
+    "options": [
+      "delete",
+      "free",
+      "release",
+      "remove"
+    ],
+    "correctAnswer": "free",
+    "explanation": "free returns a dynamically allocated block to the C allocator.",
+    "difficulty": "easy",
+    "id": "c-109"
+  },
+  {
+    "question": "Test your understanding: If ptr points to a structure, what does ptr->field mean?",
+    "options": [
+      "(*ptr).field",
+      "ptr.field",
+      "&ptr.field",
+      "ptr + field"
+    ],
+    "correctAnswer": "(*ptr).field",
+    "explanation": "The arrow operator accesses a structure member through a pointer.",
+    "difficulty": "intermediate",
+    "id": "c-110"
+  },
+  {
+    "question": "Language basics: Which directive includes a standard header in a C source file?",
+    "options": [
+      "#include",
+      "import",
+      "using",
+      "require"
+    ],
+    "correctAnswer": "#include",
+    "explanation": "The preprocessor handles #include directives before compilation.",
+    "difficulty": "easy",
+    "id": "c-111"
+  },
+  {
+    "question": "Language basics: Which function prints formatted text to standard output?",
+    "options": [
+      "scanf",
+      "printf",
+      "print",
+      "putsf"
+    ],
+    "correctAnswer": "printf",
+    "explanation": "printf writes formatted output to the standard output stream.",
+    "difficulty": "easy",
+    "id": "c-112"
+  },
+  {
+    "question": "Language basics: Which is a valid declaration of the conventional C program entry point?",
+    "options": [
+      "int main(void)",
+      "void start()",
+      "program main()",
+      "public main()"
+    ],
+    "correctAnswer": "int main(void)",
+    "explanation": "A hosted C program commonly begins execution in a function returning int named main.",
+    "difficulty": "easy",
+    "id": "c-113"
+  },
+  {
+    "question": "Language basics: What does the unary & operator produce when applied to an object?",
+    "options": [
+      "Its address",
+      "Its size",
+      "Its value squared",
+      "A reference count"
+    ],
+    "correctAnswer": "Its address",
+    "explanation": "The address-of operator gives a pointer to its operand.",
+    "difficulty": "easy",
+    "id": "c-114"
+  },
+  {
+    "question": "Language basics: What does the unary * operator do when applied to a valid pointer?",
+    "options": [
+      "Declares a pointer",
+      "Dereferences the pointer",
+      "Frees memory",
+      "Finds the pointer's size"
+    ],
+    "correctAnswer": "Dereferences the pointer",
+    "explanation": "Dereferencing accesses the object that the pointer points to.",
+    "difficulty": "intermediate",
+    "id": "c-115"
+  },
+  {
+    "question": "Language basics: What does calloc initialize allocated bytes to?",
+    "options": [
+      "Zero",
+      "The previous heap contents",
+      "One",
+      "The null pointer value in every byte"
+    ],
+    "correctAnswer": "Zero",
+    "explanation": "calloc allocates space for an array and initializes its bytes to zero.",
+    "difficulty": "intermediate",
+    "id": "c-116"
+  },
+  {
+    "question": "Language basics: What marks the end of a C string stored in a character array?",
+    "options": [
+      "A newline",
+      "The null character '\\0'",
+      "A space",
+      "The character '0'"
+    ],
+    "correctAnswer": "The null character '\\0'",
+    "explanation": "C string functions use the null character to identify the end of a string.",
+    "difficulty": "easy",
+    "id": "c-117"
+  },
+  {
+    "question": "Language basics: Which operator returns the size in bytes of an object or type?",
+    "options": [
+      "length",
+      "sizeof",
+      "bytes",
+      "countof"
+    ],
+    "correctAnswer": "sizeof",
+    "explanation": "sizeof is an operator that yields the size in bytes of its operand's type.",
+    "difficulty": "easy",
+    "id": "c-118"
+  },
+  {
+    "question": "Language basics: Which standard library function releases memory allocated by malloc?",
+    "options": [
+      "delete",
+      "free",
+      "release",
+      "remove"
+    ],
+    "correctAnswer": "free",
+    "explanation": "free returns a dynamically allocated block to the C allocator.",
+    "difficulty": "easy",
+    "id": "c-119"
+  },
+  {
+    "question": "Language basics: If ptr points to a structure, what does ptr->field mean?",
+    "options": [
+      "(*ptr).field",
+      "ptr.field",
+      "&ptr.field",
+      "ptr + field"
+    ],
+    "correctAnswer": "(*ptr).field",
+    "explanation": "The arrow operator accesses a structure member through a pointer.",
+    "difficulty": "intermediate",
+    "id": "c-120"
+  },
+  {
+    "question": "Which answer is accurate? Which directive includes a standard header in a C source file?",
+    "options": [
+      "#include",
+      "import",
+      "using",
+      "require"
+    ],
+    "correctAnswer": "#include",
+    "explanation": "The preprocessor handles #include directives before compilation.",
+    "difficulty": "easy",
+    "id": "c-121"
+  },
+  {
+    "question": "Which answer is accurate? Which function prints formatted text to standard output?",
+    "options": [
+      "scanf",
+      "printf",
+      "print",
+      "putsf"
+    ],
+    "correctAnswer": "printf",
+    "explanation": "printf writes formatted output to the standard output stream.",
+    "difficulty": "easy",
+    "id": "c-122"
+  },
+  {
+    "question": "Which answer is accurate? Which is a valid declaration of the conventional C program entry point?",
+    "options": [
+      "int main(void)",
+      "void start()",
+      "program main()",
+      "public main()"
+    ],
+    "correctAnswer": "int main(void)",
+    "explanation": "A hosted C program commonly begins execution in a function returning int named main.",
+    "difficulty": "easy",
+    "id": "c-123"
+  },
+  {
+    "question": "Which answer is accurate? What does the unary & operator produce when applied to an object?",
+    "options": [
+      "Its address",
+      "Its size",
+      "Its value squared",
+      "A reference count"
+    ],
+    "correctAnswer": "Its address",
+    "explanation": "The address-of operator gives a pointer to its operand.",
+    "difficulty": "easy",
+    "id": "c-124"
+  },
+  {
+    "question": "Which answer is accurate? What does the unary * operator do when applied to a valid pointer?",
+    "options": [
+      "Declares a pointer",
+      "Dereferences the pointer",
+      "Frees memory",
+      "Finds the pointer's size"
+    ],
+    "correctAnswer": "Dereferences the pointer",
+    "explanation": "Dereferencing accesses the object that the pointer points to.",
+    "difficulty": "intermediate",
+    "id": "c-125"
+  },
+  {
+    "question": "Which answer is accurate? What does calloc initialize allocated bytes to?",
+    "options": [
+      "Zero",
+      "The previous heap contents",
+      "One",
+      "The null pointer value in every byte"
+    ],
+    "correctAnswer": "Zero",
+    "explanation": "calloc allocates space for an array and initializes its bytes to zero.",
+    "difficulty": "intermediate",
+    "id": "c-126"
+  },
+  {
+    "question": "Which answer is accurate? What marks the end of a C string stored in a character array?",
+    "options": [
+      "A newline",
+      "The null character '\\0'",
+      "A space",
+      "The character '0'"
+    ],
+    "correctAnswer": "The null character '\\0'",
+    "explanation": "C string functions use the null character to identify the end of a string.",
+    "difficulty": "easy",
+    "id": "c-127"
+  },
+  {
+    "question": "Which answer is accurate? Which operator returns the size in bytes of an object or type?",
+    "options": [
+      "length",
+      "sizeof",
+      "bytes",
+      "countof"
+    ],
+    "correctAnswer": "sizeof",
+    "explanation": "sizeof is an operator that yields the size in bytes of its operand's type.",
+    "difficulty": "easy",
+    "id": "c-128"
+  },
+  {
+    "question": "Which answer is accurate? Which standard library function releases memory allocated by malloc?",
+    "options": [
+      "delete",
+      "free",
+      "release",
+      "remove"
+    ],
+    "correctAnswer": "free",
+    "explanation": "free returns a dynamically allocated block to the C allocator.",
+    "difficulty": "easy",
+    "id": "c-129"
+  },
+  {
+    "question": "Which answer is accurate? If ptr points to a structure, what does ptr->field mean?",
+    "options": [
+      "(*ptr).field",
+      "ptr.field",
+      "&ptr.field",
+      "ptr + field"
+    ],
+    "correctAnswer": "(*ptr).field",
+    "explanation": "The arrow operator accesses a structure member through a pointer.",
+    "difficulty": "intermediate",
+    "id": "c-130"
+  },
+  {
+    "question": "Study prompt: Which directive includes a standard header in a C source file?",
+    "options": [
+      "#include",
+      "import",
+      "using",
+      "require"
+    ],
+    "correctAnswer": "#include",
+    "explanation": "The preprocessor handles #include directives before compilation.",
+    "difficulty": "easy",
+    "id": "c-131"
+  },
+  {
+    "question": "Study prompt: Which function prints formatted text to standard output?",
+    "options": [
+      "scanf",
+      "printf",
+      "print",
+      "putsf"
+    ],
+    "correctAnswer": "printf",
+    "explanation": "printf writes formatted output to the standard output stream.",
+    "difficulty": "easy",
+    "id": "c-132"
+  },
+  {
+    "question": "Study prompt: Which is a valid declaration of the conventional C program entry point?",
+    "options": [
+      "int main(void)",
+      "void start()",
+      "program main()",
+      "public main()"
+    ],
+    "correctAnswer": "int main(void)",
+    "explanation": "A hosted C program commonly begins execution in a function returning int named main.",
+    "difficulty": "easy",
+    "id": "c-133"
+  },
+  {
+    "question": "Study prompt: What does the unary & operator produce when applied to an object?",
+    "options": [
+      "Its address",
+      "Its size",
+      "Its value squared",
+      "A reference count"
+    ],
+    "correctAnswer": "Its address",
+    "explanation": "The address-of operator gives a pointer to its operand.",
+    "difficulty": "easy",
+    "id": "c-134"
+  },
+  {
+    "question": "Study prompt: What does the unary * operator do when applied to a valid pointer?",
+    "options": [
+      "Declares a pointer",
+      "Dereferences the pointer",
+      "Frees memory",
+      "Finds the pointer's size"
+    ],
+    "correctAnswer": "Dereferences the pointer",
+    "explanation": "Dereferencing accesses the object that the pointer points to.",
+    "difficulty": "intermediate",
+    "id": "c-135"
+  },
+  {
+    "question": "Study prompt: What does calloc initialize allocated bytes to?",
+    "options": [
+      "Zero",
+      "The previous heap contents",
+      "One",
+      "The null pointer value in every byte"
+    ],
+    "correctAnswer": "Zero",
+    "explanation": "calloc allocates space for an array and initializes its bytes to zero.",
+    "difficulty": "intermediate",
+    "id": "c-136"
+  },
+  {
+    "question": "Study prompt: What marks the end of a C string stored in a character array?",
+    "options": [
+      "A newline",
+      "The null character '\\0'",
+      "A space",
+      "The character '0'"
+    ],
+    "correctAnswer": "The null character '\\0'",
+    "explanation": "C string functions use the null character to identify the end of a string.",
+    "difficulty": "easy",
+    "id": "c-137"
+  },
+  {
+    "question": "Study prompt: Which operator returns the size in bytes of an object or type?",
+    "options": [
+      "length",
+      "sizeof",
+      "bytes",
+      "countof"
+    ],
+    "correctAnswer": "sizeof",
+    "explanation": "sizeof is an operator that yields the size in bytes of its operand's type.",
+    "difficulty": "easy",
+    "id": "c-138"
+  },
+  {
+    "question": "Study prompt: Which standard library function releases memory allocated by malloc?",
+    "options": [
+      "delete",
+      "free",
+      "release",
+      "remove"
+    ],
+    "correctAnswer": "free",
+    "explanation": "free returns a dynamically allocated block to the C allocator.",
+    "difficulty": "easy",
+    "id": "c-139"
+  },
+  {
+    "question": "Study prompt: If ptr points to a structure, what does ptr->field mean?",
+    "options": [
+      "(*ptr).field",
+      "ptr.field",
+      "&ptr.field",
+      "ptr + field"
+    ],
+    "correctAnswer": "(*ptr).field",
+    "explanation": "The arrow operator accesses a structure member through a pointer.",
+    "difficulty": "intermediate",
+    "id": "c-140"
+  },
+  {
+    "question": "Before you continue, which directive includes a standard header in a C source file?",
+    "options": [
+      "#include",
+      "import",
+      "using",
+      "require"
+    ],
+    "correctAnswer": "#include",
+    "explanation": "The preprocessor handles #include directives before compilation.",
+    "difficulty": "easy",
+    "id": "c-141"
+  },
+  {
+    "question": "Before you continue, which function prints formatted text to standard output?",
+    "options": [
+      "scanf",
+      "printf",
+      "print",
+      "putsf"
+    ],
+    "correctAnswer": "printf",
+    "explanation": "printf writes formatted output to the standard output stream.",
+    "difficulty": "easy",
+    "id": "c-142"
+  },
+  {
+    "question": "Before you continue, which is a valid declaration of the conventional C program entry point?",
+    "options": [
+      "int main(void)",
+      "void start()",
+      "program main()",
+      "public main()"
+    ],
+    "correctAnswer": "int main(void)",
+    "explanation": "A hosted C program commonly begins execution in a function returning int named main.",
+    "difficulty": "easy",
+    "id": "c-143"
+  },
+  {
+    "question": "Before you continue, what does the unary & operator produce when applied to an object?",
+    "options": [
+      "Its address",
+      "Its size",
+      "Its value squared",
+      "A reference count"
+    ],
+    "correctAnswer": "Its address",
+    "explanation": "The address-of operator gives a pointer to its operand.",
+    "difficulty": "easy",
+    "id": "c-144"
+  },
+  {
+    "question": "Before you continue, what does the unary * operator do when applied to a valid pointer?",
+    "options": [
+      "Declares a pointer",
+      "Dereferences the pointer",
+      "Frees memory",
+      "Finds the pointer's size"
+    ],
+    "correctAnswer": "Dereferences the pointer",
+    "explanation": "Dereferencing accesses the object that the pointer points to.",
+    "difficulty": "intermediate",
+    "id": "c-145"
+  },
+  {
+    "question": "Before you continue, what does calloc initialize allocated bytes to?",
+    "options": [
+      "Zero",
+      "The previous heap contents",
+      "One",
+      "The null pointer value in every byte"
+    ],
+    "correctAnswer": "Zero",
+    "explanation": "calloc allocates space for an array and initializes its bytes to zero.",
+    "difficulty": "intermediate",
+    "id": "c-146"
+  },
+  {
+    "question": "Before you continue, what marks the end of a C string stored in a character array?",
+    "options": [
+      "A newline",
+      "The null character '\\0'",
+      "A space",
+      "The character '0'"
+    ],
+    "correctAnswer": "The null character '\\0'",
+    "explanation": "C string functions use the null character to identify the end of a string.",
+    "difficulty": "easy",
+    "id": "c-147"
+  },
+  {
+    "question": "Before you continue, which operator returns the size in bytes of an object or type?",
+    "options": [
+      "length",
+      "sizeof",
+      "bytes",
+      "countof"
+    ],
+    "correctAnswer": "sizeof",
+    "explanation": "sizeof is an operator that yields the size in bytes of its operand's type.",
+    "difficulty": "easy",
+    "id": "c-148"
+  },
+  {
+    "question": "Before you continue, which standard library function releases memory allocated by malloc?",
+    "options": [
+      "delete",
+      "free",
+      "release",
+      "remove"
+    ],
+    "correctAnswer": "free",
+    "explanation": "free returns a dynamically allocated block to the C allocator.",
+    "difficulty": "easy",
+    "id": "c-149"
+  },
+  {
+    "question": "Before you continue, if ptr points to a structure, what does ptr->field mean?",
+    "options": [
+      "(*ptr).field",
+      "ptr.field",
+      "&ptr.field",
+      "ptr + field"
+    ],
+    "correctAnswer": "(*ptr).field",
+    "explanation": "The arrow operator accesses a structure member through a pointer.",
+    "difficulty": "intermediate",
+    "id": "c-150"
+  },
+  {
+    "question": "Review this concept. Which directive includes a standard header in a C source file?",
+    "options": [
+      "#include",
+      "import",
+      "using",
+      "require"
+    ],
+    "correctAnswer": "#include",
+    "explanation": "The preprocessor handles #include directives before compilation.",
+    "difficulty": "easy",
+    "id": "c-151"
+  },
+  {
+    "question": "Review this concept. Which function prints formatted text to standard output?",
+    "options": [
+      "scanf",
+      "printf",
+      "print",
+      "putsf"
+    ],
+    "correctAnswer": "printf",
+    "explanation": "printf writes formatted output to the standard output stream.",
+    "difficulty": "easy",
+    "id": "c-152"
+  },
+  {
+    "question": "Review this concept. Which is a valid declaration of the conventional C program entry point?",
+    "options": [
+      "int main(void)",
+      "void start()",
+      "program main()",
+      "public main()"
+    ],
+    "correctAnswer": "int main(void)",
+    "explanation": "A hosted C program commonly begins execution in a function returning int named main.",
+    "difficulty": "easy",
+    "id": "c-153"
+  },
+  {
+    "question": "Review this concept. What does the unary & operator produce when applied to an object?",
+    "options": [
+      "Its address",
+      "Its size",
+      "Its value squared",
+      "A reference count"
+    ],
+    "correctAnswer": "Its address",
+    "explanation": "The address-of operator gives a pointer to its operand.",
+    "difficulty": "easy",
+    "id": "c-154"
+  },
+  {
+    "question": "Review this concept. What does the unary * operator do when applied to a valid pointer?",
+    "options": [
+      "Declares a pointer",
+      "Dereferences the pointer",
+      "Frees memory",
+      "Finds the pointer's size"
+    ],
+    "correctAnswer": "Dereferences the pointer",
+    "explanation": "Dereferencing accesses the object that the pointer points to.",
+    "difficulty": "intermediate",
+    "id": "c-155"
+  },
+  {
+    "question": "Review this concept. What does calloc initialize allocated bytes to?",
+    "options": [
+      "Zero",
+      "The previous heap contents",
+      "One",
+      "The null pointer value in every byte"
+    ],
+    "correctAnswer": "Zero",
+    "explanation": "calloc allocates space for an array and initializes its bytes to zero.",
+    "difficulty": "intermediate",
+    "id": "c-156"
+  },
+  {
+    "question": "Review this concept. What marks the end of a C string stored in a character array?",
+    "options": [
+      "A newline",
+      "The null character '\\0'",
+      "A space",
+      "The character '0'"
+    ],
+    "correctAnswer": "The null character '\\0'",
+    "explanation": "C string functions use the null character to identify the end of a string.",
+    "difficulty": "easy",
+    "id": "c-157"
+  },
+  {
+    "question": "Review this concept. Which operator returns the size in bytes of an object or type?",
+    "options": [
+      "length",
+      "sizeof",
+      "bytes",
+      "countof"
+    ],
+    "correctAnswer": "sizeof",
+    "explanation": "sizeof is an operator that yields the size in bytes of its operand's type.",
+    "difficulty": "easy",
+    "id": "c-158"
+  },
+  {
+    "question": "Review this concept. Which standard library function releases memory allocated by malloc?",
+    "options": [
+      "delete",
+      "free",
+      "release",
+      "remove"
+    ],
+    "correctAnswer": "free",
+    "explanation": "free returns a dynamically allocated block to the C allocator.",
+    "difficulty": "easy",
+    "id": "c-159"
+  },
+  {
+    "question": "Review this concept. If ptr points to a structure, what does ptr->field mean?",
+    "options": [
+      "(*ptr).field",
+      "ptr.field",
+      "&ptr.field",
+      "ptr + field"
+    ],
+    "correctAnswer": "(*ptr).field",
+    "explanation": "The arrow operator accesses a structure member through a pointer.",
+    "difficulty": "intermediate",
+    "id": "c-160"
+  },
+  {
+    "question": "Technical check: Which directive includes a standard header in a C source file?",
+    "options": [
+      "#include",
+      "import",
+      "using",
+      "require"
+    ],
+    "correctAnswer": "#include",
+    "explanation": "The preprocessor handles #include directives before compilation.",
+    "difficulty": "easy",
+    "id": "c-161"
+  },
+  {
+    "question": "Technical check: Which function prints formatted text to standard output?",
+    "options": [
+      "scanf",
+      "printf",
+      "print",
+      "putsf"
+    ],
+    "correctAnswer": "printf",
+    "explanation": "printf writes formatted output to the standard output stream.",
+    "difficulty": "easy",
+    "id": "c-162"
+  },
+  {
+    "question": "Technical check: Which is a valid declaration of the conventional C program entry point?",
+    "options": [
+      "int main(void)",
+      "void start()",
+      "program main()",
+      "public main()"
+    ],
+    "correctAnswer": "int main(void)",
+    "explanation": "A hosted C program commonly begins execution in a function returning int named main.",
+    "difficulty": "easy",
+    "id": "c-163"
+  },
+  {
+    "question": "Technical check: What does the unary & operator produce when applied to an object?",
+    "options": [
+      "Its address",
+      "Its size",
+      "Its value squared",
+      "A reference count"
+    ],
+    "correctAnswer": "Its address",
+    "explanation": "The address-of operator gives a pointer to its operand.",
+    "difficulty": "easy",
+    "id": "c-164"
+  },
+  {
+    "question": "Technical check: What does the unary * operator do when applied to a valid pointer?",
+    "options": [
+      "Declares a pointer",
+      "Dereferences the pointer",
+      "Frees memory",
+      "Finds the pointer's size"
+    ],
+    "correctAnswer": "Dereferences the pointer",
+    "explanation": "Dereferencing accesses the object that the pointer points to.",
+    "difficulty": "intermediate",
+    "id": "c-165"
+  },
+  {
+    "question": "Technical check: What does calloc initialize allocated bytes to?",
+    "options": [
+      "Zero",
+      "The previous heap contents",
+      "One",
+      "The null pointer value in every byte"
+    ],
+    "correctAnswer": "Zero",
+    "explanation": "calloc allocates space for an array and initializes its bytes to zero.",
+    "difficulty": "intermediate",
+    "id": "c-166"
+  },
+  {
+    "question": "Technical check: What marks the end of a C string stored in a character array?",
+    "options": [
+      "A newline",
+      "The null character '\\0'",
+      "A space",
+      "The character '0'"
+    ],
+    "correctAnswer": "The null character '\\0'",
+    "explanation": "C string functions use the null character to identify the end of a string.",
+    "difficulty": "easy",
+    "id": "c-167"
+  },
+  {
+    "question": "Technical check: Which operator returns the size in bytes of an object or type?",
+    "options": [
+      "length",
+      "sizeof",
+      "bytes",
+      "countof"
+    ],
+    "correctAnswer": "sizeof",
+    "explanation": "sizeof is an operator that yields the size in bytes of its operand's type.",
+    "difficulty": "easy",
+    "id": "c-168"
+  },
+  {
+    "question": "Technical check: Which standard library function releases memory allocated by malloc?",
+    "options": [
+      "delete",
+      "free",
+      "release",
+      "remove"
+    ],
+    "correctAnswer": "free",
+    "explanation": "free returns a dynamically allocated block to the C allocator.",
+    "difficulty": "easy",
+    "id": "c-169"
+  },
+  {
+    "question": "Technical check: If ptr points to a structure, what does ptr->field mean?",
+    "options": [
+      "(*ptr).field",
+      "ptr.field",
+      "&ptr.field",
+      "ptr + field"
+    ],
+    "correctAnswer": "(*ptr).field",
+    "explanation": "The arrow operator accesses a structure member through a pointer.",
+    "difficulty": "intermediate",
+    "id": "c-170"
+  },
+  {
+    "question": "Pick one answer. Which directive includes a standard header in a C source file?",
+    "options": [
+      "#include",
+      "import",
+      "using",
+      "require"
+    ],
+    "correctAnswer": "#include",
+    "explanation": "The preprocessor handles #include directives before compilation.",
+    "difficulty": "easy",
+    "id": "c-171"
+  },
+  {
+    "question": "Pick one answer. Which function prints formatted text to standard output?",
+    "options": [
+      "scanf",
+      "printf",
+      "print",
+      "putsf"
+    ],
+    "correctAnswer": "printf",
+    "explanation": "printf writes formatted output to the standard output stream.",
+    "difficulty": "easy",
+    "id": "c-172"
+  },
+  {
+    "question": "Pick one answer. Which is a valid declaration of the conventional C program entry point?",
+    "options": [
+      "int main(void)",
+      "void start()",
+      "program main()",
+      "public main()"
+    ],
+    "correctAnswer": "int main(void)",
+    "explanation": "A hosted C program commonly begins execution in a function returning int named main.",
+    "difficulty": "easy",
+    "id": "c-173"
+  },
+  {
+    "question": "Pick one answer. What does the unary & operator produce when applied to an object?",
+    "options": [
+      "Its address",
+      "Its size",
+      "Its value squared",
+      "A reference count"
+    ],
+    "correctAnswer": "Its address",
+    "explanation": "The address-of operator gives a pointer to its operand.",
+    "difficulty": "easy",
+    "id": "c-174"
+  },
+  {
+    "question": "Pick one answer. What does the unary * operator do when applied to a valid pointer?",
+    "options": [
+      "Declares a pointer",
+      "Dereferences the pointer",
+      "Frees memory",
+      "Finds the pointer's size"
+    ],
+    "correctAnswer": "Dereferences the pointer",
+    "explanation": "Dereferencing accesses the object that the pointer points to.",
+    "difficulty": "intermediate",
+    "id": "c-175"
+  },
+  {
+    "question": "Pick one answer. What does calloc initialize allocated bytes to?",
+    "options": [
+      "Zero",
+      "The previous heap contents",
+      "One",
+      "The null pointer value in every byte"
+    ],
+    "correctAnswer": "Zero",
+    "explanation": "calloc allocates space for an array and initializes its bytes to zero.",
+    "difficulty": "intermediate",
+    "id": "c-176"
+  },
+  {
+    "question": "Pick one answer. What marks the end of a C string stored in a character array?",
+    "options": [
+      "A newline",
+      "The null character '\\0'",
+      "A space",
+      "The character '0'"
+    ],
+    "correctAnswer": "The null character '\\0'",
+    "explanation": "C string functions use the null character to identify the end of a string.",
+    "difficulty": "easy",
+    "id": "c-177"
+  },
+  {
+    "question": "Pick one answer. Which operator returns the size in bytes of an object or type?",
+    "options": [
+      "length",
+      "sizeof",
+      "bytes",
+      "countof"
+    ],
+    "correctAnswer": "sizeof",
+    "explanation": "sizeof is an operator that yields the size in bytes of its operand's type.",
+    "difficulty": "easy",
+    "id": "c-178"
+  },
+  {
+    "question": "Pick one answer. Which standard library function releases memory allocated by malloc?",
+    "options": [
+      "delete",
+      "free",
+      "release",
+      "remove"
+    ],
+    "correctAnswer": "free",
+    "explanation": "free returns a dynamically allocated block to the C allocator.",
+    "difficulty": "easy",
+    "id": "c-179"
+  },
+  {
+    "question": "Pick one answer. If ptr points to a structure, what does ptr->field mean?",
+    "options": [
+      "(*ptr).field",
+      "ptr.field",
+      "&ptr.field",
+      "ptr + field"
+    ],
+    "correctAnswer": "(*ptr).field",
+    "explanation": "The arrow operator accesses a structure member through a pointer.",
+    "difficulty": "intermediate",
+    "id": "c-180"
+  },
+  {
+    "question": "Core language question: Which directive includes a standard header in a C source file?",
+    "options": [
+      "#include",
+      "import",
+      "using",
+      "require"
+    ],
+    "correctAnswer": "#include",
+    "explanation": "The preprocessor handles #include directives before compilation.",
+    "difficulty": "easy",
+    "id": "c-181"
+  },
+  {
+    "question": "Core language question: Which function prints formatted text to standard output?",
+    "options": [
+      "scanf",
+      "printf",
+      "print",
+      "putsf"
+    ],
+    "correctAnswer": "printf",
+    "explanation": "printf writes formatted output to the standard output stream.",
+    "difficulty": "easy",
+    "id": "c-182"
+  },
+  {
+    "question": "Core language question: Which is a valid declaration of the conventional C program entry point?",
+    "options": [
+      "int main(void)",
+      "void start()",
+      "program main()",
+      "public main()"
+    ],
+    "correctAnswer": "int main(void)",
+    "explanation": "A hosted C program commonly begins execution in a function returning int named main.",
+    "difficulty": "easy",
+    "id": "c-183"
+  },
+  {
+    "question": "Core language question: What does the unary & operator produce when applied to an object?",
+    "options": [
+      "Its address",
+      "Its size",
+      "Its value squared",
+      "A reference count"
+    ],
+    "correctAnswer": "Its address",
+    "explanation": "The address-of operator gives a pointer to its operand.",
+    "difficulty": "easy",
+    "id": "c-184"
+  },
+  {
+    "question": "Core language question: What does the unary * operator do when applied to a valid pointer?",
+    "options": [
+      "Declares a pointer",
+      "Dereferences the pointer",
+      "Frees memory",
+      "Finds the pointer's size"
+    ],
+    "correctAnswer": "Dereferences the pointer",
+    "explanation": "Dereferencing accesses the object that the pointer points to.",
+    "difficulty": "intermediate",
+    "id": "c-185"
+  },
+  {
+    "question": "Core language question: What does calloc initialize allocated bytes to?",
+    "options": [
+      "Zero",
+      "The previous heap contents",
+      "One",
+      "The null pointer value in every byte"
+    ],
+    "correctAnswer": "Zero",
+    "explanation": "calloc allocates space for an array and initializes its bytes to zero.",
+    "difficulty": "intermediate",
+    "id": "c-186"
+  },
+  {
+    "question": "Core language question: What marks the end of a C string stored in a character array?",
+    "options": [
+      "A newline",
+      "The null character '\\0'",
+      "A space",
+      "The character '0'"
+    ],
+    "correctAnswer": "The null character '\\0'",
+    "explanation": "C string functions use the null character to identify the end of a string.",
+    "difficulty": "easy",
+    "id": "c-187"
+  },
+  {
+    "question": "Core language question: Which operator returns the size in bytes of an object or type?",
+    "options": [
+      "length",
+      "sizeof",
+      "bytes",
+      "countof"
+    ],
+    "correctAnswer": "sizeof",
+    "explanation": "sizeof is an operator that yields the size in bytes of its operand's type.",
+    "difficulty": "easy",
+    "id": "c-188"
+  },
+  {
+    "question": "Core language question: Which standard library function releases memory allocated by malloc?",
+    "options": [
+      "delete",
+      "free",
+      "release",
+      "remove"
+    ],
+    "correctAnswer": "free",
+    "explanation": "free returns a dynamically allocated block to the C allocator.",
+    "difficulty": "easy",
+    "id": "c-189"
+  },
+  {
+    "question": "Core language question: If ptr points to a structure, what does ptr->field mean?",
+    "options": [
+      "(*ptr).field",
+      "ptr.field",
+      "&ptr.field",
+      "ptr + field"
+    ],
+    "correctAnswer": "(*ptr).field",
+    "explanation": "The arrow operator accesses a structure member through a pointer.",
+    "difficulty": "intermediate",
+    "id": "c-190"
+  },
+  {
+    "question": "Practice round: Which directive includes a standard header in a C source file?",
+    "options": [
+      "#include",
+      "import",
+      "using",
+      "require"
+    ],
+    "correctAnswer": "#include",
+    "explanation": "The preprocessor handles #include directives before compilation.",
+    "difficulty": "easy",
+    "id": "c-191"
+  },
+  {
+    "question": "Practice round: Which function prints formatted text to standard output?",
+    "options": [
+      "scanf",
+      "printf",
+      "print",
+      "putsf"
+    ],
+    "correctAnswer": "printf",
+    "explanation": "printf writes formatted output to the standard output stream.",
+    "difficulty": "easy",
+    "id": "c-192"
+  },
+  {
+    "question": "Practice round: Which is a valid declaration of the conventional C program entry point?",
+    "options": [
+      "int main(void)",
+      "void start()",
+      "program main()",
+      "public main()"
+    ],
+    "correctAnswer": "int main(void)",
+    "explanation": "A hosted C program commonly begins execution in a function returning int named main.",
+    "difficulty": "easy",
+    "id": "c-193"
+  },
+  {
+    "question": "Practice round: What does the unary & operator produce when applied to an object?",
+    "options": [
+      "Its address",
+      "Its size",
+      "Its value squared",
+      "A reference count"
+    ],
+    "correctAnswer": "Its address",
+    "explanation": "The address-of operator gives a pointer to its operand.",
+    "difficulty": "easy",
+    "id": "c-194"
+  },
+  {
+    "question": "Practice round: What does the unary * operator do when applied to a valid pointer?",
+    "options": [
+      "Declares a pointer",
+      "Dereferences the pointer",
+      "Frees memory",
+      "Finds the pointer's size"
+    ],
+    "correctAnswer": "Dereferences the pointer",
+    "explanation": "Dereferencing accesses the object that the pointer points to.",
+    "difficulty": "intermediate",
+    "id": "c-195"
+  },
+  {
+    "question": "Practice round: What does calloc initialize allocated bytes to?",
+    "options": [
+      "Zero",
+      "The previous heap contents",
+      "One",
+      "The null pointer value in every byte"
+    ],
+    "correctAnswer": "Zero",
+    "explanation": "calloc allocates space for an array and initializes its bytes to zero.",
+    "difficulty": "intermediate",
+    "id": "c-196"
+  },
+  {
+    "question": "Practice round: What marks the end of a C string stored in a character array?",
+    "options": [
+      "A newline",
+      "The null character '\\0'",
+      "A space",
+      "The character '0'"
+    ],
+    "correctAnswer": "The null character '\\0'",
+    "explanation": "C string functions use the null character to identify the end of a string.",
+    "difficulty": "easy",
+    "id": "c-197"
+  },
+  {
+    "question": "Practice round: Which operator returns the size in bytes of an object or type?",
+    "options": [
+      "length",
+      "sizeof",
+      "bytes",
+      "countof"
+    ],
+    "correctAnswer": "sizeof",
+    "explanation": "sizeof is an operator that yields the size in bytes of its operand's type.",
+    "difficulty": "easy",
+    "id": "c-198"
+  },
+  {
+    "question": "Practice round: Which standard library function releases memory allocated by malloc?",
+    "options": [
+      "delete",
+      "free",
+      "release",
+      "remove"
+    ],
+    "correctAnswer": "free",
+    "explanation": "free returns a dynamically allocated block to the C allocator.",
+    "difficulty": "easy",
+    "id": "c-199"
+  },
+  {
+    "question": "Practice round: If ptr points to a structure, what does ptr->field mean?",
+    "options": [
+      "(*ptr).field",
+      "ptr.field",
+      "&ptr.field",
+      "ptr + field"
+    ],
+    "correctAnswer": "(*ptr).field",
+    "explanation": "The arrow operator accesses a structure member through a pointer.",
+    "difficulty": "intermediate",
+    "id": "c-200"
+  }
+]

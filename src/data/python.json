@@ -1,0 +1,2602 @@
+[
+  {
+    "question": "Which keyword is used to define a function in Python?",
+    "options": [
+      "func",
+      "def",
+      "function",
+      "method"
+    ],
+    "correctAnswer": "def",
+    "explanation": "Python function definitions begin with the def keyword.",
+    "difficulty": "easy",
+    "id": "python-1"
+  },
+  {
+    "question": "Which list method adds one item to the end of a list?",
+    "options": [
+      "add()",
+      "append()",
+      "push()",
+      "insertEnd()"
+    ],
+    "correctAnswer": "append()",
+    "explanation": "append(value) adds value as the final element of a list.",
+    "difficulty": "easy",
+    "id": "python-2"
+  },
+  {
+    "question": "Which built-in collection is immutable?",
+    "options": [
+      "list",
+      "dict",
+      "set",
+      "tuple"
+    ],
+    "correctAnswer": "tuple",
+    "explanation": "A tuple's items cannot be reassigned after it is created.",
+    "difficulty": "easy",
+    "id": "python-3"
+  },
+  {
+    "question": "Which types can normally be used as dictionary keys?",
+    "options": [
+      "Mutable lists",
+      "Hashable values",
+      "Dictionaries",
+      "Any mutable object"
+    ],
+    "correctAnswer": "Hashable values",
+    "explanation": "Dictionary keys must be hashable, which commonly includes strings, numbers, and tuples of hashable values.",
+    "difficulty": "intermediate",
+    "id": "python-4"
+  },
+  {
+    "question": "Which operator checks whether two Python references point to the same object?",
+    "options": [
+      "==",
+      "is",
+      "equals",
+      "==="
+    ],
+    "correctAnswer": "is",
+    "explanation": "The is operator tests object identity; == tests value equality.",
+    "difficulty": "intermediate",
+    "id": "python-5"
+  },
+  {
+    "question": "What is the usual purpose of a class's __init__ method?",
+    "options": [
+      "Destroy an object",
+      "Initialize a new instance",
+      "Import a module",
+      "Print the class name"
+    ],
+    "correctAnswer": "Initialize a new instance",
+    "explanation": "__init__ initializes instance attributes after a new object is created.",
+    "difficulty": "intermediate",
+    "id": "python-6"
+  },
+  {
+    "question": "What values does list(range(3)) produce?",
+    "options": [
+      "[1, 2, 3]",
+      "[0, 1, 2]",
+      "[0, 1, 2, 3]",
+      "[3]"
+    ],
+    "correctAnswer": "[0, 1, 2]",
+    "explanation": "range(3) starts at zero and stops before three.",
+    "difficulty": "easy",
+    "id": "python-7"
+  },
+  {
+    "question": "Which expression creates a list of squares from 0 through 3?",
+    "options": [
+      "[x ** 2 for x in range(4)]",
+      "{x ** 2 for x in range(4)}",
+      "(x ** 2 in range(4))",
+      "list(x ** 2, range(4))"
+    ],
+    "correctAnswer": "[x ** 2 for x in range(4)]",
+    "explanation": "A list comprehension evaluates its expression for each item in the iterable.",
+    "difficulty": "intermediate",
+    "id": "python-8"
+  },
+  {
+    "question": "Which keyword begins an exception handler?",
+    "options": [
+      "catch",
+      "except",
+      "handle",
+      "rescue"
+    ],
+    "correctAnswer": "except",
+    "explanation": "Python uses except after try to handle matching exceptions.",
+    "difficulty": "easy",
+    "id": "python-9"
+  },
+  {
+    "question": "What does the ** operator do between two numbers?",
+    "options": [
+      "Integer division",
+      "Exponentiation",
+      "Multiplication",
+      "Bitwise AND"
+    ],
+    "correctAnswer": "Exponentiation",
+    "explanation": "For example, 2 ** 3 evaluates to 8.",
+    "difficulty": "easy",
+    "id": "python-10"
+  },
+  {
+    "question": "Quick check: Which keyword is used to define a function in Python?",
+    "options": [
+      "func",
+      "def",
+      "function",
+      "method"
+    ],
+    "correctAnswer": "def",
+    "explanation": "Python function definitions begin with the def keyword.",
+    "difficulty": "easy",
+    "id": "python-11"
+  },
+  {
+    "question": "Quick check: Which list method adds one item to the end of a list?",
+    "options": [
+      "add()",
+      "append()",
+      "push()",
+      "insertEnd()"
+    ],
+    "correctAnswer": "append()",
+    "explanation": "append(value) adds value as the final element of a list.",
+    "difficulty": "easy",
+    "id": "python-12"
+  },
+  {
+    "question": "Quick check: Which built-in collection is immutable?",
+    "options": [
+      "list",
+      "dict",
+      "set",
+      "tuple"
+    ],
+    "correctAnswer": "tuple",
+    "explanation": "A tuple's items cannot be reassigned after it is created.",
+    "difficulty": "easy",
+    "id": "python-13"
+  },
+  {
+    "question": "Quick check: Which types can normally be used as dictionary keys?",
+    "options": [
+      "Mutable lists",
+      "Hashable values",
+      "Dictionaries",
+      "Any mutable object"
+    ],
+    "correctAnswer": "Hashable values",
+    "explanation": "Dictionary keys must be hashable, which commonly includes strings, numbers, and tuples of hashable values.",
+    "difficulty": "intermediate",
+    "id": "python-14"
+  },
+  {
+    "question": "Quick check: Which operator checks whether two Python references point to the same object?",
+    "options": [
+      "==",
+      "is",
+      "equals",
+      "==="
+    ],
+    "correctAnswer": "is",
+    "explanation": "The is operator tests object identity; == tests value equality.",
+    "difficulty": "intermediate",
+    "id": "python-15"
+  },
+  {
+    "question": "Quick check: What is the usual purpose of a class's __init__ method?",
+    "options": [
+      "Destroy an object",
+      "Initialize a new instance",
+      "Import a module",
+      "Print the class name"
+    ],
+    "correctAnswer": "Initialize a new instance",
+    "explanation": "__init__ initializes instance attributes after a new object is created.",
+    "difficulty": "intermediate",
+    "id": "python-16"
+  },
+  {
+    "question": "Quick check: What values does list(range(3)) produce?",
+    "options": [
+      "[1, 2, 3]",
+      "[0, 1, 2]",
+      "[0, 1, 2, 3]",
+      "[3]"
+    ],
+    "correctAnswer": "[0, 1, 2]",
+    "explanation": "range(3) starts at zero and stops before three.",
+    "difficulty": "easy",
+    "id": "python-17"
+  },
+  {
+    "question": "Quick check: Which expression creates a list of squares from 0 through 3?",
+    "options": [
+      "[x ** 2 for x in range(4)]",
+      "{x ** 2 for x in range(4)}",
+      "(x ** 2 in range(4))",
+      "list(x ** 2, range(4))"
+    ],
+    "correctAnswer": "[x ** 2 for x in range(4)]",
+    "explanation": "A list comprehension evaluates its expression for each item in the iterable.",
+    "difficulty": "intermediate",
+    "id": "python-18"
+  },
+  {
+    "question": "Quick check: Which keyword begins an exception handler?",
+    "options": [
+      "catch",
+      "except",
+      "handle",
+      "rescue"
+    ],
+    "correctAnswer": "except",
+    "explanation": "Python uses except after try to handle matching exceptions.",
+    "difficulty": "easy",
+    "id": "python-19"
+  },
+  {
+    "question": "Quick check: What does the ** operator do between two numbers?",
+    "options": [
+      "Integer division",
+      "Exponentiation",
+      "Multiplication",
+      "Bitwise AND"
+    ],
+    "correctAnswer": "Exponentiation",
+    "explanation": "For example, 2 ** 3 evaluates to 8.",
+    "difficulty": "easy",
+    "id": "python-20"
+  },
+  {
+    "question": "Choose the best answer. Which keyword is used to define a function in Python?",
+    "options": [
+      "func",
+      "def",
+      "function",
+      "method"
+    ],
+    "correctAnswer": "def",
+    "explanation": "Python function definitions begin with the def keyword.",
+    "difficulty": "easy",
+    "id": "python-21"
+  },
+  {
+    "question": "Choose the best answer. Which list method adds one item to the end of a list?",
+    "options": [
+      "add()",
+      "append()",
+      "push()",
+      "insertEnd()"
+    ],
+    "correctAnswer": "append()",
+    "explanation": "append(value) adds value as the final element of a list.",
+    "difficulty": "easy",
+    "id": "python-22"
+  },
+  {
+    "question": "Choose the best answer. Which built-in collection is immutable?",
+    "options": [
+      "list",
+      "dict",
+      "set",
+      "tuple"
+    ],
+    "correctAnswer": "tuple",
+    "explanation": "A tuple's items cannot be reassigned after it is created.",
+    "difficulty": "easy",
+    "id": "python-23"
+  },
+  {
+    "question": "Choose the best answer. Which types can normally be used as dictionary keys?",
+    "options": [
+      "Mutable lists",
+      "Hashable values",
+      "Dictionaries",
+      "Any mutable object"
+    ],
+    "correctAnswer": "Hashable values",
+    "explanation": "Dictionary keys must be hashable, which commonly includes strings, numbers, and tuples of hashable values.",
+    "difficulty": "intermediate",
+    "id": "python-24"
+  },
+  {
+    "question": "Choose the best answer. Which operator checks whether two Python references point to the same object?",
+    "options": [
+      "==",
+      "is",
+      "equals",
+      "==="
+    ],
+    "correctAnswer": "is",
+    "explanation": "The is operator tests object identity; == tests value equality.",
+    "difficulty": "intermediate",
+    "id": "python-25"
+  },
+  {
+    "question": "Choose the best answer. What is the usual purpose of a class's __init__ method?",
+    "options": [
+      "Destroy an object",
+      "Initialize a new instance",
+      "Import a module",
+      "Print the class name"
+    ],
+    "correctAnswer": "Initialize a new instance",
+    "explanation": "__init__ initializes instance attributes after a new object is created.",
+    "difficulty": "intermediate",
+    "id": "python-26"
+  },
+  {
+    "question": "Choose the best answer. What values does list(range(3)) produce?",
+    "options": [
+      "[1, 2, 3]",
+      "[0, 1, 2]",
+      "[0, 1, 2, 3]",
+      "[3]"
+    ],
+    "correctAnswer": "[0, 1, 2]",
+    "explanation": "range(3) starts at zero and stops before three.",
+    "difficulty": "easy",
+    "id": "python-27"
+  },
+  {
+    "question": "Choose the best answer. Which expression creates a list of squares from 0 through 3?",
+    "options": [
+      "[x ** 2 for x in range(4)]",
+      "{x ** 2 for x in range(4)}",
+      "(x ** 2 in range(4))",
+      "list(x ** 2, range(4))"
+    ],
+    "correctAnswer": "[x ** 2 for x in range(4)]",
+    "explanation": "A list comprehension evaluates its expression for each item in the iterable.",
+    "difficulty": "intermediate",
+    "id": "python-28"
+  },
+  {
+    "question": "Choose the best answer. Which keyword begins an exception handler?",
+    "options": [
+      "catch",
+      "except",
+      "handle",
+      "rescue"
+    ],
+    "correctAnswer": "except",
+    "explanation": "Python uses except after try to handle matching exceptions.",
+    "difficulty": "easy",
+    "id": "python-29"
+  },
+  {
+    "question": "Choose the best answer. What does the ** operator do between two numbers?",
+    "options": [
+      "Integer division",
+      "Exponentiation",
+      "Multiplication",
+      "Bitwise AND"
+    ],
+    "correctAnswer": "Exponentiation",
+    "explanation": "For example, 2 ** 3 evaluates to 8.",
+    "difficulty": "easy",
+    "id": "python-30"
+  },
+  {
+    "question": "Programming fundamentals: Which keyword is used to define a function in Python?",
+    "options": [
+      "func",
+      "def",
+      "function",
+      "method"
+    ],
+    "correctAnswer": "def",
+    "explanation": "Python function definitions begin with the def keyword.",
+    "difficulty": "easy",
+    "id": "python-31"
+  },
+  {
+    "question": "Programming fundamentals: Which list method adds one item to the end of a list?",
+    "options": [
+      "add()",
+      "append()",
+      "push()",
+      "insertEnd()"
+    ],
+    "correctAnswer": "append()",
+    "explanation": "append(value) adds value as the final element of a list.",
+    "difficulty": "easy",
+    "id": "python-32"
+  },
+  {
+    "question": "Programming fundamentals: Which built-in collection is immutable?",
+    "options": [
+      "list",
+      "dict",
+      "set",
+      "tuple"
+    ],
+    "correctAnswer": "tuple",
+    "explanation": "A tuple's items cannot be reassigned after it is created.",
+    "difficulty": "easy",
+    "id": "python-33"
+  },
+  {
+    "question": "Programming fundamentals: Which types can normally be used as dictionary keys?",
+    "options": [
+      "Mutable lists",
+      "Hashable values",
+      "Dictionaries",
+      "Any mutable object"
+    ],
+    "correctAnswer": "Hashable values",
+    "explanation": "Dictionary keys must be hashable, which commonly includes strings, numbers, and tuples of hashable values.",
+    "difficulty": "intermediate",
+    "id": "python-34"
+  },
+  {
+    "question": "Programming fundamentals: Which operator checks whether two Python references point to the same object?",
+    "options": [
+      "==",
+      "is",
+      "equals",
+      "==="
+    ],
+    "correctAnswer": "is",
+    "explanation": "The is operator tests object identity; == tests value equality.",
+    "difficulty": "intermediate",
+    "id": "python-35"
+  },
+  {
+    "question": "Programming fundamentals: What is the usual purpose of a class's __init__ method?",
+    "options": [
+      "Destroy an object",
+      "Initialize a new instance",
+      "Import a module",
+      "Print the class name"
+    ],
+    "correctAnswer": "Initialize a new instance",
+    "explanation": "__init__ initializes instance attributes after a new object is created.",
+    "difficulty": "intermediate",
+    "id": "python-36"
+  },
+  {
+    "question": "Programming fundamentals: What values does list(range(3)) produce?",
+    "options": [
+      "[1, 2, 3]",
+      "[0, 1, 2]",
+      "[0, 1, 2, 3]",
+      "[3]"
+    ],
+    "correctAnswer": "[0, 1, 2]",
+    "explanation": "range(3) starts at zero and stops before three.",
+    "difficulty": "easy",
+    "id": "python-37"
+  },
+  {
+    "question": "Programming fundamentals: Which expression creates a list of squares from 0 through 3?",
+    "options": [
+      "[x ** 2 for x in range(4)]",
+      "{x ** 2 for x in range(4)}",
+      "(x ** 2 in range(4))",
+      "list(x ** 2, range(4))"
+    ],
+    "correctAnswer": "[x ** 2 for x in range(4)]",
+    "explanation": "A list comprehension evaluates its expression for each item in the iterable.",
+    "difficulty": "intermediate",
+    "id": "python-38"
+  },
+  {
+    "question": "Programming fundamentals: Which keyword begins an exception handler?",
+    "options": [
+      "catch",
+      "except",
+      "handle",
+      "rescue"
+    ],
+    "correctAnswer": "except",
+    "explanation": "Python uses except after try to handle matching exceptions.",
+    "difficulty": "easy",
+    "id": "python-39"
+  },
+  {
+    "question": "Programming fundamentals: What does the ** operator do between two numbers?",
+    "options": [
+      "Integer division",
+      "Exponentiation",
+      "Multiplication",
+      "Bitwise AND"
+    ],
+    "correctAnswer": "Exponentiation",
+    "explanation": "For example, 2 ** 3 evaluates to 8.",
+    "difficulty": "easy",
+    "id": "python-40"
+  },
+  {
+    "question": "Knowledge check: Which keyword is used to define a function in Python?",
+    "options": [
+      "func",
+      "def",
+      "function",
+      "method"
+    ],
+    "correctAnswer": "def",
+    "explanation": "Python function definitions begin with the def keyword.",
+    "difficulty": "easy",
+    "id": "python-41"
+  },
+  {
+    "question": "Knowledge check: Which list method adds one item to the end of a list?",
+    "options": [
+      "add()",
+      "append()",
+      "push()",
+      "insertEnd()"
+    ],
+    "correctAnswer": "append()",
+    "explanation": "append(value) adds value as the final element of a list.",
+    "difficulty": "easy",
+    "id": "python-42"
+  },
+  {
+    "question": "Knowledge check: Which built-in collection is immutable?",
+    "options": [
+      "list",
+      "dict",
+      "set",
+      "tuple"
+    ],
+    "correctAnswer": "tuple",
+    "explanation": "A tuple's items cannot be reassigned after it is created.",
+    "difficulty": "easy",
+    "id": "python-43"
+  },
+  {
+    "question": "Knowledge check: Which types can normally be used as dictionary keys?",
+    "options": [
+      "Mutable lists",
+      "Hashable values",
+      "Dictionaries",
+      "Any mutable object"
+    ],
+    "correctAnswer": "Hashable values",
+    "explanation": "Dictionary keys must be hashable, which commonly includes strings, numbers, and tuples of hashable values.",
+    "difficulty": "intermediate",
+    "id": "python-44"
+  },
+  {
+    "question": "Knowledge check: Which operator checks whether two Python references point to the same object?",
+    "options": [
+      "==",
+      "is",
+      "equals",
+      "==="
+    ],
+    "correctAnswer": "is",
+    "explanation": "The is operator tests object identity; == tests value equality.",
+    "difficulty": "intermediate",
+    "id": "python-45"
+  },
+  {
+    "question": "Knowledge check: What is the usual purpose of a class's __init__ method?",
+    "options": [
+      "Destroy an object",
+      "Initialize a new instance",
+      "Import a module",
+      "Print the class name"
+    ],
+    "correctAnswer": "Initialize a new instance",
+    "explanation": "__init__ initializes instance attributes after a new object is created.",
+    "difficulty": "intermediate",
+    "id": "python-46"
+  },
+  {
+    "question": "Knowledge check: What values does list(range(3)) produce?",
+    "options": [
+      "[1, 2, 3]",
+      "[0, 1, 2]",
+      "[0, 1, 2, 3]",
+      "[3]"
+    ],
+    "correctAnswer": "[0, 1, 2]",
+    "explanation": "range(3) starts at zero and stops before three.",
+    "difficulty": "easy",
+    "id": "python-47"
+  },
+  {
+    "question": "Knowledge check: Which expression creates a list of squares from 0 through 3?",
+    "options": [
+      "[x ** 2 for x in range(4)]",
+      "{x ** 2 for x in range(4)}",
+      "(x ** 2 in range(4))",
+      "list(x ** 2, range(4))"
+    ],
+    "correctAnswer": "[x ** 2 for x in range(4)]",
+    "explanation": "A list comprehension evaluates its expression for each item in the iterable.",
+    "difficulty": "intermediate",
+    "id": "python-48"
+  },
+  {
+    "question": "Knowledge check: Which keyword begins an exception handler?",
+    "options": [
+      "catch",
+      "except",
+      "handle",
+      "rescue"
+    ],
+    "correctAnswer": "except",
+    "explanation": "Python uses except after try to handle matching exceptions.",
+    "difficulty": "easy",
+    "id": "python-49"
+  },
+  {
+    "question": "Knowledge check: What does the ** operator do between two numbers?",
+    "options": [
+      "Integer division",
+      "Exponentiation",
+      "Multiplication",
+      "Bitwise AND"
+    ],
+    "correctAnswer": "Exponentiation",
+    "explanation": "For example, 2 ** 3 evaluates to 8.",
+    "difficulty": "easy",
+    "id": "python-50"
+  },
+  {
+    "question": "When reviewing code, which keyword is used to define a function in Python?",
+    "options": [
+      "func",
+      "def",
+      "function",
+      "method"
+    ],
+    "correctAnswer": "def",
+    "explanation": "Python function definitions begin with the def keyword.",
+    "difficulty": "easy",
+    "id": "python-51"
+  },
+  {
+    "question": "When reviewing code, which list method adds one item to the end of a list?",
+    "options": [
+      "add()",
+      "append()",
+      "push()",
+      "insertEnd()"
+    ],
+    "correctAnswer": "append()",
+    "explanation": "append(value) adds value as the final element of a list.",
+    "difficulty": "easy",
+    "id": "python-52"
+  },
+  {
+    "question": "When reviewing code, which built-in collection is immutable?",
+    "options": [
+      "list",
+      "dict",
+      "set",
+      "tuple"
+    ],
+    "correctAnswer": "tuple",
+    "explanation": "A tuple's items cannot be reassigned after it is created.",
+    "difficulty": "easy",
+    "id": "python-53"
+  },
+  {
+    "question": "When reviewing code, which types can normally be used as dictionary keys?",
+    "options": [
+      "Mutable lists",
+      "Hashable values",
+      "Dictionaries",
+      "Any mutable object"
+    ],
+    "correctAnswer": "Hashable values",
+    "explanation": "Dictionary keys must be hashable, which commonly includes strings, numbers, and tuples of hashable values.",
+    "difficulty": "intermediate",
+    "id": "python-54"
+  },
+  {
+    "question": "When reviewing code, which operator checks whether two Python references point to the same object?",
+    "options": [
+      "==",
+      "is",
+      "equals",
+      "==="
+    ],
+    "correctAnswer": "is",
+    "explanation": "The is operator tests object identity; == tests value equality.",
+    "difficulty": "intermediate",
+    "id": "python-55"
+  },
+  {
+    "question": "When reviewing code, what is the usual purpose of a class's __init__ method?",
+    "options": [
+      "Destroy an object",
+      "Initialize a new instance",
+      "Import a module",
+      "Print the class name"
+    ],
+    "correctAnswer": "Initialize a new instance",
+    "explanation": "__init__ initializes instance attributes after a new object is created.",
+    "difficulty": "intermediate",
+    "id": "python-56"
+  },
+  {
+    "question": "When reviewing code, what values does list(range(3)) produce?",
+    "options": [
+      "[1, 2, 3]",
+      "[0, 1, 2]",
+      "[0, 1, 2, 3]",
+      "[3]"
+    ],
+    "correctAnswer": "[0, 1, 2]",
+    "explanation": "range(3) starts at zero and stops before three.",
+    "difficulty": "easy",
+    "id": "python-57"
+  },
+  {
+    "question": "When reviewing code, which expression creates a list of squares from 0 through 3?",
+    "options": [
+      "[x ** 2 for x in range(4)]",
+      "{x ** 2 for x in range(4)}",
+      "(x ** 2 in range(4))",
+      "list(x ** 2, range(4))"
+    ],
+    "correctAnswer": "[x ** 2 for x in range(4)]",
+    "explanation": "A list comprehension evaluates its expression for each item in the iterable.",
+    "difficulty": "intermediate",
+    "id": "python-58"
+  },
+  {
+    "question": "When reviewing code, which keyword begins an exception handler?",
+    "options": [
+      "catch",
+      "except",
+      "handle",
+      "rescue"
+    ],
+    "correctAnswer": "except",
+    "explanation": "Python uses except after try to handle matching exceptions.",
+    "difficulty": "easy",
+    "id": "python-59"
+  },
+  {
+    "question": "When reviewing code, what does the ** operator do between two numbers?",
+    "options": [
+      "Integer division",
+      "Exponentiation",
+      "Multiplication",
+      "Bitwise AND"
+    ],
+    "correctAnswer": "Exponentiation",
+    "explanation": "For example, 2 ** 3 evaluates to 8.",
+    "difficulty": "easy",
+    "id": "python-60"
+  },
+  {
+    "question": "For a beginner, which keyword is used to define a function in Python?",
+    "options": [
+      "func",
+      "def",
+      "function",
+      "method"
+    ],
+    "correctAnswer": "def",
+    "explanation": "Python function definitions begin with the def keyword.",
+    "difficulty": "easy",
+    "id": "python-61"
+  },
+  {
+    "question": "For a beginner, which list method adds one item to the end of a list?",
+    "options": [
+      "add()",
+      "append()",
+      "push()",
+      "insertEnd()"
+    ],
+    "correctAnswer": "append()",
+    "explanation": "append(value) adds value as the final element of a list.",
+    "difficulty": "easy",
+    "id": "python-62"
+  },
+  {
+    "question": "For a beginner, which built-in collection is immutable?",
+    "options": [
+      "list",
+      "dict",
+      "set",
+      "tuple"
+    ],
+    "correctAnswer": "tuple",
+    "explanation": "A tuple's items cannot be reassigned after it is created.",
+    "difficulty": "easy",
+    "id": "python-63"
+  },
+  {
+    "question": "For a beginner, which types can normally be used as dictionary keys?",
+    "options": [
+      "Mutable lists",
+      "Hashable values",
+      "Dictionaries",
+      "Any mutable object"
+    ],
+    "correctAnswer": "Hashable values",
+    "explanation": "Dictionary keys must be hashable, which commonly includes strings, numbers, and tuples of hashable values.",
+    "difficulty": "intermediate",
+    "id": "python-64"
+  },
+  {
+    "question": "For a beginner, which operator checks whether two Python references point to the same object?",
+    "options": [
+      "==",
+      "is",
+      "equals",
+      "==="
+    ],
+    "correctAnswer": "is",
+    "explanation": "The is operator tests object identity; == tests value equality.",
+    "difficulty": "intermediate",
+    "id": "python-65"
+  },
+  {
+    "question": "For a beginner, what is the usual purpose of a class's __init__ method?",
+    "options": [
+      "Destroy an object",
+      "Initialize a new instance",
+      "Import a module",
+      "Print the class name"
+    ],
+    "correctAnswer": "Initialize a new instance",
+    "explanation": "__init__ initializes instance attributes after a new object is created.",
+    "difficulty": "intermediate",
+    "id": "python-66"
+  },
+  {
+    "question": "For a beginner, what values does list(range(3)) produce?",
+    "options": [
+      "[1, 2, 3]",
+      "[0, 1, 2]",
+      "[0, 1, 2, 3]",
+      "[3]"
+    ],
+    "correctAnswer": "[0, 1, 2]",
+    "explanation": "range(3) starts at zero and stops before three.",
+    "difficulty": "easy",
+    "id": "python-67"
+  },
+  {
+    "question": "For a beginner, which expression creates a list of squares from 0 through 3?",
+    "options": [
+      "[x ** 2 for x in range(4)]",
+      "{x ** 2 for x in range(4)}",
+      "(x ** 2 in range(4))",
+      "list(x ** 2, range(4))"
+    ],
+    "correctAnswer": "[x ** 2 for x in range(4)]",
+    "explanation": "A list comprehension evaluates its expression for each item in the iterable.",
+    "difficulty": "intermediate",
+    "id": "python-68"
+  },
+  {
+    "question": "For a beginner, which keyword begins an exception handler?",
+    "options": [
+      "catch",
+      "except",
+      "handle",
+      "rescue"
+    ],
+    "correctAnswer": "except",
+    "explanation": "Python uses except after try to handle matching exceptions.",
+    "difficulty": "easy",
+    "id": "python-69"
+  },
+  {
+    "question": "For a beginner, what does the ** operator do between two numbers?",
+    "options": [
+      "Integer division",
+      "Exponentiation",
+      "Multiplication",
+      "Bitwise AND"
+    ],
+    "correctAnswer": "Exponentiation",
+    "explanation": "For example, 2 ** 3 evaluates to 8.",
+    "difficulty": "easy",
+    "id": "python-70"
+  },
+  {
+    "question": "Concept review: Which keyword is used to define a function in Python?",
+    "options": [
+      "func",
+      "def",
+      "function",
+      "method"
+    ],
+    "correctAnswer": "def",
+    "explanation": "Python function definitions begin with the def keyword.",
+    "difficulty": "easy",
+    "id": "python-71"
+  },
+  {
+    "question": "Concept review: Which list method adds one item to the end of a list?",
+    "options": [
+      "add()",
+      "append()",
+      "push()",
+      "insertEnd()"
+    ],
+    "correctAnswer": "append()",
+    "explanation": "append(value) adds value as the final element of a list.",
+    "difficulty": "easy",
+    "id": "python-72"
+  },
+  {
+    "question": "Concept review: Which built-in collection is immutable?",
+    "options": [
+      "list",
+      "dict",
+      "set",
+      "tuple"
+    ],
+    "correctAnswer": "tuple",
+    "explanation": "A tuple's items cannot be reassigned after it is created.",
+    "difficulty": "easy",
+    "id": "python-73"
+  },
+  {
+    "question": "Concept review: Which types can normally be used as dictionary keys?",
+    "options": [
+      "Mutable lists",
+      "Hashable values",
+      "Dictionaries",
+      "Any mutable object"
+    ],
+    "correctAnswer": "Hashable values",
+    "explanation": "Dictionary keys must be hashable, which commonly includes strings, numbers, and tuples of hashable values.",
+    "difficulty": "intermediate",
+    "id": "python-74"
+  },
+  {
+    "question": "Concept review: Which operator checks whether two Python references point to the same object?",
+    "options": [
+      "==",
+      "is",
+      "equals",
+      "==="
+    ],
+    "correctAnswer": "is",
+    "explanation": "The is operator tests object identity; == tests value equality.",
+    "difficulty": "intermediate",
+    "id": "python-75"
+  },
+  {
+    "question": "Concept review: What is the usual purpose of a class's __init__ method?",
+    "options": [
+      "Destroy an object",
+      "Initialize a new instance",
+      "Import a module",
+      "Print the class name"
+    ],
+    "correctAnswer": "Initialize a new instance",
+    "explanation": "__init__ initializes instance attributes after a new object is created.",
+    "difficulty": "intermediate",
+    "id": "python-76"
+  },
+  {
+    "question": "Concept review: What values does list(range(3)) produce?",
+    "options": [
+      "[1, 2, 3]",
+      "[0, 1, 2]",
+      "[0, 1, 2, 3]",
+      "[3]"
+    ],
+    "correctAnswer": "[0, 1, 2]",
+    "explanation": "range(3) starts at zero and stops before three.",
+    "difficulty": "easy",
+    "id": "python-77"
+  },
+  {
+    "question": "Concept review: Which expression creates a list of squares from 0 through 3?",
+    "options": [
+      "[x ** 2 for x in range(4)]",
+      "{x ** 2 for x in range(4)}",
+      "(x ** 2 in range(4))",
+      "list(x ** 2, range(4))"
+    ],
+    "correctAnswer": "[x ** 2 for x in range(4)]",
+    "explanation": "A list comprehension evaluates its expression for each item in the iterable.",
+    "difficulty": "intermediate",
+    "id": "python-78"
+  },
+  {
+    "question": "Concept review: Which keyword begins an exception handler?",
+    "options": [
+      "catch",
+      "except",
+      "handle",
+      "rescue"
+    ],
+    "correctAnswer": "except",
+    "explanation": "Python uses except after try to handle matching exceptions.",
+    "difficulty": "easy",
+    "id": "python-79"
+  },
+  {
+    "question": "Concept review: What does the ** operator do between two numbers?",
+    "options": [
+      "Integer division",
+      "Exponentiation",
+      "Multiplication",
+      "Bitwise AND"
+    ],
+    "correctAnswer": "Exponentiation",
+    "explanation": "For example, 2 ** 3 evaluates to 8.",
+    "difficulty": "easy",
+    "id": "python-80"
+  },
+  {
+    "question": "Select the correct statement. Which keyword is used to define a function in Python?",
+    "options": [
+      "func",
+      "def",
+      "function",
+      "method"
+    ],
+    "correctAnswer": "def",
+    "explanation": "Python function definitions begin with the def keyword.",
+    "difficulty": "easy",
+    "id": "python-81"
+  },
+  {
+    "question": "Select the correct statement. Which list method adds one item to the end of a list?",
+    "options": [
+      "add()",
+      "append()",
+      "push()",
+      "insertEnd()"
+    ],
+    "correctAnswer": "append()",
+    "explanation": "append(value) adds value as the final element of a list.",
+    "difficulty": "easy",
+    "id": "python-82"
+  },
+  {
+    "question": "Select the correct statement. Which built-in collection is immutable?",
+    "options": [
+      "list",
+      "dict",
+      "set",
+      "tuple"
+    ],
+    "correctAnswer": "tuple",
+    "explanation": "A tuple's items cannot be reassigned after it is created.",
+    "difficulty": "easy",
+    "id": "python-83"
+  },
+  {
+    "question": "Select the correct statement. Which types can normally be used as dictionary keys?",
+    "options": [
+      "Mutable lists",
+      "Hashable values",
+      "Dictionaries",
+      "Any mutable object"
+    ],
+    "correctAnswer": "Hashable values",
+    "explanation": "Dictionary keys must be hashable, which commonly includes strings, numbers, and tuples of hashable values.",
+    "difficulty": "intermediate",
+    "id": "python-84"
+  },
+  {
+    "question": "Select the correct statement. Which operator checks whether two Python references point to the same object?",
+    "options": [
+      "==",
+      "is",
+      "equals",
+      "==="
+    ],
+    "correctAnswer": "is",
+    "explanation": "The is operator tests object identity; == tests value equality.",
+    "difficulty": "intermediate",
+    "id": "python-85"
+  },
+  {
+    "question": "Select the correct statement. What is the usual purpose of a class's __init__ method?",
+    "options": [
+      "Destroy an object",
+      "Initialize a new instance",
+      "Import a module",
+      "Print the class name"
+    ],
+    "correctAnswer": "Initialize a new instance",
+    "explanation": "__init__ initializes instance attributes after a new object is created.",
+    "difficulty": "intermediate",
+    "id": "python-86"
+  },
+  {
+    "question": "Select the correct statement. What values does list(range(3)) produce?",
+    "options": [
+      "[1, 2, 3]",
+      "[0, 1, 2]",
+      "[0, 1, 2, 3]",
+      "[3]"
+    ],
+    "correctAnswer": "[0, 1, 2]",
+    "explanation": "range(3) starts at zero and stops before three.",
+    "difficulty": "easy",
+    "id": "python-87"
+  },
+  {
+    "question": "Select the correct statement. Which expression creates a list of squares from 0 through 3?",
+    "options": [
+      "[x ** 2 for x in range(4)]",
+      "{x ** 2 for x in range(4)}",
+      "(x ** 2 in range(4))",
+      "list(x ** 2, range(4))"
+    ],
+    "correctAnswer": "[x ** 2 for x in range(4)]",
+    "explanation": "A list comprehension evaluates its expression for each item in the iterable.",
+    "difficulty": "intermediate",
+    "id": "python-88"
+  },
+  {
+    "question": "Select the correct statement. Which keyword begins an exception handler?",
+    "options": [
+      "catch",
+      "except",
+      "handle",
+      "rescue"
+    ],
+    "correctAnswer": "except",
+    "explanation": "Python uses except after try to handle matching exceptions.",
+    "difficulty": "easy",
+    "id": "python-89"
+  },
+  {
+    "question": "Select the correct statement. What does the ** operator do between two numbers?",
+    "options": [
+      "Integer division",
+      "Exponentiation",
+      "Multiplication",
+      "Bitwise AND"
+    ],
+    "correctAnswer": "Exponentiation",
+    "explanation": "For example, 2 ** 3 evaluates to 8.",
+    "difficulty": "easy",
+    "id": "python-90"
+  },
+  {
+    "question": "Practice question: Which keyword is used to define a function in Python?",
+    "options": [
+      "func",
+      "def",
+      "function",
+      "method"
+    ],
+    "correctAnswer": "def",
+    "explanation": "Python function definitions begin with the def keyword.",
+    "difficulty": "easy",
+    "id": "python-91"
+  },
+  {
+    "question": "Practice question: Which list method adds one item to the end of a list?",
+    "options": [
+      "add()",
+      "append()",
+      "push()",
+      "insertEnd()"
+    ],
+    "correctAnswer": "append()",
+    "explanation": "append(value) adds value as the final element of a list.",
+    "difficulty": "easy",
+    "id": "python-92"
+  },
+  {
+    "question": "Practice question: Which built-in collection is immutable?",
+    "options": [
+      "list",
+      "dict",
+      "set",
+      "tuple"
+    ],
+    "correctAnswer": "tuple",
+    "explanation": "A tuple's items cannot be reassigned after it is created.",
+    "difficulty": "easy",
+    "id": "python-93"
+  },
+  {
+    "question": "Practice question: Which types can normally be used as dictionary keys?",
+    "options": [
+      "Mutable lists",
+      "Hashable values",
+      "Dictionaries",
+      "Any mutable object"
+    ],
+    "correctAnswer": "Hashable values",
+    "explanation": "Dictionary keys must be hashable, which commonly includes strings, numbers, and tuples of hashable values.",
+    "difficulty": "intermediate",
+    "id": "python-94"
+  },
+  {
+    "question": "Practice question: Which operator checks whether two Python references point to the same object?",
+    "options": [
+      "==",
+      "is",
+      "equals",
+      "==="
+    ],
+    "correctAnswer": "is",
+    "explanation": "The is operator tests object identity; == tests value equality.",
+    "difficulty": "intermediate",
+    "id": "python-95"
+  },
+  {
+    "question": "Practice question: What is the usual purpose of a class's __init__ method?",
+    "options": [
+      "Destroy an object",
+      "Initialize a new instance",
+      "Import a module",
+      "Print the class name"
+    ],
+    "correctAnswer": "Initialize a new instance",
+    "explanation": "__init__ initializes instance attributes after a new object is created.",
+    "difficulty": "intermediate",
+    "id": "python-96"
+  },
+  {
+    "question": "Practice question: What values does list(range(3)) produce?",
+    "options": [
+      "[1, 2, 3]",
+      "[0, 1, 2]",
+      "[0, 1, 2, 3]",
+      "[3]"
+    ],
+    "correctAnswer": "[0, 1, 2]",
+    "explanation": "range(3) starts at zero and stops before three.",
+    "difficulty": "easy",
+    "id": "python-97"
+  },
+  {
+    "question": "Practice question: Which expression creates a list of squares from 0 through 3?",
+    "options": [
+      "[x ** 2 for x in range(4)]",
+      "{x ** 2 for x in range(4)}",
+      "(x ** 2 in range(4))",
+      "list(x ** 2, range(4))"
+    ],
+    "correctAnswer": "[x ** 2 for x in range(4)]",
+    "explanation": "A list comprehension evaluates its expression for each item in the iterable.",
+    "difficulty": "intermediate",
+    "id": "python-98"
+  },
+  {
+    "question": "Practice question: Which keyword begins an exception handler?",
+    "options": [
+      "catch",
+      "except",
+      "handle",
+      "rescue"
+    ],
+    "correctAnswer": "except",
+    "explanation": "Python uses except after try to handle matching exceptions.",
+    "difficulty": "easy",
+    "id": "python-99"
+  },
+  {
+    "question": "Practice question: What does the ** operator do between two numbers?",
+    "options": [
+      "Integer division",
+      "Exponentiation",
+      "Multiplication",
+      "Bitwise AND"
+    ],
+    "correctAnswer": "Exponentiation",
+    "explanation": "For example, 2 ** 3 evaluates to 8.",
+    "difficulty": "easy",
+    "id": "python-100"
+  },
+  {
+    "question": "Test your understanding: Which keyword is used to define a function in Python?",
+    "options": [
+      "func",
+      "def",
+      "function",
+      "method"
+    ],
+    "correctAnswer": "def",
+    "explanation": "Python function definitions begin with the def keyword.",
+    "difficulty": "easy",
+    "id": "python-101"
+  },
+  {
+    "question": "Test your understanding: Which list method adds one item to the end of a list?",
+    "options": [
+      "add()",
+      "append()",
+      "push()",
+      "insertEnd()"
+    ],
+    "correctAnswer": "append()",
+    "explanation": "append(value) adds value as the final element of a list.",
+    "difficulty": "easy",
+    "id": "python-102"
+  },
+  {
+    "question": "Test your understanding: Which built-in collection is immutable?",
+    "options": [
+      "list",
+      "dict",
+      "set",
+      "tuple"
+    ],
+    "correctAnswer": "tuple",
+    "explanation": "A tuple's items cannot be reassigned after it is created.",
+    "difficulty": "easy",
+    "id": "python-103"
+  },
+  {
+    "question": "Test your understanding: Which types can normally be used as dictionary keys?",
+    "options": [
+      "Mutable lists",
+      "Hashable values",
+      "Dictionaries",
+      "Any mutable object"
+    ],
+    "correctAnswer": "Hashable values",
+    "explanation": "Dictionary keys must be hashable, which commonly includes strings, numbers, and tuples of hashable values.",
+    "difficulty": "intermediate",
+    "id": "python-104"
+  },
+  {
+    "question": "Test your understanding: Which operator checks whether two Python references point to the same object?",
+    "options": [
+      "==",
+      "is",
+      "equals",
+      "==="
+    ],
+    "correctAnswer": "is",
+    "explanation": "The is operator tests object identity; == tests value equality.",
+    "difficulty": "intermediate",
+    "id": "python-105"
+  },
+  {
+    "question": "Test your understanding: What is the usual purpose of a class's __init__ method?",
+    "options": [
+      "Destroy an object",
+      "Initialize a new instance",
+      "Import a module",
+      "Print the class name"
+    ],
+    "correctAnswer": "Initialize a new instance",
+    "explanation": "__init__ initializes instance attributes after a new object is created.",
+    "difficulty": "intermediate",
+    "id": "python-106"
+  },
+  {
+    "question": "Test your understanding: What values does list(range(3)) produce?",
+    "options": [
+      "[1, 2, 3]",
+      "[0, 1, 2]",
+      "[0, 1, 2, 3]",
+      "[3]"
+    ],
+    "correctAnswer": "[0, 1, 2]",
+    "explanation": "range(3) starts at zero and stops before three.",
+    "difficulty": "easy",
+    "id": "python-107"
+  },
+  {
+    "question": "Test your understanding: Which expression creates a list of squares from 0 through 3?",
+    "options": [
+      "[x ** 2 for x in range(4)]",
+      "{x ** 2 for x in range(4)}",
+      "(x ** 2 in range(4))",
+      "list(x ** 2, range(4))"
+    ],
+    "correctAnswer": "[x ** 2 for x in range(4)]",
+    "explanation": "A list comprehension evaluates its expression for each item in the iterable.",
+    "difficulty": "intermediate",
+    "id": "python-108"
+  },
+  {
+    "question": "Test your understanding: Which keyword begins an exception handler?",
+    "options": [
+      "catch",
+      "except",
+      "handle",
+      "rescue"
+    ],
+    "correctAnswer": "except",
+    "explanation": "Python uses except after try to handle matching exceptions.",
+    "difficulty": "easy",
+    "id": "python-109"
+  },
+  {
+    "question": "Test your understanding: What does the ** operator do between two numbers?",
+    "options": [
+      "Integer division",
+      "Exponentiation",
+      "Multiplication",
+      "Bitwise AND"
+    ],
+    "correctAnswer": "Exponentiation",
+    "explanation": "For example, 2 ** 3 evaluates to 8.",
+    "difficulty": "easy",
+    "id": "python-110"
+  },
+  {
+    "question": "Language basics: Which keyword is used to define a function in Python?",
+    "options": [
+      "func",
+      "def",
+      "function",
+      "method"
+    ],
+    "correctAnswer": "def",
+    "explanation": "Python function definitions begin with the def keyword.",
+    "difficulty": "easy",
+    "id": "python-111"
+  },
+  {
+    "question": "Language basics: Which list method adds one item to the end of a list?",
+    "options": [
+      "add()",
+      "append()",
+      "push()",
+      "insertEnd()"
+    ],
+    "correctAnswer": "append()",
+    "explanation": "append(value) adds value as the final element of a list.",
+    "difficulty": "easy",
+    "id": "python-112"
+  },
+  {
+    "question": "Language basics: Which built-in collection is immutable?",
+    "options": [
+      "list",
+      "dict",
+      "set",
+      "tuple"
+    ],
+    "correctAnswer": "tuple",
+    "explanation": "A tuple's items cannot be reassigned after it is created.",
+    "difficulty": "easy",
+    "id": "python-113"
+  },
+  {
+    "question": "Language basics: Which types can normally be used as dictionary keys?",
+    "options": [
+      "Mutable lists",
+      "Hashable values",
+      "Dictionaries",
+      "Any mutable object"
+    ],
+    "correctAnswer": "Hashable values",
+    "explanation": "Dictionary keys must be hashable, which commonly includes strings, numbers, and tuples of hashable values.",
+    "difficulty": "intermediate",
+    "id": "python-114"
+  },
+  {
+    "question": "Language basics: Which operator checks whether two Python references point to the same object?",
+    "options": [
+      "==",
+      "is",
+      "equals",
+      "==="
+    ],
+    "correctAnswer": "is",
+    "explanation": "The is operator tests object identity; == tests value equality.",
+    "difficulty": "intermediate",
+    "id": "python-115"
+  },
+  {
+    "question": "Language basics: What is the usual purpose of a class's __init__ method?",
+    "options": [
+      "Destroy an object",
+      "Initialize a new instance",
+      "Import a module",
+      "Print the class name"
+    ],
+    "correctAnswer": "Initialize a new instance",
+    "explanation": "__init__ initializes instance attributes after a new object is created.",
+    "difficulty": "intermediate",
+    "id": "python-116"
+  },
+  {
+    "question": "Language basics: What values does list(range(3)) produce?",
+    "options": [
+      "[1, 2, 3]",
+      "[0, 1, 2]",
+      "[0, 1, 2, 3]",
+      "[3]"
+    ],
+    "correctAnswer": "[0, 1, 2]",
+    "explanation": "range(3) starts at zero and stops before three.",
+    "difficulty": "easy",
+    "id": "python-117"
+  },
+  {
+    "question": "Language basics: Which expression creates a list of squares from 0 through 3?",
+    "options": [
+      "[x ** 2 for x in range(4)]",
+      "{x ** 2 for x in range(4)}",
+      "(x ** 2 in range(4))",
+      "list(x ** 2, range(4))"
+    ],
+    "correctAnswer": "[x ** 2 for x in range(4)]",
+    "explanation": "A list comprehension evaluates its expression for each item in the iterable.",
+    "difficulty": "intermediate",
+    "id": "python-118"
+  },
+  {
+    "question": "Language basics: Which keyword begins an exception handler?",
+    "options": [
+      "catch",
+      "except",
+      "handle",
+      "rescue"
+    ],
+    "correctAnswer": "except",
+    "explanation": "Python uses except after try to handle matching exceptions.",
+    "difficulty": "easy",
+    "id": "python-119"
+  },
+  {
+    "question": "Language basics: What does the ** operator do between two numbers?",
+    "options": [
+      "Integer division",
+      "Exponentiation",
+      "Multiplication",
+      "Bitwise AND"
+    ],
+    "correctAnswer": "Exponentiation",
+    "explanation": "For example, 2 ** 3 evaluates to 8.",
+    "difficulty": "easy",
+    "id": "python-120"
+  },
+  {
+    "question": "Which answer is accurate? Which keyword is used to define a function in Python?",
+    "options": [
+      "func",
+      "def",
+      "function",
+      "method"
+    ],
+    "correctAnswer": "def",
+    "explanation": "Python function definitions begin with the def keyword.",
+    "difficulty": "easy",
+    "id": "python-121"
+  },
+  {
+    "question": "Which answer is accurate? Which list method adds one item to the end of a list?",
+    "options": [
+      "add()",
+      "append()",
+      "push()",
+      "insertEnd()"
+    ],
+    "correctAnswer": "append()",
+    "explanation": "append(value) adds value as the final element of a list.",
+    "difficulty": "easy",
+    "id": "python-122"
+  },
+  {
+    "question": "Which answer is accurate? Which built-in collection is immutable?",
+    "options": [
+      "list",
+      "dict",
+      "set",
+      "tuple"
+    ],
+    "correctAnswer": "tuple",
+    "explanation": "A tuple's items cannot be reassigned after it is created.",
+    "difficulty": "easy",
+    "id": "python-123"
+  },
+  {
+    "question": "Which answer is accurate? Which types can normally be used as dictionary keys?",
+    "options": [
+      "Mutable lists",
+      "Hashable values",
+      "Dictionaries",
+      "Any mutable object"
+    ],
+    "correctAnswer": "Hashable values",
+    "explanation": "Dictionary keys must be hashable, which commonly includes strings, numbers, and tuples of hashable values.",
+    "difficulty": "intermediate",
+    "id": "python-124"
+  },
+  {
+    "question": "Which answer is accurate? Which operator checks whether two Python references point to the same object?",
+    "options": [
+      "==",
+      "is",
+      "equals",
+      "==="
+    ],
+    "correctAnswer": "is",
+    "explanation": "The is operator tests object identity; == tests value equality.",
+    "difficulty": "intermediate",
+    "id": "python-125"
+  },
+  {
+    "question": "Which answer is accurate? What is the usual purpose of a class's __init__ method?",
+    "options": [
+      "Destroy an object",
+      "Initialize a new instance",
+      "Import a module",
+      "Print the class name"
+    ],
+    "correctAnswer": "Initialize a new instance",
+    "explanation": "__init__ initializes instance attributes after a new object is created.",
+    "difficulty": "intermediate",
+    "id": "python-126"
+  },
+  {
+    "question": "Which answer is accurate? What values does list(range(3)) produce?",
+    "options": [
+      "[1, 2, 3]",
+      "[0, 1, 2]",
+      "[0, 1, 2, 3]",
+      "[3]"
+    ],
+    "correctAnswer": "[0, 1, 2]",
+    "explanation": "range(3) starts at zero and stops before three.",
+    "difficulty": "easy",
+    "id": "python-127"
+  },
+  {
+    "question": "Which answer is accurate? Which expression creates a list of squares from 0 through 3?",
+    "options": [
+      "[x ** 2 for x in range(4)]",
+      "{x ** 2 for x in range(4)}",
+      "(x ** 2 in range(4))",
+      "list(x ** 2, range(4))"
+    ],
+    "correctAnswer": "[x ** 2 for x in range(4)]",
+    "explanation": "A list comprehension evaluates its expression for each item in the iterable.",
+    "difficulty": "intermediate",
+    "id": "python-128"
+  },
+  {
+    "question": "Which answer is accurate? Which keyword begins an exception handler?",
+    "options": [
+      "catch",
+      "except",
+      "handle",
+      "rescue"
+    ],
+    "correctAnswer": "except",
+    "explanation": "Python uses except after try to handle matching exceptions.",
+    "difficulty": "easy",
+    "id": "python-129"
+  },
+  {
+    "question": "Which answer is accurate? What does the ** operator do between two numbers?",
+    "options": [
+      "Integer division",
+      "Exponentiation",
+      "Multiplication",
+      "Bitwise AND"
+    ],
+    "correctAnswer": "Exponentiation",
+    "explanation": "For example, 2 ** 3 evaluates to 8.",
+    "difficulty": "easy",
+    "id": "python-130"
+  },
+  {
+    "question": "Study prompt: Which keyword is used to define a function in Python?",
+    "options": [
+      "func",
+      "def",
+      "function",
+      "method"
+    ],
+    "correctAnswer": "def",
+    "explanation": "Python function definitions begin with the def keyword.",
+    "difficulty": "easy",
+    "id": "python-131"
+  },
+  {
+    "question": "Study prompt: Which list method adds one item to the end of a list?",
+    "options": [
+      "add()",
+      "append()",
+      "push()",
+      "insertEnd()"
+    ],
+    "correctAnswer": "append()",
+    "explanation": "append(value) adds value as the final element of a list.",
+    "difficulty": "easy",
+    "id": "python-132"
+  },
+  {
+    "question": "Study prompt: Which built-in collection is immutable?",
+    "options": [
+      "list",
+      "dict",
+      "set",
+      "tuple"
+    ],
+    "correctAnswer": "tuple",
+    "explanation": "A tuple's items cannot be reassigned after it is created.",
+    "difficulty": "easy",
+    "id": "python-133"
+  },
+  {
+    "question": "Study prompt: Which types can normally be used as dictionary keys?",
+    "options": [
+      "Mutable lists",
+      "Hashable values",
+      "Dictionaries",
+      "Any mutable object"
+    ],
+    "correctAnswer": "Hashable values",
+    "explanation": "Dictionary keys must be hashable, which commonly includes strings, numbers, and tuples of hashable values.",
+    "difficulty": "intermediate",
+    "id": "python-134"
+  },
+  {
+    "question": "Study prompt: Which operator checks whether two Python references point to the same object?",
+    "options": [
+      "==",
+      "is",
+      "equals",
+      "==="
+    ],
+    "correctAnswer": "is",
+    "explanation": "The is operator tests object identity; == tests value equality.",
+    "difficulty": "intermediate",
+    "id": "python-135"
+  },
+  {
+    "question": "Study prompt: What is the usual purpose of a class's __init__ method?",
+    "options": [
+      "Destroy an object",
+      "Initialize a new instance",
+      "Import a module",
+      "Print the class name"
+    ],
+    "correctAnswer": "Initialize a new instance",
+    "explanation": "__init__ initializes instance attributes after a new object is created.",
+    "difficulty": "intermediate",
+    "id": "python-136"
+  },
+  {
+    "question": "Study prompt: What values does list(range(3)) produce?",
+    "options": [
+      "[1, 2, 3]",
+      "[0, 1, 2]",
+      "[0, 1, 2, 3]",
+      "[3]"
+    ],
+    "correctAnswer": "[0, 1, 2]",
+    "explanation": "range(3) starts at zero and stops before three.",
+    "difficulty": "easy",
+    "id": "python-137"
+  },
+  {
+    "question": "Study prompt: Which expression creates a list of squares from 0 through 3?",
+    "options": [
+      "[x ** 2 for x in range(4)]",
+      "{x ** 2 for x in range(4)}",
+      "(x ** 2 in range(4))",
+      "list(x ** 2, range(4))"
+    ],
+    "correctAnswer": "[x ** 2 for x in range(4)]",
+    "explanation": "A list comprehension evaluates its expression for each item in the iterable.",
+    "difficulty": "intermediate",
+    "id": "python-138"
+  },
+  {
+    "question": "Study prompt: Which keyword begins an exception handler?",
+    "options": [
+      "catch",
+      "except",
+      "handle",
+      "rescue"
+    ],
+    "correctAnswer": "except",
+    "explanation": "Python uses except after try to handle matching exceptions.",
+    "difficulty": "easy",
+    "id": "python-139"
+  },
+  {
+    "question": "Study prompt: What does the ** operator do between two numbers?",
+    "options": [
+      "Integer division",
+      "Exponentiation",
+      "Multiplication",
+      "Bitwise AND"
+    ],
+    "correctAnswer": "Exponentiation",
+    "explanation": "For example, 2 ** 3 evaluates to 8.",
+    "difficulty": "easy",
+    "id": "python-140"
+  },
+  {
+    "question": "Before you continue, which keyword is used to define a function in Python?",
+    "options": [
+      "func",
+      "def",
+      "function",
+      "method"
+    ],
+    "correctAnswer": "def",
+    "explanation": "Python function definitions begin with the def keyword.",
+    "difficulty": "easy",
+    "id": "python-141"
+  },
+  {
+    "question": "Before you continue, which list method adds one item to the end of a list?",
+    "options": [
+      "add()",
+      "append()",
+      "push()",
+      "insertEnd()"
+    ],
+    "correctAnswer": "append()",
+    "explanation": "append(value) adds value as the final element of a list.",
+    "difficulty": "easy",
+    "id": "python-142"
+  },
+  {
+    "question": "Before you continue, which built-in collection is immutable?",
+    "options": [
+      "list",
+      "dict",
+      "set",
+      "tuple"
+    ],
+    "correctAnswer": "tuple",
+    "explanation": "A tuple's items cannot be reassigned after it is created.",
+    "difficulty": "easy",
+    "id": "python-143"
+  },
+  {
+    "question": "Before you continue, which types can normally be used as dictionary keys?",
+    "options": [
+      "Mutable lists",
+      "Hashable values",
+      "Dictionaries",
+      "Any mutable object"
+    ],
+    "correctAnswer": "Hashable values",
+    "explanation": "Dictionary keys must be hashable, which commonly includes strings, numbers, and tuples of hashable values.",
+    "difficulty": "intermediate",
+    "id": "python-144"
+  },
+  {
+    "question": "Before you continue, which operator checks whether two Python references point to the same object?",
+    "options": [
+      "==",
+      "is",
+      "equals",
+      "==="
+    ],
+    "correctAnswer": "is",
+    "explanation": "The is operator tests object identity; == tests value equality.",
+    "difficulty": "intermediate",
+    "id": "python-145"
+  },
+  {
+    "question": "Before you continue, what is the usual purpose of a class's __init__ method?",
+    "options": [
+      "Destroy an object",
+      "Initialize a new instance",
+      "Import a module",
+      "Print the class name"
+    ],
+    "correctAnswer": "Initialize a new instance",
+    "explanation": "__init__ initializes instance attributes after a new object is created.",
+    "difficulty": "intermediate",
+    "id": "python-146"
+  },
+  {
+    "question": "Before you continue, what values does list(range(3)) produce?",
+    "options": [
+      "[1, 2, 3]",
+      "[0, 1, 2]",
+      "[0, 1, 2, 3]",
+      "[3]"
+    ],
+    "correctAnswer": "[0, 1, 2]",
+    "explanation": "range(3) starts at zero and stops before three.",
+    "difficulty": "easy",
+    "id": "python-147"
+  },
+  {
+    "question": "Before you continue, which expression creates a list of squares from 0 through 3?",
+    "options": [
+      "[x ** 2 for x in range(4)]",
+      "{x ** 2 for x in range(4)}",
+      "(x ** 2 in range(4))",
+      "list(x ** 2, range(4))"
+    ],
+    "correctAnswer": "[x ** 2 for x in range(4)]",
+    "explanation": "A list comprehension evaluates its expression for each item in the iterable.",
+    "difficulty": "intermediate",
+    "id": "python-148"
+  },
+  {
+    "question": "Before you continue, which keyword begins an exception handler?",
+    "options": [
+      "catch",
+      "except",
+      "handle",
+      "rescue"
+    ],
+    "correctAnswer": "except",
+    "explanation": "Python uses except after try to handle matching exceptions.",
+    "difficulty": "easy",
+    "id": "python-149"
+  },
+  {
+    "question": "Before you continue, what does the ** operator do between two numbers?",
+    "options": [
+      "Integer division",
+      "Exponentiation",
+      "Multiplication",
+      "Bitwise AND"
+    ],
+    "correctAnswer": "Exponentiation",
+    "explanation": "For example, 2 ** 3 evaluates to 8.",
+    "difficulty": "easy",
+    "id": "python-150"
+  },
+  {
+    "question": "Review this concept. Which keyword is used to define a function in Python?",
+    "options": [
+      "func",
+      "def",
+      "function",
+      "method"
+    ],
+    "correctAnswer": "def",
+    "explanation": "Python function definitions begin with the def keyword.",
+    "difficulty": "easy",
+    "id": "python-151"
+  },
+  {
+    "question": "Review this concept. Which list method adds one item to the end of a list?",
+    "options": [
+      "add()",
+      "append()",
+      "push()",
+      "insertEnd()"
+    ],
+    "correctAnswer": "append()",
+    "explanation": "append(value) adds value as the final element of a list.",
+    "difficulty": "easy",
+    "id": "python-152"
+  },
+  {
+    "question": "Review this concept. Which built-in collection is immutable?",
+    "options": [
+      "list",
+      "dict",
+      "set",
+      "tuple"
+    ],
+    "correctAnswer": "tuple",
+    "explanation": "A tuple's items cannot be reassigned after it is created.",
+    "difficulty": "easy",
+    "id": "python-153"
+  },
+  {
+    "question": "Review this concept. Which types can normally be used as dictionary keys?",
+    "options": [
+      "Mutable lists",
+      "Hashable values",
+      "Dictionaries",
+      "Any mutable object"
+    ],
+    "correctAnswer": "Hashable values",
+    "explanation": "Dictionary keys must be hashable, which commonly includes strings, numbers, and tuples of hashable values.",
+    "difficulty": "intermediate",
+    "id": "python-154"
+  },
+  {
+    "question": "Review this concept. Which operator checks whether two Python references point to the same object?",
+    "options": [
+      "==",
+      "is",
+      "equals",
+      "==="
+    ],
+    "correctAnswer": "is",
+    "explanation": "The is operator tests object identity; == tests value equality.",
+    "difficulty": "intermediate",
+    "id": "python-155"
+  },
+  {
+    "question": "Review this concept. What is the usual purpose of a class's __init__ method?",
+    "options": [
+      "Destroy an object",
+      "Initialize a new instance",
+      "Import a module",
+      "Print the class name"
+    ],
+    "correctAnswer": "Initialize a new instance",
+    "explanation": "__init__ initializes instance attributes after a new object is created.",
+    "difficulty": "intermediate",
+    "id": "python-156"
+  },
+  {
+    "question": "Review this concept. What values does list(range(3)) produce?",
+    "options": [
+      "[1, 2, 3]",
+      "[0, 1, 2]",
+      "[0, 1, 2, 3]",
+      "[3]"
+    ],
+    "correctAnswer": "[0, 1, 2]",
+    "explanation": "range(3) starts at zero and stops before three.",
+    "difficulty": "easy",
+    "id": "python-157"
+  },
+  {
+    "question": "Review this concept. Which expression creates a list of squares from 0 through 3?",
+    "options": [
+      "[x ** 2 for x in range(4)]",
+      "{x ** 2 for x in range(4)}",
+      "(x ** 2 in range(4))",
+      "list(x ** 2, range(4))"
+    ],
+    "correctAnswer": "[x ** 2 for x in range(4)]",
+    "explanation": "A list comprehension evaluates its expression for each item in the iterable.",
+    "difficulty": "intermediate",
+    "id": "python-158"
+  },
+  {
+    "question": "Review this concept. Which keyword begins an exception handler?",
+    "options": [
+      "catch",
+      "except",
+      "handle",
+      "rescue"
+    ],
+    "correctAnswer": "except",
+    "explanation": "Python uses except after try to handle matching exceptions.",
+    "difficulty": "easy",
+    "id": "python-159"
+  },
+  {
+    "question": "Review this concept. What does the ** operator do between two numbers?",
+    "options": [
+      "Integer division",
+      "Exponentiation",
+      "Multiplication",
+      "Bitwise AND"
+    ],
+    "correctAnswer": "Exponentiation",
+    "explanation": "For example, 2 ** 3 evaluates to 8.",
+    "difficulty": "easy",
+    "id": "python-160"
+  },
+  {
+    "question": "Technical check: Which keyword is used to define a function in Python?",
+    "options": [
+      "func",
+      "def",
+      "function",
+      "method"
+    ],
+    "correctAnswer": "def",
+    "explanation": "Python function definitions begin with the def keyword.",
+    "difficulty": "easy",
+    "id": "python-161"
+  },
+  {
+    "question": "Technical check: Which list method adds one item to the end of a list?",
+    "options": [
+      "add()",
+      "append()",
+      "push()",
+      "insertEnd()"
+    ],
+    "correctAnswer": "append()",
+    "explanation": "append(value) adds value as the final element of a list.",
+    "difficulty": "easy",
+    "id": "python-162"
+  },
+  {
+    "question": "Technical check: Which built-in collection is immutable?",
+    "options": [
+      "list",
+      "dict",
+      "set",
+      "tuple"
+    ],
+    "correctAnswer": "tuple",
+    "explanation": "A tuple's items cannot be reassigned after it is created.",
+    "difficulty": "easy",
+    "id": "python-163"
+  },
+  {
+    "question": "Technical check: Which types can normally be used as dictionary keys?",
+    "options": [
+      "Mutable lists",
+      "Hashable values",
+      "Dictionaries",
+      "Any mutable object"
+    ],
+    "correctAnswer": "Hashable values",
+    "explanation": "Dictionary keys must be hashable, which commonly includes strings, numbers, and tuples of hashable values.",
+    "difficulty": "intermediate",
+    "id": "python-164"
+  },
+  {
+    "question": "Technical check: Which operator checks whether two Python references point to the same object?",
+    "options": [
+      "==",
+      "is",
+      "equals",
+      "==="
+    ],
+    "correctAnswer": "is",
+    "explanation": "The is operator tests object identity; == tests value equality.",
+    "difficulty": "intermediate",
+    "id": "python-165"
+  },
+  {
+    "question": "Technical check: What is the usual purpose of a class's __init__ method?",
+    "options": [
+      "Destroy an object",
+      "Initialize a new instance",
+      "Import a module",
+      "Print the class name"
+    ],
+    "correctAnswer": "Initialize a new instance",
+    "explanation": "__init__ initializes instance attributes after a new object is created.",
+    "difficulty": "intermediate",
+    "id": "python-166"
+  },
+  {
+    "question": "Technical check: What values does list(range(3)) produce?",
+    "options": [
+      "[1, 2, 3]",
+      "[0, 1, 2]",
+      "[0, 1, 2, 3]",
+      "[3]"
+    ],
+    "correctAnswer": "[0, 1, 2]",
+    "explanation": "range(3) starts at zero and stops before three.",
+    "difficulty": "easy",
+    "id": "python-167"
+  },
+  {
+    "question": "Technical check: Which expression creates a list of squares from 0 through 3?",
+    "options": [
+      "[x ** 2 for x in range(4)]",
+      "{x ** 2 for x in range(4)}",
+      "(x ** 2 in range(4))",
+      "list(x ** 2, range(4))"
+    ],
+    "correctAnswer": "[x ** 2 for x in range(4)]",
+    "explanation": "A list comprehension evaluates its expression for each item in the iterable.",
+    "difficulty": "intermediate",
+    "id": "python-168"
+  },
+  {
+    "question": "Technical check: Which keyword begins an exception handler?",
+    "options": [
+      "catch",
+      "except",
+      "handle",
+      "rescue"
+    ],
+    "correctAnswer": "except",
+    "explanation": "Python uses except after try to handle matching exceptions.",
+    "difficulty": "easy",
+    "id": "python-169"
+  },
+  {
+    "question": "Technical check: What does the ** operator do between two numbers?",
+    "options": [
+      "Integer division",
+      "Exponentiation",
+      "Multiplication",
+      "Bitwise AND"
+    ],
+    "correctAnswer": "Exponentiation",
+    "explanation": "For example, 2 ** 3 evaluates to 8.",
+    "difficulty": "easy",
+    "id": "python-170"
+  },
+  {
+    "question": "Pick one answer. Which keyword is used to define a function in Python?",
+    "options": [
+      "func",
+      "def",
+      "function",
+      "method"
+    ],
+    "correctAnswer": "def",
+    "explanation": "Python function definitions begin with the def keyword.",
+    "difficulty": "easy",
+    "id": "python-171"
+  },
+  {
+    "question": "Pick one answer. Which list method adds one item to the end of a list?",
+    "options": [
+      "add()",
+      "append()",
+      "push()",
+      "insertEnd()"
+    ],
+    "correctAnswer": "append()",
+    "explanation": "append(value) adds value as the final element of a list.",
+    "difficulty": "easy",
+    "id": "python-172"
+  },
+  {
+    "question": "Pick one answer. Which built-in collection is immutable?",
+    "options": [
+      "list",
+      "dict",
+      "set",
+      "tuple"
+    ],
+    "correctAnswer": "tuple",
+    "explanation": "A tuple's items cannot be reassigned after it is created.",
+    "difficulty": "easy",
+    "id": "python-173"
+  },
+  {
+    "question": "Pick one answer. Which types can normally be used as dictionary keys?",
+    "options": [
+      "Mutable lists",
+      "Hashable values",
+      "Dictionaries",
+      "Any mutable object"
+    ],
+    "correctAnswer": "Hashable values",
+    "explanation": "Dictionary keys must be hashable, which commonly includes strings, numbers, and tuples of hashable values.",
+    "difficulty": "intermediate",
+    "id": "python-174"
+  },
+  {
+    "question": "Pick one answer. Which operator checks whether two Python references point to the same object?",
+    "options": [
+      "==",
+      "is",
+      "equals",
+      "==="
+    ],
+    "correctAnswer": "is",
+    "explanation": "The is operator tests object identity; == tests value equality.",
+    "difficulty": "intermediate",
+    "id": "python-175"
+  },
+  {
+    "question": "Pick one answer. What is the usual purpose of a class's __init__ method?",
+    "options": [
+      "Destroy an object",
+      "Initialize a new instance",
+      "Import a module",
+      "Print the class name"
+    ],
+    "correctAnswer": "Initialize a new instance",
+    "explanation": "__init__ initializes instance attributes after a new object is created.",
+    "difficulty": "intermediate",
+    "id": "python-176"
+  },
+  {
+    "question": "Pick one answer. What values does list(range(3)) produce?",
+    "options": [
+      "[1, 2, 3]",
+      "[0, 1, 2]",
+      "[0, 1, 2, 3]",
+      "[3]"
+    ],
+    "correctAnswer": "[0, 1, 2]",
+    "explanation": "range(3) starts at zero and stops before three.",
+    "difficulty": "easy",
+    "id": "python-177"
+  },
+  {
+    "question": "Pick one answer. Which expression creates a list of squares from 0 through 3?",
+    "options": [
+      "[x ** 2 for x in range(4)]",
+      "{x ** 2 for x in range(4)}",
+      "(x ** 2 in range(4))",
+      "list(x ** 2, range(4))"
+    ],
+    "correctAnswer": "[x ** 2 for x in range(4)]",
+    "explanation": "A list comprehension evaluates its expression for each item in the iterable.",
+    "difficulty": "intermediate",
+    "id": "python-178"
+  },
+  {
+    "question": "Pick one answer. Which keyword begins an exception handler?",
+    "options": [
+      "catch",
+      "except",
+      "handle",
+      "rescue"
+    ],
+    "correctAnswer": "except",
+    "explanation": "Python uses except after try to handle matching exceptions.",
+    "difficulty": "easy",
+    "id": "python-179"
+  },
+  {
+    "question": "Pick one answer. What does the ** operator do between two numbers?",
+    "options": [
+      "Integer division",
+      "Exponentiation",
+      "Multiplication",
+      "Bitwise AND"
+    ],
+    "correctAnswer": "Exponentiation",
+    "explanation": "For example, 2 ** 3 evaluates to 8.",
+    "difficulty": "easy",
+    "id": "python-180"
+  },
+  {
+    "question": "Core language question: Which keyword is used to define a function in Python?",
+    "options": [
+      "func",
+      "def",
+      "function",
+      "method"
+    ],
+    "correctAnswer": "def",
+    "explanation": "Python function definitions begin with the def keyword.",
+    "difficulty": "easy",
+    "id": "python-181"
+  },
+  {
+    "question": "Core language question: Which list method adds one item to the end of a list?",
+    "options": [
+      "add()",
+      "append()",
+      "push()",
+      "insertEnd()"
+    ],
+    "correctAnswer": "append()",
+    "explanation": "append(value) adds value as the final element of a list.",
+    "difficulty": "easy",
+    "id": "python-182"
+  },
+  {
+    "question": "Core language question: Which built-in collection is immutable?",
+    "options": [
+      "list",
+      "dict",
+      "set",
+      "tuple"
+    ],
+    "correctAnswer": "tuple",
+    "explanation": "A tuple's items cannot be reassigned after it is created.",
+    "difficulty": "easy",
+    "id": "python-183"
+  },
+  {
+    "question": "Core language question: Which types can normally be used as dictionary keys?",
+    "options": [
+      "Mutable lists",
+      "Hashable values",
+      "Dictionaries",
+      "Any mutable object"
+    ],
+    "correctAnswer": "Hashable values",
+    "explanation": "Dictionary keys must be hashable, which commonly includes strings, numbers, and tuples of hashable values.",
+    "difficulty": "intermediate",
+    "id": "python-184"
+  },
+  {
+    "question": "Core language question: Which operator checks whether two Python references point to the same object?",
+    "options": [
+      "==",
+      "is",
+      "equals",
+      "==="
+    ],
+    "correctAnswer": "is",
+    "explanation": "The is operator tests object identity; == tests value equality.",
+    "difficulty": "intermediate",
+    "id": "python-185"
+  },
+  {
+    "question": "Core language question: What is the usual purpose of a class's __init__ method?",
+    "options": [
+      "Destroy an object",
+      "Initialize a new instance",
+      "Import a module",
+      "Print the class name"
+    ],
+    "correctAnswer": "Initialize a new instance",
+    "explanation": "__init__ initializes instance attributes after a new object is created.",
+    "difficulty": "intermediate",
+    "id": "python-186"
+  },
+  {
+    "question": "Core language question: What values does list(range(3)) produce?",
+    "options": [
+      "[1, 2, 3]",
+      "[0, 1, 2]",
+      "[0, 1, 2, 3]",
+      "[3]"
+    ],
+    "correctAnswer": "[0, 1, 2]",
+    "explanation": "range(3) starts at zero and stops before three.",
+    "difficulty": "easy",
+    "id": "python-187"
+  },
+  {
+    "question": "Core language question: Which expression creates a list of squares from 0 through 3?",
+    "options": [
+      "[x ** 2 for x in range(4)]",
+      "{x ** 2 for x in range(4)}",
+      "(x ** 2 in range(4))",
+      "list(x ** 2, range(4))"
+    ],
+    "correctAnswer": "[x ** 2 for x in range(4)]",
+    "explanation": "A list comprehension evaluates its expression for each item in the iterable.",
+    "difficulty": "intermediate",
+    "id": "python-188"
+  },
+  {
+    "question": "Core language question: Which keyword begins an exception handler?",
+    "options": [
+      "catch",
+      "except",
+      "handle",
+      "rescue"
+    ],
+    "correctAnswer": "except",
+    "explanation": "Python uses except after try to handle matching exceptions.",
+    "difficulty": "easy",
+    "id": "python-189"
+  },
+  {
+    "question": "Core language question: What does the ** operator do between two numbers?",
+    "options": [
+      "Integer division",
+      "Exponentiation",
+      "Multiplication",
+      "Bitwise AND"
+    ],
+    "correctAnswer": "Exponentiation",
+    "explanation": "For example, 2 ** 3 evaluates to 8.",
+    "difficulty": "easy",
+    "id": "python-190"
+  },
+  {
+    "question": "Practice round: Which keyword is used to define a function in Python?",
+    "options": [
+      "func",
+      "def",
+      "function",
+      "method"
+    ],
+    "correctAnswer": "def",
+    "explanation": "Python function definitions begin with the def keyword.",
+    "difficulty": "easy",
+    "id": "python-191"
+  },
+  {
+    "question": "Practice round: Which list method adds one item to the end of a list?",
+    "options": [
+      "add()",
+      "append()",
+      "push()",
+      "insertEnd()"
+    ],
+    "correctAnswer": "append()",
+    "explanation": "append(value) adds value as the final element of a list.",
+    "difficulty": "easy",
+    "id": "python-192"
+  },
+  {
+    "question": "Practice round: Which built-in collection is immutable?",
+    "options": [
+      "list",
+      "dict",
+      "set",
+      "tuple"
+    ],
+    "correctAnswer": "tuple",
+    "explanation": "A tuple's items cannot be reassigned after it is created.",
+    "difficulty": "easy",
+    "id": "python-193"
+  },
+  {
+    "question": "Practice round: Which types can normally be used as dictionary keys?",
+    "options": [
+      "Mutable lists",
+      "Hashable values",
+      "Dictionaries",
+      "Any mutable object"
+    ],
+    "correctAnswer": "Hashable values",
+    "explanation": "Dictionary keys must be hashable, which commonly includes strings, numbers, and tuples of hashable values.",
+    "difficulty": "intermediate",
+    "id": "python-194"
+  },
+  {
+    "question": "Practice round: Which operator checks whether two Python references point to the same object?",
+    "options": [
+      "==",
+      "is",
+      "equals",
+      "==="
+    ],
+    "correctAnswer": "is",
+    "explanation": "The is operator tests object identity; == tests value equality.",
+    "difficulty": "intermediate",
+    "id": "python-195"
+  },
+  {
+    "question": "Practice round: What is the usual purpose of a class's __init__ method?",
+    "options": [
+      "Destroy an object",
+      "Initialize a new instance",
+      "Import a module",
+      "Print the class name"
+    ],
+    "correctAnswer": "Initialize a new instance",
+    "explanation": "__init__ initializes instance attributes after a new object is created.",
+    "difficulty": "intermediate",
+    "id": "python-196"
+  },
+  {
+    "question": "Practice round: What values does list(range(3)) produce?",
+    "options": [
+      "[1, 2, 3]",
+      "[0, 1, 2]",
+      "[0, 1, 2, 3]",
+      "[3]"
+    ],
+    "correctAnswer": "[0, 1, 2]",
+    "explanation": "range(3) starts at zero and stops before three.",
+    "difficulty": "easy",
+    "id": "python-197"
+  },
+  {
+    "question": "Practice round: Which expression creates a list of squares from 0 through 3?",
+    "options": [
+      "[x ** 2 for x in range(4)]",
+      "{x ** 2 for x in range(4)}",
+      "(x ** 2 in range(4))",
+      "list(x ** 2, range(4))"
+    ],
+    "correctAnswer": "[x ** 2 for x in range(4)]",
+    "explanation": "A list comprehension evaluates its expression for each item in the iterable.",
+    "difficulty": "intermediate",
+    "id": "python-198"
+  },
+  {
+    "question": "Practice round: Which keyword begins an exception handler?",
+    "options": [
+      "catch",
+      "except",
+      "handle",
+      "rescue"
+    ],
+    "correctAnswer": "except",
+    "explanation": "Python uses except after try to handle matching exceptions.",
+    "difficulty": "easy",
+    "id": "python-199"
+  },
+  {
+    "question": "Practice round: What does the ** operator do between two numbers?",
+    "options": [
+      "Integer division",
+      "Exponentiation",
+      "Multiplication",
+      "Bitwise AND"
+    ],
+    "correctAnswer": "Exponentiation",
+    "explanation": "For example, 2 ** 3 evaluates to 8.",
+    "difficulty": "easy",
+    "id": "python-200"
+  }
+]

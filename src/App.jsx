@@ -1,101 +1,111 @@
-import { useState, useEffect } from 'react';
-import Timer from './components/Timer';
-import Questions from './components/Questions';
-import Result from './components/Result';
-import Reset from './components/Reset';
-import allQuestions from './question.json';
+import { useState } from 'react';
+import { BrowserRouter, Navigate, Outlet, Route, Routes, useLocation, useNavigate } from 'react-router-dom';
+import { AuthProvider } from './context/AuthContext.jsx';
+import { useAuth } from './context/useAuth';
+import ProtectedRoute from './components/ProtectedRoute';
+import Dashboard from './pages/Dashboard';
+import History from './pages/History';
+import LanguageSelection from './pages/LanguageSelection';
+import Login from './pages/Login';
+import Quiz from './pages/Quiz';
+import Signup from './pages/Signup';
 
-function App() {
-  const [isOver, setIsOver] = useState(false);
-  const [score, setScore] = useState(0);
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const [quizQuestions, setQuizQuestions] = useState([]);
+function AppLayout() {
+  const { user, logout } = useAuth();
+  const navigate = useNavigate();
+  const location = useLocation();
+  const [logoutError, setLogoutError] = useState('');
 
-  const generateQuizQuestions = () => {
-    const shuffled = [...allQuestions].sort(() => 0.5 - Math.random());
-    setQuizQuestions(shuffled.slice(0, 30));
+  const handleLogout = async () => {
+    setLogoutError('');
+    try {
+      await logout();
+      navigate('/login', { replace: true });
+    } catch (error) {
+      setLogoutError(error.message);
+    }
   };
 
-  useEffect(() => {
-    generateQuizQuestions();
-  }, []);
-
-  const handleResetQuiz = () => {
-    setCurrentIndex(0);
-    setScore(0);
-    setIsOver(false);
-    generateQuizQuestions();
-  };
-
-  const progressPercentage = (currentIndex / 30) * 100;
-
-  if (quizQuestions.length === 0) {
-    return (
-      <div className="min-h-screen bg-[#0b0f19] flex items-center justify-center">
-        <div className="flex flex-col items-center gap-4">
-          <div className="w-12 h-12 border-4 border-t-purple-500 border-r-transparent border-b-indigo-500 border-l-transparent rounded-full animate-spin"></div>
-          <div className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-purple-400 font-black tracking-[0.2em] text-sm uppercase">
-            Initializing Core Pool...
-          </div>
-        </div>
-      </div>
-    );
-  }
+  const links = [
+    { to: '/dashboard', label: 'Dashboard' },
+    { to: '/languages', label: 'Languages' },
+    { to: '/history', label: 'Quiz history' },
+  ];
 
   return (
-    <div className="min-h-screen bg-[#060913] bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-indigo-950/40 via-[#060913] to-[#02040a] flex items-center justify-center p-4 antialiased selection:bg-purple-500 selection:text-white relative overflow-hidden">
-      
-      {/* Background Decorative Premium Lights */}
-      <div className="absolute top-[-10%] left-[-10%] w-[500px] h-[500px] bg-indigo-600/10 rounded-full blur-[120px] pointer-events-none"></div>
-      <div className="absolute bottom-[-10%] right-[-10%] w-[500px] h-[500px] bg-purple-600/10 rounded-full blur-[120px] pointer-events-none"></div>
-
-      <div className="bg-[#0d1527]/50 backdrop-blur-2xl w-full max-w-2xl p-6 md:p-10 rounded-[32px] shadow-[0_25px_70px_-15px_rgba(0,0,0,0.7)] border border-slate-800/60 transition-all duration-300 relative overflow-hidden">
-        
-        {/* Dynamic Neon Top Progress Bar */}
-        {!isOver && (
-          <div className="absolute top-0 left-0 w-full h-[3px] bg-slate-900">
-            <div 
-              className="h-full bg-gradient-to-r from-cyan-500 via-indigo-500 to-purple-500 shadow-[0_0_15px_rgba(168,85,247,0.6)] transition-all duration-500 ease-out"
-              style={{ width: `${progressPercentage}%` }}
-            ></div>
-          </div>
-        )}
-
-        {isOver ? (
-          <div className="flex flex-col items-center text-center py-4">
-            <Result score={score} />
-            <Reset onReset={handleResetQuiz} />
-          </div>
-        ) : (
-          <>
-            {/* Header Section */}
-            <div className="flex justify-between items-center mb-10 border-b border-slate-800/40 pb-6">
-              <div className="flex flex-col gap-1.5">
-                <span className="text-[10px] md:text-xs font-black tracking-[0.25em] uppercase text-indigo-400/80">
-                  JS Elite Masterclass
-                </span>
-                <span className="text-lg font-extrabold text-slate-100 flex items-center gap-1.5">
-                  <span className="text-slate-500 text-sm font-semibold">Question</span>
-                  <span className="bg-gradient-to-r from-slate-100 to-slate-300 bg-clip-text text-transparent">{currentIndex + 1}</span>
-                  <span className="text-purple-500/40">/</span>
-                  <span className="text-slate-500 text-sm font-semibold">30</span>
-                </span>
-              </div>
-              <Timer setIsOver={setIsOver} />
-            </div>
-            
-            {/* Questions Container */}
-            <Questions 
-              questionsPool={quizQuestions}
-              setIsOver={setIsOver} 
-              setScore={setScore} 
-              currentIndex={currentIndex} 
-              setCurrentIndex={setCurrentIndex} 
-            />
-          </>
-        )}
-      </div>
+    <div className="min-h-screen bg-[#080b14] text-slate-100">
+      <header className="border-b border-white/10 bg-[#0d1220]/90">
+        <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-4 px-5 py-4">
+          <button className="flex items-center gap-3 text-left" onClick={() => navigate('/dashboard')}>
+            <span className="grid h-10 w-10 place-items-center rounded-xl bg-violet-500 font-black text-white">Q</span>
+            <span>
+              <span className="block text-sm font-black tracking-wide">CODEQUEST</span>
+              <span className="block text-xs text-slate-400">Programming quiz platform</span>
+            </span>
+          </button>
+          <nav className="flex flex-wrap items-center gap-2" aria-label="Main navigation">
+            {links.map((link) => (
+              <button
+                key={link.to}
+                onClick={() => navigate(link.to)}
+                aria-current={location.pathname === link.to ? 'page' : undefined}
+                className={`rounded-xl px-3 py-2 text-sm font-semibold transition ${location.pathname === link.to ? 'bg-violet-500/15 text-violet-200' : 'text-slate-400 hover:bg-white/5 hover:text-white'}`}
+              >
+                {link.label}
+              </button>
+            ))}
+            <span className="hidden h-8 w-px bg-white/10 sm:block" />
+            <span className="px-2 text-sm text-slate-300">{user?.name}</span>
+            <button
+              onClick={handleLogout}
+              className="rounded-xl border border-white/10 px-3 py-2 text-sm font-semibold text-slate-300 transition hover:border-rose-400/40 hover:text-rose-200"
+            >
+              Log out
+            </button>
+          </nav>
+        </div>
+      </header>
+      <main className="mx-auto w-full max-w-7xl px-5 py-8 md:py-12">
+        {logoutError && <p role="alert" className="mb-6 rounded-xl border border-rose-400/20 bg-rose-500/10 px-4 py-3 text-sm text-rose-200">{logoutError}</p>}
+        <Outlet />
+      </main>
     </div>
+  );
+}
+
+function HomeRedirect() {
+  const { user, loading } = useAuth();
+  if (loading) return <div className="grid min-h-screen place-items-center text-slate-300">Loading your account…</div>;
+  return <Navigate to={user ? '/dashboard' : '/login'} replace />;
+}
+
+function AppRoutes() {
+  const location = useLocation();
+  return (
+    <Routes>
+      <Route path="/" element={<HomeRedirect />} />
+      <Route path="/login" element={<Login />} />
+      <Route path="/signup" element={<Signup />} />
+      <Route element={<ProtectedRoute />}>
+        <Route element={<AppLayout />}>
+          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/languages" element={<LanguageSelection />} />
+          <Route path="/quiz/:language" element={<Quiz />} />
+          <Route path="/history" element={<History />} />
+        </Route>
+      </Route>
+      <Route path="*" element={<Navigate to="/" state={{ from: location }} replace />} />
+    </Routes>
+  );
+}
+
+function App() {
+  return (
+    <BrowserRouter>
+      <AuthProvider>
+        <AppRoutes />
+      </AuthProvider>
+    </BrowserRouter>
   );
 }
 
