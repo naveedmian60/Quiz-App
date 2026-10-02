@@ -2,7 +2,7 @@ import axios from 'axios';
 
 
 const baseURL = import.meta.env.PROD 
-  ? 'quiz-app-production-0be8.up.railway.app'
+  ? 'quiz-app-production-0be8.up.railway.app/api'
   : '/api';
 
 const api = axios.create({
