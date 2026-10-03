@@ -15,8 +15,7 @@ export default function LanguageSelection() {
             <span className={`grid h-12 w-12 place-items-center rounded-xl border text-sm font-black ${language.color}`}>{language.mark}</span>
             <h2 className="mt-5 text-lg font-bold text-white">{language.name}</h2>
             <p className="mt-2 flex-1 text-sm leading-6 text-slate-400">{language.description}</p>
-            <div className="mt-5 flex items-center justify-between gap-3">
-              <span className="text-xs font-semibold text-slate-500">{language.questions.length} questions</span>
+            <div className="mt-5 flex items-center justify-end gap-3">
               <Link to={`/quiz/${language.id}`} className="rounded-lg bg-violet-500/15 px-3 py-2 text-sm font-bold text-violet-200 transition hover:bg-violet-500/25">Start quiz</Link>
             </div>
           </article>
