@@ -17,13 +17,14 @@ if (!MONGODB_URI || !SESSION_SECRET || SESSION_SECRET.length < 32 || SESSION_SEC
 
 const app = express();
 
+// Trust proxy ko unconditional yahan set kar diya hai taake rate-limiter ka error na aaye
+app.set('trust proxy', 1);
+
 // CORS setup taake Vercel frontend se requests accept ho sakein
 app.use(cors({
   origin: 'https://quiz-app-kappa-brown.vercel.app',
   credentials: true,
 }));
-
-if (process.env.NODE_ENV === 'production') app.set('trust proxy', 1);
 
 app.use(express.json({ limit: '10kb' }));
 app.use(session({
