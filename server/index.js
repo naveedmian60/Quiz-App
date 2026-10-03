@@ -40,8 +40,8 @@ app.use(session({
   rolling: true,
   cookie: {
     httpOnly: true,
-    sameSite: 'lax',
-    secure: process.env.NODE_ENV === 'production',
+    sameSite: 'none', // Cross-domain (Vercel to Railway) ke liye 'none' zaroori hai
+    secure: true,     // 'none' ke sath secure: true hona lazmi hai (HTTPS par)
     maxAge: 14 * 24 * 60 * 60 * 1000,
   },
 }));
